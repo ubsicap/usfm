@@ -1,0 +1,265 @@
+## ChangeLog for Paratext usfm.sty
+** Update by Mike Lothers Nov 11, 2015
+- Version 2.502
+- Add f to OccursUnder for \w...\w*
+** Update by Nathan Miles Dec 1, 2014
+- Version 2.501
+- Change text type of zpa markers to Other
+** Update by Nathan Miles Oct 17, 2013
+- Version 2.500
+- Fixed various issues with \OccursUnder configuration
+** Updated by Nathan Miles May 15, 2013
+- Version 2.404
+- Added cp to OccursUnder for \f...\f*
+** Updated by Jeff Klassen Mar 21, 2013
+- Version 2.403
+- Removed c from OccursUnder for iex
+** Updated by Jeff Klassen Mar 5, 2013
+- Version 2.402
+- Added \Smallcaps property to sc
+** Updated by Jeff Klassen Feb 13, 2013
+- Added b to OccursUnder for qm qm1 qm2 qm3
+** Updated by Jeff Klassen Dec 4, 2012
+- Added cls to OccursUnder for sig pn add addpn tl
+** Updated by Jeff Klassen Oct 17, 2012
+- Added p pi pi1 pi2 to OccursUnder for xt
+- Added b s1 s2 s3 s4 to OccursUnder for \pmo, \pmr, \pmc, \pm
+** Updated by Jeff Klassen Feb 2, 2012
+- Version 2.4 - Update to synchronize with table markup changes in USX 2
+- Added an additional table column - \th?5 \tc?5
+- Added \thc# and \tcc# markers for center aligned table cells
+** Updated by Jeff Klassen Feb 2, 2012
+- Version 2.35
+- Deprecated \fs (not needed for single project study Bible projects in PT 7.3 and beyond
+** Updated by Jeff Klassen Nov 2, 2011
+- Version 2.304
+- Removed color, bold, and italic from \w...\w*, \wh...\wh*, \wg...\wg*, \ndx...\ndx*
+- Disabled color from \pro...\pro*, \add...\add*, \addpn...\addpn*
+- Removed "paragraph" from \TextProperties for \ior...\ior*, \qac...\qac*, \addpn...\addpn*, \ord...\ord*
+- Added  level_1 to \TextProperties for \ili, \ili1, \pi, \pi1, \li, \li1
+- Added  level_2 to \TextProperties for \ili2, \pi2, \li2
+- Added  level_3 to \TextProperties for \pi3, \li3
+- Added  level_4 to \TextProperties for \li4
+** Updated by Jeff Klassen May 6, 2011
+- Version 2.303
+- Updated \OccursUnder for most character types to standardize the list and provide better study Bible support.
+** Updated by Jeff Klassen Mar 8, 2011
+- Version 2.302
+- Updated indents for \li# and \ili#
+** Updated by Jeff Klassen Aug 30, 2010
+- Version 2.301
+- Changed StyleType from Paragraph to Character for \fp (reversed earlier change)
+** Updated by Jeff Klassen July 2, 2010
+- Version 2.3
+- Changed StyleType from Character to Paragraph for \fp
+- Removed \OccursUnder for \periph
+- Update to merge version number with revised study Bible notes and sidebars stylesheets
+** Updated by Jeff Klassen Mar 29, 2010
+- Version 2.210
+- Added tr to OccursUnder list for \v
+** Updated by Nathan Miles May 22, 2009
+- Version 2.209
+- Changed TextType from VerseText to Other for \add...\add*
+** Updated by Jeff Klassen April 21, 2009
+- Version 2.208
+- Fixed SpaceBefore, SpaceAfter, and Rank for \imte, \imte1, \imte2
+** Updated by Jeff Klassen April 15, 2009
+- Version 2.207
+- Added h1 h2 h3 to OccursUnder list for \toc1 \toc2 and \toc3
+- Added s s1 s2 s3 s4 to OccursUnder list for \w \wh \wg and \ndx
+** Updated by Nathan Miles April 13, 2009
+- Added \sts to stylesheet
+** Updated by Jeff Klassen March 30, 2009
+- Version 2.206
+- Changed \Rank for imte, imte1, imte2 to 7
+** Updated by Jeff Klassen March 24, 2009
+- Version 2.205
+- Corrected text in \Name field for zpa-d (note: a non-standard marker used by PubAssist for formatting Concordances)
+- Corrected spelling error in \Description text for \nd...\nd*
+** Updated by Jeff Klassen Feb 17, 2009
+- Version 2.204
+- Rank for \cp changed to 4 (OccursUnder c)
+- Added cp to OccursUnder list for f
+** Updated by Jeff Klassen Jan 8, 2009
+- Version 2.203
+- Corrected \Name text for imte1 and imte2
+** Updated by Nathan Miles Dec 31, 2008
+- Version 2.202
+- "pi" in OccursUnder changed to "pi pi1 pi2 pi3"
+- Change any Fontsize 5 to Fontsize 10 -- in standard editing mode in P7, 5 is almost invisible.
+** Updated by Nathan Miles and Jeff Klassen Oct 17, 2008
+- USFM 2.2
+- Added imte1 and imte2 markers.
+- Fixed OccursUnder list for mte, mte1
+- Added character markers xot...xot* and xnt...xnt* for uniquely marking 
+  target references to OT and NT passages (markers are optional)
+- Added iqt...iqt to mark (scripture) quotations appearing in the introduction.
+- No-break space should now be marked using ~ (tilde), not !$
+- Include (basic) in description field for most important markers in body and notes
+  (support for "basic" is provided in Paratext 7)
+** Updated by Jeff Klassen May 30, 3008
+- Added ip im ili ili1 ili2 io io1 io2 to OccursUnder for \qt
+** Updated by Jeff Klassen April 4, 2008
+- Changed TextProperties for \tl...\tl* to nonvernacular.
+** Updated by Jeff Klassen March 29, 2008
+- Added (basic) designator to selected Maker Description fields (P7 prep)
+- Add c to OccursUnder list for \iex (to allow explanatory/bridge notes within scripture text)
+- Removed color from table markers; add right alignment to thr# and tcr# markers (P7 prep)
+** Updated by Jeff Klassen October 9, 2007
+- Fixed style display names for ca, va, vp, and dc to use the xx....xx* syntax.
+- Updated stylesheet version number to 2.101 to reflect Name changes.
+** Updated by Jeff Klassen April 9, 2007
+- USFM 2.1
+- Remove \NotRepeatable flag from \is2
+- Make all introduction markers have \texttype Other
+- Add io to OccursUnder list for \bk
+- Add \ili for marking introduction list items
+- Change \ca and \rq to character styles
+- Add suitable additions to OccursUnder for \xt
+- Replace commas with dashes in \Name fields
+- Add \sls
+- Add new styles for CNC and NDX (\xtSee, \xtSeeAlso)
+- Add maker \periph for marking peripheral content divisions.
+  (\pub, \intro, \toc, \chron, \wm, \maps, \cov, \spine marked obsolete.)
+- Review "Name" text for note markers.
+** Updated by Jeff Klassen June 30, 2006
+- Added \rq - Cross Reference - Inline Quotation References.
+** Updated by Jeff Klassen
+- Removed \NotRepeatable flag from is2.
+** Updated by Jeff Klassen
+- Added ms3 to \OccursUnder list for mr.
+- Added ms3 to \OccursUnder list for f and fe.
+** Updated by Nathan Miles, Jeff Klassen
+- Added NEST attribute to \OccursUnder list for styles which can nest within others.
+- NEST will be supported by updated checking tools released with Paratext 6.1.
+- Added tcr1 tcr2 tcr3 tcr4 to \OccursUnder list for v.
+- Added ip im and d to \OccursUnder list for w.
+- Added ip and im to \OccursUnder list for ord.
+** Updated by Jeff Klassen Mar 21, 2006
+- Added c to OccursUnder for rem
+** Updated by Jeff Klassen Mar 9, 2006
+- Added \ms3 to usfm.sty stylesheet
+- Some Spanish resources texts require 3 major section levels.
+** Updated by Jeff Klassen Oct 5, 2005
+- Added \toc3 for specifying the standard abbreviation for a book.
+- Added \efm...\efm* for marking the ID/caller for extended (study) note materials.
+- Added pi1 pi2 pi3 to \OccursUnder for \v
+** Updated by Jeff Klassen Aug 23, 2005
+- Added sp to OccursUnder for v
+- Added \fl - Footnote Label Text (see description for Marker fl)
+- Added \toc1 and \toc2 for specfying the long and short text for the table of contents.
+** Updated by Jeff Klassen July 19, 2005
+- Added peripheral material extensions \p1, \p2, \k1, \k2
+** Updated by Jeff Klassen June 28, 2005
+- Change \pn to \Bold \underline
+- Change \add to \Color 2263842
+- Added \addpn to support overlapping \pn and \add scenario in Chinese texts.
+** Updated by Jeff Klassen June 3, 2005
+- Added \io without a number (level), for single level only introductions.
+** Updated Feb 10, 2005
+- Fixed \bdit to display Bold and Italic (was configured for Bold only)
+** Updated by Jeff Klassen Dec 8, 2004
+- Changed space before for \d from 8 to 4
+- Changed desciption for \sls to "Special Text - Secondary Language or Text Source"
+   to reflect need for exapanded scope in the use of this marker.
+** Updated by Jeff Klassen Nov 4, 2004
+- Added character style marker for words of Jesus \wj...\wj*
+** Updated by Jeff Klassen Oct 27, 2004
+- Added pronunciation marker for CJK texts \pro...\pro*
+- Added Section Range marker \sr (like \mr)
+   \sr is not equivalent to \r which is used for marking parallel references.
+- Added s s1 s2 s3 s4 to \OccursUnder for \r
+** Updated by Jeff Klassen Oct 26, 2004
+- Changed embedded text markers to \pmo, \pm, \pmc, \pmr, \qm#.
+** Updated by Jeff Klassen Oct 19, 2004
+- Removed \pdi and \pde, substitute with embedded text markers.
+- Added embedded text markers \peo, \pe, \pec, \per, \qe#.
+- Removed \ps and \psi (just use appropriate paragraph marker in previous chapter
+   with \nb starting new chapter).
+- Added character style \em...\em*.
+- In Peripheral Materials, add \intro and \maps sections.
+- Anticipate change to PT to include predefined "standard" books for FRT, BAK, and OTH.
+- See http://ubs-icap.org:8080/confluence/x/8Qc for expanded change log.
+- Changed version to 2.0
+** Updated by Jeff Klassen Aug 31, 2004
+- \mt# and qs added to the OccursUnder list for \x and \f;
+- Changed format of \Name field from \Name (marker) Category - Description
+   to \Name marker - Category - Description;
+- Changed version to 1.54
+** Updated by Jeff Klassen Aug 6, 2004
+- Fixed error in \Name field for marker \ie
+** Updated by Jeff Klassen June 15, 2004
+- Added \ie, \pubinfo
+** Updated by Jeff Klassen Mar 30, 2004
+- Removed \NotRepeatable from \r, because \OccursUnder is c.
+** Updated by Jeff Klassen Mar 29, 2004
+- Added \sls...\sls* and \fqa...\fqa*
+** Updated by Jeff Klassen Mar 19, 2004
+- \ms and \s added to OccursUnder list for \wr
+- added various introduction markers (\i??) to the OccursUnder list for
+  the various formatting oriented character styles (i.e. \bd, \it, \bdit etc.
+** Updated by Jeff Klassen Dec 11, 2003
+- \r OccursUnder changed to c (instead of s)
+** Updated by Jeff Klassen Dec 3, 2003
+- Changed text and format of all \Name fields
+** Updated by Jeff Klassen July 4, 2003
+- adjusted SpaceBefore for \d; adjusted order of headings
+- removed \spd; added \iex, \xq, \dc, \k, \pb, \ndx
+** Updated by Jeff Klassen July 3, 2003
+adjusted size of \imt- fonts
+** Updated by Jeff Klassen June 18, 2003
+Added \FirstLineIndent .125 to \ps; added \ms
+- Set to Version 1.0 for Paratext 6 release;
+** Updated by Jeff Klassen June 13, 2003
+- \cp is paragraph style
+** Updated by Jeff Klassen June 13, 2003
+- \fk is now BoldItalic
+** Updated by Jeff Klassen June 6, 2003
+- \qt is now Italic
+** Updated by Jeff Klassen June 5, 2003
+- added \fe and updated various \OccursUnder to reflect this
+** Updated by Jeff Klassen June 4, 2003
+- added \s4; updated \qac
+** Updated by Jeff Klassen June 3, 2003
+- \qa is \textType Other; \qs is character style;
+- \cl OccursUnder fixed; added \mte1, \mte2, \imte; \va is now \Color 2263842 (green)
+- \va may occur under \d
+** Updated by Jeff Klassen May 29, 2003
+- changed \d to VerseText; 'q' added on all of the long lists of OCCURS UNDER
+** Updated by Jeff Klassen May 28, 2003
+- added \pn...\pn*
+** Updated by Jeff Klassen May 26, 2003
+- \v may be preceeded by \d - see RSV, CEV ZEC 9.1; 12.1
+** Updated by Nathan Miles May 23, 2003
+- Extensive changes made to enhance consistency of use of character
+- style markers in VerseText and Section 
+** Updated by Jeff Klassen May 23, 2003
+- added \add...\add*, \cd, ipq, imq
+** Updated by Jeff Klassen May 22, 2003
+- \fq is now italic as per sample published editions
+** Updated by Nathan Miles May 22, 2003
+- 'r' cannot "Occur Under" f and x (only note character styles can)
+- footnotes and cross references can "Occur Under" s and nb
+** Updated by Jeff Klassen May 21, 2003
+- changed \sig to character style
+** Updated by Ed Peters April 8, 2003
+- updated \rem added \restore
+** Updated by Ed Peters March 19, 2003
+- New codes added \sig and \cls
+** Updated by Ed Peters  March 11, 2003
+- Documentation
+** Updated by Ed Peters March 10, 2003
+- New Codes Added \tcr1 \tcr2 \tcr3 \thr1 \thr2 \thr3 etc.
+** Updated by Ed Peters February 28, 2003
+- New Codes Added \cp* \vp*
+** Updated by Ed Peters, January 21, 2003
+- New Codes Added \ipi \pis \mis \w \w*
+** Updated by Ed Peters, January 20, 2003
+- \h1\h2\h3\no\no*
+** Updated by Nathan Miles, December 7, 2002
+- \h now has the property, vernacular
+** Updated by Ed Peters December 5, 2002
+- corrections to properties of \ide \cl \ca \cp \va \vp
+** Updated by Ed Peters October 25, 2002
+- extensive standardization of \Name \Description
+** Released with Paratext 6.0.3 Beta CD
