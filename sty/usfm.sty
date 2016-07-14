@@ -1,9 +1,9 @@
-# Version=2.502
+# Version=3.0.0
 # ********************************************************************
-# * usfm.sty is the default stylesheet for Paratext 7 projects       *
+# * usfm.sty is the default stylesheet for Paratext projects         *
 # *   using USFM markup.                                             *
 # * Latest documentation and stylesheets are maintained at:          *
-# *   http://paratext.org/usfm                                       *
+# *   http://markups.paratext.org/usfm                               *
 # ********************************************************************
 
 # File Identification
@@ -658,7 +658,7 @@
 \Marker v
 \Name v - Verse Number
 \Description A verse number (Necessary for normal paratext operation) (basic)
-\OccursUnder li li1 li2 li3 li4 m mi nb p pc ph phi pi pi1 pi2 pi3 pr pmo pm pmc pmr q q1 q2 q3 q4 qc qr qm qm1 qm2 qm3 tr tc1 tc2 tc3 tc4 tcr1 tcr2 tcr3 tcr4 s3 d sp
+\OccursUnder li li1 li2 li3 li4 m mi nb p pc ph phi pi pi1 pi2 pi3 pr pmo pm pmc pmr po q q1 q2 q3 q4 qc qr qm qm1 qm2 qm3 tr tc1 tc2 tc3 tc4 tcr1 tcr2 tcr3 tcr4 s3 d sp
 \TextType VerseNumber
 \TextProperties verse
 \StyleType Character
@@ -841,9 +841,22 @@
 \StyleType Paragraph
 \FontSize 12
 
+\Marker po
+\Name po - Paragraph - Letter Opening
+\Description Letter opening
+\OccursUnder c
+\Rank 4
+\TextType VerseText
+\TextProperties paragraph publishable vernacular
+\StyleType Paragraph
+\FontSize 12
+\FirstLineIndent .125   # 1/8 inch first line indent
+\SpaceBefore 4
+\SpaceAfter 4
+
 \Marker cls
-\Name cls - Paragraph - Closure of an Epistle
-\Description Closure of an Epistle
+\Name cls - Paragraph - Letter Closing
+\Description Letter Closing
 \OccursUnder c
 \Rank 4
 \TextType VerseText
