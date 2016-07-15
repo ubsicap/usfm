@@ -387,6 +387,49 @@ Paragraphs
 
 -----
 
+.. _usfmp_lh:
+.. index:: marker (\lh)
+
+\\lh
+^^^^
+
+|badge_3.0|
+
+:Syntax: ``\lh_text...``
+:Type: paragraph
+:Added: 3.0
+:Use: List header. |br|
+	Some lists include an introductory and concluding remark (:ref:`\\lf<usfmp_lf>`). They are an integral part of the list content, but are not list items. A list does not require either or both of these elements.
+
+**Text and Formatting Sample** - 1 Chronicles 27:16-22 (GNT - *markup adapted*)
+
+.. code-block:: text
+	:name: usfm-paragraph_lh_example
+	:emphasize-lines: 2
+
+	\s1 Administration of the Tribes of Israel 
+	\lh
+	\v 16-22 This is the list of the administrators of the tribes of Israel:
+	\li1 Reuben - Eliezer son of Zichri
+	\li1 Simeon - Shephatiah son of Maacah
+	\li1 Levi - Hashabiah son of Kemuel
+	\li1 Aaron - Zadok
+	\li1 Judah - Elihu, one of King David's brothers
+	\li1 Issachar - Omri son of Michael
+	\li1 Zebulun - Ishmaiah son of Obadiah
+	\li1 Naphtali - Jeremoth son of Azriel
+	\li1 Ephraim - Hoshea son of Azaziah
+	\li1 West Manasseh - Joel son of Pedaiah
+	\li1 East Manasseh - Iddo son of Zechariah
+	\li1 Benjamin - Jaasiel son of Abner
+	\li1 Dan - Azarel son of Jeroham
+	\lf This was the list of the administrators of the tribes of Israel. 
+
+.. image:: images/usfm-paragraph_lh.jpg
+	:width: 250px
+
+-----
+
 .. _usfmp_li#:
 .. index:: marker (\li#)
 
@@ -419,6 +462,49 @@ Paragraphs
 	offerings
 
 .. image:: images/usfm-paragraph_li.jpg
+	:width: 250px
+
+-----
+
+.. _usfmp_lf:
+.. index:: marker (\lf)
+
+\\lf
+^^^^
+
+|badge_3.0|
+
+:Syntax: ``\lf_text...``
+:Type: paragraph
+:Added: 3.0
+:Use: List footer. |br|
+	Some lists include an introductory (:ref:`\\lh<usfmp_lh>`) and concluding remark. They are an integral part of the list content, but are not list items. A list does not require either or both of these elements.
+
+**Text and Formatting Sample** - 1 Chronicles 27:16-22 (GNT - *markup adapted*)
+
+.. code-block:: text
+	:name: usfm-paragraph_lf_example
+	:emphasize-lines: 17
+
+	\s1 Administration of the Tribes of Israel 
+	\lh
+	\v 16-22 This is the list of the administrators of the tribes of Israel:
+	\li1 Reuben - Eliezer son of Zichri
+	\li1 Simeon - Shephatiah son of Maacah
+	\li1 Levi - Hashabiah son of Kemuel
+	\li1 Aaron - Zadok
+	\li1 Judah - Elihu, one of King David's brothers
+	\li1 Issachar - Omri son of Michael
+	\li1 Zebulun - Ishmaiah son of Obadiah
+	\li1 Naphtali - Jeremoth son of Azriel
+	\li1 Ephraim - Hoshea son of Azaziah
+	\li1 West Manasseh - Joel son of Pedaiah
+	\li1 East Manasseh - Iddo son of Zechariah
+	\li1 Benjamin - Jaasiel son of Abner
+	\li1 Dan - Azarel son of Jeroham
+	\lf This was the list of the administrators of the tribes of Israel. 
+
+.. image:: images/usfm-paragraph_lf.jpg
 	:width: 250px
 
 -----
