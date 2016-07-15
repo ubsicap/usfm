@@ -78,6 +78,75 @@ Paragraphs
 
 -----
 
+.. _usfmp_po:
+.. index:: marker (\po)
+
+\\po
+^^^^
+
+|badge_3.0|
+
+:Syntax: ``\po_text...``
+:Type: paragraph
+:Added: 3.0
+:Use: Opening of an epistle/letter.
+
+**Text and Formatting Sample** - Romans 1.1,7 (GNT)
+
+.. code-block:: text
+	:name: usfm-paragraph_po_example
+	:emphasize-lines: 2,15,18
+
+	\c 1
+	\po
+	\v 1 From Paul, a servant of Christ Jesus and an apostle chosen and called by God to 
+	preach his Good News.
+	\p
+	\v 2 The Good News was promised long ago by God through his prophets, as written in the 
+	Holy Scriptures.
+	\v 3 It is about his Son, our Lord Jesus Christ: as to his humanity, he was born a 
+	descendant of David;
+	\v 4 as to his divine holiness, he was shown with great power to be the Son of God by being 
+	raised from death.
+	\v 5 Through him God gave me the privilege of being an apostle for the sake of Christ, 
+	in order to lead people of all nations to believe and obey.
+	\v 6 This also includes you who are in Rome, whom God has called to belong to Jesus Christ.
+	\po
+	\v 7 And so I write to all of you in Rome whom God loves and has called to be his own 
+	people:
+	\po May God our Father and the Lord Jesus Christ give you grace and peace. 
+
+.. image:: images/usfm-paragraph_po.jpg
+	:width: 450px
+
+-----
+
+.. _usfmp_cls:
+.. index:: marker (\cls)
+
+\\cls
+^^^^^
+:Syntax: ``\cls_text...``
+:Type: paragraph
+:Added: 1.0
+:Use: Closure of an epistle/letter. |br|
+	Similar to "With love," or "Sincerely yours,".
+
+**Text and Formatting Sample** - Colossians 4.18 (GNT - *markup adapated*)
+
+.. code-block:: text
+	:name: usfm-paragraph_cls_example
+	:emphasize-lines: 3
+
+	\p
+	\v 18 With my own hand I write this: \sig Greetings from Paul\sig*. Do not forget my chains!
+	\cls May God's grace be with you.
+
+.. image:: images/usfm-paragraph_cls.jpg
+	:width: 250px
+
+-----
+
 .. _usfmp_pmo:
 .. index:: marker (\pmo)
 
@@ -315,33 +384,6 @@ Paragraphs
 .. note::
 
 	**No-break markup within poetry:** Some translations have a publishing tradition of inserting a small amount of additional white-space at chapter boundaries. It is important in these texts to use the \nb marker within any specific poetic contexts where no visible break in the flow of the the text is intended at a particular chapter boundary.
-
------
-
-.. _usfmp_cls:
-.. index:: marker (\cls)
-
-\\cls
-^^^^^
-:Syntax: ``\cls_text...``
-:Type: paragraph
-:Added: 1.0
-:Use: Basic. |br|
-	Closure of an epistle/letter. |br|
-	Similar to "With love," or "Sincerely yours,".
-
-**Text and Formatting Sample** - Colossians 4.18 (GNT - *markup adapated*)
-
-.. code-block:: text
-	:name: usfm-paragraph_cls_example
-	:emphasize-lines: 3
-
-	\p
-	\v 18 With my own hand I write this: \sig Greetings from Paul\sig*. Do not forget my chains!
-	\cls May God's grace be with you.
-
-.. image:: images/usfm-paragraph_cls.jpg
-	:width: 250px
 
 -----
 
