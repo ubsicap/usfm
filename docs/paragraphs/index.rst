@@ -440,7 +440,7 @@ Paragraphs
 :Added: 1.0
 :Use: List item. |br|
 	An out-dented paragraph meant to highlight the items of a list. |br|
-	Lists may be used to markup the elements of a recurrent structure, such as the days within the creation account, or the Decalogue (10 commandments). |br|
+	Lists may be used to markup the individual entries of a structure such as the days within the creation account, or the Decalogue (10 commandments). |br|
 	The variable # represents the level of indent. |br|
 	**\\li = \\li1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
 
@@ -505,6 +505,67 @@ Paragraphs
 	\lf This was the list of the administrators of the tribes of Israel. 
 
 .. image:: images/usfm-paragraph_lf.jpg
+	:width: 250px
+
+-----
+
+.. _usfmp_lim#:
+.. index:: marker (\lim#)
+
+\\lim#
+^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\lim#(_text...)``
+:Type: paragraph
+:Added: 3.0
+:Use: Embedded list item. |br|
+	An out-dented paragraph meant to highlight the items of an embedded list. |br|
+	The variable # represents the level of indent. |br|
+	**\\lim = \\lim1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers) |br|
+	|ico_See| *See also* :ref:`\\li# <usfmp_li#>`
+
+**Text and Formatting Sample** - Nehemiah 7.4-25 (NIV)
+
+.. code-block:: text
+	:name: usfm-paragraph_lim#_example
+	:emphasize-lines: 18,20,22,24,26,28,30
+
+	\s1 The List of the Exiles Who Returned
+	\p
+	\v 4 Now the city was large and spacious, but there were few people in it, and the 
+	houses had not yet been rebuilt.
+	\v 5 So my God put it into my heart to assemble the nobles, the officials and the common 
+	people for registration by families. I found the genealogical record of those who had 
+	been the first to return. This is what I found written there:
+	\b
+	\pm
+	\v 6 These are the people of the province who came up from the captivity of the exiles 
+	whom Nebuchadnezzar king of Babylon had taken captive (they returned to Jerusalem and 
+	Judah, each to his own town,
+	\v 7 in company with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, 
+	Bilshan, Mispereth, Bigvai, Nehum and Baanah):
+	\b
+	\pm The list of the men of Israel:
+	\b
+	\lim1
+	\v 8 the descendants of Parosh - 2,172
+	\lim1
+	\v 9 of Shephatiah - 372
+	\lim1
+	\v 10 of Arah - 652
+	\lim1
+	\v 11 of Pahath-Moab (through the line of Jeshua and Joab) - 2,818
+	\lim1
+	\v 12 of Elam - 1,254
+	\lim1
+	\v 13 of Zattu - 845
+	\lim1
+	\v 14 of Zaccai - 760
+	...
+
+.. image:: images/usfm-paragraph_lim.jpg
 	:width: 250px
 
 -----
