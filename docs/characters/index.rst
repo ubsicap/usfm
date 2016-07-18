@@ -197,6 +197,21 @@ Special Text
 
 -----
 
+.. _usfmc_png:
+.. index:: marker (\png ...\png*)
+
+\\png ...\\png\*
+^^^^^^^^^^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\png_text...\png*``
+:Type: character
+:Added: 1.0
+:Use: Geographic proper name.
+
+-----
+
 .. _usfmc_qt:
 .. index:: marker (\qt ...\qt*)
 
