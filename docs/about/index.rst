@@ -8,7 +8,6 @@ Introduction
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
 
    Release Notes <releasenotes>
    Syntax Notes <syntax>
