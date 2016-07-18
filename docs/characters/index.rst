@@ -599,3 +599,15 @@ Special Features
 :Type: character
 :Added: 1.0
 :Use: Hebrew word list entry.
+
+-----
+
+.. _usfmc_wa:
+.. index:: marker (\wa ...\wa*)
+
+\\wa ...\\wa\*
+^^^^^^^^^^^^^^
+:Syntax: ``\wa_text...\wa*``
+:Type: character
+:Added: 1.0
+:Use: Aramaic word list entry.
