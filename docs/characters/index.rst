@@ -607,6 +607,9 @@ Special Features
 
 \\wa ...\\wa\*
 ^^^^^^^^^^^^^^
+
+|badge_3.0|
+
 :Syntax: ``\wa_text...\wa*``
 :Type: character
 :Added: 1.0
