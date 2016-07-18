@@ -275,6 +275,40 @@ Psalm 24.10 (NRSV)
 
 -----
 
+.. _usfmp_qd:
+.. index:: marker (\qd), poetry (Hebrew note)
+
+\\qd
+^^^^
+
+|badge_3.0|
+
+:Syntax: ``\\qd_text...``
+:Type: paragraph
+:Added: 3.0
+:Use: Hebrew note. |br|
+	A Hebrew musical performance comment similar in content to many of the Hebrew Psalm titles (:ref:`\\d <usfmp_d>`), but placed at the end of the poetic section.
+
+**Text and Formatting Sample** - Habakkuk 3:19 (NIV)
+
+.. code-block:: text
+	:name: usfm-paragraph_qd_example
+	:emphasize-lines: 8
+
+	\q1 \v 18 yet I will rejoice in the \nd Lord\nd*,
+	\q2 I will be joyful in God my Savior.
+	\b 
+	\q1 \v 19 The Sovereign \nd Lord\nd* is my strength;
+	\q2 he makes my feet like the feet of a deer,
+	\q2 he enables me to tread on the heights.
+	\b 
+	\qd For the director of music. On my stringed instruments.
+
+.. image:: images/usfm-paragraph_qd.jpg
+	:width: 250px
+
+-----
+
 .. _usfmp_b:
 .. index:: marker (\b), poetry (blank line / stanza break \b)
 
