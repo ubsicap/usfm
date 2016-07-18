@@ -104,6 +104,22 @@ The following markup can be included as part of the cross reference content:
 
 -----
 
+.. _usfmc_xta:
+.. index:: marker (\xta)
+
+\\xta
+^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\\xta_text...``
+:Type: character (note)
+:Added: 3.0
+:Use: Target reference(s) extra / added text. |br|
+	Used for marking text which should be ignored when identifying or linking to cross reference target references.
+
+-----
+
 .. _usfmc_xot:
 .. index:: marker (\xot ...\xot*)
 
@@ -209,3 +225,16 @@ Genesis 1.26 (GNT)
 	\p
 	\v 26 \x - \xo 1.26: \xt \xdc Wis 2.23; Sir 17.3,4;\xdc* 1Co 11.7.\x* Then God said,
 	"And now we will make human beings; they will be like us and resemble us.
+
+**Target References "Added" Text** - Matthew 3.0 (GNT - *text and markup adapted*)
+
+.. code-block:: text
+	:name: usfm-character_xta_example
+	:emphasize-lines: 2-3
+
+	\c 3
+	\s1 The Preaching of John the Baptist\x - \xo 3.0 \xta Compare with \xt Mk 1.1-8; 
+	Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta also.\x*
+	\r (Mark 1.1-8; Luke 3.1-18; John 1.19-28)
+	\p
+	\v 1 At that time John the Baptist came to the desert of Judea and started preaching.
