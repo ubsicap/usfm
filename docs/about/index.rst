@@ -8,6 +8,7 @@ Introduction
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    Release Notes <releasenotes>
    Syntax Notes <syntax>
@@ -85,18 +86,7 @@ Over the course of its development it has become clear that the USFM standard wi
 
 Since USFM 1.0, requests for additions to the standard have been received and considered by the USFM committee (see Release Notes for some details). The committee has made a choice to specifically exclude new markers submissions that specify formatting from becoming part of USFM. What this means is that the USFM standard is open to the consideration of new markup needs, but closed to allowing new format oriented markup. At times this position has caused some frustration for users who might otherwise be quite satisfied with USFM, but would be greatly assisted by adding markup to their text which is not a part of the standard.
 
-.. _about_usfm_znamespace:
-.. index:: marker (\z ...)
-
-Option: The \\z namespace
--------------------------
-As a means of offering a type of solution to the need for occasional local markup additions/extension, USFM recommends that any additional user generated markup should begin with **\\z** (e.g. ``\zMyMarker``). Markers in this namespace will not be considered a part of the USFM standard, or be generally supported in USFM aware applications. This namespace will acts as a type of "private use area". It will be the user or tool builder's responsibility to support support \\z markup in ways which meet a local need. Other USFM processing tools cannot be expected to handle \\z markup or associated text, and are free to ignore them when they are encountered in the text.
-
-.. tip::
-
-	Scripture translation and publishing software `ParaTExt <http://paratext.org/about/pt>`_ and `Publishing Assistant <http://paratext.org/about/pa>`_ both provide a mechanism for adding information about user generated or customized markers to a specific project's configuration. This makes it possible to support proper functioning of checking and formatting tools for the added markup.
- 
-However, it is much less likely that emerging digital publishing systems and work-flows will support user-generated/non-standardized project markup. Current procedures for interacting with these partner environments requires that translation data is delivered in rigidly validated formats which conform to specific agreed-upon interchange standards, such as the known USFM marker inventory, or some XML-based equivalents. Since connecting with these environments is much more exclusively software-driven than with many print production tools, encountering unknown markup within the publishing processes is a significant problem. Please consider this carefully before introducing non-standard USFM markup within a scripture translation project text.
+|ico_See| See also: User extension :ref:`\\z namespace <syntax_znamespace>`.
 
 .. _about_usfm_sty:
 .. index:: stylesheets (ParaTExt)
