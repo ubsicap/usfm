@@ -207,7 +207,7 @@ Special Text
 
 :Syntax: ``\png_text...\png*``
 :Type: character
-:Added: 1.0
+:Added: 3.0
 :Use: Geographic proper name.
 
 -----
@@ -627,5 +627,5 @@ Special Features
 
 :Syntax: ``\wa_text...\wa*``
 :Type: character
-:Added: 1.0
+:Added: 3.0
 :Use: Aramaic word list entry.
