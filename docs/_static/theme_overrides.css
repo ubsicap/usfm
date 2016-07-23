@@ -1,6 +1,6 @@
 /* override search box background colour */
 .wy-side-nav-search {
-  background-color: #c7944e;
+  background-color: #b1c441;
 }
 
 .wy-side-nav-search > div.version {
@@ -8,49 +8,48 @@
 }
 
 .wy-side-nav-search input[type=text] {
-  border-color: #b97a23;
+  border-color: #7f8d2c;
 }
 
 .wy-nav-top {
-  background-color: #c7944e;
+  background-color: #b1c441;
 }
 
-/* Left side menu division */
 .wy-menu-vertical a:active {
-  background-color: #b97a23;
+  background-color:#7f8d2c;
 }
 
 .rst-content a {
-  color: #b97a23;
+  color: #b1c441;
   text-decoration: none;
 }
 
 .rst-content a:focus, .rst-content a:hover{
-  color: #c7944e;
-
+  color: #7f8d2c;
 }
 
-/* .rst-content a:focus {
+.rst-content a:focus {
   outline:thin dotted;
   outline:5px auto -webkit-focus-ring-color;
   outline-offset:-2px
-} */
-
-div.admonition.warning {
-  background: #ead0d1;
 }
 
-div.admonition.warning > p.first.admonition-title {
-  background: #a22c30;
+/*.rst-content .admonition-title {
+  background: red;
+  color: #000;
+}*/
+
+div.admonition.tip {
+  background: #ffffda;
+}
+
+div.admonition.tip > p.first.admonition-title {
+  background: #b1c441;
 }
 
 .rst-content dl:not(.docutils) dt {
-  background: #f8f1e9;
-  border-top: solid 3px #c7944e;
-}
-
-.hll {
-  background-color: #f1e4d3;
+  background: #ffffda;
+  border-top: solid 3px #b1c441;
 }
 
 /* Use .. rubric:: to add division headings without adding to TOC.
