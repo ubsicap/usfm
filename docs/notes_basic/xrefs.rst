@@ -102,6 +102,39 @@ The following markup can be included as part of the cross reference content:
 :Use: Target reference(s). |br|
 	A list of scripture references, commonly provided as book name abbreviations plus chapter and verse, or range of verses. The punctuation used between chapter and verse, reference ranges, and between target references can differ significantly across texts.
 
+**Text and Formatting Samples - Typical Cross Reference** - Matthew 2.23 (GNT)
+
+.. code-block:: text
+	:name: usfm-character_xo_xt_example
+	:emphasize-lines: 5
+
+	\p
+	\v 22 But when Joseph heard that Archelaus had succeeded his father Herod as king of 
+	Judea, he was afraid to go there. He was given more instructions in a dream, so he went 
+	to the province of Galilee
+	\v 23 \x - \xo 2.23: \xt Mrk 1.24; Luk 2.39; Jhn 1.45.\x* and made his home in a town 
+	named Nazareth. And so what the prophets had said came true: “He will be called a 
+	Nazarene.”
+
+.. image:: images/usfm-character_xo_xt.jpg
+	:width: 550px
+
+**Multiple Origin Parts** - Mark 10.19 (GNT)
+
+.. code-block:: text
+	:name: usfm-character_xo-multi_example
+	:emphasize-lines: 3-4
+
+	\p
+	\v 18 “Why do you call me good?” Jesus asked him. “No one is good except God alone.
+	\v 19 \x - \xo 10.19: a \xt Exo 20.13; Deu 5.17; \xo b \xt Exo 20.14; Deu 5.18; \xo c 
+	\xt Exo 20.15; Deu 5.19; \xo d \xt Exo 20.16; Deu 5.20; \xo e \xt Exo 20.12; Deu 5.16.\x* 
+	You know the commandments: ‘Do not commit murder; do not commit adultery; do not steal; 
+	do not accuse anyone falsely; do not cheat; respect your father and your mother.’”
+
+.. image:: images/usfm-character_xo-multi.jpg
+	:width: 550px
+
 -----
 
 .. _usfmc_xta:
@@ -117,6 +150,18 @@ The following markup can be included as part of the cross reference content:
 :Added: 3.0
 :Use: Target reference(s) extra / added text. |br|
 	Used for marking text which should be ignored when identifying or linking to cross reference target references.
+
+**Text and Formatting Sample** - Matthew 3.0 (GNT - *text and markup adapted*)
+
+.. code-block:: text
+	:name: usfm-character_xta_example
+	:emphasize-lines: 2-3
+
+	\c 3
+	\s1 The Preaching of John the Baptist\x - \xo 3.0 \xta Compare with \xt Mk 1.1-8; 
+	Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta parallel passages.\x*
+	\p
+	\v 1 At that time John the Baptist came to the desert of Judea and started preaching.
 
 -----
 
@@ -134,7 +179,7 @@ The following markup can be included as part of the cross reference content:
 :Use: Published cross reference origin text. |br|
 	In some texts, the content intended to be published in the position of the cross reference origin text ``\xo`` does not follow the typical ``<chapter><separator><verse>`` pattern. An origin reference following this pattern is required for validation of the cross reference location. ``\xop ...\xop*`` can be used in order to supply the content intended for publishing, similar to the use of :ref:`\\cp <usfmp_cp>` and :ref:`\vp ...\vp* <usfmc_vp>`.
 
-**Text and Formatting Samples** - Jonah 1.1-5 (Bulgarian Orthodox Bible)
+**Text and Formatting Sample** - Jonah 1.1-5 (Bulgarian Orthodox Bible)
 
 .. code-block:: text
 	:name: usfm-character_xop_example
@@ -193,57 +238,7 @@ The following markup can be included as part of the cross reference content:
 :Added: 1.0
 :Use: References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books. *(optional)*
 
------
-
-.. _usfmc_rq-alt:
-.. index:: marker (\rq ...\rq*)
-
-\\rq ...\\rq\*
-^^^^^^^^^^^^^^
-:Syntax: ``\rq ...\rq*``
-:Type: character
-:Added: 2.05
-:Use: Inline quotation reference(s). |br|
-	See details and examples in :ref:`Titles, Heading, and Labels <usfmc_rq>`
-
------
-
-.. rubric:: Text and Formatting Samples
-
-**Typical Cross Reference** - Matthew 2.23 (GNT)
-
-.. code-block:: text
-	:name: usfm-character_xo_xt_example
-	:emphasize-lines: 5
-
-	\p
-	\v 22 But when Joseph heard that Archelaus had succeeded his father Herod as king of 
-	Judea, he was afraid to go there. He was given more instructions in a dream, so he went 
-	to the province of Galilee
-	\v 23 \x - \xo 2.23: \xt Mrk 1.24; Luk 2.39; Jhn 1.45.\x* and made his home in a town 
-	named Nazareth. And so what the prophets had said came true: “He will be called a 
-	Nazarene.”
-
-.. image:: images/usfm-character_xo_xt.jpg
-	:width: 550px
-
-**Multiple Origin Parts** - Mark 10.19 (GNT)
-
-.. code-block:: text
-	:name: usfm-character_xo-multi_example
-	:emphasize-lines: 3-4
-
-	\p
-	\v 18 “Why do you call me good?” Jesus asked him. “No one is good except God alone.
-	\v 19 \x - \xo 10.19: a \xt Exo 20.13; Deu 5.17; \xo b \xt Exo 20.14; Deu 5.18; \xo c 
-	\xt Exo 20.15; Deu 5.19; \xo d \xt Exo 20.16; Deu 5.20; \xo e \xt Exo 20.12; Deu 5.16.\x* 
-	You know the commandments: ‘Do not commit murder; do not commit adultery; do not steal; 
-	do not accuse anyone falsely; do not cheat; respect your father and your mother.’”
-
-.. image:: images/usfm-character_xo-multi.jpg
-	:width: 550px
-
-**Deuterocanonical Content** - 1 Corinthians 15.51-52 (GNT)
+**Text and Formatting Samples** - 1 Corinthians 15.51-52 (GNT)
 
 .. code-block:: text
 	:name: usfm-character_xdc_example
@@ -265,14 +260,15 @@ Genesis 1.26 (GNT)
 	\v 26 \x - \xo 1.26: \xt \xdc Wis 2.23; Sir 17.3,4;\xdc* 1Co 11.7.\x* Then God said,
 	"And now we will make human beings; they will be like us and resemble us.
 
-**Target References "Added" Text** - Matthew 3.0 (GNT - *text and markup adapted*)
+-----
 
-.. code-block:: text
-	:name: usfm-character_xta_example
-	:emphasize-lines: 2-3
+.. _usfmc_rq-alt:
+.. index:: marker (\rq ...\rq*)
 
-	\c 3
-	\s1 The Preaching of John the Baptist\x - \xo 3.0 \xta Compare with \xt Mk 1.1-8; 
-	Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta parallel passages.\x*
-	\p
-	\v 1 At that time John the Baptist came to the desert of Judea and started preaching.
+\\rq ...\\rq\*
+^^^^^^^^^^^^^^
+:Syntax: ``\rq ...\rq*``
+:Type: character
+:Added: 2.05
+:Use: Inline quotation reference(s). |br|
+	See details and examples in :ref:`Titles, Heading, and Labels <usfmc_rq>`

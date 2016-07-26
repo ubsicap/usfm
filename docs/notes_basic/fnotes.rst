@@ -73,19 +73,6 @@ The following markup can be included as part of the footnote content:
 
 -----
 
-.. _usfmc_fk:
-.. index:: marker (\fk)
-
-\\fk
-^^^^
-:Syntax: ``\fk_text...``
-:Type: character (note)
-:Added: 1.0
-:Use: Footnote keyword. |br|
-	The specific keyword/term from the text for which the footnote is being provided.
-
------
-
 .. _usfmc_fq:
 .. index:: marker (\fq)
 
@@ -102,6 +89,29 @@ The following markup can be included as part of the footnote content:
 
 	Many existing translation texts have marked both quotations from the existing translation text, as well as alternative translations, using \fq. An additional marker – :ref:`\\fqa <usfmc_fqa>` – is provided for marking alternative translations, and can be used to distinguish between quotations and alternatives.
 
+**Text and Formatting Samples - Quotations and Alternative Translations** - Mark 1.1; 1.4 (GNT)
+
+.. code-block:: text
+	:name: usfm-character_fq_fqa_example
+	:emphasize-lines: 4-5
+
+	\s1 The Preaching of John the Baptist
+	\r (Matthew 3.1-12; Luke 3.1-18; John 1.19-28)
+	\p
+	\v 1 This is the Good News about Jesus Christ, the Son of God. \f + \fr 1.1: \ft Some 
+	manuscripts do not have \fq the Son of God.\f*
+	...
+
+*Footnotes*
+
+.. image:: images/usfm-character_fq.jpg
+	:width: 550px
+
+*Footnote caller in body text*
+
+.. image:: images/usfm-character_fq-call.jpg
+	:width: 250px
+
 -----
 
 .. _usfmc_fqa:
@@ -114,6 +124,36 @@ The following markup can be included as part of the footnote content:
 :Added: 1.0
 :Use: Footnote alternate translation. |br|
 	Used to distinguish between a quotation of the current scripture text translation, and an alternate translation.
+
+-----
+
+.. _usfmc_fk:
+.. index:: marker (\fk)
+
+\\fk
+^^^^
+:Syntax: ``\fk_text...``
+:Type: character (note)
+:Added: 1.0
+:Use: Footnote keyword. |br|
+	The specific keyword/term from the text for which the footnote is being provided.
+
+**Text and Formatting Sample** - Genesis 3.20 (GNT)
+
+.. code-block:: text
+	:name: usfm-character_fk_example
+	:emphasize-lines: 2-4
+
+	\p
+	\v 20 Adam \f + \fr 3.20: \fk Adam: \ft This name in Hebrew means “all human beings.”\f* 
+	named his wife Eve, \f + \fr 3.20: \fk Eve: \ft This name sounds similar to the Hebrew 
+	word for “living,” which is rendered in this context as “human beings.”\f* because she 
+	was the mother of all human beings.
+	\v 21 And the \nd Lord\nd* God made clothes out of animal skins for Adam and his wife, 
+	and he clothed them.
+
+.. image:: images/usfm-character_fk.jpg
+	:width: 550px
 
 -----
 
@@ -158,6 +198,24 @@ The following markup can be included as part of the footnote content:
 
 	This marker will typically be nested within another footnote content element, like :ref:`\\ft <usfmc_ft>`, :ref:`\\fq <usfmc_fq>` or :ref:`\\fqa <usfmc_fqa>`. See :doc:`Nesting Character Markup </characters/nesting>` for details.
 
+**Text and Formatting Sample** - John 7.38 (GNT)
+
+.. code-block:: text
+	:name: usfm-character_fv_example
+	:emphasize-lines: 7
+
+	\p
+	\v 37 On the last and most important day of the festival Jesus stood up and said in a 
+	loud voice, “Whoever is thirsty should come to me, and 
+	\v 38 whoever believes in me should drink. As the scripture says, ‘Streams of life-
+	giving water will pour out from his side.’” \f + \fr 7.38: \ft Jesus' words in verses 
+	37-38 may be translated: \fqa “Whoever is thirsty should come to me and drink. 
+	\fv 38\fv* As the scripture says, ‘Streams of life-giving water will pour out from 
+	within anyone who believes in me.’”\f*
+
+.. image:: images/usfm-character_fv.jpg
+	:width: 550px
+
 -----
 
 .. _usfmc_ft:
@@ -184,6 +242,20 @@ The following markup can be included as part of the footnote content:
 :Use: Footnote Deuterocanonical content. |br|
 	Text between these markers is material to be included only in published editions that contain the Deuterocanonical books.
 
+**Text and Formatting Sample** - Hebrews 1.3 (Spanish DHE)
+
+.. code-block:: text
+	:name: usfm-character_fdc_example
+	:emphasize-lines: 2
+
+	\v 3 Él es el resplandor glorioso de Dios,\f c \fr 1.3: \fk Resplandor: \ft Cf. 
+	Jn 1.4-9,14\fdc ; también Sab 7.25-26, donde algo parecido se dice de la sabiduría.\f* 
+	la imagen misma de lo que Dios es y el que sostiene todas las cosas con su palabra 
+	poderosa. Después de limpiarnos de nuestros pecados, se ha sentado en el cielo, a la 
+	derecha del trono de Dios,
+	\v 4 y ha llegado a ser superior a los ángeles, pues ha recibido en herencia un título 
+	mucho más importante que el de ellos.
+
 -----
 
 .. _usfmc_fm:
@@ -200,79 +272,3 @@ The following markup can be included as part of the footnote content:
 .. warning::
 
 	Because the nature of this marker is related directly to the published form of the text, it is not intended for use in scripture authoring. It may be used during the publishing process to connect two callers to the same footnote text.
-
------
-
-.. rubric:: Text and Formatting Samples
-
-**Quotations and Alternative Translations** - Mark 1.1; 1.4 (GNT)
-
-.. code-block:: text
-	:name: usfm-character_fq_fqa_example
-	:emphasize-lines: 4-5
-
-	\s1 The Preaching of John the Baptist
-	\r (Matthew 3.1-12; Luke 3.1-18; John 1.19-28)
-	\p
-	\v 1 This is the Good News about Jesus Christ, the Son of God. \f + \fr 1.1: \ft Some 
-	manuscripts do not have \fq the Son of God.\f*
-	...
-
-*Footnotes*
-
-.. image:: images/usfm-character_fq.jpg
-	:width: 550px
-
-*Footnote caller in body text*
-
-.. image:: images/usfm-character_fq-call.jpg
-	:width: 250px
-
-**Keywords** - Genesis 3.20 (GNT)
-
-.. code-block:: text
-	:name: usfm-character_fk_example
-	:emphasize-lines: 2-4
-
-	\p
-	\v 20 Adam \f + \fr 3.20: \fk Adam: \ft This name in Hebrew means “all human beings.”\f* 
-	named his wife Eve, \f + \fr 3.20: \fk Eve: \ft This name sounds similar to the Hebrew 
-	word for “living,” which is rendered in this context as “human beings.”\f* because she 
-	was the mother of all human beings.
-	\v 21 And the \nd Lord\nd* God made clothes out of animal skins for Adam and his wife, 
-	and he clothed them.
-
-.. image:: images/usfm-character_fk.jpg
-	:width: 550px
-
-**Footnote Verse** - John 7.38 (GNT)
-
-.. code-block:: text
-	:name: usfm-character_fv_example
-	:emphasize-lines: 7
-
-	\p
-	\v 37 On the last and most important day of the festival Jesus stood up and said in a 
-	loud voice, “Whoever is thirsty should come to me, and 
-	\v 38 whoever believes in me should drink. As the scripture says, ‘Streams of life-
-	giving water will pour out from his side.’” \f + \fr 7.38: \ft Jesus' words in verses 
-	37-38 may be translated: \fqa “Whoever is thirsty should come to me and drink. 
-	\fv 38\fv* As the scripture says, ‘Streams of life-giving water will pour out from 
-	within anyone who believes in me.’”\f*
-
-.. image:: images/usfm-character_fv.jpg
-	:width: 550px
-
-**Deuterocanonical Content** - Hebrews 1.3 (Spanish DHE)
-
-.. code-block:: text
-	:name: usfm-character_fdc_example
-	:emphasize-lines: 2
-
-	\v 3 Él es el resplandor glorioso de Dios,\f c \fr 1.3: \fk Resplandor: \ft Cf. 
-	Jn 1.4-9,14\fdc ; también Sab 7.25-26, donde algo parecido se dice de la sabiduría.\f* 
-	la imagen misma de lo que Dios es y el que sostiene todas las cosas con su palabra 
-	poderosa. Después de limpiarnos de nuestros pecados, se ha sentado en el cielo, a la 
-	derecha del trono de Dios,
-	\v 4 y ha llegado a ser superior a los ángeles, pues ha recibido en herencia un título 
-	mucho más importante que el de ellos.
