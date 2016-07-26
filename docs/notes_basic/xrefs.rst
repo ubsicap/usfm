@@ -234,7 +234,6 @@ Genesis 1.26 (GNT)
 
 	\c 3
 	\s1 The Preaching of John the Baptist\x - \xo 3.0 \xta Compare with \xt Mk 1.1-8; 
-	Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta also.\x*
-	\r (Mark 1.1-8; Luke 3.1-18; John 1.19-28)
+	Lk 3.1-18; \xta and \xt Jn 1.19-28 \xta parallel passages.\x*
 	\p
 	\v 1 At that time John the Baptist came to the desert of Judea and started preaching.
