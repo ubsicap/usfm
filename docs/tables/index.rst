@@ -28,7 +28,8 @@ Tables
 :Type: paragraph
 :Added: 1.0
 :Use: Table column heading. |br|
-	The variable # represents the table column number.
+	The variable # represents the table column number. |br| |br|
+	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 .. _usfmc_thr#:
 .. index:: marker (\th#)
@@ -39,7 +40,8 @@ Tables
 :Type: paragraph
 :Added: 1.0
 :Use: Right aligned table column heading. |br|
-	The variable # represents the table column number.
+	The variable # represents the table column number. |br| |br|
+	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 **Text and Formatting Samples** - Numbers 7.12-83 (GNT)
 
@@ -73,7 +75,7 @@ Numbers 2.10-16 (GNT)
 	\tr \tc1 Reuben \tc2 Elizur son of Shedeur \tcr3 46,500
 	\tr \tc1 Simeon \tc2 Shelumiel son of Zurishaddai \tcr3 59,300
 	\tr \tc1 Gad \tc2 Eliasaph son of Deuel \tcr3 45,650
-	\tr \tcr2 Total: \tcr3 151,450
+	\tr \tcr1-2 Total: \tcr3 151,450
 
 .. image:: images/usfm-character_thr.jpg
 	:width: 250px
@@ -89,7 +91,8 @@ Numbers 2.10-16 (GNT)
 :Type: paragraph
 :Added: 1.0
 :Use: Table cell. |br|
-	The variable # represents the table column number.
+	The variable # represents the table column number. |br| |br|
+	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 .. _usfmc_tcr#:
 .. index:: marker (\tcr#)
@@ -100,7 +103,8 @@ Numbers 2.10-16 (GNT)
 :Type: paragraph
 :Added: 1.0
 :Use: Right aligned table cell. |br|
-	The variable # represents the table column number.
+	The variable # represents the table column number. |br| |br|
+	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 **Text and Formatting Sample** - Numbers 2.10-16 (GNT)
 
@@ -115,12 +119,15 @@ Numbers 2.10-16 (GNT)
 	\tr \tc1 Reuben \tc2 Elizur son of Shedeur \tcr3 46,500
 	\tr \tc1 Simeon \tc2 Shelumiel son of Zurishaddai \tcr3 59,300
 	\tr \tc1 Gad \tc2 Eliasaph son of Deuel \tcr3 45,650
-	\tr \tc1 \tcr2 Total: \tcr3 151,450
+	\tr \tcr1-2 Total: \tcr3 151,450
 
 .. image:: images/usfm-character_tc.jpg
 	:width: 250px
 
+.. _usfmc_table_colspan:
+.. index:: tables (column span)
+
 .. warning:: 
 
-	Markup for empty table cells:
-	As shown in the example for :ref:`\\tc# <usfmc_tc#>` (above), an empty table cell still requires a corresponding marker in the table text. The following markup would be incorrect: ``\tr \tcr2 Total: \tcr3 151,450``
+	Empty table cells:
+	An empty table cell still requires a corresponding marker in the table text. Alternatively, indicate that a cell spans multiple columns by indicating a column range ``\tr \tcr1-2 Total: \tcr3 151,450``.
