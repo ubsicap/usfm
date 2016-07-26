@@ -25,6 +25,7 @@ USFM Documentation
    Chapters and Verses <chapters_verses/index>
    Paragraphs <paragraphs/index>
    Poetry <poetry/index>
+   Lists <lists/index>
    Tables <tables/index>
    Footnotes <notes_basic/fnotes>
    Cross References <notes_basic/xrefs>
