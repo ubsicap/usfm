@@ -188,6 +188,56 @@ Lists
 
 -----
 
+.. _usfmc_lit:
+.. index:: marker (\litl ...\litl*)
+
+\\litl ...\\litl\*
+^^^^^^^^^^^^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\litl text...\litl*``
+:Type: character
+:Added: 3.0
+:Use: List item total. |br|
+	Use in “accounting” lists for denoting the total component of the text within a list item (:ref:`\\li <usfmp_li#>`). An alternative to using :doc:`tables </tables/index>` for the same content.
+
+**Text and Formatting Sample** - Nehemiah 7.6-14 (GNT - *markup adapted*)
+
+.. code-block:: text
+	:name: usfm-character_litl_example
+	:emphasize-lines: 11,13,15,17,19,21,23
+
+	\pm
+	\v 6 These are the people of the province who came up from the captivity of the exiles 
+	whom Nebuchadnezzar king of Babylon had taken captive (they returned to Jerusalem and 
+	Judah, each to his own town,
+	\v 7 in company with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, 
+	Bilshan, Mispereth, Bigvai, Nehum and Baanah):
+	\b
+	\pm The list of the men of Israel:
+	\b
+	\lim1
+	\v 8 the descendants of Parosh - \litl 2,172\litl*
+	\lim1
+	\v 9 of Shephatiah - \litl 372\litl*
+	\lim1
+	\v 10 of Arah - \litl 652\litl*
+	\lim1
+	\v 11 of Pahath-Moab (through the line of Jeshua and Joab) - \litl 2,818\litl*
+	\lim1
+	\v 12 of Elam - \litl 1,254\litl*
+	\lim1
+	\v 13 of Zattu - \litl 845\litl*
+	\lim1
+	\v 14 of Zaccai - \litl 760\litl*
+	... 
+
+.. image:: images/usfm-character_litl.jpg
+	:width: 250px
+
+-----
+
 .. index:: lists (structured list items)
 
 Structured List Items
@@ -235,7 +285,7 @@ Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv
 	The variable # represents the sequence of the marked item in a list entry with multiple values. |br|
 	**\liv = \liv1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
 
-**Text and Formatting Samples** - 1 Chronicles 27:16-22 (GNT - *markup adapted*)
+**Text and Formatting Sample** - 1 Chronicles 27:16-22 (GNT - *markup adapted*)
 
 .. code-block:: text
 	:name: usfm-character_lik_liv_example
