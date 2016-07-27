@@ -236,12 +236,29 @@ The following markup can be included as part of the cross reference content:
 :Syntax: ``\xdc_refs...\xdc*``
 :Type: character (note)
 :Added: 1.0
-:Use: References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books. *(optional)*
+:Deprecated: 3.0 |badge_3.0|
+:Use: References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books.|br|
+	**Deprecated** (i.e. use is discouraged). |br| |br|
+	|ico_Cg| *Recommended alternate:* General purpose use of :ref:`\\dc ...\\dc\* <usfmc_dc>` or :doc:`nested </characters/nesting>` ``\+dc ...\+dc*`` wherever DC-only content is being marked.
 
-**Text and Formatting Samples** - 1 Corinthians 15.51-52 (GNT)
+**Text and Formatting Samples** - Psalm 115.3-4 (GNT - cross references)
 
 .. code-block:: text
 	:name: usfm-character_xdc_example
+	:emphasize-lines: 5
+
+	\q1
+	\v 3 Our God is in heaven;
+	\q2 he does whatever he wishes.
+	\q1
+	\v 4 \x - \xo 115.4-8: \xt Ps 135.15-18; \xdc Ltj Jr 4-73; \xt Rev 9.20.\x* Their 
+	gods are made of silver and gold,
+	\q2 formed by human hands.
+
+1 Corinthians 15.51-52 (GNT - cross reference)
+
+.. code-block:: text
+	:name: usfm-character_xdc_example2
 	:emphasize-lines: 2
 
 	\p
@@ -249,16 +266,6 @@ The following markup can be included as part of the cross reference content:
 	truth: we shall not all die, but when the last trumpet sounds, we shall all be changed 
 	in an instant, as quickly as the blinking of an eye. For when the trumpet sounds, the 
 	dead will be raised, never to die again, and we shall all be changed.
-
-Genesis 1.26 (GNT)
-
-.. code-block:: text
-	:name: usfm-character_xdc_example2
-	:emphasize-lines: 2
-
-	\p
-	\v 26 \x - \xo 1.26: \xt \xdc Wis 2.23; Sir 17.3,4;\xdc* 1Co 11.7.\x* Then God said,
-	"And now we will make human beings; they will be like us and resemble us.
 
 -----
 
