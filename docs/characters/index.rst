@@ -253,6 +253,21 @@ Psalm 115.3-4 (GNT - cross references)
 
 -----
 
+.. _usfmc_addpn:
+.. index:: marker (\addpn ...\addpn*)
+
+\\addpn ...\\addpn\*
+^^^^^^^^^^^^^^^^^^^^
+:Syntax: ``\addpn_text...\addpn*``
+:Type: character
+:Added: 2.0
+:Deprecated: 3.0 |badge_3.0|
+:Use: Support for overlapping :ref:`\\pn ...\\pn\* <usfmc_pn>` and :ref:`\\add ...\\add\* <usfmc_add>` occurrences in Chinese texts. |br|
+	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
+	|ico_Cg| *Recommended alternate:* :doc:`Nested </characters/nesting>` :ref:`\\pn ...\\pn\* <usfmc_pn>` within :ref:`\\add ...\\add\* <usfmc_add>`.
+
+-----
+
 .. _usfmc_qt:
 .. index:: marker (\qt ...\qt*)
 
@@ -622,7 +637,7 @@ Special Features
 -----
 
 .. _usfmc_w:
-.. index:: marker (\ndx ...\ndx*)
+.. index:: marker (\w ...\w*)
 
 \\w ...\\w\*
 ^^^^^^^^^^^^
