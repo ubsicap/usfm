@@ -21,7 +21,7 @@ USFM Documentation
    About USFM <about/index>
    Identification <identification/index>
    Introductions <introductions/index>
-   Titles, Heading, and Labels <titles_headings/index>
+   Titles, Headings, and Labels <titles_headings/index>
    Chapters and Verses <chapters_verses/index>
    Paragraphs <paragraphs/index>
    Poetry <poetry/index>
