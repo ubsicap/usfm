@@ -110,15 +110,17 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_h:
-.. index:: marker (\h#)
+.. index:: marker (\h)
 
-\\h#
-^^^^
-:Syntax: ``\h#_text...``
+\\h
+^^^
+:Syntax: ``\h_text...``
 :Type: paragraph
 :Added: 1.0
+:Amended: 3.0
 :Use: Running header text. |br|
-	The variable # represents distinct components or levels of text required for the running header presentation (e.g. inside, outside, sub-division/section etc.).
+	**Deprecated** use of numbered variable syntax (i.e. use is strongly discouraged). |badge_3.0| |br|
+	The variable # in ``\h#_text...`` represented distinct components or levels of text required for the running header presentation (e.g. inside, outside, sub-division/section etc.).
 
 **Text and Formatting Sample** - Matthew (GNT)
 
