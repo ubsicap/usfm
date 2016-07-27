@@ -374,3 +374,44 @@ Proverbs 22.22,24 (GNT)
 
 .. image:: images/usfm-paragraph_sp.jpg
 	:width: 250px
+
+-----
+
+.. _usfmp_sd#:
+.. index:: marker (\sd#)
+
+\\sd#
+^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\sd#``
+:Type: paragraph
+:Added: 3.0
+:Use: Semantic division (semantic space). |br|
+	Vertical space used to divide the text into sections, in a manner similar to the structure added through the use of a sequence of heading texts (i.e. :ref:`\\ms# <usfmp_ms#>` and :ref:`\\s# <usfmp_s#>`). |br|
+	The purpose of ``\sd#`` is distinct from :ref:`\\b <usfmp_b>` which primarily denotes whitespace (and in particular at poetic stanza breaks) and not hierarchy or division.
+	The variable # represents the level of division being marked. |br|
+	**\\sd = \\sd1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
+
+**Text and Formatting Sample** - Matthew 13.51-54 (NIV "Books of the Bible"; chapter and verse numbers suppressed in layout; new sections begin with drop capital)
+
+.. code-block:: text
+	:name: usfm-paragraph_sd_example
+	:emphasize-lines: 8
+
+	\m
+	\v 51 “Have you understood all these things?” Jesus asked.
+	\p “Yes,” they replied.
+	\p
+	\v 52 He said to them, “Therefore every teacher of the law who has been instructed about 
+	the kingdom of heaven is like the owner of a house who brings out of his storeroom new 
+	treasures as well as old.”
+	\sd2
+	\p
+	\v 53 When Jesus had finished these parables, he moved on from there.
+	\v 54 Coming to his hometown, he began teaching the people in their synagogue, and they 
+	were amazed. “Where did this man get this wisdom and these miraculous powers?” they asked. 		
+
+.. image:: images/usfm-paragraph_sd.jpg
+	:width: 350px
