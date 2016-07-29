@@ -30,6 +30,8 @@ USFM Documentation
    Footnotes <notes_basic/fnotes>
    Cross References <notes_basic/xrefs>
    Words and Characters <characters/index>
+   Word Level Attributes <characters/attributes>
+   Linking Attributes <characters/linking>
    Peripherals <peripherals/index>
    Extended Study Content <notes_study/index>
 

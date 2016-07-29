@@ -10,6 +10,7 @@ Words and Characters
 
    Character Marker Nesting <nesting>
    Word Level Attributes <attributes>
+   Linking Attributes <linking>
 
 -----
 
