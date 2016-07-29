@@ -9,6 +9,7 @@ Words and Characters
    :maxdepth: 2
 
    Character Marker Nesting <nesting>
+   Word Level Attributes <attributes>
 
 -----
 
@@ -575,6 +576,9 @@ Special Features
 	**CAP**:red:`*` – Illustration caption. This text will be printed with the illustration. |br|
 	**REF**:red:`*` – Illustration reference (e.g. Luke 19.5). This text will be printed together with the illustration caption.
 
+.. _usfmc_fig-attr:
+.. index:: attributes (\fig ...\fig*)
+
 **Text and Formatting Sample - Spanning Columns** - Mark 1.18 (GNT)
 
 .. code-block:: text
@@ -646,6 +650,9 @@ Special Features
 :Added: 1.0
 :Use: Wordlist / glossary / dictionary entry. |br|
 	Surround word(s) with this markup to indicate that it appears (or should appear) in the word list.
+
+.. _usfmc_w-attr:
+.. index:: attributes (\w ...\w*)
 
 -----
 
