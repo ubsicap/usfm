@@ -263,7 +263,7 @@ Psalm 115.3-4 (GNT - cross references)
 :Syntax: ``\addpn_text...\addpn*``
 :Type: character
 :Added: 2.0
-:Deprecated: 3.0 |badge_3.0|
+:Deprecated: 3.0  |badge_3.0|
 :Use: Support for overlapping :ref:`\\pn ...\\pn\* <usfmc_pn>` and :ref:`\\add ...\\add\* <usfmc_add>` occurrences in Chinese texts. |br|
 	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
 	|ico_Cg| *Recommended alternate:* :doc:`Nested </characters/nesting>` :ref:`\\pn ...\\pn\* <usfmc_pn>` within :ref:`\\add ...\\add\* <usfmc_add>`.
@@ -649,11 +649,46 @@ Special Features
 :Syntax: ``\w_text...\w*``
 :Type: character
 :Added: 1.0
+:Updated: 3.0 (attributes)
 :Use: Wordlist / glossary / dictionary entry. |br|
 	Surround word(s) with this markup to indicate that it appears (or should appear) in the word list.
 
 .. _usfmc_w-attr:
 .. index:: attributes (\w ...\w*)
+
+.. rubric:: Attributes |ico_Tag|
+
+|badge_3.0|
+
+Following the syntax for :doc:`word level attributes </characters/attributes>`.
+
+:lemma: Citation form for the term in the glossary *(default)*
+
+.. code-block:: text
+
+    \w gracious|lemma="grace"\w*
+    \w gracious|grace\w*
+
+The unidentified attribute in the second example (above) is acceptable because ``lemma`` is defined as the *default* attribute for ``\w ...\w*``.
+
+:strong: Strong’s ID in the form H##### (Hebrew) or G##### (Greek) |br| |br|
+	A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``
+
+.. code-block:: text
+
+	\w gracious|lemma="grace" strong="G05485"\w*
+	\w gracious|strong="G05485"\w*
+	\w gracious|strong="H01234,G05485"\w*
+
+	\w gracious|strong="G05485:a"\w*
+
+Not ``\w gracious|G05485\w*`` (since strong is not *default*)
+
+:srcloc: Location of the word in the source text; Example: GNT version 5 text, book 51, chapter 1, verse 2, word 1.
+
+.. code-block:: text
+
+	\w gracious|lemma="grace" srcloc="gnt5:51.1.2.1"\w*
 
 -----
 

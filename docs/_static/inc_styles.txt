@@ -49,6 +49,9 @@
 .. |ico_R| image:: /_static/images/icon-rnc.png
    :height: 16
    :width: 16
+.. |ico_Tag| image:: /_static/images/icon-tag_alt.png
+   :height: 16
+   :width: 16
 .. |ico_See| image:: /_static/images/icon-arrow_see.png
    :height: 24
    :width: 24
