@@ -57,8 +57,8 @@ User defined peripheral content divisions
 
 As needed, a user may add peripheral content for a division not defined in the list above. The new division should begin with \periph, plus a division argument/title. However, USFM compliant publishing applications should use the list presented here as a reference for content to support.
 
-USFM Markup for Peripherals
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Markup for Peripheral Divisions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In the following topics there is a recommendation and a brief description of the USFM markers which will be most appropriate for use in each peripheral content division. The recommended markup is sufficient for most projects and should be used as a first option. However, in general, any of the existing USFM standard markers may be used in addition to the recommended markers, if the required content cannot be adequately encoded.
 
 .. toctree::
