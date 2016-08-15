@@ -563,35 +563,47 @@ Special Features
 
 \\fig ...\\fig\*
 ^^^^^^^^^^^^^^^^
-:Syntax: ``\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*``
+:Syntax: ``\fig_caption text...|src="filename" size="size" ref="reference"\fig*``
 :Type: paragraph
 :Added: 1.0
-:Use: For defining illustrations to be used within a publication. |br|
-	A series of parameters for the illustration are provided between the opening and closing ``\fig ...\fig*`` markers. Parameters are separated by a vertical bar ``|``. |br|
-	Required parameters are indicated in the list below with a red asterisk :red:`*`.
-:Parameters: **DESC** – Illustration description. (This material does not show up on the printed page.) |br|
-	**FILE**:red:`*` – Illustration filename. |br|
-	**SIZE**:red:`*` – Illustration relative size. Options are ``col`` (illustration should be inserted inline within the current text column) or ``span`` (illustration should be inserted across (spanning) text columns) |br|
-	**LOC** – Illustration location/range. Specify a range of references at which the illustration might be inserted. |br|
-	**COPY** – Illustration copyright info. This material will be used to give the appropriate illustration credits. |br|
-	**CAP**:red:`*` – Illustration caption. This text will be printed with the illustration. |br|
-	**REF**:red:`*` – Illustration reference (e.g. Luke 19.5). This text will be printed together with the illustration caption.
+:Updated: 3.0 (attributes)
+:Use: For defining illustrations to be used within a publication.
+
+.. caution:: |badge_3.0| **Significant syntax change from USFM 1.x / 2.x**
+
+	The syntax for defining illustrations in USFM 3.0 follows the general syntax for providing :doc:`word level attributes </characters/attributes>`. In USFM 1.x and 2.x, markup for illustrations required a the content for a collection of parameters to be provided in a specific order, with items separated by a vertical bar (e.g ``\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*``). The use of marker attributes, and the use of a vertical bar as an attribute separator was unique to illustration markup in USFM 1.x and 2.x. In USFM 3.0 this syntax is deprecated in order to align the markup with the general syntax for :doc:`word level attributes </characters/attributes>`.
 
 .. _usfmc_fig-attr:
 .. index:: attributes (\fig ...\fig*)
 
-**Text and Formatting Sample - Spanning Columns** - Mark 1.18 (GNT)
+.. rubric:: Attributes |ico_Tag|
+
+|badge_3.0|
+
+Following the syntax for :doc:`word level attributes </characters/attributes>`. Required attributes are indicated in the list below with a red asterisk :red:`*`.
+
+* Multiple attributes are required. There is no single, un-named :ref:`default <attributes_default>`.
+* **Compatibility with USFM 1.x and 2.x:** If a USFM parser encounters a list of un-named attributes using a vertical bar separator within ``\fig ...\fig*`` these should be interpreted according to the strict USFM 2.x order.
+
+:alt: Short, free-form description of image
+:src: :red:`*` Filename
+:size: :red:`*` Illustration relative size. Options are ``col`` (illustration should be inserted inline within the current text column) or ``span`` (illustration should be inserted across - "spanning" - text columns)
+:loc: Location / range. Specify a range of references at which the illustration might be inserted.
+:copy: Rights holder / copyright information. This material will be used to provide appropriate illustration attribution in publications.
+:ref: :red:`*` Scripture reference (e.g. Luke 19.5). This text may be (optionally) published together with the illustration caption.
+
+**Text and Formatting Samples - Spanning Columns** - Mark 1.18 (GNT)
 
 .. code-block:: text
 	:name: usfm-character_fig-span_example
 	:emphasize-lines: 5-6
 
 	\p
-	\v 16 As Jesus walked along the shore of Lake Galilee, he saw two fishermen, Simon and 
-	his brother Andrew, catching fish with a net.
+	\v 16 As Jesus walked along the shore of Lake Galilee, he saw two fishermen, 
+	Simon and his brother Andrew, catching fish with a net.
 	\v 17 Jesus said to them, “Come with me, and I will teach you to catch people.”
-	\v 18 At once they left their nets and went with him. \fig |avnt016.tif|span|||At once 
-	they left their nets.|1.18\fig*
+	\v 18 At once they left their nets and went with him. \fig At once they left 
+	their nets.|src="avnt016.jpg" size="span" ref="1.18"\fig*
 
 .. image:: images/usfm-character_fig-span.jpg
 	:width: 450px
@@ -602,11 +614,11 @@ Special Features
 	:name: usfm-character_fig-col_example
 	:emphasize-lines: 4-5
 
-	\v 30 Simon's mother-in-law was sick in bed with a fever, and as soon as Jesus arrived, 
-	he was told about her.
-	\v 31 He went to her, took her by the hand, and helped her up. The fever left her, and 
-	she began to wait on them. \fig |avnt017.tif|col|||Took her by the hand, and...the fever 
-	left her.|1.31\fig*
+	\v 30 Simon's mother-in-law was sick in bed with a fever, and as soon as Jesus 
+	arrived, he was told about her.
+	\v 31 He went to her, took her by the hand, and helped her up. The fever left 
+	her, and she began to wait on them. \fig Took her by the hand, and...the fever 
+	left her.|src="avnt017.tif" size="col" ref="1.31"\fig*
 	\p
 	\v 32 After the sun had set and evening had come ...
 
