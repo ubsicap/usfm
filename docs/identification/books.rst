@@ -4,7 +4,7 @@
 
 Book Identifiers
 ================
-This table lists all the standard 3-character book identifiers that can be entered after \id marker at the top of each USFM file. Some scripture editors like `Paratext <http://paratext.org>`_ may also include the number shown for each book in the filename for that book.
+This table lists all the standard 3-character book identifiers that can be entered after the \\id marker at the top of each USFM file. Some scripture editors like `ParaTExt <http://paratext.org>`_ may also include the number shown for each book in the filename for that book.
 
 .. csv-table::
 	:header: "Number", "Identifier", "English Name", "Alternative name / Notes"
@@ -170,3 +170,11 @@ This table lists all the standard 3-character book identifiers that can be enter
 	as chapter 1, used in the Ethiopian Bible"
 	"C3", "LAO", "Letter to the Laodiceans", "A Latin Vulgate book, found in the Vulgate |br|
 	and some medieval Catholic translations"
+	"A0", "FRT", "Front Matter"
+	"A1", "BAK", "Back Matter"
+	"A2", "OTH", "Other Matter"
+	"A7", "INT", "Introduction Matter"
+	"A8", "CNC", "Concordance"
+	"A9", "GLO", "Glossary / Wordlist"
+	"B0", "TDX", "Topical Index"
+	"B1", "NDX", "Names Index"
