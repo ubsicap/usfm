@@ -640,6 +640,58 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 
 -----
 
+.. _usfmc_rb:
+.. index:: marker (\rb ...\rb*)
+
+\\rb ...\\rb\*
+^^^^^^^^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\rb_annotated base text...\rb*``
+:Type: character
+:Added: 3.0
+:Use: Annotated base text. |br|
+	Used to mark the base text being annotated with ruby characters.
+
+.. note::
+
+	**About Ruby:** *Ruby* is the term used for a run of special text that is associated with another run of text referred to as the *base text*. Ruby text is used to provide a short annotation for the associated base text. It is most often used to provide a reading / pronunciation guide, especially for characters that are likely to be unfamiliar to the reader. Ruby text is usually presented alongside or above the base text, using a smaller typeface.
+
+-----
+
+.. _usfmc_rt:
+.. index:: marker (\rt ...\rt*)
+
+\\rt ...\\rt\*
+^^^^^^^^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\rt_annotation text...\rt*``
+:Type: character
+:Added: 3.0
+:Use: Ruby annotation text. |br|
+	In the case where the annotation text is associated with only a single preceding ideogram, only the ``\\rt ...\\rt\*`` marker is required (the base text markup :ref:`\\rb ...\\rb\* <usfmc_rb>` is optional in these cases).
+
+**Text and Formatting Sample** (\\rb ...\\rb\* and \\rt ...\\rt\*) - Genesis 1.1-2 |br|
+(Japanes Living Bible - Biblica)
+
+.. code-block:: text
+	:name: usfm-character_rb_rt_example
+
+	\p \v 1 まだ\rb 何\rb*\rt なに\rt*もなかった\rb 時\rb*\rt とき\rt*、\rb 神\rb*\rt かみ\rt*は
+	\rb 天\rb*\rt てん\rt*と\rb 地\rb*\rt ち\rt*を\rb 造\rb*\rt つく\rt*りました。
+	\v 2 \rb 地\rb*\rt ち\rt*は\rb 形\rb*\rt かたち\rt*も\rb 定\rb*\rt さだ\rt*まらず、
+	\rb 闇\rb*\rt やみ\rt*に\rb 包\rb*\rt つつ\rt*まれた\rb 水\rb*\rt みず\rt*の
+	\rb 上\rb*\rt うえ\rt*を、さらに\rb 神\rb*\rt かみ\rt*の\rb 霊\rb*\rt れい\rt*が
+	\rb 覆\rb*\rt おお\rt*っていました。
+
+.. image:: images/usfm-character_rb_rt.jpg
+	:width: 300px
+
+-----
+
 .. _usfmc_pro:
 .. index:: marker (\pro ...\pro*)
 
@@ -648,8 +700,11 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 :Syntax: ``\pro_text...\pro*``
 :Type: character
 :Added: 2.0
+:Deprecated: 3.0  |badge_3.0|
 :Use: Pronunciation information. |br|
-	*Used for CJK text.*
+	*Used for CJK text.* |br|
+	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
+	|ico_Cg| *Recommended alternate:* :ref:`\\rt ...\\rt\* <usfmc_rt>` (with optional markup for the annotated base text using :ref:`\\rb ...\\rb\* <usfmc_rb>`).
 
 -----
 
