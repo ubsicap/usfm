@@ -293,7 +293,7 @@ Paragraphs
 	Used in some texts for discourse sections. |br|
 	The variable # represents the level of indent. |br|
 	|ico_See| *See also* :ref:`\\pm <usfmp_pm>` |br|
-	**\\pm = \\pm1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
+	**\\pi = \\pi1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
 
 **Text and Formatting Sample** - Matthew 13.37-39 (CEV)
 
