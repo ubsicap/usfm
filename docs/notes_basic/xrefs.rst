@@ -57,6 +57,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xo
 ^^^^
+
 :Syntax: ``\xo_##SEP##``
 :Type: character (note)
 :Added: 1.0
@@ -71,6 +72,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xk
 ^^^^
+
 :Syntax: ``\\xk_text...``
 :Type: character (note)
 :Added: 1.0
@@ -83,6 +85,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xq
 ^^^^
+
 :Syntax: ``\xq_text...``
 :Type: character (note)
 :Added: 1.0
@@ -96,6 +99,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xt
 ^^^^
+
 :Syntax: ``\\xt_refs...``
 :Type: character (note)
 :Added: 1.0
@@ -209,6 +213,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xot ...\\xot\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\xot_refs...\xot*``
 :Type: character (note)
 :Added: 2.2
@@ -221,6 +226,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xnt ...\\xnt\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\xnt_refs...\xnt*``
 :Type: character (note)
 :Added: 2.2
@@ -233,6 +239,7 @@ The following markup can be included as part of the cross reference content:
 
 \\xdc ...\\xdc\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\xdc_refs...\xdc*``
 :Type: character (note)
 :Added: 1.0
@@ -274,6 +281,7 @@ The following markup can be included as part of the cross reference content:
 
 \\rq ...\\rq\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\rq ...\rq*``
 :Type: character
 :Added: 2.05

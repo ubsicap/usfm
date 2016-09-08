@@ -10,6 +10,7 @@ Paragraphs
 
 \\p
 ^^^
+
 :Syntax: ``\p(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -48,6 +49,7 @@ Paragraphs
 
 \\m
 ^^^
+
 :Syntax: ``\m(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -126,6 +128,7 @@ Paragraphs
 
 \\cls
 ^^^^^
+
 :Syntax: ``\cls_text...``
 :Type: paragraph
 :Added: 1.0
@@ -152,6 +155,7 @@ Paragraphs
 
 \\pmo
 ^^^^^
+
 :Syntax: ``\pmo(_text...)``
 :Type: paragraph
 :Added: 2.0
@@ -184,6 +188,7 @@ Paragraphs
 
 \\pm
 ^^^^
+
 :Syntax: ``\pm(_text...)``
 :Type: paragraph
 :Added: 2.0
@@ -218,6 +223,7 @@ Paragraphs
 
 \\pmc
 ^^^^^
+
 :Syntax: ``\pmc(_text...)``
 :Type: paragraph
 :Added: 2.0
@@ -246,6 +252,7 @@ Paragraphs
 
 \\pmr
 ^^^^^
+
 :Syntax: ``\pmr_text...``
 :Type: paragraph
 :Added: 2.0
@@ -278,6 +285,7 @@ Paragraphs
 
 \\pi#
 ^^^^^
+
 :Syntax: ``\pi#(_Sample text...)``
 :Type: paragraph
 :Added: 1.0
@@ -315,6 +323,7 @@ Paragraphs
 
 \\mi
 ^^^^
+
 :Syntax: ``\mi(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -353,6 +362,7 @@ Paragraphs
 
 \\nb
 ^^^^
+
 :Syntax: ``\nb``
 :Type: paragraph
 :Added: 1.0
@@ -392,6 +402,7 @@ Paragraphs
 
 \\pc
 ^^^^
+
 :Syntax: ``\pc(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -423,6 +434,7 @@ Paragraphs
 
 \\pr
 ^^^^
+
 :Syntax: ``\pr(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -437,6 +449,7 @@ Paragraphs
 
 \\ph#
 ^^^^^
+
 :Syntax: ``\ph#(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -453,6 +466,7 @@ Paragraphs
 
 \\b
 ^^^
+
 :Syntax: ``\b``
 :Type: paragraph
 :Added: 1.0

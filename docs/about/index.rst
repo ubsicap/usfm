@@ -72,11 +72,11 @@ Software Notes
 * Translation editors which implement support for USFM encoded text may provide a formatted view of the text using a set of style definitions for each USFM marker. These "stylesheets" most often refer to these formatting definitions as *paragraph* and *character* styles.
 * In USFM, character level markup can be nested (embedded) within a paragraph element, or another character element. However, software applications will not necessarily be capable of rendering all of the display variations which may be implied due to marker nesting.
 
-.. _about_usfm_extension:
-.. index:: USFM (extension)
+.. _about_usfm_changes:
+.. index:: USFM (change management)
 
-Markup Additions/Extensions
----------------------------
+Change Management
+-----------------
 Over the course of its development it has become clear that the USFM standard will not likely include and handle markup for all potential (real or perceived) markup needs which a project may require. There are a number of reasons for this, which include:
  
 * **The intention of keeping the USFM marker inventory manageable** from a typical end user's perspective. |br| Some may argue that the more than 180 existing marker possibilities are already more than challenging enough to select from and use correctly. For this reason a "draft" stylesheet was created for Paratext editing which lists only the essential markers for editing a typical translation's 1st draft text. |br| |br| 

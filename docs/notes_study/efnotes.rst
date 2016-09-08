@@ -16,6 +16,7 @@ The **extended footnotes** are inserted in-line within the study project text us
 
 \\ef ...\\ef\*
 --------------
+
 :Syntax: ``\ef_+_(\fr_REF_)footnote content\ef*``
 :Type: extended note
 :Added: 2.1

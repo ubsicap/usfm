@@ -10,6 +10,7 @@ Tables
 
 \\tr
 ^^^^
+
 :Syntax: ``\tr_``
 :Type: paragraph
 :Added: 1.0
@@ -24,6 +25,7 @@ Tables
 
 \\th#
 ^^^^^
+
 :Syntax: ``\th#_text...``
 :Type: paragraph
 :Added: 1.0 (updated 3.0 - column spanning)
@@ -36,6 +38,7 @@ Tables
 
 \\thr#
 ^^^^^^
+
 :Syntax: ``\thr#_text...``
 :Type: paragraph
 :Added: 1.0 (updated 3.0 - column spanning)
@@ -87,6 +90,7 @@ Numbers 2.10-16 (GNT)
 
 \\tc#
 ^^^^^
+
 :Syntax: ``\tc#_text...``
 :Type: paragraph
 :Added: 1.0 (updated 3.0 - column spanning)
@@ -99,6 +103,7 @@ Numbers 2.10-16 (GNT)
 
 \\tcr#
 ^^^^^^
+
 :Syntax: ``\tcr#_text...``
 :Type: paragraph
 :Added: 1.0 (updated 3.0 - column spanning)

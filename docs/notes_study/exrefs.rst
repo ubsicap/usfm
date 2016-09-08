@@ -15,7 +15,8 @@ The **extended (study) cross references** are inserted inline within the study p
 .. index:: marker (\ex ...\ex*), extended cross reference (container), study cross reference (container)
 
 \\ex ...\\ex\*
-^^^^^^^^^^^^^^
+--------------
+
 :Syntax: ``\ex_+_(\xo_REF_)cross reference content\ex*``
 :Type: extended note
 :Added: 2.3

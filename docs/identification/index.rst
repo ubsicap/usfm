@@ -17,6 +17,7 @@ Identification
 
 \\id
 ^^^^
+
 :Syntax: ``\id_<CODE>_(Name of file, Book name, Language, Last edited, Date etc.)``
 :Type: paragraph
 :Added: 1.0
@@ -41,6 +42,7 @@ The text following this marker is not normally used in any formatted presentatio
 
 \\ide
 ^^^^^
+
 :Syntax: ``\ide_<ENCODING>``
 :Type: paragraph
 :Added: 1.0
@@ -66,6 +68,7 @@ The text following this marker is not normally used in any formatted presentatio
 
 \\sts
 ^^^^^
+
 :Syntax: ``\sts_<STATUS CODE>``
 :Type: paragraph
 :Added: 1.0
@@ -90,6 +93,7 @@ The text following this marker is not normally used in any formatted presentatio
 
 \\rem
 ^^^^^
+
 :Syntax: ``\rem_text...``
 :Type: paragraph
 :Added: 1.0
@@ -114,6 +118,7 @@ The text following this marker is not normally used in any formatted presentatio
 
 \\h
 ^^^
+
 :Syntax: ``\h_text...``
 :Type: paragraph
 :Added: 1.0
@@ -140,6 +145,7 @@ The text following this marker is not normally used in any formatted presentatio
 
 \\toc#
 ^^^^^^
+
 :Syntax: ``\toc1_text...``
 :Type: paragraph
 :Added: 2.03, 2.04 (\\toc3)
@@ -172,6 +178,7 @@ The text following this marker is not normally used in any formatted presentatio
 
 \\iex
 ^^^^^
+
 :Syntax: ``\iex_text...``
 :Type: paragraph
 :Added: 1.0

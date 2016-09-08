@@ -10,6 +10,7 @@ Chapters and Verses
 
 \\c
 ^^^
+
 :Syntax: ``\c_#``
 :Type: paragraph
 :Added: 1.0
@@ -42,6 +43,7 @@ Chapters and Verses
 
 \\ca ...\\ca\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\ca_#\ca*``
 :Type: character
 :Added: 1.0
@@ -77,6 +79,7 @@ Chapters and Verses
 
 \\cl
 ^^^^
+
 :Syntax: ``\cl_text...``
 :Type: paragraph
 :Added: 1.0
@@ -123,6 +126,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 
 \\cp
 ^^^^
+
 :Syntax: ``\cp_text...``
 :Type: paragraph
 :Added: 1.0
@@ -153,6 +157,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 
 \\cd
 ^^^^
+
 :Syntax: ``\cd_text...``
 :Type: paragraph
 :Added: 1.0
@@ -184,6 +189,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 
 \\v
 ^^^
+
 :Syntax: ``\v_#``
 :Type: character
 :Added: 1.0
@@ -215,6 +221,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 
 \\va ...\\va\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\va_#\va*``
 :Type: character
 :Added: 1.0
@@ -250,6 +257,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 
 \\vp ...\\vp\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\vp text...\vp*``
 :Type: character
 :Added: 1.0

@@ -21,6 +21,7 @@ Sidebars may contain larger sections of topical content, or information for more
 
 \\esb
 ^^^^^
+
 :Syntax: ``\esb``
 :Type: paragraph (extended note)
 :Added: 2.1
@@ -34,6 +35,7 @@ Sidebars may contain larger sections of topical content, or information for more
 
 \\esbe
 ^^^^^^
+
 :Syntax: ``\esbe``
 :Type: paragraph (extended note)
 :Added: 2.1

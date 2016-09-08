@@ -64,6 +64,7 @@ The following markup can be included as part of the footnote content:
 
 \\fr
 ^^^^
+
 :Syntax: ``\fr_##SEP##``
 :Type: character (note)
 :Added: 1.0
@@ -78,6 +79,7 @@ The following markup can be included as part of the footnote content:
 
 \\fq
 ^^^^
+
 :Syntax: ``\fq_text...``
 :Type: character (note)
 :Added: 1.0
@@ -119,6 +121,7 @@ The following markup can be included as part of the footnote content:
 
 \\fqa
 ^^^^^
+
 :Syntax: ``\fqa_text...``
 :Type: character (note)
 :Added: 1.0
@@ -132,6 +135,7 @@ The following markup can be included as part of the footnote content:
 
 \\fk
 ^^^^
+
 :Syntax: ``\fk_text...``
 :Type: character (note)
 :Added: 1.0
@@ -162,6 +166,7 @@ The following markup can be included as part of the footnote content:
 
 \\fl
 ^^^^
+
 :Syntax: ``\fl_text...``
 :Type: character (note)
 :Added: 2.03
@@ -175,6 +180,7 @@ The following markup can be included as part of the footnote content:
 
 \\fp
 ^^^^
+
 :Syntax: ``\fp_text...``
 :Type: character (note)
 :Added: 2.03
@@ -188,6 +194,7 @@ The following markup can be included as part of the footnote content:
 
 \\fv ...\\fv\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\fv_##\fv*``
 :Type: character (note)
 :Added: 1.0
@@ -223,6 +230,7 @@ The following markup can be included as part of the footnote content:
 
 \\ft
 ^^^^
+
 :Syntax: ``\ft_text...``
 :Type: character (note)
 :Added: 1.0
@@ -236,6 +244,7 @@ The following markup can be included as part of the footnote content:
 
 \\fdc ...\\fdc\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\fdc_text...\fdc*``
 :Type: character (note)
 :Added: 1.0
@@ -266,6 +275,7 @@ The following markup can be included as part of the footnote content:
 
 \\fm ...\\fm\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\fm_text...\fm*``
 :Type: character (note)
 :Added: 1.0

@@ -10,6 +10,7 @@ Introductions
 
 \\imt#
 ^^^^^^
+
 :Syntax: ``\imt#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -42,6 +43,7 @@ Introductions
 
 \\is#
 ^^^^^
+
 :Syntax: ``\is#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -73,6 +75,7 @@ Introductions
 
 \\ip
 ^^^^
+
 :Syntax: ``\ip_text...``
 :Type: paragraph
 :Added: 1.0
@@ -103,6 +106,7 @@ Introductions
 
 \\ipi
 ^^^^^
+
 :Syntax: ``\ipi_text...``
 :Type: paragraph
 :Added: 1.0
@@ -131,6 +135,7 @@ Introductions
 
 \\im
 ^^^^
+
 :Syntax: ``\im_text...``
 :Type: paragraph
 :Added: 1.0
@@ -161,6 +166,7 @@ Introductions
 
 \\imi
 ^^^^^
+
 :Syntax: ``\imi_text...``
 :Type: paragraph
 :Added: 1.0
@@ -191,6 +197,7 @@ Introductions
 
 \\ipq
 ^^^^^
+
 :Syntax: ``\ipq_text...``
 :Type: paragraph
 :Added: 1.0
@@ -221,6 +228,7 @@ Introductions
 
 \\imq
 ^^^^^
+
 :Syntax: ``\imq_text...``
 :Type: paragraph
 :Added: 1.0
@@ -251,6 +259,7 @@ Introductions
 
 \\ipr
 ^^^^^
+
 :Syntax: ``\ipr_text...``
 :Type: paragraph
 :Added: 1.0
@@ -282,6 +291,7 @@ Introductions
 
 \\iq#
 ^^^^^
+
 :Syntax: ``\iq#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -316,6 +326,7 @@ Introductions
 
 \\ib
 ^^^^
+
 :Syntax: ``\ib``
 :Type: paragraph
 :Added: 1.0
@@ -343,6 +354,7 @@ Introductions
 
 \\ili#
 ^^^^^^
+
 :Syntax: ``\ili#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -386,6 +398,7 @@ Introductions
 
 \\iot
 ^^^^^
+
 :Syntax: ``\iot_text...``
 :Type: paragraph
 :Added: 1.0
@@ -396,6 +409,7 @@ Introductions
 
 \\io#
 ^^^^^
+
 :Syntax: ``\io#_text...(references range)``
 :Type: paragraph
 :Added: 1.0
@@ -435,6 +449,7 @@ Introductions
 
 \\ior ...\\ior\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\ior_text...\ior*``
 :Type: character
 :Added: 1.0
@@ -464,6 +479,7 @@ Introductions
 
 \\iqt ...\\iqt\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\iqt_text...\iqt*``
 :Type: character
 :Added: 2.2
@@ -477,6 +493,7 @@ Introductions
 
 \\imte#
 ^^^^^^^
+
 :Syntax: ``\imte#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -500,6 +517,7 @@ Introductions
 
 \\ie
 ^^^^^
+
 :Syntax: ``\ie``
 :Type: paragraph
 :Added: 1.0

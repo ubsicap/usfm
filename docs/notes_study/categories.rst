@@ -12,6 +12,7 @@ Categories can optionally be assigned to extended study notes or sidebars by sup
 
 \\cat ...\\cat\*
 ----------------
+
 :Syntax: ``\cat_<TAG>\cat*``
 :Type: character (extended note)
 :Added: 2.1

@@ -34,6 +34,7 @@ Special Text
 
 \\add ...\\add\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\add_text...\add*``
 :Type: character
 :Added: 1.0
@@ -60,6 +61,7 @@ Special Text
 
 \\bk ...\\bk\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\bk_text...\bk*``
 :Type: character
 :Added: 1.0
@@ -89,6 +91,7 @@ Special Text
 
 \\dc ...\\dc\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\dc_text...\dc*``
 :Type: character
 :Added: 1.0
@@ -142,6 +145,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\k ...\\k\*
 ^^^^^^^^^^^^
+
 :Syntax: ``\k_text...\k*``
 :Type: character
 :Added: 1.0
@@ -154,6 +158,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\lit
 ^^^^^
+
 :Syntax: ``\lit_text...``
 :Type: paragraph
 :Added: 1.0
@@ -193,6 +198,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\nd ...\\nd\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\nd_text...\nd*``
 :Type: character
 :Added: 1.0
@@ -221,6 +227,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\ord ...\\ord\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\ord_text...\ord*``
 :Type: character
 :Added: 1.0
@@ -233,6 +240,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\pn ...\\pn\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\pn_text...\pn*``
 :Type: character
 :Added: 1.0
@@ -260,6 +268,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\addpn ...\\addpn\*
 ^^^^^^^^^^^^^^^^^^^^
+
 :Syntax: ``\addpn_text...\addpn*``
 :Type: character
 :Added: 2.0
@@ -275,6 +284,7 @@ Psalm 115.3-4 (GNT - cross references)
 
 \\qt ...\\qt\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\qt_text...\qt*``
 :Type: character
 :Added: 1.0
@@ -327,6 +337,7 @@ Mark 1.2-3 (GNT)
 
 \\sig ...\\sig\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\sig_text...\sig*``
 :Type: character
 :Added: 1.0
@@ -353,6 +364,7 @@ Mark 1.2-3 (GNT)
 
 \\sls ...\\sls\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\sls_text...\sls*``
 :Type: character
 :Added: 1.0
@@ -386,6 +398,7 @@ Mark 1.2-3 (GNT)
 
 \\tl ...\\tl\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\tl_text...\tl*``
 :Type: character
 :Added: 1.0
@@ -414,6 +427,7 @@ Mark 1.2-3 (GNT)
 
 \\wj ...\\wj\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\wj_text...\wj*``
 :Type: character
 :Added: 2.0
@@ -433,6 +447,7 @@ Character Styling
 
 \\em ...\\em\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\em_text...\em*``
 :Type: character
 :Added: 2.0
@@ -445,6 +460,7 @@ Character Styling
 
 \\bd ...\\bd\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\bd_text...\bd*``
 :Type: character
 :Added: 1.0
@@ -457,6 +473,7 @@ Character Styling
 
 \\it ...\\it\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\it_text...\it*``
 :Type: character
 :Added: 1.0
@@ -469,6 +486,7 @@ Character Styling
 
 \\bdit ...\\bdit\*
 ^^^^^^^^^^^^^^^^^^
+
 :Syntax: ``\bdit_text...\bdit*``
 :Type: character
 :Added: 1.0
@@ -481,6 +499,7 @@ Character Styling
 
 \\no ...\\no\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\no_text...\no*``
 :Type: character
 :Added: 1.0
@@ -494,6 +513,7 @@ Character Styling
 
 \\sc ...\\sc\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\sc_text...\sc*``
 :Type: character
 :Added: 1.0
@@ -509,6 +529,7 @@ Spacing and Breaks
 
 \~
 ^^
+
 :Syntax: ``~``
 :Type: character
 :Added: 1.0
@@ -522,6 +543,7 @@ Spacing and Breaks
 
 //
 ^^
+
 :Syntax: ``//``
 :Type: character
 :Added: 1.0
@@ -548,6 +570,7 @@ Spacing and Breaks
 
 \\pb
 ^^^^
+
 :Syntax: ``\pb``
 :Type: paragraph
 :Added: 1.0
@@ -563,6 +586,7 @@ Special Features
 
 \\fig ...\\fig\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\fig_caption text...|src="filename" size="size" ref="reference"\fig*``
 :Type: paragraph
 :Added: 1.0
@@ -632,6 +656,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 
 \\ndx ...\\ndx\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\ndx_text...\ndx*``
 :Type: character
 :Added: 1.0
@@ -697,6 +722,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 
 \\pro ...\\pro\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\pro_text...\pro*``
 :Type: character
 :Added: 2.0
@@ -713,6 +739,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 
 \\w ...\\w\*
 ^^^^^^^^^^^^
+
 :Syntax: ``\w_text...\w*``
 :Type: character
 :Added: 1.0
@@ -764,6 +791,7 @@ Not ``\w gracious|G05485\w*`` (since strong is not *default*)
 
 \\wg ...\\wg\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\wg_text...\wg*``
 :Type: character
 :Added: 1.0
@@ -776,6 +804,7 @@ Not ``\w gracious|G05485\w*`` (since strong is not *default*)
 
 \\wh ...\\wh\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\wh_text...\wh*``
 :Type: character
 :Added: 1.0

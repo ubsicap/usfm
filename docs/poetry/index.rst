@@ -10,6 +10,7 @@ Poetry
 
 \\q#
 ^^^^
+
 :Syntax: ``\q#(_text...)``
 :Type: paragraph
 :Added: 1.0
@@ -59,6 +60,7 @@ Poetry
 
 \\qr
 ^^^^
+
 :Syntax: ``\qr_text...``
 :Type: paragraph
 :Added: 1.0
@@ -93,6 +95,7 @@ Poetry
 
 \\qc
 ^^^^
+
 :Syntax: ``\qc_text...``
 :Type: paragraph
 :Added: 1.0
@@ -126,6 +129,7 @@ Poetry
 
 \\qs ...\\qs\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\qs_(Selah)\qs*``
 :Type: character
 :Added: 1.0
@@ -173,6 +177,7 @@ Psalm 24.10 (NRSV)
 
 \\qa
 ^^^^
+
 :Syntax: ``\qa_text...``
 :Type: paragraph
 :Added: 1.0
@@ -205,6 +210,7 @@ Psalm 24.10 (NRSV)
 
 \\qac ...\\qac\*
 ^^^^^^^^^^^^^^^^
+
 :Syntax: ``\qac_text...\qac*``
 :Type: character
 :Added: 1.0
@@ -248,6 +254,7 @@ Psalm 24.10 (NRSV)
 
 \\qm#
 ^^^^^
+
 :Syntax: ``\qm#(_text...)``
 :Type: paragraph
 :Added: 2.0
@@ -314,6 +321,7 @@ Psalm 24.10 (NRSV)
 
 \\b
 ^^^
+
 :Syntax: ``\b``
 :Type: paragraph
 :Added: 1.0

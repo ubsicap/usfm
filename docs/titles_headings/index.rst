@@ -10,6 +10,7 @@ Titles, Headings, and Labels
 
 \\mt#
 ^^^^^
+
 :Syntax: ``\mt#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -59,6 +60,7 @@ Introduction to John (GNT)
 
 \\mte#
 ^^^^^^
+
 :Syntax: ``\mte#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -84,6 +86,7 @@ Introduction to John (GNT)
 
 \\ms#
 ^^^^^
+
 :Syntax: ``\ms#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -134,6 +137,7 @@ Daniel 1.1 (GNT)
 
 \\mr
 ^^^^
+
 :Syntax: ``\mr_text...``
 :Type: paragraph
 :Added: 1.0
@@ -164,6 +168,7 @@ Daniel 1.1 (GNT)
 
 \\s#
 ^^^^
+
 :Syntax: ``\s#_text...``
 :Type: paragraph
 :Added: 1.0
@@ -224,6 +229,7 @@ Proverbs 22.22,24 (GNT)
 
 \\sr
 ^^^^
+
 :Syntax: ``\sr_text...``
 :Type: paragraph
 :Added: 2.0
@@ -253,6 +259,7 @@ Proverbs 22.22,24 (GNT)
 
 \\r
 ^^^
+
 :Syntax: ``\r_text...``
 :Type: paragraph
 :Added: 1.0
@@ -282,6 +289,7 @@ Proverbs 22.22,24 (GNT)
 
 \\rq ...\\rq\*
 ^^^^^^^^^^^^^^
+
 :Syntax: ``\rq ...\rq*``
 :Type: character
 :Added: 1.0
@@ -320,6 +328,7 @@ Proverbs 22.22,24 (GNT)
 
 \\d
 ^^^
+
 :Syntax: ``\d_text...``
 :Type: paragraph
 :Added: 1.0
@@ -352,6 +361,7 @@ Proverbs 22.22,24 (GNT)
 
 \\sp
 ^^^^
+
 :Syntax: ``\sp_text...``
 :Type: paragraph
 :Added: 1.0
