@@ -1,12 +1,3 @@
-.. raw:: html
-
-    <style> .red {color:red} </style>
-    <style> .orange {color:orange} </style>
-    <style> .green {color:green} </style>
-    <style> .red-bd {color:red;  font-weight: bold} </style>
-    <style> .orange-bd {color:orange;  font-weight: bold} </style>
-    <style> .green-bd {color:green;  font-weight: bold} </style>
-
 .. role:: red
 .. role:: orange
 .. role:: green

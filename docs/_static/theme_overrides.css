@@ -91,3 +91,11 @@ Example sphinx construct:
 .toggle .header.open:after {
   content: " ▲";
 }
+
+/* Color text styles */
+.red {color: red;}
+.orange {color:orange;}
+.green {color:green;}
+.red-bd {color:red;  font-weight: bold;}
+.orange-bd {color:orange;  font-weight: bold;}
+.green-bd {color:green;  font-weight: bold;}
