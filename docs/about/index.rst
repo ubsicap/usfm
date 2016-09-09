@@ -93,4 +93,4 @@ Since USFM 1.0, requests for additions to the standard have been received and co
 
 ParaTExt Stylesheet
 -------------------
-The most recent full and draft USFM stylesheet file for use with the ParaTExt translation editor are always available from http://paratext.org/usfm.
+The most recent USFM stylesheet file for use with the ParaTExt translation editor are always available from http://markups.paratext.org/usfm, or directly from the USFM Github repository at https://github.com/ubsicap/usfm/tree/master/sty.
