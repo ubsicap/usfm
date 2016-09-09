@@ -1,5 +1,34 @@
 # Change Log
 
+## [v3.0.rc1](https://github.com/ubsicap/usfm/tree/v3.0.rc1) (2016-09-09)
+[Full Changelog](https://github.com/ubsicap/usfm/compare/v2.5...v3.0.rc1)
+
+**Closed issues:**
+
+- Link text \(add \jmp ...\jmp\*\) [\#30](https://github.com/ubsicap/usfm/issues/30)
+- Common peripheral identifiers \(\periph id\) [\#29](https://github.com/ubsicap/usfm/issues/29)
+- Syntax for peripheral \(\periph\) identifiers [\#28](https://github.com/ubsicap/usfm/issues/28)
+- Descriptive attributes for \fig ...\fig\* [\#27](https://github.com/ubsicap/usfm/issues/27)
+- Descriptive attributes for \w ...\w\* [\#26](https://github.com/ubsicap/usfm/issues/26)
+- Syntax for assigning word-level descriptive attributes [\#24](https://github.com/ubsicap/usfm/issues/24)
+- Deprecate numbered running header \(\h\#\) [\#21](https://github.com/ubsicap/usfm/issues/21)
+- Deprecate combined marker for proper name within translator's addition \(\addpn …\addpn\*\) [\#20](https://github.com/ubsicap/usfm/issues/20)
+- Deprecate cross reference and footnote DC content markers \(\xdc …\xdc\*; \fdc …\fdc\*\) [\#19](https://github.com/ubsicap/usfm/issues/19)
+- Allow \va and \vp under \d [\#18](https://github.com/ubsicap/usfm/issues/18)
+- Allow \bk under \imt\#, \is\#, \r, \ili\# [\#17](https://github.com/ubsicap/usfm/issues/17)
+- Allow \pmr under \li [\#16](https://github.com/ubsicap/usfm/issues/16)
+- Review and regularize use of TextType property in usfm.sty [\#15](https://github.com/ubsicap/usfm/issues/15)
+- List item total \(add \litl ...\litl\*\) [\#14](https://github.com/ubsicap/usfm/issues/14)
+- Structured list items \(add \lik ...\lik\*; add \liv\# ...\liv\#\*\) [\#13](https://github.com/ubsicap/usfm/issues/13)
+- Support for explicit table cell column spanning [\#12](https://github.com/ubsicap/usfm/issues/12)
+- Geographic proper names \(Chinese texts\) \(add \png ...\png\*\) [\#9](https://github.com/ubsicap/usfm/issues/9)
+- Aramaic wordlist entry \(add \wa ...\wa\*\) [\#8](https://github.com/ubsicap/usfm/issues/8)
+- Hebrew note \(add \qd\) [\#6](https://github.com/ubsicap/usfm/issues/6)
+- Embedded list \(add \lim\#\) [\#4](https://github.com/ubsicap/usfm/issues/4)
+- List header and footer elements \(add \lh; add \lf\) [\#3](https://github.com/ubsicap/usfm/issues/3)
+- Letter opening \(add \po\) [\#2](https://github.com/ubsicap/usfm/issues/2)
+- Support citation form for wordlist / glossary text \(update \w …\w\*\) [\#1](https://github.com/ubsicap/usfm/issues/1)
+
 ## [v2.5](https://github.com/ubsicap/usfm/tree/v2.5) (2016-06-24)
 
 
