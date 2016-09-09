@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Back Matter (\id BAK) &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Back Matter (\id BAK) &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="up" title="Peripherals" href="index.html"/>
         <link rel="next" title="Other" href="other.html"/>
         <link rel="prev" title="Introductions (\id INT)" href="intros.html"/> 
@@ -63,7 +63,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -88,18 +88,22 @@
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Peripherals</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="index.html#peripheral-books-and-divisions">Peripheral Books and Divisions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#user-defined-peripheral-content-divisions">User defined peripheral content divisions</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html#usfm-markup-for-peripherals">USFM Markup for Peripherals</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#peripheral-identifiers">Peripheral Identifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#user-defined-peripheral-divisions">User Defined Peripheral Divisions</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#markup-for-peripheral-divisions">Markup for Peripheral Divisions</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="front.html">Front Matter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="intros.html">Introductions</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Back Matter</a><ul>
@@ -116,7 +120,7 @@
 <li class="toctree-l3"><a class="reference internal" href="other.html">Other</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#authoring-peripheral-materials-within-paratext">Authoring peripheral materials within Paratext</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#authoring-peripheral-materials-within-paratext">Authoring peripheral materials within ParaTExt</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
@@ -166,12 +170,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="back-matter-id-bak">
+  <div class="section" id="back-matter-id-bak">
 <span id="usfm-book-bak"></span><span id="index-0"></span><h1>Back Matter (\id BAK)<a class="headerlink" href="#back-matter-id-bak" title="Permalink to this headline">¶</a></h1>
 <div class="contents local topic" id="contents">
 <ul class="simple">
@@ -195,7 +194,7 @@
 <li><a class="reference internal" href="../paragraphs/index.html#usfmp-p"><span class="std std-ref">\p</span></a> - Paragraph.</li>
 <li><a class="reference internal" href="../paragraphs/index.html#usfmp-m"><span class="std std-ref">\m</span></a> - Flush left (margin) paragraph.</li>
 <li><a class="reference internal" href="../paragraphs/index.html#usfmp-pi"><span class="std std-ref">\pi#</span></a> - Indented paragraph.</li>
-<li><a class="reference internal" href="../paragraphs/index.html#usfmp-li"><span class="std std-ref">\li#</span></a> - List item.</li>
+<li><a class="reference internal" href="../lists/index.html#usfmp-li"><span class="std std-ref">\li#</span></a> - List item.</li>
 <li><a class="reference internal" href="../poetry/index.html#usfmp-q"><span class="std std-ref">\q#</span></a> - Poetic line.</li>
 </ul>
 <div class="section" id="periph-chronology">
@@ -345,7 +344,7 @@ They have aimed to include all of the verses most likely to be looked up.
 <li><a class="reference internal" href="../paragraphs/index.html#usfmp-p"><span class="std std-ref">\p</span></a> - Main entry <em>(required)</em>. May also be used for any additional paragraphs in the definition entry (optional).</li>
 <li><a class="reference internal" href="../characters/index.html#usfmc-k"><span class="std std-ref">\k ...\k*</span></a> - Main entry keyword <em>(required)</em>.</li>
 <li><a class="reference internal" href="../paragraphs/index.html#usfmp-pi"><span class="std std-ref">\pi</span></a> - Sub-entries, or secondary paragraph(s) (if indentation is preferred).</li>
-<li><a class="reference internal" href="../paragraphs/index.html#usfmp-li"><span class="std std-ref">\li#</span></a> - List item.</li>
+<li><a class="reference internal" href="../lists/index.html#usfmp-li"><span class="std std-ref">\li#</span></a> - List item.</li>
 <li><a class="reference internal" href="../characters/index.html#usfmc-tl"><span class="std std-ref">\tl ...\tl*</span></a> - National idiom word(s).</li>
 </ul>
 <div class="highlight-text" id="periph-glossary-example"><div class="highlight"><pre><span></span><span class="hll">\id GLO
@@ -374,7 +373,7 @@ with God in heaven.
 <li><a class="reference internal" href="../characters/index.html#usfmc-k"><span class="std std-ref">\k ...\k*</span></a> - Main entry keyword <em>(required)</em>.</li>
 <li><a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xt"><span class="std std-ref">\xt ...\xt*</span></a> -  Entry target reference(s) <em>(required)</em>. More than one \xt ...\xt* entry can be provided to create logical groupings of references (per chapter; per book etc.).</li>
 <li><a class="reference internal" href="../paragraphs/index.html#usfmp-pi"><span class="std std-ref">\pi</span></a> - Sub-entries, or secondary paragraph(s) (if indentation is preferred).</li>
-<li><a class="reference internal" href="../paragraphs/index.html#usfmp-li"><span class="std std-ref">\li#</span></a> - List item. Use for simple lists, where more complex tabular layout is not required.</li>
+<li><a class="reference internal" href="../lists/index.html#usfmp-li"><span class="std std-ref">\li#</span></a> - List item. Use for simple lists, where more complex tabular layout is not required.</li>
 <li><a class="reference internal" href="../tables/index.html#usfmp-tr"><span class="std std-ref">\tr</span></a>, <a class="reference internal" href="../tables/index.html#usfmc-th"><span class="std std-ref">\th#</span></a>, <a class="reference internal" href="../tables/index.html#usfmc-thr"><span class="std std-ref">\thr#</span></a>, <a class="reference internal" href="../tables/index.html#usfmc-tc"><span class="std std-ref">\tc#</span></a>, <a class="reference internal" href="../tables/index.html#usfmc-tcr"><span class="std std-ref">\tcr#</span></a>  - For any tabular data.</li>
 </ul>
 <div class="highlight-text" id="periph-topicalindex-example"><div class="highlight"><pre><span></span><span class="hll">\id TDX
@@ -475,7 +474,7 @@ with God in heaven.
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

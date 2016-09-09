@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Syntax Notes &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Syntax Notes &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="up" title="Introduction" href="index.html"/>
         <link rel="next" title="Identification" href="../identification/index.html"/>
         <link rel="prev" title="Release Notes" href="releasenotes.html"/> 
@@ -63,7 +63,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -88,30 +88,39 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">About USFM</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Syntax Notes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#general-syntax">General Syntax</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#numbered-markers">Numbered Markers</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#endmarkers-in-footnotes-and-cross-references">Endmarkers in Footnotes and Cross References</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#documentation-notes">Documentation Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#whitespace">Whitespace</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#newlines">Newlines</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#whitespace-normalization">Whitespace Normalization</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#z-namespace">\z namespace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#documentation-syntax-notes">Documentation Syntax Notes</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#what-are-standard-format-markers">What are Standard Format Markers?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#history-of-usfm">History of USFM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#unification-notes">Unification Notes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#software-notes">Software Notes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#markup-additions-extensions">Markup Additions/Extensions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#option-the-z-namespace">Option: The \z namespace</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#paratext-stylesheets">ParaTExt Stylesheets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#change-management">Change Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#paratext-stylesheet">ParaTExt Stylesheet</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
 </ul>
@@ -160,27 +169,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="syntax-notes">
-<span id="index-0"></span><h1><a class="toc-backref" href="#id1">Syntax Notes</a><a class="headerlink" href="#syntax-notes" title="Permalink to this headline">¶</a></h1>
-<div class="contents topic" id="contents">
-<p class="topic-title first">Contents</p>
+  <div class="section" id="syntax-notes">
+<span id="index-0"></span><h1>Syntax Notes<a class="headerlink" href="#syntax-notes" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
 <ul class="simple">
-<li><a class="reference internal" href="#syntax-notes" id="id1">Syntax Notes</a><ul>
+<li><a class="reference internal" href="#general-syntax" id="id1">General Syntax</a></li>
 <li><a class="reference internal" href="#numbered-markers" id="id2">Numbered Markers</a></li>
 <li><a class="reference internal" href="#endmarkers-in-footnotes-and-cross-references" id="id3">Endmarkers in Footnotes and Cross References</a></li>
-<li><a class="reference internal" href="#documentation-notes" id="id4">Documentation Notes</a></li>
+<li><a class="reference internal" href="#whitespace" id="id4">Whitespace</a><ul>
+<li><a class="reference internal" href="#newlines" id="id5">Newlines</a></li>
+<li><a class="reference internal" href="#whitespace-normalization" id="id6">Whitespace Normalization</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#z-namespace" id="id7">\z namespace</a></li>
+<li><a class="reference internal" href="#documentation-syntax-notes" id="id8">Documentation Syntax Notes</a></li>
 </ul>
 </div>
 <hr class="docutils" />
-<span class="target" id="syntax-numberedmarkers"></span><div class="section" id="numbered-markers">
-<span id="index-1"></span><h2><a class="toc-backref" href="#id2">Numbered Markers</a><a class="headerlink" href="#numbered-markers" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="syntax-general"></span><div class="section" id="general-syntax">
+<span id="index-1"></span><h2><a class="toc-backref" href="#id1">General Syntax</a><a class="headerlink" href="#general-syntax" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>There are three broad categories of USFM markup - <strong>paragraph</strong>, <strong>character</strong>, and <strong>note</strong> types.</li>
+<li>All USFM markers begin with a backslash character <code class="docutils literal"><span class="pre">\</span></code>.</li>
+<li><a class="reference internal" href="../paragraphs/index.html"><span class="doc">Paragraph</span></a> markers end with the next space character.</li>
+<li><a class="reference internal" href="../paragraphs/index.html"><span class="doc">Character</span></a> markers occur in pairs, marking a span of text within a paragraph.</li>
+<li>Note markers also occur in pairs, marking the start and end of the <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnote</span></a>, <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross reference</span></a>, or <a class="reference internal" href="../notes_study/index.html"><span class="doc">study note</span></a> content.</li>
+<li>For marker pairs (character and note), the opening marker ends with the next space character (as with paragraph markers). The matching closing marker is identical to the opening marker but ends with an asterisk character <code class="docutils literal"><span class="pre">*</span></code>. Example: <code class="docutils literal"><span class="pre">\w</span> <span class="pre">grace\w*</span></code>.</li>
+</ul>
+<span class="target" id="syntax-numberedmarkers"></span></div>
+<div class="section" id="numbered-markers">
+<span id="index-2"></span><h2><a class="toc-backref" href="#id2">Numbered Markers</a><a class="headerlink" href="#numbered-markers" title="Permalink to this headline">¶</a></h2>
 <p>Some USFM markers include an optional numeric variable, which is represented in this documentation by a hash character <code class="docutils literal"><span class="pre">#</span></code>. In USFM the number indicates:</p>
 <ul class="simple">
 <li>A portion of a complete element, or relative weighting of the &#8220;pieces&#8221; of the elements, such as <code class="docutils literal"><span class="pre">\mt1</span></code>, <code class="docutils literal"><span class="pre">\mt2</span></code>, <code class="docutils literal"><span class="pre">\mt3</span></code> which are all parts of a major title.</li>
@@ -194,7 +212,7 @@
 </div>
 <span class="target" id="syntax-endmarkerinnotes"></span></div>
 <div class="section" id="endmarkers-in-footnotes-and-cross-references">
-<span id="index-2"></span><h2><a class="toc-backref" href="#id3">Endmarkers in Footnotes and Cross References</a><a class="headerlink" href="#endmarkers-in-footnotes-and-cross-references" title="Permalink to this headline">¶</a></h2>
+<span id="index-3"></span><h2><a class="toc-backref" href="#id3">Endmarkers in Footnotes and Cross References</a><a class="headerlink" href="#endmarkers-in-footnotes-and-cross-references" title="Permalink to this headline">¶</a></h2>
 <p>The boundaries of <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnote</span></a> or <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross reference</span></a> text are defined by an opening and closing marker, as in the following footnote structure example:</p>
 <blockquote>
 <div><code class="docutils literal"><span class="pre">\f_+_(\fr_REF_)footnote</span> <span class="pre">content\f*</span></code></div></blockquote>
@@ -211,9 +229,56 @@
 <li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">2.4</span> <span class="pre">\fk</span> <span class="pre">The</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*:</span> <span class="pre">\ft</span> <span class="pre">See</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*</span> <span class="pre">in</span> <span class="pre">Word</span> <span class="pre">List.\f*</span></code></li>
 <li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">2.4\fr*</span> <span class="pre">\fk</span> <span class="pre">The</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*:\fk*</span> <span class="pre">See</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*</span> <span class="pre">in</span> <span class="pre">Word</span> <span class="pre">List.\f*</span></code></li>
 </ol>
+<span class="target" id="syntax-whitespace"></span></div>
+<div class="section" id="whitespace">
+<span id="index-4"></span><h2><a class="toc-backref" href="#id4">Whitespace</a><a class="headerlink" href="#whitespace" title="Permalink to this headline">¶</a></h2>
+<p>USFM considers space (U+0020), tab (U+0009), and <a class="reference internal" href="#syntax-newline"><span class="std std-ref">newline characters</span></a> to be whitespace.</p>
+<ul>
+<li><p class="first"><strong>Significant whitespace</strong> is a critical part of the USFM document and should always be preserved as is.</p>
+<blockquote>
+<div><ul class="simple">
+<li>The space after the end of a paragraph marker, or the end of the opening marker within a character or note marker pair.</li>
+<li>The <a class="reference internal" href="#syntax-newline"><span class="std std-ref">newline</span></a> preceding a new paragraph marker.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Insignificant whitespace</strong> should be <a class="reference internal" href="#syntax-whitespace-normalization"><span class="std std-ref">normalized</span></a> by a USFM processor.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Multiple whitespace within the body text of a <a class="reference internal" href="../paragraphs/index.html"><span class="doc">paragraph</span></a>.</li>
+<li>Multiple whitespace preceding a <a class="reference internal" href="../paragraphs/index.html"><span class="doc">paragraph</span></a> marker.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<span class="target" id="syntax-newline"></span><div class="section" id="newlines">
+<span id="index-5"></span><h3><a class="toc-backref" href="#id5">Newlines</a><a class="headerlink" href="#newlines" title="Permalink to this headline">¶</a></h3>
+<p>USFM processors should treat the single CR (U+000D) or LF  (U+000A) characters, and the sequence Carriage Return-Line Feed (CRLF), like a single LF character. Applications can save documents using the appropriate line-ending convention.</p>
+<p>All paragraph markers should be preceded by a single newline.</p>
+<span class="target" id="syntax-whitespace-normalization"></span></div>
+<div class="section" id="whitespace-normalization">
+<span id="index-6"></span><h3><a class="toc-backref" href="#id6">Whitespace Normalization</a><a class="headerlink" href="#whitespace-normalization" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Multiple spaces between the end of a paragraph marker and the paragraph text are normalized to a single space.</li>
+<li>Multiple spaces between words are normalized to a single space character.</li>
+<li>Multiple spaces between text and a character marker are normalized to a single space.</li>
+<li>Multiple whitespace preceding a paragraph marker is normalized to a single <a class="reference internal" href="#syntax-newline"><span class="std std-ref">newline</span></a>.</li>
+<li>Normalized whitespace preceding and following a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)</li>
+<li>Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)</li>
+</ul>
+<span class="target" id="syntax-znamespace"></span></div>
+</div>
+<div class="section" id="z-namespace">
+<span id="index-7"></span><h2><a class="toc-backref" href="#id7">\z namespace</a><a class="headerlink" href="#z-namespace" title="Permalink to this headline">¶</a></h2>
+<p>As a means of offering a type of solution to the need for occasional local markup additions/extension, USFM recommends that any additional user generated markup should begin with <strong>\z</strong> (e.g. <code class="docutils literal"><span class="pre">\zMyMarker</span></code>). Markers in this namespace will not be considered a part of the USFM standard, or be generally supported in USFM aware applications. This namespace will acts as a type of &#8220;private use area&#8221;. It will be the user or tool builder&#8217;s responsibility to support support \z markup in ways which meet a local need. Other USFM processing tools cannot be expected to handle \z markup or associated text, and are free to ignore them when they are encountered in the text.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Scripture translation and publishing software <a class="reference external" href="http://paratext.org/about/pt">ParaTExt</a> and <a class="reference external" href="http://paratext.org/about/pa">Publishing Assistant</a> both provide a mechanism for adding information about user generated or customized markers to a specific project&#8217;s configuration. This makes it possible to support proper functioning of checking and formatting tools for the added markup.</p>
+</div>
+<p>However, it is much less likely that emerging digital publishing systems and work-flows will support user-generated/non-standardized project markup. Current procedures for interacting with these partner environments requires that translation data is delivered in rigidly validated formats which conform to specific agreed-upon interchange standards, such as the known USFM marker inventory, or some XML-based equivalents. Since connecting with these environments is much more exclusively software-driven than with many print production tools, encountering unknown markup within the publishing processes is a significant problem. Please consider this carefully before introducing non-standard USFM markup within a scripture translation project text.</p>
 <span class="target" id="syntax-documentation"></span></div>
-<div class="section" id="documentation-notes">
-<span id="index-3"></span><h2><a class="toc-backref" href="#id4">Documentation Notes</a><a class="headerlink" href="#documentation-notes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="documentation-syntax-notes">
+<span id="index-8"></span><h2><a class="toc-backref" href="#id8">Documentation Syntax Notes</a><a class="headerlink" href="#documentation-syntax-notes" title="Permalink to this headline">¶</a></h2>
 <p>The syntax for individual markers is presented in this manual in a code formatting style. For example:</p>
 <blockquote>
 <div><code class="docutils literal"><span class="pre">\usfm#(_text...)</span></code></div></blockquote>
@@ -265,7 +330,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

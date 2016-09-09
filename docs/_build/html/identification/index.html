@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Identification &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Identification &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="next" title="Book Identifiers" href="books.html"/>
         <link rel="prev" title="Syntax Notes" href="../about/syntax.html"/> 
 
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -91,20 +91,23 @@
 <li class="toctree-l2"><a class="reference internal" href="#index-2">\ide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sts">\sts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#rem">\rem</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#h">\h#</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#h">\h</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#toc">\toc#</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#iex">\iex</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
 </ul>
@@ -151,12 +154,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="index-0">
+  <div class="section" id="index-0">
 <span id="identification"></span><h1>Identification<a class="headerlink" href="#index-0" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
@@ -266,19 +264,22 @@ For adding brief comments by a translator, consultant, or support person. The te
 <hr class="docutils" />
 <span class="target" id="usfmp-h"></span></div>
 <div class="section" id="h">
-<span id="index-5"></span><h2>\h#<a class="headerlink" href="#h" title="Permalink to this headline">¶</a></h2>
+<span id="index-5"></span><h2>\h<a class="headerlink" href="#h" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\h#_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\h_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
 <tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Running header text. <br />
-The variable # represents distinct components or levels of text required for the running header presentation (e.g. inside, outside, sub-division/section etc.).</td>
+<tr class="field-even field"><th class="field-name">Amended:</th><td class="field-body">3.0</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Use:</th><td class="field-body">Running header text. <br />
+<strong>Deprecated</strong> use of numbered variable syntax (i.e. use is strongly discouraged). <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> <br />
+The variable # in <code class="docutils literal"><span class="pre">\h#_text...</span></code> represented distinct components or levels of text required for the running header presentation (e.g. inside, outside, sub-division/section etc.).</td>
 </tr>
 </tbody>
 </table>
@@ -335,7 +336,7 @@ The variable # represents distinct components or levels of text required for the
 </tr>
 <tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Introduction explanatory or bridge text (e.g. explanation of missing book in a short Old Testament). <br /></td>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Introduction explanatory or bridge text (e.g. explanation of missing book in a short Old Testament).</td>
 </tr>
 </tbody>
 </table>
@@ -382,7 +383,7 @@ The variable # represents distinct components or levels of text required for the
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

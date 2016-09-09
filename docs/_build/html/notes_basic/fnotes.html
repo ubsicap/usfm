@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Footnotes &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Footnotes &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="next" title="Cross References" href="xrefs.html"/>
         <link rel="prev" title="Tables" href="../tables/index.html"/> 
 
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -87,19 +87,20 @@
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Footnotes</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#f-f">\f ...\f*</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fe-fe">\fe ...\fe*</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#footnote-content-elements">Footnote Content Elements</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#fr">\fr</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#fk">\fk</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fq">\fq</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fqa">\fqa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fk">\fk</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fl">\fl</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fp">\fp</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fv-fv">\fv ...\fv*</a></li>
@@ -112,6 +113,8 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
 </ul>
@@ -158,12 +161,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="footnotes">
+  <div class="section" id="footnotes">
 <span id="index-0"></span><h1>Footnotes<a class="headerlink" href="#footnotes" title="Permalink to this headline">¶</a></h1>
 <p class="rubric" id="index-1">Footnote / Endnote Container</p>
 <p>Footnotes are entered inline within the main scripture body text. The boundaries of the footnote text are defined by an opening and closing marker. The individual elements which make up the note content are described under the heading <a class="reference internal" href="#usfmn-f-content"><span class="std std-ref">Footnote Content Elements</span></a> below.</p>
@@ -215,7 +213,7 @@
 </div>
 </div>
 <div class="section" id="fe-fe">
-<h2>\fe ...\fe*<a class="headerlink" href="#fe-fe" title="Permalink to this headline">¶</a></h2>
+<span id="index-3"></span><h2>\fe ...\fe*<a class="headerlink" href="#fe-fe" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -231,12 +229,12 @@
 </tbody>
 </table>
 <span class="target" id="usfmn-f-content"></span></div>
-<hr class="docutils" id="index-3" />
+<hr class="docutils" id="index-4" />
 <div class="section" id="footnote-content-elements">
 <h2>Footnote Content Elements<a class="headerlink" href="#footnote-content-elements" title="Permalink to this headline">¶</a></h2>
 <p>The following markup can be included as part of the footnote content:</p>
 <span class="target" id="usfmc-fr"></span><div class="section" id="fr">
-<span id="index-4"></span><h3>\fr<a class="headerlink" href="#fr" title="Permalink to this headline">¶</a></h3>
+<span id="index-5"></span><h3>\fr<a class="headerlink" href="#fr" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -250,25 +248,6 @@
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Footnote origin reference. <br />
 This is the chapter and verse(s) that note refers to. <br />
 <code class="docutils literal"><span class="pre">SEP</span></code> indicates where the appropriate chapter/verse separator should be used (i.e. colon &#8221;:&#8221;, full stop &#8221;.&#8221; etc.)</td>
-</tr>
-</tbody>
-</table>
-<hr class="docutils" />
-<span class="target" id="usfmc-fk"></span></div>
-<div class="section" id="fk">
-<span id="index-5"></span><h3>\fk<a class="headerlink" href="#fk" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\fk_text...</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Footnote keyword. <br />
-The specific keyword/term from the text for which the footnote is being provided.</td>
 </tr>
 </tbody>
 </table>
@@ -296,6 +275,19 @@ Longer quotations are sometimes shortened using an ellipsis (i.e. suspension dot
 <p class="first admonition-title">Note</p>
 <p class="last">Many existing translation texts have marked both quotations from the existing translation text, as well as alternative translations, using fq. An additional marker – <a class="reference internal" href="#usfmc-fqa"><span class="std std-ref">\fqa</span></a> – is provided for marking alternative translations, and can be used to distinguish between quotations and alternatives.</p>
 </div>
+<p><strong>Text and Formatting Samples - Quotations and Alternative Translations</strong> - Mark 1.1; 1.4 (GNT)</p>
+<div class="highlight-text" id="usfm-character-fq-fqa-example"><div class="highlight"><pre><span></span>\s1 The Preaching of John the Baptist
+\r (Matthew 3.1-12; Luke 3.1-18; John 1.19-28)
+\p
+<span class="hll">\v 1 This is the Good News about Jesus Christ, the Son of God. \f + \fr 1.1: \ft Some
+</span><span class="hll">manuscripts do not have \fq the Son of God.\f*
+</span>...
+</pre></div>
+</div>
+<p><em>Footnotes</em></p>
+<a class="reference internal image-reference" href="../_images/usfm-character_fq.jpg"><img alt="../_images/usfm-character_fq.jpg" src="../_images/usfm-character_fq.jpg" style="width: 550px;" /></a>
+<p><em>Footnote caller in body text</em></p>
+<a class="reference internal image-reference" href="../_images/usfm-character_fq-call.jpg"><img alt="../_images/usfm-character_fq-call.jpg" src="../_images/usfm-character_fq-call.jpg" style="width: 250px;" /></a>
 <hr class="docutils" />
 <span class="target" id="usfmc-fqa"></span></div>
 <div class="section" id="fqa">
@@ -316,9 +308,39 @@ Used to distinguish between a quotation of the current scripture text translatio
 </tbody>
 </table>
 <hr class="docutils" />
+<span class="target" id="usfmc-fk"></span></div>
+<div class="section" id="fk">
+<span id="index-8"></span><h3>\fk<a class="headerlink" href="#fk" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\fk_text...</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Footnote keyword. <br />
+The specific keyword/term from the text for which the footnote is being provided.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Text and Formatting Sample</strong> - Genesis 3.20 (GNT)</p>
+<div class="highlight-text" id="usfm-character-fk-example"><div class="highlight"><pre><span></span>\p
+<span class="hll">\v 20 Adam \f + \fr 3.20: \fk Adam: \ft This name in Hebrew means “all human beings.”\f*
+</span><span class="hll">named his wife Eve, \f + \fr 3.20: \fk Eve: \ft This name sounds similar to the Hebrew
+</span><span class="hll">word for “living,” which is rendered in this context as “human beings.”\f* because she
+</span>was the mother of all human beings.
+\v 21 And the \nd Lord\nd* God made clothes out of animal skins for Adam and his wife,
+and he clothed them.
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/usfm-character_fk.jpg"><img alt="../_images/usfm-character_fk.jpg" src="../_images/usfm-character_fk.jpg" style="width: 550px;" /></a>
+<hr class="docutils" />
 <span class="target" id="usfmc-fl"></span></div>
 <div class="section" id="fl">
-<span id="index-8"></span><h3>\fl<a class="headerlink" href="#fl" title="Permalink to this headline">¶</a></h3>
+<span id="index-9"></span><h3>\fl<a class="headerlink" href="#fl" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -337,7 +359,7 @@ Can be used for marking or &#8220;labeling&#8221; a word or words which are used
 <hr class="docutils" />
 <span class="target" id="usfmc-fp"></span></div>
 <div class="section" id="fp">
-<span id="index-9"></span><h3>\fp<a class="headerlink" href="#fp" title="Permalink to this headline">¶</a></h3>
+<span id="index-10"></span><h3>\fp<a class="headerlink" href="#fp" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -356,7 +378,7 @@ Use this marker to if you need to indicate the start of a new paragraph within a
 <hr class="docutils" />
 <span class="target" id="usfmc-fv"></span></div>
 <div class="section" id="fv-fv">
-<span id="index-10"></span><h3>\fv ...\fv*<a class="headerlink" href="#fv-fv" title="Permalink to this headline">¶</a></h3>
+<span id="index-11"></span><h3>\fv ...\fv*<a class="headerlink" href="#fv-fv" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -376,10 +398,22 @@ Use this marker to if you need to indicate the start of a new paragraph within a
 <p class="first admonition-title">Note</p>
 <p class="last">This marker will typically be nested within another footnote content element, like <a class="reference internal" href="#usfmc-ft"><span class="std std-ref">\ft</span></a>, <a class="reference internal" href="#usfmc-fq"><span class="std std-ref">\fq</span></a> or <a class="reference internal" href="#usfmc-fqa"><span class="std std-ref">\fqa</span></a>. See <a class="reference internal" href="../characters/nesting.html"><span class="doc">Nesting Character Markup</span></a> for details.</p>
 </div>
+<p><strong>Text and Formatting Sample</strong> - John 7.38 (GNT)</p>
+<div class="highlight-text" id="usfm-character-fv-example"><div class="highlight"><pre><span></span>\p
+\v 37 On the last and most important day of the festival Jesus stood up and said in a
+loud voice, “Whoever is thirsty should come to me, and
+\v 38 whoever believes in me should drink. As the scripture says, ‘Streams of life-
+giving water will pour out from his side.’” \f + \fr 7.38: \ft Jesus&#39; words in verses
+37-38 may be translated: \fqa “Whoever is thirsty should come to me and drink.
+<span class="hll">\fv 38\fv* As the scripture says, ‘Streams of life-giving water will pour out from
+</span>within anyone who believes in me.’”\f*
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/usfm-character_fv.jpg"><img alt="../_images/usfm-character_fv.jpg" src="../_images/usfm-character_fv.jpg" style="width: 550px;" /></a>
 <hr class="docutils" />
 <span class="target" id="usfmc-ft"></span></div>
 <div class="section" id="ft">
-<span id="index-11"></span><h3>\ft<a class="headerlink" href="#ft" title="Permalink to this headline">¶</a></h3>
+<span id="index-12"></span><h3>\ft<a class="headerlink" href="#ft" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -398,7 +432,7 @@ The essential (explanatory) text of the footnote.</td>
 <hr class="docutils" />
 <span class="target" id="usfmc-fdc"></span></div>
 <div class="section" id="fdc-fdc">
-<span id="index-12"></span><h3>\fdc ...\fdc*<a class="headerlink" href="#fdc-fdc" title="Permalink to this headline">¶</a></h3>
+<span id="index-13"></span><h3>\fdc ...\fdc*<a class="headerlink" href="#fdc-fdc" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -409,15 +443,29 @@ The essential (explanatory) text of the footnote.</td>
 </tr>
 <tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Footnote Deuterocanonical content. <br />
-Text between these markers is material to be included only in published editions that contain the Deuterocanonical books.</td>
+<tr class="field-even field"><th class="field-name">Deprecated:</th><td class="field-body">3.0 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Use:</th><td class="field-body">Footnote Deuterocanonical content. <br />
+Text between these markers is material to be included only in published editions that contain the Deuterocanonical books. <br />
+<strong>Deprecated</strong> (i.e. use is discouraged). <br /> <br />
+<a class="reference internal" href="../_images/icon-check-green.png"><img alt="ico_Cg" src="../_images/icon-check-green.png" style="width: 16px; height: 16px;" /></a> <em>Recommended alternate:</em> General purpose use of <a class="reference internal" href="../characters/index.html#usfmc-dc"><span class="std std-ref">\dc ...\dc*</span></a> or <a class="reference internal" href="../characters/nesting.html"><span class="doc">nested</span></a> <code class="docutils literal"><span class="pre">\+dc</span> <span class="pre">...\+dc*</span></code> wherever DC-only content is being marked.</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Text and Formatting Sample</strong> - Hebrews 1.3 (Spanish DHE)</p>
+<div class="highlight-text" id="usfm-character-fdc-example"><div class="highlight"><pre><span></span>\v 3 Él es el resplandor glorioso de Dios,\f c \fr 1.3: \fk Resplandor: \ft Cf.
+<span class="hll">Jn 1.4-9,14\fdc ; también Sab 7.25-26, donde algo parecido se dice de la sabiduría.\f*
+</span>la imagen misma de lo que Dios es y el que sostiene todas las cosas con su palabra
+poderosa. Después de limpiarnos de nuestros pecados, se ha sentado en el cielo, a la
+derecha del trono de Dios,
+\v 4 y ha llegado a ser superior a los ángeles, pues ha recibido en herencia un título
+mucho más importante que el de ellos.
+</pre></div>
+</div>
 <hr class="docutils" />
 <span class="target" id="usfmc-fm"></span></div>
 <div class="section" id="fm-fm">
-<span id="index-13"></span><h3>\fm ...\fm*<a class="headerlink" href="#fm-fm" title="Permalink to this headline">¶</a></h3>
+<span id="index-14"></span><h3>\fm ...\fm*<a class="headerlink" href="#fm-fm" title="Permalink to this headline">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -436,54 +484,6 @@ Used where two or more locations in the scripture text should ideally refer the 
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">Because the nature of this marker is related directly to the published form of the text, it is not intended for use in scripture authoring. It may be used during the publishing process to connect two callers to the same footnote text.</p>
-</div>
-<hr class="docutils" />
-<p class="rubric">Text and Formatting Samples</p>
-<p><strong>Quotations and Alternative Translations</strong> - Mark 1.1; 1.4 (GNT)</p>
-<div class="highlight-text" id="usfm-character-fq-fqa-example"><div class="highlight"><pre><span></span>\s1 The Preaching of John the Baptist
-\r (Matthew 3.1-12; Luke 3.1-18; John 1.19-28)
-\p
-<span class="hll">\v 1 This is the Good News about Jesus Christ, the Son of God. \f + \fr 1.1: \ft Some
-</span><span class="hll">manuscripts do not have \fq the Son of God.\f*
-</span>...
-</pre></div>
-</div>
-<p><em>Footnotes</em></p>
-<a class="reference internal image-reference" href="../_images/usfm-character_fq.jpg"><img alt="../_images/usfm-character_fq.jpg" src="../_images/usfm-character_fq.jpg" style="width: 550px;" /></a>
-<p><em>Footnote caller in body text</em></p>
-<a class="reference internal image-reference" href="../_images/usfm-character_fq-call.jpg"><img alt="../_images/usfm-character_fq-call.jpg" src="../_images/usfm-character_fq-call.jpg" style="width: 250px;" /></a>
-<p><strong>Keywords</strong> - Genesis 3.20 (GNT)</p>
-<div class="highlight-text" id="usfm-character-fk-example"><div class="highlight"><pre><span></span>\p
-<span class="hll">\v 20 Adam \f + \fr 3.20: \fk Adam: \ft This name in Hebrew means “all human beings.”\f*
-</span><span class="hll">named his wife Eve, \f + \fr 3.20: \fk Eve: \ft This name sounds similar to the Hebrew
-</span><span class="hll">word for “living,” which is rendered in this context as “human beings.”\f* because she
-</span>was the mother of all human beings.
-\v 21 And the \nd Lord\nd* God made clothes out of animal skins for Adam and his wife,
-and he clothed them.
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/usfm-character_fk.jpg"><img alt="../_images/usfm-character_fk.jpg" src="../_images/usfm-character_fk.jpg" style="width: 550px;" /></a>
-<p><strong>Footnote Verse</strong> - John 7.38 (GNT)</p>
-<div class="highlight-text" id="usfm-character-fv-example"><div class="highlight"><pre><span></span>\p
-\v 37 On the last and most important day of the festival Jesus stood up and said in a
-loud voice, “Whoever is thirsty should come to me, and
-\v 38 whoever believes in me should drink. As the scripture says, ‘Streams of life-
-giving water will pour out from his side.’” \f + \fr 7.38: \ft Jesus&#39; words in verses
-37-38 may be translated: \fqa “Whoever is thirsty should come to me and drink.
-<span class="hll">\fv 38\fv* As the scripture says, ‘Streams of life-giving water will pour out from
-</span>within anyone who believes in me.’”\f*
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/usfm-character_fv.jpg"><img alt="../_images/usfm-character_fv.jpg" src="../_images/usfm-character_fv.jpg" style="width: 550px;" /></a>
-<p><strong>Deuterocanonical Content</strong> - Hebrews 1.3 (Spanish DHE)</p>
-<div class="highlight-text" id="usfm-character-fdc-example"><div class="highlight"><pre><span></span>\v 3 Él es el resplandor glorioso de Dios,\f c \fr 1.3: \fk Resplandor: \ft Cf.
-<span class="hll">Jn 1.4-9,14\fdc ; también Sab 7.25-26, donde algo parecido se dice de la sabiduría.\f*
-</span>la imagen misma de lo que Dios es y el que sostiene todas las cosas con su palabra
-poderosa. Después de limpiarnos de nuestros pecados, se ha sentado en el cielo, a la
-derecha del trono de Dios,
-\v 4 y ha llegado a ser superior a los ángeles, pues ha recibido en herencia un título
-mucho más importante que el de ellos.
-</pre></div>
 </div>
 </div>
 </div>
@@ -529,7 +529,7 @@ mucho más importante que el de ellos.
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

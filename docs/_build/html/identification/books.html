@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Book Identifiers &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Book Identifiers &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="up" title="Identification" href="index.html"/>
         <link rel="next" title="Introductions" href="../introductions/index.html"/>
         <link rel="prev" title="Identification" href="index.html"/> 
@@ -63,7 +63,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -92,20 +92,23 @@
 <li class="toctree-l2"><a class="reference internal" href="index.html#index-2">\ide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#sts">\sts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#rem">\rem</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#h">\h#</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#h">\h</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#toc">\toc#</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#iex">\iex</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
 </ul>
@@ -154,14 +157,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="book-identifiers">
+  <div class="section" id="book-identifiers">
 <span id="index-0"></span><h1>Book Identifiers<a class="headerlink" href="#book-identifiers" title="Permalink to this headline">¶</a></h1>
-<p>This table lists all the standard 3-character book identifiers that can be entered after id marker at the top of each USFM file. Some scripture editors like <a class="reference external" href="http://paratext.org">Paratext</a> may also include the number shown for each book in the filename for that book.</p>
+<p>This table lists all the standard 3-character book identifiers that can be entered after the \id marker at the top of each USFM file. Some scripture editors like <a class="reference external" href="http://paratext.org">ParaTExt</a> may also include the number shown for each book in the filename for that book.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="10%" />
@@ -741,6 +739,46 @@ as chapter 1, used in the Ethiopian Bible</td>
 <td>A Latin Vulgate book, found in the Vulgate <br />
 and some medieval Catholic translations</td>
 </tr>
+<tr class="row-odd"><td>A0</td>
+<td>FRT</td>
+<td>Front Matter</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>A1</td>
+<td>BAK</td>
+<td>Back Matter</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>A2</td>
+<td>OTH</td>
+<td>Other Matter</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>A7</td>
+<td>INT</td>
+<td>Introduction Matter</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>A8</td>
+<td>CNC</td>
+<td>Concordance</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>A9</td>
+<td>GLO</td>
+<td>Glossary / Wordlist</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>B0</td>
+<td>TDX</td>
+<td>Topical Index</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>B1</td>
+<td>NDX</td>
+<td>Names Index</td>
+<td>&nbsp;</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -785,7 +823,7 @@ and some medieval Catholic translations</td>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

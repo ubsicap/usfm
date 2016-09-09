@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Tables &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Tables &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,9 +32,9 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="next" title="Footnotes" href="../notes_basic/fnotes.html"/>
-        <link rel="prev" title="Poetry" href="../poetry/index.html"/> 
+        <link rel="prev" title="Lists" href="../lists/index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -87,10 +87,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tables</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#tr">\tr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#th">\th#</a></li>
@@ -102,6 +103,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
 </ul>
@@ -148,12 +151,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="tables">
+  <div class="section" id="tables">
 <span id="index-0"></span><h1>Tables<a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h1>
 <span class="target" id="usfmp-tr"></span><div class="section" id="tr">
 <span id="index-1"></span><h2>\tr<a class="headerlink" href="#tr" title="Permalink to this headline">¶</a></h2>
@@ -183,12 +181,13 @@ Rows contain column <a class="reference internal" href="#usfmc-th"><span class="
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\th#_text...</span></code></td>
 </tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0 (updated 3.0 - column spanning)</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Table column heading. <br />
-The variable # represents the table column number.</td>
+The variable # represents the table column number. <br /> <br />
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> Use a dash <code class="docutils literal"><span class="pre">-</span></code> between a range of column numbers to indicate that the columns should be spanned.</td>
 </tr>
 </tbody>
 </table>
@@ -201,12 +200,13 @@ The variable # represents the table column number.</td>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\thr#_text...</span></code></td>
 </tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0 (updated 3.0 - column spanning)</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Right aligned table column heading. <br />
-The variable # represents the table column number.</td>
+The variable # represents the table column number. <br /> <br />
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> Use a dash <code class="docutils literal"><span class="pre">-</span></code> between a range of column numbers to indicate that the columns should be spanned.</td>
 </tr>
 </tbody>
 </table>
@@ -231,7 +231,7 @@ their groups, under their leaders, as follows:
 </span>\tr \tc1 Reuben \tc2 Elizur son of Shedeur \tcr3 46,500
 \tr \tc1 Simeon \tc2 Shelumiel son of Zurishaddai \tcr3 59,300
 \tr \tc1 Gad \tc2 Eliasaph son of Deuel \tcr3 45,650
-\tr \tcr2 Total: \tcr3 151,450
+\tr \tcr1-2 Total: \tcr3 151,450
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/usfm-character_thr.jpg"><img alt="../_images/usfm-character_thr.jpg" src="../_images/usfm-character_thr.jpg" style="width: 250px;" /></a>
@@ -245,12 +245,13 @@ their groups, under their leaders, as follows:
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\tc#_text...</span></code></td>
 </tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0 (updated 3.0 - column spanning)</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Table cell. <br />
-The variable # represents the table column number.</td>
+The variable # represents the table column number. <br /> <br />
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> Use a dash <code class="docutils literal"><span class="pre">-</span></code> between a range of column numbers to indicate that the columns should be spanned.</td>
 </tr>
 </tbody>
 </table>
@@ -263,12 +264,13 @@ The variable # represents the table column number.</td>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\tcr#_text...</span></code></td>
 </tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0 (updated 3.0 - column spanning)</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Right aligned table cell. <br />
-The variable # represents the table column number.</td>
+The variable # represents the table column number. <br /> <br />
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> Use a dash <code class="docutils literal"><span class="pre">-</span></code> between a range of column numbers to indicate that the columns should be spanned.</td>
 </tr>
 </tbody>
 </table>
@@ -280,14 +282,14 @@ their groups, under their leaders, as follows:
 <span class="hll">\tr \tc1 Reuben \tc2 Elizur son of Shedeur \tcr3 46,500
 </span><span class="hll">\tr \tc1 Simeon \tc2 Shelumiel son of Zurishaddai \tcr3 59,300
 </span><span class="hll">\tr \tc1 Gad \tc2 Eliasaph son of Deuel \tcr3 45,650
-</span><span class="hll">\tr \tc1 \tcr2 Total: \tcr3 151,450
+</span><span class="hll">\tr \tcr1-2 Total: \tcr3 151,450
 </span></pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/usfm-character_tc.jpg"><img alt="../_images/usfm-character_tc.jpg" src="../_images/usfm-character_tc.jpg" style="width: 250px;" /></a>
-<div class="admonition warning">
+<span class="target" id="usfmc-table-colspan"></span><div class="admonition warning" id="index-6">
 <p class="first admonition-title">Warning</p>
-<p class="last">Markup for empty table cells:
-As shown in the example for <a class="reference internal" href="#usfmc-tc"><span class="std std-ref">\tc#</span></a> (above), an empty table cell still requires a corresponding marker in the table text. The following markup would be incorrect: <code class="docutils literal"><span class="pre">\tr</span> <span class="pre">\tcr2</span> <span class="pre">Total:</span> <span class="pre">\tcr3</span> <span class="pre">151,450</span></code></p>
+<p class="last"><strong>Empty table cells:</strong>
+An empty table cell still requires a corresponding marker in the table text. Alternatively, indicate that a cell spans multiple columns by indicating a column range <code class="docutils literal"><span class="pre">\tr</span> <span class="pre">\tcr1-2</span> <span class="pre">Total:</span> <span class="pre">\tcr3</span> <span class="pre">151,450</span></code>.</p>
 </div>
 </div>
 </div>
@@ -302,7 +304,7 @@ As shown in the example for <a class="reference internal" href="#usfmc-tc"><span
         <a href="../notes_basic/fnotes.html" class="btn btn-neutral float-right" title="Footnotes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../poetry/index.html" class="btn btn-neutral" title="Poetry" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../lists/index.html" class="btn btn-neutral" title="Lists" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -332,7 +334,7 @@ As shown in the example for <a class="reference internal" href="#usfmc-tc"><span
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

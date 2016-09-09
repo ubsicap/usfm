@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Character Marker Nesting &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Character Marker Nesting &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,9 +32,9 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="up" title="Words and Characters" href="index.html"/>
-        <link rel="next" title="Peripherals" href="../peripherals/index.html"/>
+        <link rel="next" title="Word Level Attributes" href="attributes.html"/>
         <link rel="prev" title="Words and Characters" href="index.html"/> 
 
   
@@ -63,7 +63,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -88,10 +88,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
@@ -100,12 +101,16 @@
 <li class="toctree-l3"><a class="reference internal" href="#indicating-that-a-character-marker-is-nested">Indicating that a character marker is nested</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linking.html">Linking Attributes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#special-text">Special Text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#character-styling">Character Styling</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#spacing-and-breaks">Spacing and Breaks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#special-features">Special Features</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linking.html">Linking Attributes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
 </ul>
@@ -154,12 +159,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="character-marker-nesting">
+  <div class="section" id="character-marker-nesting">
 <span id="index-0"></span><h1>Character Marker Nesting<a class="headerlink" href="#character-marker-nesting" title="Permalink to this headline">¶</a></h1>
 <p>In USFM, character level markup is applied to text within a containing <a class="reference internal" href="../paragraphs/index.html"><span class="doc">paragraph</span></a> element like <a class="reference internal" href="../paragraphs/index.html#usfmp-p"><span class="std std-ref">\p</span></a> or <a class="reference internal" href="../poetry/index.html#usfmp-q"><span class="std std-ref">\q1</span></a>. <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">Footnotes</span></a> and <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross references</span></a> are marked using a containing element pair like <code class="docutils literal"><span class="pre">\f</span> <span class="pre">...\f*</span></code> or <code class="docutils literal"><span class="pre">\x</span> <span class="pre">...\x*</span></code>. The USFM markup used within note elements (like <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-fq"><span class="std std-ref">\fq</span></a> or <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-ft"><span class="std std-ref">\ft</span></a> etc.) are also a type of character level marker.</p>
 <p>In some scripture translation texts, the USFM markup required to properly mark the types of content within the text will result in one character level marker being “nested” within another character level marker. In this situation it is critical that the editing and publishing environments used for working with the text understand how to interpret, present, and validate the nested markup contexts. Normally, in Paratext, the start of a new character level marker environment is also recognized by the program as an implicit closure of the the previous character environment. When a nested character markup is actually intended, the meaning and formatting applied to the outer layer of the nested markup context should also apply to the inner level(s). The inner markup communicates an additional meaning and formatting for the nested text.</p>
@@ -217,7 +217,7 @@ any rain, and there was no one to cultivate the land;
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../peripherals/index.html" class="btn btn-neutral float-right" title="Peripherals" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="attributes.html" class="btn btn-neutral float-right" title="Word Level Attributes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="Words and Characters" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -250,7 +250,7 @@ any rain, and there was no one to cultivate the land;
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

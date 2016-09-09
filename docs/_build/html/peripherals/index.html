@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Peripherals &mdash; Unified Standard Formal Markers 2.500 documentation</title>
+  <title>Peripherals &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
   
 
   
@@ -32,9 +32,9 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 2.500 documentation" href="../index.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
         <link rel="next" title="Front Matter (\id FRT)" href="front.html"/>
-        <link rel="prev" title="Character Marker Nesting" href="../characters/nesting.html"/> 
+        <link rel="prev" title="Linking Attributes" href="../characters/linking.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.5
+                3.0
               </div>
             
           
@@ -87,25 +87,29 @@
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Heading, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/attributes.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/linking.html">Linking Attributes</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Peripherals</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#peripheral-books-and-divisions">Peripheral Books and Divisions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#user-defined-peripheral-content-divisions">User defined peripheral content divisions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#usfm-markup-for-peripherals">USFM Markup for Peripherals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#peripheral-identifiers">Peripheral Identifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-defined-peripheral-divisions">User Defined Peripheral Divisions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markup-for-peripheral-divisions">Markup for Peripheral Divisions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="front.html">Front Matter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="intros.html">Introductions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="back.html">Back Matter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="other.html">Other</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#authoring-peripheral-materials-within-paratext">Authoring peripheral materials within Paratext</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#authoring-peripheral-materials-within-paratext">Authoring peripheral materials within ParaTExt</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
@@ -153,17 +157,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <style> .red {color:red} </style>
-<style> .orange {color:orange} </style>
-<style> .green {color:green} </style>
-<style> .red-bd {color:red;  font-weight: bold} </style>
-<style> .orange-bd {color:orange;  font-weight: bold} </style>
-<style> .green-bd {color:green;  font-weight: bold} </style><div class="section" id="peripherals">
+  <div class="section" id="peripherals">
 <span id="index-0"></span><h1>Peripherals<a class="headerlink" href="#peripherals" title="Permalink to this headline">¶</a></h1>
-<p>The following represents a strategy for applying USFM markup to various peripheral content elements which may be prepared for publication in addition to the scripture body text. Peripheral content markup is accomplished through re-purposing the most appropriate existing USFM marker for the current content type.</p>
-<p>As with scripture text books, an <a class="reference internal" href="../identification/index.html#usfmp-id"><span class="std std-ref">\id</span></a> marker is used for identifying the content of the peripheral file. Content should be created in separate book files according to the following general groupings. Within each book, divisions (sub-sections) of content are denoted using the marker <code class="docutils literal"><span class="pre">\periph</span></code> followed by an additional division argument/title. In practice we find that some back matter content is large enough to require storing it in its own book file (Concordance, Glossary, Topical Index, Names Index).</p>
-<div class="section" id="peripheral-books-and-divisions">
-<h2>Peripheral Books and Divisions<a class="headerlink" href="#peripheral-books-and-divisions" title="Permalink to this headline">¶</a></h2>
+<p>The following strategy should be used for applying USFM markup to project peripheral contents.</p>
+<p>Content should be created in separate <a class="reference internal" href="../identification/books.html"><span class="doc">book</span></a> files according to the general groupings presented in the table below. As with scripture text books, an <a class="reference internal" href="../identification/index.html#usfmp-id"><span class="std std-ref">\id</span></a> marker is used for identifying the overall content of the peripheral file. Within each book, divisions (sub-sections) of content are denoted using the marker <code class="docutils literal"><span class="pre">\periph</span></code> followed by an additional division title. Content is added to books and divisions by re-purposing the most appropriate existing USFM marker for the selected content.</p>
+<p>Some back matter content is large enough that it is most practical to store it within its own book file (Concordance, Glossary, Topical Index, Names Index). Content self contained within a separate book file does not require an additional identifier (only <a class="reference internal" href="../identification/index.html#usfmp-id"><span class="std std-ref">\id</span></a>).</p>
+<span class="target" id="periph-div"></span><div class="section" id="peripheral-books-and-divisions">
+<span id="index-1"></span><h2>Peripheral Books and Divisions<a class="headerlink" href="#peripheral-books-and-divisions" title="Permalink to this headline">¶</a></h2>
 <table border="1" class="docutils">
 <colgroup>
 <col width="33%" />
@@ -175,7 +175,7 @@
 (\id FRT)</th>
 <th class="head"><a class="reference internal" href="intros.html"><span class="doc">Introductions</span></a>
 (\id INT)</th>
-<th class="head"><a class="reference internal" href="back.html"><span class="doc">BackMatter</span></a>
+<th class="head"><a class="reference internal" href="back.html"><span class="doc">Back Matter</span></a>
 (\id BAK)</th>
 </tr>
 </thead>
@@ -184,76 +184,134 @@
 <td><strong>Divisions</strong></td>
 <td><strong>Divisions</strong></td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Title</span> <span class="pre">Page</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Bible</span> <span class="pre">Intorduction</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Chronology</span> <span class="pre">Test</span></code></td>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Title</span> <span class="pre">Page</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;title&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Bible</span> <span class="pre">Intorduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intbible&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Chronology</span> <span class="pre">Test</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;chron&quot;</span></code></td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Half</span> <span class="pre">Title</span> <span class="pre">Page</span></code></td>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Half</span> <span class="pre">Title</span> <span class="pre">Page</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;halftitle&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Old</span> <span class="pre">Testament</span>
-<span class="pre">Introduction</span></code></td>
+<span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intot&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Weights</span> <span class="pre">and</span>
-<span class="pre">Measures</span></code></td>
+<span class="pre">Measures</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;measures&quot;</span></code></td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Promotional</span> <span class="pre">Page</span></code></td>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Promotional</span> <span class="pre">Page</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;promo&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Pentateuch</span>
-<span class="pre">Introduction</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Map</span> <span class="pre">Index</span></code></td>
+<span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intpent&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Map</span> <span class="pre">Index</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;maps&quot;</span></code></td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Imprimatur</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">History</span> <span class="pre">Introduction</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">NT</span> <span class="pre">Quotes</span> <span class="pre">in</span> <span class="pre">LXX</span></code></td>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Imprimatur</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;imprimatur&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">History</span> <span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;inthistory&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">LXX</span> <span class="pre">Quotes</span> <span class="pre">in</span> <span class="pre">NT</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;lxxquotes&quot;</span></code></td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Publication</span> <span class="pre">Data</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Poetry</span> <span class="pre">Introduction</span></code></td>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Publication</span> <span class="pre">Data</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;pubdata&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Poetry</span> <span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intpoetry&quot;</span></code></td>
 <td><strong>Additional Back Matter</strong></td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Foreword</span></code></td>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Foreword</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;foreword&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Prophecy</span>
-<span class="pre">Introduction</span></code></td>
+<span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intprophesy&quot;</span></code></td>
 <td>Concordance (\id CNC)</td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Preface</span></code></td>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Preface</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;preface&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Deuterocanon</span>
-<span class="pre">Introduction</span></code></td>
+<span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intdc&quot;</span></code></td>
 <td>Glossary (id GLO)</td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Table</span> <span class="pre">of</span> <span class="pre">Contents</span></code></td>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Table</span> <span class="pre">of</span> <span class="pre">Contents</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;contents&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">New</span> <span class="pre">Testament</span>
-<span class="pre">Introduction</span></code></td>
+<span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intnt&quot;</span></code></td>
 <td>Topical Index (id TDX)</td>
 </tr>
 <tr class="row-odd"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Alphabetical</span>
-<span class="pre">Contents</span></code></td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Gospels</span> <span class="pre">Introduction</span></code></td>
+<span class="pre">Contents</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;alphacontents&quot;</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Gospels</span> <span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intgospels&quot;</span></code></td>
 <td>Names Index (id NDX)</td>
 </tr>
 <tr class="row-even"><td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Table</span> <span class="pre">of</span>
-<span class="pre">Abbreviations</span></code></td>
+<span class="pre">Abbreviations</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;abbreviations&quot;</span></code></td>
 <td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Epistles</span>
-<span class="pre">Introduction</span></code></td>
-<td><a class="reference internal" href="other.html"><span class="doc">Other</span></a></td>
+<span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intepistles&quot;</span></code></td>
+<td><a class="reference internal" href="other.html"><span class="doc">Other</span></a>
+<strong>(\id OTH)</strong></td>
 </tr>
 <tr class="row-odd"><td>&nbsp;</td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Letters</span> <span class="pre">Introduction</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Letters</span> <span class="pre">Introduction</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;intletters&quot;</span></code></td>
 <td><strong>Divisions</strong></td>
 </tr>
 <tr class="row-even"><td>&nbsp;</td>
 <td>&nbsp;</td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Cover</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Cover</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;cover&quot;</span></code></td>
 </tr>
 <tr class="row-odd"><td>&nbsp;</td>
 <td>&nbsp;</td>
-<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Spine</span></code></td>
+<td><code class="docutils literal"><span class="pre">\periph</span> <span class="pre">Spine</span></code>
+<br /> <code class="docutils literal"><span class="pre">|id=&quot;spine&quot;</span></code></td>
 </tr>
 </tbody>
 </table>
 </div>
-<div class="section" id="user-defined-peripheral-content-divisions">
-<h2>User defined peripheral content divisions<a class="headerlink" href="#user-defined-peripheral-content-divisions" title="Permalink to this headline">¶</a></h2>
-<p>As needed, a user may add peripheral content for a division not defined in the list above. The new division should begin with periph, plus a division argument/title. However, USFM compliant publishing applications should use the list presented here as a reference for content to support.</p>
+<div class="section" id="peripheral-identifiers">
+<span id="periph-id"></span><span id="index-2"></span><h2>Peripheral Identifiers<a class="headerlink" href="#peripheral-identifiers" title="Permalink to this headline">¶</a></h2>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
+<p>For peripheral books containing <a class="reference internal" href="#periph-div"><span class="std std-ref">divisions</span></a>, the division title is free-form, and may be expressed in the vernacular language. Whenever possible, a peripheral identifier should be associated with a <code class="docutils literal"><span class="pre">\periph</span></code> division marker. A set of standardized identifiers allow software processes to easily select content for recognized peripheral divisions. The syntax for peripheral identifiers follows the syntax for <a class="reference internal" href="../characters/attributes.html"><span class="doc">word level attributes</span></a>: attribute = &#8220;value&#8221;. The attribute name is <code class="docutils literal"><span class="pre">id</span></code>. The value is wrapped in quotes.</p>
+<p><strong>Text sample with division identifier attributes:</strong></p>
+<div class="highlight-text"><div class="highlight"><pre><span></span>\id FRT
+...
+\periph Title Page|id=&quot;title&quot;
+\mt1 Holy Bible
+\mt3 with
+\mt2 Deuterocanonicals/Apocrypha
+...
+\periph Foreword|id=&quot;foreword&quot;
+\h Foreword
+\mt1 Foreword
+\p The \bk Good News Translation\bk* of the Bible is a translation which seeks to state
+clearly and accurately the meaning of the original texts in words and forms that are widely
+accepted by people who use English as a means of communication.
+...
+\periph Table of Contents|id=&quot;contents&quot;
+\h Table of Contents
+\mt Contents
+\s Old Testament
+\tr  \th1 Name  \thr2 Page \th3 Name \thr4 Page
+\tr \tc1 Genesis \tcr2 # \tc3 Ecclesiastes \tcr4 #
+...
+</pre></div>
 </div>
-<div class="section" id="usfm-markup-for-peripherals">
-<h2>USFM Markup for Peripherals<a class="headerlink" href="#usfm-markup-for-peripherals" title="Permalink to this headline">¶</a></h2>
+<p>Defined peripheral <code class="docutils literal"><span class="pre">id</span></code> values are shown in the peripheral <a class="reference internal" href="#periph-div"><span class="std std-ref">divisions</span></a> table above.</p>
+</div>
+<div class="section" id="user-defined-peripheral-divisions">
+<span id="periph-div-user"></span><span id="index-3"></span><h2>User Defined Peripheral Divisions<a class="headerlink" href="#user-defined-peripheral-divisions" title="Permalink to this headline">¶</a></h2>
+<p>A project may add peripheral content for a division not defined in the current USFM set. The new division should begin with <code class="docutils literal"><span class="pre">\periph</span></code>, plus a division title, and a user defined identifier using the prefix <code class="docutils literal"><span class="pre">x-</span></code> to a user defined <code class="docutils literal"><span class="pre">id</span></code> value. However, USFM compliant publishing applications should consider the defined <a class="reference internal" href="#periph-div"><span class="std std-ref">divisions</span></a> and identifiers as a reference for content to support.</p>
+</div>
+<div class="section" id="markup-for-peripheral-divisions">
+<h2>Markup for Peripheral Divisions<a class="headerlink" href="#markup-for-peripheral-divisions" title="Permalink to this headline">¶</a></h2>
 <p>In the following topics there is a recommendation and a brief description of the USFM markers which will be most appropriate for use in each peripheral content division. The recommended markup is sufficient for most projects and should be used as a first option. However, in general, any of the existing USFM standard markers may be used in addition to the recommended markers, if the required content cannot be adequately encoded.</p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -266,8 +324,8 @@
 <p>Any non-standard markers used in these books will need to be added to the stylesheet associated with the project.</p>
 </div>
 <div class="section" id="authoring-peripheral-materials-within-paratext">
-<h2>Authoring peripheral materials within Paratext<a class="headerlink" href="#authoring-peripheral-materials-within-paratext" title="Permalink to this headline">¶</a></h2>
-<p>ParaTExt includes the named peripheral books FRT, INT, BAK, CNC, GLO, TDX, NDX, and OTH in addition to a set of books named from XXA to XXG. These non-Biblical books appear at the end of a project&#8217;s list of books, and may be used to author the non-biblical text for Front Matter, Back Matter, Introductions, or any other kind of text which should be stored as part of the translation project.</p>
+<h2>Authoring peripheral materials within ParaTExt<a class="headerlink" href="#authoring-peripheral-materials-within-paratext" title="Permalink to this headline">¶</a></h2>
+<p>ParaTExt includes the named peripheral <a class="reference internal" href="../identification/books.html"><span class="doc">books</span></a> FRT, INT, BAK, CNC, GLO, TDX, NDX, and OTH in addition to a set of books named from XXA to XXG. These non-Biblical books appear at the end of a project&#8217;s list of books, and may be used to author the non-biblical text for Front Matter, Back Matter, Introductions, or any other kind of text which should be stored as part of the translation project.</p>
 </div>
 </div>
 
@@ -281,7 +339,7 @@
         <a href="front.html" class="btn btn-neutral float-right" title="Front Matter (\id FRT)" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../characters/nesting.html" class="btn btn-neutral" title="Character Marker Nesting" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../characters/linking.html" class="btn btn-neutral" title="Linking Attributes" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -311,7 +369,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2.500',
+            VERSION:'3.0.rc1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

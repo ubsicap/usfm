@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Word Level Attributes &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
+        <link rel="up" title="Words and Characters" href="index.html"/>
+        <link rel="next" title="Linking Attributes" href="linking.html"/>
+        <link rel="prev" title="Character Marker Nesting" href="nesting.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Unified Standard Formal Markers
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Words and Characters</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="nesting.html">Character Marker Nesting</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Word Level Attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#general-syntax">General Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#default-attribute">Default Attribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multiple-attribute-values">Multiple Attribute Values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#backward-compatibility">Backward Compatibility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-defined-attributes">User Defined Attributes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#character-markers-providing-attributes">Character Markers Providing Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="linking.html">Linking Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#special-text">Special Text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#character-styling">Character Styling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#spacing-and-breaks">Spacing and Breaks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#special-features">Special Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Word Level Attributes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#general-syntax">General Syntax</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#default-attribute">Default Attribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#multiple-attribute-values">Multiple Attribute Values</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#backward-compatibility">Backward Compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-defined-attributes">User Defined Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#character-markers-providing-attributes">Character Markers Providing Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="linking.html">Linking Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Unified Standard Formal Markers</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Words and Characters</a> &raquo;</li>
+      
+    <li>Word Level Attributes</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/characters/attributes.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="word-level-attributes">
+<span id="index-0"></span><h1>Word Level Attributes<a class="headerlink" href="#word-level-attributes" title="Permalink to this headline">¶</a></h1>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
+<p>USFM 3.0 provides a general syntax for adding named attributes to character markers. Attributes contribute descriptive metadata about the marked content. The addition of marker attributes is a means of extending the meta information contained within in a USFM text.</p>
+<p>USFM will <em>formally</em> provide descriptive attributes for a <a class="reference internal" href="#attributes-markersproviding"><span class="std std-ref">subset</span></a> of character markers. Each marker in this set will have a defined list of attributes, which are relevant to the overall purpose of the marker.</p>
+<span class="target" id="attributes-syntax"></span><div class="section" id="general-syntax">
+<span id="index-1"></span><h2>General Syntax<a class="headerlink" href="#general-syntax" title="Permalink to this headline">¶</a></h2>
+<p>Within a character marker span, an attributes list is separated from the text content by a vertical bar <code class="docutils literal"><span class="pre">|</span></code>. Attributes are listed as pairs of <strong>name</strong> and corresponding <strong>value</strong> using the syntax: <code class="docutils literal"><span class="pre">attribute</span> <span class="pre">=</span> <span class="pre">&quot;value&quot;</span></code>. The attribute name is a single ASCII string. The value is wrapped in quotes.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-text"><div class="highlight"><pre><span></span>\w gracious|lemma=&quot;grace&quot;\w*
+</pre></div>
+</div>
+<span class="target" id="attributes-default"></span></div>
+<div class="section" id="default-attribute">
+<span id="index-2"></span><h2>Default Attribute<a class="headerlink" href="#default-attribute" title="Permalink to this headline">¶</a></h2>
+<p>When content is supplied in the position of a marker attribute, but without an explicit attribute name, the USFM specification defines a single default. Defaults are only provided for <a class="reference internal" href="#attributes-markersproviding"><span class="std std-ref">markers</span></a> which formally provide attributes in the current version of USFM.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-text"><div class="highlight"><pre><span></span>\w gracious|grace\w*
+</pre></div>
+</div>
+<p>... where the default attribute for <code class="docutils literal"><span class="pre">\w</span> <span class="pre">...\w*</span></code> is defined as being &#8220;lemma&#8221;. This allows a commonly used attribute (the default) to be expressed with as little additional markup as possible within the text.</p>
+<span class="target" id="attributes-multivalues"></span></div>
+<div class="section" id="multiple-attribute-values">
+<span id="index-3"></span><h2>Multiple Attribute Values<a class="headerlink" href="#multiple-attribute-values" title="Permalink to this headline">¶</a></h2>
+<p>In cases where more than one value should be provided for an attribute key, the author should provide a comma separated list within the value string.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-text"><div class="highlight"><pre><span></span>\w gracious|strong=&quot;H01234,G05485&quot;\w*
+</pre></div>
+</div>
+<p><a class="reference internal" href="../_images/icon-arrow_see.png"><img alt="ico_See" src="../_images/icon-arrow_see.png" style="width: 24px; height: 24px;" /></a> See the attributes for <a class="reference internal" href="index.html#usfmc-w-attr"><span class="std std-ref">\w ...\w*</span></a> for additional examples.</p>
+<span class="target" id="attributes-backward"></span></div>
+<div class="section" id="backward-compatibility">
+<span id="index-4"></span><h2>Backward Compatibility<a class="headerlink" href="#backward-compatibility" title="Permalink to this headline">¶</a></h2>
+<p>Any pre-existing markers which formally provide attributes in USFM 3.0 (or newer) may always continue to be used “un-decorated” (without attributes). <code class="docutils literal"><span class="pre">\w</span> <span class="pre">gracious\w*</span></code> remains valid USFM content.</p>
+<span class="target" id="attributes-userdefined"></span></div>
+<div class="section" id="user-defined-attributes">
+<span id="index-5"></span><h2>User Defined Attributes<a class="headerlink" href="#user-defined-attributes" title="Permalink to this headline">¶</a></h2>
+<p>Using the general syntax, attributes may be added to any character markers beyond the formally provided set for the current version of USFM. These will not be considered strictly USFM compliant, and there is no assurance that they will be supported by compliant software tools or processes. Future versions of USFM may formally provide additional attributes.</p>
+<p>Any user defined attributes must begin with the prefix <code class="docutils literal"><span class="pre">x-</span></code>.</p>
+<p><strong>Examples:</strong></p>
+<div class="highlight-text"><div class="highlight"><pre><span></span>\w gracious|x-myattr=&quot;metadata&quot;\w*
+\w gracious|lemma=&quot;grace&quot; x-myattr=&quot;metadata&quot;\w*
+</pre></div>
+</div>
+<span class="target" id="attributes-markersproviding"></span></div>
+<div class="section" id="character-markers-providing-attributes">
+<span id="index-6"></span><h2>Character Markers Providing Attributes<a class="headerlink" href="#character-markers-providing-attributes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="index.html#usfmc-w-attr"><span class="std std-ref">\w ...\w*</span></a> (lemma, strong)</li>
+<li><a class="reference internal" href="index.html#usfmc-fig-attr"><span class="std std-ref">\fig ...\fig*</span></a> (alt, src, size, loc, copy, ref) - harmonizing the USFM 2.x syntax for this marker with this attribute specification</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="linking.html" class="btn btn-neutral float-right" title="Linking Attributes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="nesting.html" class="btn btn-neutral" title="Character Marker Nesting" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, United Bible Societies.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'3.0.rc1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>
