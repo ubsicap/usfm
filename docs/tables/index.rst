@@ -134,5 +134,5 @@ Numbers 2.10-16 (GNT)
 
 .. warning:: 
 
-	Empty table cells:
+	**Empty table cells:**
 	An empty table cell still requires a corresponding marker in the table text. Alternatively, indicate that a cell spans multiple columns by indicating a column range ``\tr \tcr1-2 Total: \tcr3 151,450``.

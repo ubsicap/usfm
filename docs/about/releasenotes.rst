@@ -11,6 +11,57 @@ Release Notes
 
 -----
 
+.. _about_release_3.0:
+
+3.0
+^^^
+
+*September 2016*
+
+USFM 3.0 additions or revisions are highlighted throughout this documentation using the badge |badge_3.0|
+
+**Marker Additions**
+
+* Letter opening: :ref:`\\po <usfmp_po>`
+* List header and footer elements: :ref:`\\lh <usfmp_lh>` and :ref:`\\lf <usfmp_lf>`
+* Embedded list: :ref:`\\lim# <usfmp_lim#>`
+* Hebrew note: :ref:`\\qd <usfmp_qd>`
+* `Open discussion <https://github.com/ubsicap/usfm/issues/7>`_ - Translator's chunk marker
+* Aramaic wordlist entry: :ref:`\\wa ...\\wa\* <usfmc_wa>`
+* Geographic proper name (Chinese texts): :ref:`\\png ...\\png\* <usfmc_png>`
+* Target references "added" text: :ref:`\\xta ...\\xta\* <usfmc_xta>`
+* Published cross reference origin text: :ref:`\\xop ...\\xop\* <usfmc_xop>`
+* Structured list items: :ref:`\\lik ...\\lik\* <usfmc_lik>` and :ref:`\\liv# ...\\liv#\* <usfmc_liv#>`
+* List item total: :ref:`\\litl ...\\litl\* <usfmc_litl>`
+* Semantic division: :ref:`\\sd# <usfmp_sd#>`
+* Link text: :ref:`\\jmp ...\\jmp\* <usfmc_jmp>`
+* Common peripheral :ref:`identifiers <periph_div>`.
+* Ruby annotations (CJK texts): :ref:`\\rb ...\\rb\* <usfmc_rb>` and :ref:`\\rt ...\\rt\* <usfmc_rt>`
+
+**Marker Revisions**
+
+* Support citation form for wordlist / glossary text (update :ref:`\\w ...\\w\* <usfmc_w>`).
+* Support for explicit :ref:`table cell <usfmc_tc#>` column :ref:`spanning <usfmc_table_colspan>`.
+* Revised syntax for figures / illustrations applying descriptive :doc:`attributes </characters/attributes>`: :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
+* *Deprecate* cross reference and footnote DC content markers: :ref:`\\xdc ...\\xdc\* <usfmc_xdc>` and :ref:`\\fdc ...\\fdc\* <usfmc_fdc>`
+* *Deprecate* combined marker for proper name within translator's addition: :ref:`\\addpn ...\\addpn\* <usfmc_addpn>`
+* *Deprecate* numbered running header: :ref:`\\h# <usfmp_h>`
+* *Deprecate* pronunciation info marker: :ref:`\\pro ...\\pro\* <usfmc_pro>` in favour of :ref:`ruby annotations <usfmc_rb>` proposal.
+
+**Syntax and Features**
+
+* Syntax for assigning word-level descriptive :doc:`attributes </characters/attributes>`.
+
+    - Descriptive attributes for :ref:`\\w ...\\w\* <usfmc_w-attr>`
+    - Descriptive attributes for :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
+
+* Syntax for assigning word-level linking :doc:`attributes </characters/linking>`.
+* Syntax for peripheral (:doc:`\\periph </peripherals/index>`) :ref:`identifiers <periph_id>`.
+
+**Standard Reference**
+
+* Clarify and document specification regarding :ref:`whitespace <syntax_whitespace>` and :ref:`new lines <syntax_newline>`.
+
 .. _about_release_2.5:
 
 2.5
@@ -57,7 +108,7 @@ Version numbers for the base USFM stylesheet and the study Bible notes and sideb
 
 * Added study Bible cross reference marker :ref:`\\ex <usfmn_ex>` for adding additional cross-references to the notes project.
 
-Marker Revisions
+**Marker Revisions**
 
 * *DEPRECATED* - Study Bible footnote marker ``\fs`` for marking a footnote summary text.
 * Permit cross references to be added to the study Bible notes project.

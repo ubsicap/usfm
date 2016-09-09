@@ -189,7 +189,7 @@ Lists
 
 -----
 
-.. _usfmc_lit:
+.. _usfmc_litl:
 .. index:: marker; \litl ...\litl*, lists; list entry total
 
 \\litl ...\\litl\*
@@ -252,7 +252,7 @@ Standard USFM :doc:`table </tables/index>` structures can be challenging to disp
 
 	Structured lists are not strictly a replacement for table markup, but may prove to be a more flexible option for some types of tabular content.
 
-Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv#\* <usfmc_liv>` mark the content of list entries (:ref:`\\li <usfmp_li#>`) which are essentially a key + value pair. A key may have multiple values.
+Character marker pairs :ref:`\\lik ...\\lik\* <usfmc_lik>` and :ref:`\\liv# ...\\liv#\* <usfmc_liv#>` mark the content of list entries (:ref:`\\li <usfmp_li#>`) which are essentially a key + value pair. A key may have multiple values.
 
 -----
 
@@ -271,7 +271,7 @@ Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv
 
 -----
 
-.. _usfmc_liv:
+.. _usfmc_liv#:
 .. index:: marker; \liv# ...\liv#*, lists; list entry value
 
 \\liv# ...\\liv#\*

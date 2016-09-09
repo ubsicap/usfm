@@ -38,4 +38,4 @@ USFM Documentation
 .. Character Marker Attributes <characters/attributes>
    Linking <characters/linking>
 
-|ico_See| *See also* the documentation :ref:`Index <genindex>` page.
+|ico_See| *See also* the documentation :ref:`Index <genindex>` page and :doc:`Release Notes <about/releasenotes>`.
