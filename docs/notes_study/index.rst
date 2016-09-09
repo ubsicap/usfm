@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content, note (study)
+.. index:: study content, note; study
 
 Extended Study Content
 ======================

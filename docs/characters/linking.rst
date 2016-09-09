@@ -1,6 +1,7 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: linking attributes, attributes (linking)
+.. index:: linking
+	pair: attributes; linking
 
 Linking Attributes
 ==================
@@ -92,7 +93,7 @@ Reference to named target within the same project
 -----
 
 .. _usfmc_jmp:
-.. index:: marker (\jmp ...\jmp*)
+.. index:: marker; \jmp ...\jmp*
 
 \\jmp ...\\jmp\*
 ^^^^^^^^^^^^^^^^

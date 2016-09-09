@@ -6,7 +6,7 @@ Lists
 =====
 
 .. _usfmp_lh:
-.. index:: marker (\lh)
+.. index:: marker; \lh, lists; list header
 
 \\lh
 ^^^^
@@ -49,7 +49,7 @@ Lists
 -----
 
 .. _usfmp_li#:
-.. index:: marker (\li#)
+.. index:: marker; \li#, lists; list entry
 
 \\li#
 ^^^^^
@@ -57,7 +57,7 @@ Lists
 :Syntax: ``\li#(_text...)``
 :Type: paragraph
 :Added: 1.0
-:Use: List item. |br|
+:Use: List entry. |br|
 	An out-dented paragraph meant to highlight the items of a list. |br|
 	Lists may be used to markup the individual entries of a structure such as the days within the creation account, or the Decalogue (10 commandments). |br|
 	The variable # represents the level of indent. |br|
@@ -86,7 +86,7 @@ Lists
 -----
 
 .. _usfmp_lf:
-.. index:: marker (\lf)
+.. index:: marker; \lf, lists; list footer
 
 \\lf
 ^^^^
@@ -129,7 +129,7 @@ Lists
 -----
 
 .. _usfmp_lim#:
-.. index:: marker (\lim#)
+.. index:: marker; \lim#, lists; embedded list entry
 
 \\lim#
 ^^^^^^
@@ -139,7 +139,7 @@ Lists
 :Syntax: ``\lim#(_text...)``
 :Type: paragraph
 :Added: 3.0
-:Use: Embedded list item. |br|
+:Use: Embedded list entry. |br|
 	An out-dented paragraph meant to highlight the items of an embedded list. |br|
 	The variable # represents the level of indent. |br|
 	**\\lim = \\lim1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers) |br|
@@ -190,7 +190,7 @@ Lists
 -----
 
 .. _usfmc_lit:
-.. index:: marker (\litl ...\litl*)
+.. index:: marker; \litl ...\litl*, lists; list entry total
 
 \\litl ...\\litl\*
 ^^^^^^^^^^^^^^^^^^
@@ -200,7 +200,7 @@ Lists
 :Syntax: ``\litl text...\litl*``
 :Type: character
 :Added: 3.0
-:Use: List item total. |br|
+:Use: List entry total. |br|
 	Use in “accounting” lists for denoting the total component of the text within a list item (:ref:`\\li <usfmp_li#>`). An alternative to using :doc:`tables </tables/index>` for the same content.
 
 **Text and Formatting Sample** - Nehemiah 7.6-14 (GNT - *markup adapted*)
@@ -239,25 +239,25 @@ Lists
 
 -----
 
-.. index:: lists (structured list items)
+.. index:: lists; structured list items, lists; structured entries
 
-Structured List Items
-^^^^^^^^^^^^^^^^^^^^^
+Structured List Entries
+^^^^^^^^^^^^^^^^^^^^^^^
 
 |badge_3.0|
 
-Standard USFM :doc:`table </tables/index>` structures can be challenging to display on small page sizes, or digital device displays. Scripture content is sometimes encoded within a USFM table in order to suggest a meaningful presentation, but the encoded presentation may only be rendered accurately or legibly in a larger format. The following structured list item elements identify a set of related content, but do not encode a specific presentation.
+Standard USFM :doc:`table </tables/index>` structures can be challenging to display on small page sizes, or digital device displays. Scripture content is sometimes encoded within a USFM table in order to suggest a meaningful presentation, but the encoded presentation may only be rendered accurately or legibly in a larger format. The following structured list entry elements identify a set of related content, but do not encode a specific presentation.
 
 .. note::
 
 	Structured lists are not strictly a replacement for table markup, but may prove to be a more flexible option for some types of tabular content.
 
-Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv#\* <usfmc_liv>` mark the content of list items (:ref:`\\li <usfmp_li#>`) which are essentially a key + value pair. A key may have multiple values.
+Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv#\* <usfmc_liv>` mark the content of list entries (:ref:`\\li <usfmp_li#>`) which are essentially a key + value pair. A key may have multiple values.
 
 -----
 
 .. _usfmc_lik:
-.. index:: marker (\lik ...\lik*)
+.. index:: marker; \lik ...\lik*, lists; list entry key
 
 \\lik ...\\lik\*
 """"""""""""""""
@@ -267,12 +267,12 @@ Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv
 :Syntax: ``\lik text...\lik*``
 :Type: character
 :Added: 3.0
-:Use: List item "key" content.
+:Use: List entry "key" content.
 
 -----
 
 .. _usfmc_liv:
-.. index:: marker (\liv# ...\liv#*)
+.. index:: marker; \liv# ...\liv#*, lists; list entry value
 
 \\liv# ...\\liv#\*
 """"""""""""""""""
@@ -282,7 +282,7 @@ Character marker pairs :ref:`\\lk ...\\lk\* <usfmc_lik>` and :ref:`\\lv# ...\\lv
 :Syntax: ``\liv# text...\liv*``
 :Type: character
 :Added: 3.0
-:Use: List item "value" content. |br|
+:Use: List entry "value" content. |br|
 	The variable # represents the sequence of the marked item in a list entry with multiple values. |br|
 	**\liv = \liv1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
 

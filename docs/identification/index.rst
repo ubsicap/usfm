@@ -13,7 +13,7 @@ Identification
 -----
 
 .. _usfmp_id:
-.. index:: marker (\id)
+.. index:: marker; \id, identification; file
 
 \\id
 ^^^^
@@ -38,7 +38,7 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_ide:
-.. index:: marker (\ide)
+.. index:: marker; \ide, identification; character encoding, encoding
 
 \\ide
 ^^^^^
@@ -64,7 +64,7 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_sts:
-.. index:: marker (\sts)
+.. index:: marker; \sts, identification; text status
 
 \\sts
 ^^^^^
@@ -89,7 +89,7 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_rem:
-.. index:: marker (\rem)
+.. index:: marker; \rem, identification; remark/comment
 
 \\rem
 ^^^^^
@@ -114,7 +114,7 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_h:
-.. index:: marker (\h)
+.. index:: marker; \h, identification; header text
 
 \\h
 ^^^
@@ -141,7 +141,7 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_toc#:
-.. index:: marker (\toc#)
+.. index:: marker; \toc#, identification; contents texts
 
 \\toc#
 ^^^^^^
@@ -174,7 +174,7 @@ The text following this marker is not normally used in any formatted presentatio
 -----
 
 .. _usfmp_iex:
-.. index:: marker (\iex)
+.. index:: marker; \iex, identification; bridge text, introduction; bridge text
 
 \\iex
 ^^^^^
@@ -182,5 +182,4 @@ The text following this marker is not normally used in any formatted presentatio
 :Syntax: ``\iex_text...``
 :Type: paragraph
 :Added: 1.0
-:Use: Introduction explanatory or bridge text (e.g. explanation of missing book in a short Old Testament). |br|
-
+:Use: Introduction explanatory or bridge text (e.g. explanation of missing book in a short Old Testament).

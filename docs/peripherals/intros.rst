@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: peripherals (introductions), introductions, book (\INT)
+.. index:: peripherals; introductions, introductions, book; \id INT
 
 .. _usfm-book_INT:
 

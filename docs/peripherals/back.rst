@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: peripherals (back matter), back matter, book (\BAK)
+.. index:: peripherals; back matter, back matter, book; \id BAK
 
 .. _usfm-book_BAK:
 
@@ -27,7 +27,7 @@ Use the following markup (or other appropriate USFM, as required) to create gene
 * :ref:`\\li# <usfmp_li#>` - List item.
 * :ref:`\\q# <usfmp_q#>` - Poetic line.
 
-.. index:: periph (Chronology), chronology
+.. index:: periph; Chronology, chronology
 
 \\periph Chronology
 ^^^^^^^^^^^^^^^^^^^
@@ -38,7 +38,7 @@ Use the following markup (or other appropriate USFM, as required) to create gene
 * :ref:`\\s# <usfmp_s#>` - Section heading.
 * :ref:`\\tr <usfmp_tr>`, :ref:`\\th# <usfmc_th#>`, :ref:`\\thr# <usfmc_thr#>`, :ref:`\\tc# <usfmc_tc#>`, :ref:`\\tcr# <usfmc_tcr#>`  - For any tabular data.
 
-.. index:: periph (Weights and Measures), weights and measures
+.. index:: periph; Weights and Measures, weights and measures
 
 \\periph Weights and Measures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -49,7 +49,7 @@ Use the following markup (or other appropriate USFM, as required) to create gene
 * :ref:`\\s# <usfmp_s#>` - Section heading.
 * :ref:`\\tr <usfmp_tr>`, :ref:`\\th# <usfmc_th#>`, :ref:`\\thr# <usfmc_thr#>`, :ref:`\\tc# <usfmc_tc#>`, :ref:`\\tcr# <usfmc_tcr#>`  - For any tabular data.
 
-.. index:: periph (Map Index), map index
+.. index:: periph; Map Index, map index
 
 \\periph Map Index
 ^^^^^^^^^^^^^^^^^^
@@ -107,7 +107,7 @@ In the following example, the variable # represents the location of a page numbe
 	\tr \tc1 Babylonia \tc2 The Assyrian Empire \tcr3 #
 	...
 
-.. index:: periph (NT Quotes from LXX), NT quotes from LXX
+.. index:: periph; NT Quotes from LXX, NT quotes from LXX
 
 \\periph NT Quotes from LXX
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -140,7 +140,7 @@ In the following example, the variable # represents the location of a page numbe
 The following back matter content should each be created within their own book file.
 
 .. _usfm-book_CNC:
-.. index:: concordance, book (CNC)
+.. index:: concordance, book; \id CNC
 
 Concordance
 ^^^^^^^^^^^
@@ -184,7 +184,7 @@ Concordance
 	\s B
 
 .. _usfm-book_GLO:
-.. index:: glossary, book (GLO)
+.. index:: glossary, book; \id GLO
 
 Glossary
 ^^^^^^^^
@@ -217,7 +217,7 @@ Glossary
 	...
 
 .. _usfm-book_TDX:
-.. index:: topical index, book (TDX)
+.. index:: topical index, book; \id TDX
 
 Topical Index
 ^^^^^^^^^^^^^
@@ -258,7 +258,7 @@ Topical Index
 	...
 
 .. _usfm-book_NDX:
-.. index:: names index, books (NDX)
+.. index:: names index, book; \id NDX
 
 Names Index
 ^^^^^^^^^^^

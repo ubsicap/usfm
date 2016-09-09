@@ -1,18 +1,18 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content (cross references), extended cross references, study cross reference
+.. index:: study content; cross references, extended cross references, study cross reference
 
 Extended Cross References
 =========================
 
-.. index:: extended cross reference container
+.. index:: extended cross reference; container, study cross reference; container
 
 .. rubric:: Extended Cross Reference Container
 
 The **extended (study) cross references** are inserted inline within the study project text using the following general syntax. The boundaries of the cross reference text are defined by an opening and closing marker. The remainder of the cross reference is written using standard USFM :ref:`cross reference content element <usfmn_x-content>` markers.
 
 .. _usfmn_ex:
-.. index:: marker (\ex ...\ex*), extended cross reference (container), study cross reference (container)
+.. index:: marker; \ex ...\ex*, cross reference; study cross reference
 
 \\ex ...\\ex\*
 --------------

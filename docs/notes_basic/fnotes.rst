@@ -1,18 +1,18 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: footnotes, note (footnote)
+.. index:: footnotes, note; footnote
 
 Footnotes
 =========
 
-.. index:: footnote container
+.. index:: footnote; container
 
 .. rubric:: Footnote / Endnote Container
 
 Footnotes are entered inline within the main scripture body text. The boundaries of the footnote text are defined by an opening and closing marker. The individual elements which make up the note content are described under the heading :ref:`Footnote Content Elements <usfmn_f-content>` below.
 
 .. _usfmn_f:
-.. index:: marker (\f ...\f*), footnote (container)
+.. index:: marker; \f ...\f*
 
 \\f ...\\f\*
 ------------
@@ -43,6 +43,8 @@ Footnotes are entered inline within the main scripture body text. The boundaries
 
 	**Important:** See :doc:`Syntax Notes </about/syntax>` for addition information on the use of :ref:`endmarkers <syntax_endmarkerInNotes>` for elements within footnote content.
 
+.. index:: marker; \fe ...\fe*, footnote; endnote container
+
 \\fe ...\\fe\*
 --------------
 :Syntax: ``\f_+_(\fr_REF_)footnote content\f*``
@@ -51,7 +53,7 @@ Footnotes are entered inline within the main scripture body text. The boundaries
 :Use: Beginning and ending of the footnote element.
 
 .. _usfmn_f-content:
-.. index:: footnote (content)
+.. index:: footnote; content
 
 -----
 
@@ -60,7 +62,7 @@ Footnote Content Elements
 The following markup can be included as part of the footnote content:
 
 .. _usfmc_fr:
-.. index:: marker (\fr)
+.. index:: marker; \fr, footnote; origin reference
 
 \\fr
 ^^^^
@@ -75,7 +77,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fq:
-.. index:: marker (\fq)
+.. index:: marker; \fq, footnote; quotation
 
 \\fq
 ^^^^
@@ -117,7 +119,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fqa:
-.. index:: marker (\fqa)
+.. index:: marker; \fqa, footnote; alternate translation
 
 \\fqa
 ^^^^^
@@ -131,7 +133,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fk:
-.. index:: marker (\fk)
+.. index:: marker; \fk, footnote; keyword
 
 \\fk
 ^^^^
@@ -162,7 +164,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fl:
-.. index:: marker (\fl)
+.. index:: marker; \fl, footnote; label text
 
 \\fl
 ^^^^
@@ -176,7 +178,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fp:
-.. index:: marker (\fp)
+.. index:: marker; \fp, footnote; paragraph
 
 \\fp
 ^^^^
@@ -190,7 +192,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fv:
-.. index:: marker (\fv ...\fv*)
+.. index:: marker; \fv ...\fv*. footnote; verse number
 
 \\fv ...\\fv\*
 ^^^^^^^^^^^^^^
@@ -226,7 +228,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_ft:
-.. index:: marker (\ft)
+.. index:: marker; \ft, footnote; note text
 
 \\ft
 ^^^^
@@ -240,7 +242,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fdc:
-.. index:: marker (\fdc ...\fdc*)
+.. index:: marker; \fdc ...\fdc*, footnote; DC only content
 
 \\fdc ...\\fdc\*
 ^^^^^^^^^^^^^^^^
@@ -271,7 +273,7 @@ The following markup can be included as part of the footnote content:
 -----
 
 .. _usfmc_fm:
-.. index:: marker (\fm ...\fm*)
+.. index:: marker; \fm ...\fm*, footnote; reference mark
 
 \\fm ...\\fm\*
 ^^^^^^^^^^^^^^

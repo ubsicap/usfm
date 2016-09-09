@@ -12,7 +12,7 @@ USFM 3.0 provides a general syntax for adding named attributes to character mark
 USFM will *formally* provide descriptive attributes for a :ref:`subset <attributes_markersProviding>` of character markers. Each marker in this set will have a defined list of attributes, which are relevant to the overall purpose of the marker.
 
 .. _attributes_syntax:
-.. index:: attributes (syntax)
+.. index:: attributes; syntax
 
 General Syntax
 ^^^^^^^^^^^^^^
@@ -26,7 +26,7 @@ Within a character marker span, an attributes list is separated from the text co
     \w gracious|lemma="grace"\w*
 
 .. _attributes_default:
-.. index:: attributes (default)
+.. index:: attributes; default
 
 Default Attribute
 ^^^^^^^^^^^^^^^^^
@@ -42,7 +42,7 @@ When content is supplied in the position of a marker attribute, but without an e
 ... where the default attribute for ``\w ...\w*`` is defined as being "lemma". This allows a commonly used attribute (the default) to be expressed with as little additional markup as possible within the text.
 
 .. _attributes_multiValues:
-.. index:: attributes (multiple values)
+.. index:: attributes; multiple values
 
 Multiple Attribute Values
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ In cases where more than one value should be provided for an attribute key, the 
 |ico_see| See the attributes for :ref:`\\w ...\\w\* <usfmc_w-attr>` for additional examples.
 
 .. _attributes_backward:
-.. index:: attributes (multiple values)
+.. index:: attributes; backward compatibility
 
 Backward Compatibility
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -66,7 +66,7 @@ Backward Compatibility
 Any pre-existing markers which formally provide attributes in USFM 3.0 (or newer) may always continue to be used “un-decorated” (without attributes). ``\w gracious\w*`` remains valid USFM content.
 
 .. _attributes_userDefined:
-.. index:: attributes (multiple values)
+.. index:: attributes; user-defined
 
 User Defined Attributes
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -83,7 +83,7 @@ Any user defined attributes must begin with the prefix ``x-``.
 	\w gracious|lemma="grace" x-myattr="metadata"\w*
 
 .. _attributes_markersProviding:
-.. index:: attributes (markers providing)
+.. index:: attributes; markers providing
 
 Character Markers Providing Attributes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

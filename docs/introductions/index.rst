@@ -6,7 +6,7 @@ Introductions
 =============
 
 .. _usfmp_imt#:
-.. index:: marker (\imt#)
+.. index:: marker; \imt#, introductions; major title
 
 \\imt#
 ^^^^^^
@@ -39,7 +39,7 @@ Introductions
 -----
 
 .. _usfmp_is#:
-.. index:: marker (\is#)
+.. index:: marker; \is#, introductions; section heading
 
 \\is#
 ^^^^^
@@ -71,7 +71,7 @@ Introductions
 -----
 
 .. _usfmp_ip:
-.. index:: marker (\ip)
+.. index:: marker; \ip, introductions; paragraph
 
 \\ip
 ^^^^
@@ -102,7 +102,7 @@ Introductions
 -----
 
 .. _usfmp_ipi:
-.. index:: marker (\ipi)
+.. index:: marker; \ipi, introductions; indented paragraph
 
 \\ipi
 ^^^^^
@@ -131,7 +131,7 @@ Introductions
 -----
 
 .. _usfmp_im:
-.. index:: marker (\im)
+.. index:: marker; \im, introductions; margin paragraph
 
 \\im
 ^^^^
@@ -162,7 +162,7 @@ Introductions
 -----
 
 .. _usfmp_imi:
-.. index:: marker (\imi)
+.. index:: marker; \imi, introductions; indented margin paragraph
 
 \\imi
 ^^^^^
@@ -193,7 +193,7 @@ Introductions
 -----
 
 .. _usfmp_ipq:
-.. index:: marker (\ipq)
+.. index:: marker; \ipq, introductions; text quote paragraph
 
 \\ipq
 ^^^^^
@@ -224,7 +224,7 @@ Introductions
 -----
 
 .. _usfmp_imq:
-.. index:: marker (\imq)
+.. index:: marker; \imq, introductions; margin text quote paragraph
 
 \\imq
 ^^^^^
@@ -255,7 +255,7 @@ Introductions
 -----
 
 .. _usfmp_ipr:
-.. index:: marker (\ipr)
+.. index:: marker; \ipr, introductions; right-aligned paragraph
 
 \\ipr
 ^^^^^
@@ -287,7 +287,7 @@ Introductions
 -----
 
 .. _usfmp_iq#:
-.. index:: marker (\iq#)
+.. index:: marker; \iq#, introductions; poetic line
 
 \\iq#
 ^^^^^
@@ -322,7 +322,7 @@ Introductions
 -----
 
 .. _usfmp_ib:
-.. index:: marker (\ib)
+.. index:: marker; \ib, introductions; blank line
 
 \\ib
 ^^^^
@@ -350,7 +350,7 @@ Introductions
 -----
 
 .. _usfmp_ili#:
-.. index:: marker (\ili#)
+.. index:: marker; \ili#, introductions; list item
 
 \\ili#
 ^^^^^^
@@ -394,7 +394,7 @@ Introductions
 -----
 
 .. _usfmp_iot:
-.. index:: marker (\iot)
+.. index:: marker; \iot, introductions; outline title
 
 \\iot
 ^^^^^
@@ -405,7 +405,7 @@ Introductions
 :Use: Introduction outline title. |br|
 
 .. _usfmp_io#:
-.. index:: marker (\io#)
+.. index:: marker; \io#, introductions; outline entry
 
 \\io#
 ^^^^^
@@ -445,7 +445,7 @@ Introductions
 -----
 
 .. _usfmc_ior:
-.. index:: marker (\ior ...\ior*)
+.. index:: marker; \ior ...\ior*, introductions; outline reference range
 
 \\ior ...\\ior\*
 ^^^^^^^^^^^^^^^^
@@ -475,7 +475,7 @@ Introductions
 -----
 
 .. _usfmc_iqt:
-.. index:: marker (\iqt ...\iqt*)
+.. index:: marker; \iqt ...\iqt*, introductions; quoted text
 
 \\iqt ...\\iqt\*
 ^^^^^^^^^^^^^^^^
@@ -489,7 +489,7 @@ Introductions
 -----
 
 .. _usfmp_imte#:
-.. index:: marker (\imte#)
+.. index:: marker; \imte#, introductions; major title ending
 
 \\imte#
 ^^^^^^^
@@ -513,7 +513,7 @@ Introductions
 -----
 
 .. _usfmp_ie:
-.. index:: marker (\ie)
+.. index:: marker; \ie, introductions; introduction end
 
 \\ie
 ^^^^^

@@ -1,18 +1,18 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content (footnotes), extended footnote, study note
+.. index:: study content; footnotes, extended footnotes, study note
 
 Extended Footnotes
 ==================
 
-.. index:: extended footnote container
+.. index:: extended footnote; container, study note; container
 
 .. rubric:: Extended Footnote Container
 
 The **extended footnotes** are inserted in-line within the study project text using the following general syntax. The boundaries of the footnote text are defined by an opening and closing marker. The remainder of the note is written using standard USFM :ref:`footnote content elements <usfmn_f-content>` markers.
 
 .. _usfmn_ef:
-.. index:: marker (\ef ...\ef*), extended footnote (container), study note (container)
+.. index:: marker; \ef ...\ef*, footnote; study note
 
 \\ef ...\\ef\*
 --------------

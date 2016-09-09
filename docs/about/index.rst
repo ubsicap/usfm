@@ -1,6 +1,7 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: introduction, about, USFM (about)
+.. index:: introduction
+  pair: USFM; about
 
 ************
 Introduction
@@ -24,7 +25,7 @@ In general terms, a markup language is a special notation for identifying the co
 Standard Format Markers have been used for many years within the Bible translation community as a method for identifying the unique textual elements which exist within an electronic scripture document. SFMs start with a backslash character ``\`` and end with the next space. Over time many different local "standards" for SFM use were developed, adapted, and used, for supporting the varied requirements of Bible translation and publishing projects around the globe.
 
 .. _about_usfm_history:
-.. index:: USFM (history)
+.. index:: pair: USFM; history
 
 History of USFM
 ---------------
@@ -46,7 +47,7 @@ In March 2002 a working group was established within the `United Bible Societies
 Ideally an SFM standard would have as one of its goals that of marking common scriptural element types, and not formatting (presentation) information. USFM has attempted to unify a long history of SFM type scripture markup implementations, some of which were more or less strict in their tolerance for format-oriented markers. The primary focus in USFM development was on unification, not markup creation. What this means is that USFM inherits support for both the positive, and some negative, aspects of pre-existing SFM marker use. The USFM working group did not wish to create an unmanageable conversion task for legacy SFM encoded texts.
 
 .. _about_usfm_unification:
-.. index:: USFM (unification notes)
+.. index:: USFM; unification notes
 
 Unification Notes
 -----------------
@@ -64,7 +65,7 @@ Unification Notes
 * Marker definition "collisions" were resolved (same marker used to mark different content).
 
 .. _about_usfm_software:
-.. index:: USFM (software notes)
+.. index:: USFM; software notes
 
 Software Notes
 --------------
@@ -73,7 +74,7 @@ Software Notes
 * In USFM, character level markup can be nested (embedded) within a paragraph element, or another character element. However, software applications will not necessarily be capable of rendering all of the display variations which may be implied due to marker nesting.
 
 .. _about_usfm_changes:
-.. index:: USFM (change management)
+.. index:: USFM; change management
 
 Change Management
 -----------------
@@ -88,8 +89,8 @@ Since USFM 1.0, requests for additions to the standard have been received and co
 |ico_See| See also: User extension :ref:`\\z namespace <syntax_znamespace>`.
 
 .. _about_usfm_sty:
-.. index:: stylesheets (ParaTExt)
+.. index:: pair: stylesheet; ParaTExt
 
-ParaTExt Stylesheets
---------------------
-The most recent full and draft USFM stylesheet files for use with the ParaTExt translation editor are always available from http://paratext.org/usfm.
+ParaTExt Stylesheet
+-------------------
+The most recent full and draft USFM stylesheet file for use with the ParaTExt translation editor are always available from http://paratext.org/usfm.

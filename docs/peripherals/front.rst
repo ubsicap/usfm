@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: peripherals (front matter), front matter, book (\FRT)
+.. index:: peripherals; front matter, front matter, book; \id FRT
 
 .. _usfm-book_FRT:
 
@@ -15,7 +15,7 @@ Front Matter (\\id FRT)
 
 The FRT book and its divisions can be used for storing various material which is typically presented at the start of a scripture publication, before the first book of scripture.
 
-.. index:: periph (Title Page), title page
+.. index:: periph; Title Page, title page
 
 \\periph Title Page
 ^^^^^^^^^^^^^^^^^^^
@@ -42,7 +42,7 @@ The FRT book and its divisions can be used for storing various material which is
 	\pc American Bible Society 
 	\pc New York
 
-.. index:: periph (Half Title Page), half title page
+.. index:: periph; Half Title Page, half title page
 
 \\periph Half Title Page
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -64,7 +64,7 @@ The FRT book and its divisions can be used for storing various material which is
 	\pc Good News Translation
 	\pc \fig |gntLogo.jpg|span||||\fig*
 
-.. index:: periph (Promotional Page), promotional page
+.. index:: periph; Promotional Page, promotional page
 
 \\periph Promotional Page
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -77,7 +77,7 @@ The FRT book and its divisions can be used for storing various material which is
 * :ref:`\\li# <usfmp_li#>` - List item.
 * :ref:`\\q# <usfmp_q#>` - Poetic line.
 
-.. index:: periph (Imprimatur), imprimatur
+.. index:: periph; Imprimatur, imprimatur
 
 \\periph Imprimatur
 ^^^^^^^^^^^^^^^^^^^
@@ -88,7 +88,7 @@ The FRT book and its divisions can be used for storing various material which is
 * :ref:`\\tr <usfmp_tr>`, :ref:`\\th# <usfmc_th#>`, :ref:`\\thr# <usfmc_thr#>`, :ref:`\\tc# <usfmc_tc#>`, :ref:`\\tcr# <usfmc_tcr#>`  - For any tabular data.
 * :ref:`\\fig ...\\fig\* <usfmc_fig>` - Figure.
 
-.. index:: periph (Publication Data), publication data
+.. index:: periph; Publication Data, publication data
 
 \\periph Publication Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -98,7 +98,7 @@ The FRT book and its divisions can be used for storing various material which is
 * :ref:`\\p <usfmp_p>` - Paragraph.
 * :ref:`\\tr <usfmp_tr>`, :ref:`\\th# <usfmc_th#>`, :ref:`\\thr# <usfmc_thr#>`, :ref:`\\tc# <usfmc_tc#>`, :ref:`\\tcr# <usfmc_tcr#>`  - For any tabular data.
 
-.. index:: periph (Foreword), foreword
+.. index:: periph; Foreword, foreword
 
 \\periph Foreword
 ^^^^^^^^^^^^^^^^^
@@ -114,7 +114,7 @@ The FRT book and its divisions can be used for storing various material which is
 * :ref:`\\bk ...\\bk\* <usfmc_bk>`, :ref:`\\qt ...\\qt\* <usfmc_qt>`, :ref:`\\tl ...\\tl\* <usfmc_tl>` or other character styles
 * :ref:`\\fig ...\\fig\* <usfmc_fig>` - Figure.
 
-.. index:: periph (Preface), preface
+.. index:: periph; Preface, preface
 
 \\periph Preface
 ^^^^^^^^^^^^^^^^
@@ -130,7 +130,7 @@ The FRT book and its divisions can be used for storing various material which is
 * :ref:`\\bk ...\\bk\* <usfmc_bk>`, :ref:`\\qt ...\\qt\* <usfmc_qt>`, :ref:`\\tl ...\\tl\* <usfmc_tl>` or other character styles
 * :ref:`\\fig ...\\fig\* <usfmc_fig>` - Figure.
 
-.. index:: periph (Table of Contents), table of contents
+.. index:: periph; Table of Contents, table of contents
 
 \\periph Table of Contents
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -161,7 +161,7 @@ In the following example, the variable # represents the location of a page numbe
 	\tr  \th1 Name  \thr2 Page \th3 Name \thr4 Page
 	\tr \tc1 Matthew \tcr2 # \tc3 1 Timothy \tcr4 #
 
-.. index:: periph (Alphabetical Contents), alphabetica contents
+.. index:: periph; Alphabetical Contents, alphabetical contents
 
 \\periph Alphabetical Contents
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -170,7 +170,7 @@ In the following example, the variable # represents the location of a page numbe
 * :ref:`\\s# <usfmp_s#>` - Section heading.
 * :ref:`\\tr <usfmp_tr>`, :ref:`\\th# <usfmc_th#>`, :ref:`\\thr# <usfmc_thr#>`, :ref:`\\tc# <usfmc_tc#>`, :ref:`\\tcr# <usfmc_tcr#>`  - For any tabular data.
 
-.. index:: periph (Table of Abbreviations), table of abbreviations
+.. index:: periph; Table of Abbreviations, table of abbreviations
 
 \\periph Table of Abbreviations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

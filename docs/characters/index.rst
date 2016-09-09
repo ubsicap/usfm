@@ -30,7 +30,7 @@ Special Text
 ------------
 
 .. _usfmc_add:
-.. index:: marker (\add ...\add*)
+.. index:: marker; \add ...\add*, special text; translator's addition
 
 \\add ...\\add\*
 ^^^^^^^^^^^^^^^^
@@ -57,7 +57,7 @@ Special Text
 -----
 
 .. _usfmc_bk:
-.. index:: marker (\bk ...\bk*)
+.. index:: marker; \bk ...\bk*, special text; quoted book title
 
 \\bk ...\\bk\*
 ^^^^^^^^^^^^^^
@@ -87,7 +87,7 @@ Special Text
 -----
 
 .. _usfmc_dc:
-.. index:: marker (\dc ...\dc*)
+.. index:: marker; \dc ...\dc*, special text; DC only additions
 
 \\dc ...\\dc\*
 ^^^^^^^^^^^^^^
@@ -141,7 +141,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_k:
-.. index:: marker (\k ...\k*)
+.. index:: marker; \k ...\k*, special text; keyword/keyterm
 
 \\k ...\\k\*
 ^^^^^^^^^^^^
@@ -154,7 +154,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmp_lit:
-.. index:: marker (\lit)
+.. index:: marker; \lit, special text; liturgical note
 
 \\lit
 ^^^^^
@@ -194,7 +194,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_nd:
-.. index:: marker (\nd ...\nd*)
+.. index:: marker; \nd ...\nd*, special text; name of God
 
 \\nd ...\\nd\*
 ^^^^^^^^^^^^^^
@@ -223,7 +223,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_ord:
-.. index:: marker (\ord ...\ord*)
+.. index:: marker; \ord ...\ord*, special text; ordinal number ending
 
 \\ord ...\\ord\*
 ^^^^^^^^^^^^^^^^
@@ -236,7 +236,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_pn:
-.. index:: marker (\pn ...\pn*)
+.. index:: marker; \pn ...\pn*, special text; proper name
 
 \\pn ...\\pn\*
 ^^^^^^^^^^^^^^
@@ -249,7 +249,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_png:
-.. index:: marker (\png ...\png*)
+.. index:: marker; \png ...\png*, special text; geographic proper name
 
 \\png ...\\png\*
 ^^^^^^^^^^^^^^^^
@@ -264,7 +264,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_addpn:
-.. index:: marker (\addpn ...\addpn*)
+.. index:: marker; \addpn ...\addpn*, special text; proper name nested with addition
 
 \\addpn ...\\addpn\*
 ^^^^^^^^^^^^^^^^^^^^
@@ -280,7 +280,7 @@ Psalm 115.3-4 (GNT - cross references)
 -----
 
 .. _usfmc_qt:
-.. index:: marker (\qt ...\qt*)
+.. index:: marker; \qt ...\qt*, special text; quoted text
 
 \\qt ...\\qt\*
 ^^^^^^^^^^^^^^
@@ -333,7 +333,7 @@ Mark 1.2-3 (GNT)
 -----
 
 .. _usfmc_sig:
-.. index:: marker (\sig ...\sig*)
+.. index:: marker; \sig ...\sig*, special text; author signature
 
 \\sig ...\\sig\*
 ^^^^^^^^^^^^^^^^
@@ -360,7 +360,7 @@ Mark 1.2-3 (GNT)
 -----
 
 .. _usfmc_sls:
-.. index:: marker (\sls ...\sls*)
+.. index:: marker; \sls ...\sls*, special text; secondary language source
 
 \\sls ...\\sls\*
 ^^^^^^^^^^^^^^^^
@@ -394,7 +394,7 @@ Mark 1.2-3 (GNT)
 -----
 
 .. _usfmc_tl:
-.. index:: marker (\tl ...\tl*)
+.. index:: marker; \tl ...\tl*, special text; transliteration
 
 \\tl ...\\tl\*
 ^^^^^^^^^^^^^^
@@ -423,7 +423,7 @@ Mark 1.2-3 (GNT)
 -----
 
 .. _usfmc_wj:
-.. index:: marker (\wj ...\wj*)
+.. index:: marker; \wj ...\wj*, special text; words of Jesus
 
 \\wj ...\\wj\*
 ^^^^^^^^^^^^^^
@@ -443,7 +443,7 @@ Character Styling
 	**Note:** The use of formatting oriented character markup is strongly discouraged. Please search for the appropriate USFM element to markup content, wherever possible.
 
 .. _usfmc_em:
-.. index:: marker (\em ...\em*)
+.. index:: marker; \em ...\em*, character style; emphasis
 
 \\em ...\\em\*
 ^^^^^^^^^^^^^^
@@ -456,7 +456,7 @@ Character Styling
 -----
 
 .. _usfmc_bd:
-.. index:: marker (\bd ...\bd*)
+.. index:: marker; \bd ...\bd*, character style; bold
 
 \\bd ...\\bd\*
 ^^^^^^^^^^^^^^
@@ -469,7 +469,7 @@ Character Styling
 -----
 
 .. _usfmc_it:
-.. index:: marker (\it ...\it*)
+.. index:: marker; \it ...\it*, character style; italic
 
 \\it ...\\it\*
 ^^^^^^^^^^^^^^
@@ -482,7 +482,7 @@ Character Styling
 -----
 
 .. _usfmc_bdit:
-.. index:: marker (\bdit ...\bdit*)
+.. index:: marker; \bdit ...\bdit*, character style; bold-italic
 
 \\bdit ...\\bdit\*
 ^^^^^^^^^^^^^^^^^^
@@ -495,7 +495,7 @@ Character Styling
 -----
 
 .. _usfmc_no:
-.. index:: marker (\no ...\no*)
+.. index:: marker; \no ...\no*, character style; normal
 
 \\no ...\\no\*
 ^^^^^^^^^^^^^^
@@ -509,7 +509,7 @@ Character Styling
 -----
 
 .. _usfmc_sc:
-.. index:: marker (\sc ...\sc*)
+.. index:: marker; \sc ...\sc*, character style; small-caps
 
 \\sc ...\\sc\*
 ^^^^^^^^^^^^^^
@@ -525,7 +525,7 @@ Spacing and Breaks
 ------------------
 
 .. _usfmc_~:
-.. index:: marker (~)
+.. index:: marker; ~, space; no-break space, no-break space
 
 \~
 ^^
@@ -539,7 +539,7 @@ Spacing and Breaks
 -----
 
 .. _usfmc_//:
-.. index:: marker (//)
+.. index:: marker; //, break; discretionary line-break
 
 //
 ^^
@@ -566,7 +566,7 @@ Spacing and Breaks
 -----
 
 .. _usfmp_pb:
-.. index:: marker (\pb)
+.. index:: marker; \pb, break; page-break
 
 \\pb
 ^^^^
@@ -582,7 +582,7 @@ Special Features
 ----------------
 
 .. _usfmc_fig:
-.. index:: marker (\fig ...\fig*)
+.. index:: marker; \fig ...\fig*, figure, illustration
 
 \\fig ...\\fig\*
 ^^^^^^^^^^^^^^^^
@@ -598,7 +598,7 @@ Special Features
 	The syntax for defining illustrations in USFM 3.0 follows the general syntax for providing :doc:`word level attributes </characters/attributes>`. In USFM 1.x and 2.x, markup for illustrations required a the content for a collection of parameters to be provided in a specific order, with items separated by a vertical bar (e.g ``\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*``). The use of marker attributes, and the use of a vertical bar as an attribute separator was unique to illustration markup in USFM 1.x and 2.x. In USFM 3.0 this syntax is deprecated in order to align the markup with the general syntax for :doc:`word level attributes </characters/attributes>`.
 
 .. _usfmc_fig-attr:
-.. index:: attributes (\fig ...\fig*)
+.. index:: attributes; \fig ...\fig*, figure; attributes, illustration; attributes
 
 .. rubric:: Attributes |ico_Tag|
 
@@ -652,7 +652,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 -----
 
 .. _usfmc_ndx:
-.. index:: marker (\ndx ...\ndx*)
+.. index:: marker; \ndx ...\ndx*, subject index entry
 
 \\ndx ...\\ndx\*
 ^^^^^^^^^^^^^^^^
@@ -666,7 +666,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 -----
 
 .. _usfmc_rb:
-.. index:: marker (\rb ...\rb*)
+.. index:: marker; \rb ...\rb*, ruby, ruby; base text
 
 \\rb ...\\rb\*
 ^^^^^^^^^^^^^^
@@ -686,7 +686,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 -----
 
 .. _usfmc_rt:
-.. index:: marker (\rt ...\rt*)
+.. index:: marker; \rt ...\rt*, ruby; annotation text
 
 \\rt ...\\rt\*
 ^^^^^^^^^^^^^^
@@ -718,7 +718,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 -----
 
 .. _usfmc_pro:
-.. index:: marker (\pro ...\pro*)
+.. index:: marker; \pro ...\pro*, pronunciation annotation
 
 \\pro ...\\pro\*
 ^^^^^^^^^^^^^^^^
@@ -727,7 +727,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 :Type: character
 :Added: 2.0
 :Deprecated: 3.0  |badge_3.0|
-:Use: Pronunciation information. |br|
+:Use: Pronunciation annotation. |br|
 	*Used for CJK text.* |br|
 	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
 	|ico_Cg| *Recommended alternate:* :ref:`\\rt ...\\rt\* <usfmc_rt>` (with optional markup for the annotated base text using :ref:`\\rb ...\\rb\* <usfmc_rb>`).
@@ -735,7 +735,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 -----
 
 .. _usfmc_w:
-.. index:: marker (\w ...\w*)
+.. index:: marker; \w ...\w*, wordlist entry
 
 \\w ...\\w\*
 ^^^^^^^^^^^^
@@ -748,7 +748,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 	Surround word(s) with this markup to indicate that it appears (or should appear) in the word list.
 
 .. _usfmc_w-attr:
-.. index:: attributes (\w ...\w*)
+.. index:: attributes; \w ...\w*, wordlist entry; attributes
 
 .. rubric:: Attributes |ico_Tag|
 
@@ -787,7 +787,7 @@ Not ``\w gracious|G05485\w*`` (since strong is not *default*)
 -----
 
 .. _usfmc_wg:
-.. index:: marker (\wg ...\wg*)
+.. index:: marker; \wg ...\wg*, wordlist entry - Greek
 
 \\wg ...\\wg\*
 ^^^^^^^^^^^^^^
@@ -800,7 +800,7 @@ Not ``\w gracious|G05485\w*`` (since strong is not *default*)
 -----
 
 .. _usfmc_wh:
-.. index:: marker (\wh ...\wh*)
+.. index:: marker; \wh ...\wh*, wordlist entry - Hebrew
 
 \\wh ...\\wh\*
 ^^^^^^^^^^^^^^
@@ -813,7 +813,7 @@ Not ``\w gracious|G05485\w*`` (since strong is not *default*)
 -----
 
 .. _usfmc_wa:
-.. index:: marker (\wa ...\wa*)
+.. index:: marker; \wa ...\wa*, wordlist entry - Aramaic
 
 \\wa ...\\wa\*
 ^^^^^^^^^^^^^^

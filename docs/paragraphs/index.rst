@@ -6,7 +6,7 @@ Paragraphs
 ==========
 
 .. _usfmp_p:
-.. index:: marker (\p)
+.. index:: marker; \p, paragraphs; normal
 
 \\p
 ^^^
@@ -45,7 +45,7 @@ Paragraphs
 -----
 
 .. _usfmp_m:
-.. index:: marker (\m)
+.. index:: marker; \m, paragraphs; margin
 
 \\m
 ^^^
@@ -81,7 +81,7 @@ Paragraphs
 -----
 
 .. _usfmp_po:
-.. index:: marker (\po)
+.. index:: marker; \po, paragraphs; letter opening
 
 \\po
 ^^^^
@@ -124,7 +124,7 @@ Paragraphs
 -----
 
 .. _usfmp_cls:
-.. index:: marker (\cls)
+.. index:: marker; \cls, paragraphs; letter closing
 
 \\cls
 ^^^^^
@@ -151,7 +151,7 @@ Paragraphs
 -----
 
 .. _usfmp_pmo:
-.. index:: marker (\pmo)
+.. index:: marker; \pmo, paragraphs; embedded text opening
 
 \\pmo
 ^^^^^
@@ -184,7 +184,7 @@ Paragraphs
 -----
 
 .. _usfmp_pm:
-.. index:: marker (\pm)
+.. index:: marker; \pm, paragraphs; embedded text
 
 \\pm
 ^^^^
@@ -219,7 +219,7 @@ Paragraphs
 -----
 
 .. _usfmp_pmc:
-.. index:: marker (\pmc)
+.. index:: marker; \pmc, paragraphs; embedded text closing
 
 \\pmc
 ^^^^^
@@ -248,7 +248,7 @@ Paragraphs
 -----
 
 .. _usfmp_pmr:
-.. index:: marker (\pmr)
+.. index:: marker; \pmr, paragraphs; embedded text refrain
 
 \\pmr
 ^^^^^
@@ -281,7 +281,7 @@ Paragraphs
 -----
 
 .. _usfmp_pi#:
-.. index:: marker (\pi#)
+.. index:: marker; \pi#, paragraphs; indented
 
 \\pi#
 ^^^^^
@@ -319,7 +319,7 @@ Paragraphs
 -----
 
 .. _usfmp_mi:
-.. index:: marker (\mi)
+.. index:: marker; \mi, paragraphs; indented margin
 
 \\mi
 ^^^^
@@ -358,7 +358,7 @@ Paragraphs
 -----
 
 .. _usfmp_nb:
-.. index:: marker (\nb)
+.. index:: marker; \nb, paragraphs; no-break
 
 \\nb
 ^^^^
@@ -398,7 +398,7 @@ Paragraphs
 -----
 
 .. _usfmp_pc:
-.. index:: marker (\pc)
+.. index:: marker; \pc, paragraphs; centered
 
 \\pc
 ^^^^
@@ -430,7 +430,7 @@ Paragraphs
 -----
 
 .. _usfmp_pr:
-.. index:: marker (\pr)
+.. index:: marker; \pr, paragraphs; right-aligned
 
 \\pr
 ^^^^
@@ -445,7 +445,7 @@ Paragraphs
 -----
 
 .. _usfmp_ph#:
-.. index:: marker (\ph#)
+.. index:: marker; \ph#, paragraphs; hanging indent
 
 \\ph#
 ^^^^^
@@ -462,7 +462,7 @@ Paragraphs
 -----
 
 .. _usfmp_b-alt:
-.. index:: marker (\b)
+.. index:: marker; \b, paragraphs; blank line
 
 \\b
 ^^^

@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content (division introductions), study content (section introductions), extended division introductions, extended section introductions
+.. index:: study content; division introductions, study content; section introductions, extended division introductions, extended section introductions
 
 Division and Section Introductions
 ==================================

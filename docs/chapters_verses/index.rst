@@ -6,7 +6,7 @@ Chapters and Verses
 ===================
 
 .. _usfmp_c:
-.. index:: marker (\c)
+.. index:: marker; \c, chapters; chapter number
 
 \\c
 ^^^
@@ -39,7 +39,7 @@ Chapters and Verses
 -----
 
 .. _usfmc_ca:
-.. index:: marker (\ca ...\ca*)
+.. index:: marker; \ca ...\ca*, chapters; alternate chapter number
 
 \\ca ...\\ca\*
 ^^^^^^^^^^^^^^
@@ -75,7 +75,7 @@ Chapters and Verses
 -----
 
 .. _usfmp_cl:
-.. index:: marker (\cl)
+.. index:: marker; \cl, chapters; chapter label
 
 \\cl
 ^^^^
@@ -122,7 +122,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 -----
 
 .. _usfmp_cp:
-.. index:: marker (\cp)
+.. index:: marker; \cp, chapters; published chapter character
 
 \\cp
 ^^^^
@@ -153,7 +153,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 -----
 
 .. _usfmp_cd:
-.. index:: marker (\cd)
+.. index:: marker; \cd; chapters; chapter description
 
 \\cd
 ^^^^
@@ -185,7 +185,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 -----
 
 .. _usfmc_v:
-.. index:: marker (\v)
+.. index:: marker; \v, verses; verse number
 
 \\v
 ^^^
@@ -217,7 +217,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 -----
 
 .. _usfmc_va:
-.. index:: marker (\va ...\va*)
+.. index:: marker; \va ...\va*, verses; alternate verse number
 
 \\va ...\\va\*
 ^^^^^^^^^^^^^^
@@ -253,7 +253,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 -----
 
 .. _usfmc_vp:
-.. index:: marker (\vp ...\vp*)
+.. index:: marker; \vp ...\vp*, verses; published verse character
 
 \\vp ...\\vp\*
 ^^^^^^^^^^^^^^

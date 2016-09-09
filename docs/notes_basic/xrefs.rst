@@ -1,18 +1,18 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: cross references, note (cross reference)
+.. index:: cross references, note; cross reference
 
 Cross References
 ================
 
-.. index:: cross reference container
+.. index:: cross reference; container
 
 .. rubric:: Cross Reference Container
 
 Cross references are entered inline within the main scripture body text. The boundaries of the cross reference text are defined by an opening and closing marker. The individual elements which make up the cross reference content are described under the heading :ref:`Cross Reference Content Elements <usfmn_x-content>` below.
 
 .. _usfmn_x:
-.. index:: marker (\x ...\x*), cross reference (container)
+.. index:: marker; \x ...\x*
 
 \\x ...\\x\*
 ------------
@@ -44,7 +44,7 @@ Cross references are entered inline within the main scripture body text. The bou
 	**Important:** See :doc:`Syntax Notes </about/syntax>` for addition information on the use of :ref:`endmarkers <syntax_endmarkerInNotes>` for elements within cross reference content.
 
 .. _usfmn_x-content:
-.. index:: cross reference (content)
+.. index:: cross reference; content
 
 -----
 
@@ -53,7 +53,7 @@ Cross Reference Content Elements
 The following markup can be included as part of the cross reference content:
 
 .. _usfmc_xo:
-.. index:: marker (\xo)
+.. index:: marker; \xo, cross reference; origin reference
 
 \\xo
 ^^^^
@@ -68,7 +68,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xk:
-.. index:: marker (\xk)
+.. index:: marker; \xk, cross reference; keyword
 
 \\xk
 ^^^^
@@ -81,7 +81,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xq:
-.. index:: marker (\xq)
+.. index:: marker; \xq, cross reference; quotation
 
 \\xq
 ^^^^
@@ -95,7 +95,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xt:
-.. index:: marker (\xt)
+.. index:: marker; \xt, cross reference; target reference(s)
 
 \\xt
 ^^^^
@@ -142,7 +142,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xta:
-.. index:: marker (\xta)
+.. index:: marker; \xta, cross reference; extra/added text
 
 \\xta
 ^^^^^
@@ -170,7 +170,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xop:
-.. index:: marker (\xop ...\xop*)
+.. index:: marker; \xop ...\xop*, cross reference; published origin reference
 
 \\xop ...\\xop\*
 ^^^^^^^^^^^^^^^^
@@ -209,7 +209,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xot:
-.. index:: marker (\xot ...\xot*)
+.. index:: marker; \xot ...\xot*, cross reference; OT only content
 
 \\xot ...\\xot\*
 ^^^^^^^^^^^^^^^^
@@ -222,7 +222,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xnt:
-.. index:: marker (\xnt ...\xnt*)
+.. index:: marker; \xnt ...\xnt*, cross reference; NT only content
 
 \\xnt ...\\xnt\*
 ^^^^^^^^^^^^^^^^
@@ -235,7 +235,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_xdc:
-.. index:: marker (\xdc ...\xdc*)
+.. index:: marker; \xdc ...\xdc*, cross reference; DC only content
 
 \\xdc ...\\xdc\*
 ^^^^^^^^^^^^^^^^
@@ -277,7 +277,7 @@ The following markup can be included as part of the cross reference content:
 -----
 
 .. _usfmc_rq-alt:
-.. index:: marker (\rq ...\rq*)
+.. index:: marker; \rq ...\rq*, cross reference; inline quotation reference(s)
 
 \\rq ...\\rq\*
 ^^^^^^^^^^^^^^

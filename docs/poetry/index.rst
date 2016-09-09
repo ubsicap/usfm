@@ -6,7 +6,7 @@ Poetry
 ======
 
 .. _usfmp_q#:
-.. index:: marker (\q#), poetry (poetic line \q#)
+.. index:: marker; \q#, poetry; poetic line
 
 \\q#
 ^^^^
@@ -56,7 +56,7 @@ Poetry
 -----
 
 .. _usfmp_qr:
-.. index:: marker (\qr), poetry (right-aligned poetic line \qr)
+.. index:: marker; \qr, poetry; right-aligned poetic line
 
 \\qr
 ^^^^
@@ -91,7 +91,7 @@ Poetry
 -----
 
 .. _usfmp_qc:
-.. index:: marker (\qc), poetry (centered poetic line \qc)
+.. index:: marker; \qc, poetry; centered poetic line
 
 \\qc
 ^^^^
@@ -125,7 +125,7 @@ Poetry
 -----
 
 .. _usfmc_qs:
-.. index:: marker (\qs ...\qs*), poetry (selah text \qs ...\qs*)
+.. index:: marker; \qs ...\qs*, poetry; selah text
 
 \\qs ...\\qs\*
 ^^^^^^^^^^^^^^
@@ -173,7 +173,7 @@ Psalm 24.10 (NRSV)
 -----
 
 .. _usfmp_qa:
-.. index:: marker (\qa), poetry (acrostic heading \qa)
+.. index:: marker; \qa, poetry; acrostic heading
 
 \\qa
 ^^^^
@@ -206,7 +206,7 @@ Psalm 24.10 (NRSV)
 -----
 
 .. _usfmc_qac:
-.. index:: marker (\qac ...\qac*), poetry (acrostic letter \qac ...\qac*)
+.. index:: marker; \qac ...\qac*, poetry; acrostic letter
 
 \\qac ...\\qac\*
 ^^^^^^^^^^^^^^^^
@@ -250,7 +250,7 @@ Psalm 24.10 (NRSV)
 -----
 
 .. _usfmp_qm#:
-.. index:: marker (\qm#), poetry (embedded text poetic line \qm#)
+.. index:: marker; \qm#, poetry; embedded text poetic line
 
 \\qm#
 ^^^^^
@@ -283,7 +283,7 @@ Psalm 24.10 (NRSV)
 -----
 
 .. _usfmp_qd:
-.. index:: marker (\qd), poetry (Hebrew note)
+.. index:: marker; \qd, poetry; Hebrew note
 
 \\qd
 ^^^^
@@ -317,7 +317,7 @@ Psalm 24.10 (NRSV)
 -----
 
 .. _usfmp_b:
-.. index:: marker (\b), poetry (blank line / stanza break \b)
+.. index:: marker; \b, poetry; blank line/stanza break
 
 \\b
 ^^^

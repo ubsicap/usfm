@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content (book introductions), extended book introductions
+.. index:: study content; book introductions, extended book introductions
 
 Extended Book Introductions
 ===========================

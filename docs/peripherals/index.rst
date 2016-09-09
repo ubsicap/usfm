@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: peripherals, marker (\periph), periph
+.. index:: peripherals, marker; \periph, periph
 
 Peripherals
 ===========
@@ -12,7 +12,8 @@ Content should be created in separate :doc:`book </identification/books>` files 
 Some back matter content is large enough that it is most practical to store it within its own book file (Concordance, Glossary, Topical Index, Names Index). Content self contained within a separate book file does not require an additional identifier (only :ref:`\\id <usfmp_id>`).
 
 .. _periph_div:
-.. index:: peripherals (books), peripherals (divisions)
+.. index:: pair: peripherals; books
+	pair: peripherals; divisions
 
 Peripheral Books and Divisions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,7 +71,7 @@ Peripheral Books and Divisions
 |                               |                                  | |br| ``|id="spine"``         |
 +-------------------------------+----------------------------------+------------------------------+
 
-.. index:: peripherals (identifiers)
+.. index:: peripherals; identifiers
 .. _periph_id:
 
 Peripheral Identifiers
@@ -108,7 +109,7 @@ For peripheral books containing :ref:`divisions <periph_div>`, the division titl
 
 Defined peripheral ``id`` values are shown in the peripheral :ref:`divisions <periph_div>` table above.
 
-.. index:: peripherals (user defined divisions)
+.. index:: peripherals; user defined divisions
 .. _periph_div-user:
 
 User Defined Peripheral Divisions

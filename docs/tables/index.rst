@@ -6,7 +6,7 @@ Tables
 ======
 
 .. _usfmp_tr:
-.. index:: marker (\tr)
+.. index:: marker; \tr, tables; table row start
 
 \\tr
 ^^^^
@@ -21,7 +21,7 @@ Tables
 -----
 
 .. _usfmc_th#:
-.. index:: marker (\th#)
+.. index:: marker; \th#, tables; table column heading
 
 \\th#
 ^^^^^
@@ -34,7 +34,7 @@ Tables
 	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 .. _usfmc_thr#:
-.. index:: marker (\th#)
+.. index:: marker; \thr#, tables; right aligned table column heading
 
 \\thr#
 ^^^^^^
@@ -86,7 +86,7 @@ Numbers 2.10-16 (GNT)
 -----
 
 .. _usfmc_tc#:
-.. index:: marker (\tc#)
+.. index:: marker; \tc#, tables; table cell
 
 \\tc#
 ^^^^^
@@ -99,7 +99,7 @@ Numbers 2.10-16 (GNT)
 	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 .. _usfmc_tcr#:
-.. index:: marker (\tcr#)
+.. index:: marker; \tcr#, tables; right aligned table cell
 
 \\tcr#
 ^^^^^^
@@ -130,7 +130,7 @@ Numbers 2.10-16 (GNT)
 	:width: 250px
 
 .. _usfmc_table_colspan:
-.. index:: tables (column span)
+.. index:: tables; column span
 
 .. warning:: 
 

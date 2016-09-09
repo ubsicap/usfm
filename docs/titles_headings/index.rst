@@ -6,7 +6,7 @@ Titles, Headings, and Labels
 ============================
 
 .. _usfmp_mt#:
-.. index:: marker (\mt#)
+.. index:: marker; \mt#, titles; major title
 
 \\mt#
 ^^^^^
@@ -56,7 +56,7 @@ Introduction to John (GNT)
 -----
 
 .. _usfmp_mte#:
-.. index:: marker (\mte#)
+.. index:: marker; \mte#, titles; major title at ending
 
 \\mte#
 ^^^^^^
@@ -82,7 +82,7 @@ Introduction to John (GNT)
 -----
 
 .. _usfmp_ms#:
-.. index:: marker (\ms#)
+.. index:: marker; \ms#, headings; major section heading
 
 \\ms#
 ^^^^^
@@ -133,7 +133,7 @@ Daniel 1.1 (GNT)
 -----
 
 .. _usfmp_mr:
-.. index:: marker (\mr)
+.. index:: marker; \mr, headings; major section reference range
 
 \\mr
 ^^^^
@@ -164,7 +164,7 @@ Daniel 1.1 (GNT)
 -----
 
 .. _usfmp_s#:
-.. index:: marker (\s#)
+.. index:: marker; \s#, headings; section heading
 
 \\s#
 ^^^^
@@ -225,7 +225,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_sr:
-.. index:: marker (\sr)
+.. index:: marker; \sr, headings; section reference range
 
 \\sr
 ^^^^
@@ -255,7 +255,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_r:
-.. index:: marker (\r)
+.. index:: marker; \r, headings; parallel passage references
 
 \\r
 ^^^
@@ -285,7 +285,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmc_rq:
-.. index:: marker (\rq ...\rq*)
+.. index:: marker; \rq ...\rq*, headings; inline quotation references
 
 \\rq ...\\rq\*
 ^^^^^^^^^^^^^^
@@ -324,7 +324,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_d:
-.. index:: marker (\d)
+.. index:: marker; \d, headings; descriptive title
 
 \\d
 ^^^
@@ -357,7 +357,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_sp:
-.. index:: marker (\sp)
+.. index:: marker; \sp, headings; speaker
 
 \\sp
 ^^^^
@@ -388,7 +388,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_sd#:
-.. index:: marker (\sd#)
+.. index:: marker; \sd#, headings; semantic division
 
 \\sd#
 ^^^^^

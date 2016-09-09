@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content (sidebars), study content (articles), sidebars, articles
+.. index:: study content; sidebars, study content; articles, sidebars, articles
 
 Sidebars
 ========
@@ -17,7 +17,7 @@ Sidebars may contain larger sections of topical content, or information for more
 	\esbe
 
 .. _usfmn_esb:
-.. index:: marker (\esb)
+.. index:: marker; \esb
 
 \\esb
 ^^^^^
@@ -32,6 +32,9 @@ Sidebars may contain larger sections of topical content, or information for more
 * All of the text elements which make up the sidebar content. Refer to the documentation on using standard USFM title, paragraph, poetry, table, or special text marker elements.
 * Sidebars normally begin with an \\ms marker, used for providing a title to the sidebar content. 
 * Illustrations can be added to sidebar content sections using the USFM \\fig ...\\fig\* marker.
+
+.. _usfmn_esbe:
+.. index:: marker; \esbe
 
 \\esbe
 ^^^^^^

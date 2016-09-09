@@ -11,7 +11,7 @@ Syntax Notes
 -----
 
 .. _syntax_general:
-.. index:: syntax (general)
+.. index:: syntax; general
 
 General Syntax
 --------------
@@ -24,7 +24,7 @@ General Syntax
 * For marker pairs (character and note), the opening marker ends with the next space character (as with paragraph markers). The matching closing marker is identical to the opening marker but ends with an asterisk character ``*``. Example: ``\w grace\w*``.
 
 .. _syntax_numberedMarkers:
-.. index:: syntax (numbered markers)
+.. index:: syntax; numbered markers
 
 Numbered Markers
 ----------------
@@ -41,7 +41,7 @@ Some USFM markers include an optional numeric variable, which is represented in 
 	The variable # should not be used to indicate a specific occurrence in scripture of the element type (e.g. using \\s3 to represent the location of the particular section heading before the "Story of Creation" in Genesis 1.)
 
 .. _syntax_endmarkerInNotes:
-.. index:: syntax (endmarkers in notes)
+.. index:: syntax; endmarkers in notes
 
 Endmarkers in Footnotes and Cross References
 --------------------------------------------
@@ -61,7 +61,7 @@ A. ``\f + \fr 2.4 \fk The \nd Lord\nd*: \ft See \nd Lord\nd* in Word List.\f*``
 B. ``\f + \fr 2.4\fr* \fk The \nd Lord\nd*:\fk* See \nd Lord\nd* in Word List.\f*``
 
 .. _syntax_whitespace:
-.. index:: syntax (whitespace)
+.. index:: syntax; whitespace, whitespace
 
 Whitespace
 ----------
@@ -79,7 +79,7 @@ USFM considers space (U+0020), tab (U+0009), and :ref:`newline characters <synta
     - Multiple whitespace preceding a :doc:`paragraph </paragraphs/index>` marker.
 
 .. _syntax_newline:
-.. index:: syntax (newline)
+.. index:: syntax; newline, newlines
 
 Newlines
 ^^^^^^^^
@@ -89,7 +89,7 @@ USFM processors should treat the single CR (U+000D) or LF  (U+000A) characters, 
 All paragraph markers should be preceded by a single newline.
 
 .. _syntax_whitespace_normalization:
-.. index:: syntax (whitespace)
+.. index:: pair: whitespace; normalization
 
 Whitespace Normalization
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -102,7 +102,7 @@ Whitespace Normalization
 * Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)
 
 .. _syntax_znamespace:
-.. index:: marker (\z ...)
+.. index:: marker; \z...
 
 \\z namespace
 -------------
@@ -116,7 +116,7 @@ As a means of offering a type of solution to the need for occasional local marku
 However, it is much less likely that emerging digital publishing systems and work-flows will support user-generated/non-standardized project markup. Current procedures for interacting with these partner environments requires that translation data is delivered in rigidly validated formats which conform to specific agreed-upon interchange standards, such as the known USFM marker inventory, or some XML-based equivalents. Since connecting with these environments is much more exclusively software-driven than with many print production tools, encountering unknown markup within the publishing processes is a significant problem. Please consider this carefully before introducing non-standard USFM markup within a scripture translation project text.
 
 .. _syntax_documentation:
-.. index:: syntax (documentation)
+.. index:: syntax; documentation
 
 Documentation Syntax Notes
 --------------------------

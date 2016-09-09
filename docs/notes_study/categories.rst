@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: study content (categories), categories
+.. index:: study content; categories, categories
 
 Categories
 ==========
@@ -8,7 +8,7 @@ Categories
 Categories can optionally be assigned to extended study notes or sidebars by supplying a category tag (name) inside of opening and closing ``\cat ...\cat*`` markers. Category tags should be restricted to alpha-numeric characters. A list of category tags are defined individually and uniquely for each study Bible project.
 
 .. _usfmc_cat:
-.. index:: marker (\cat ...\cat*)
+.. index:: marker; \cat ...\cat*
 
 \\cat ...\\cat\*
 ----------------

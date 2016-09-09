@@ -1,6 +1,6 @@
 .. include:: /_static/inc_styles.txt
 
-.. index:: book standard abbreviation, book id
+.. index:: book; standard abbreviation, book; id
 
 Book Identifiers
 ================
