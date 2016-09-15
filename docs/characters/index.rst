@@ -6,7 +6,7 @@ Words and Characters
 ====================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    Character Marker Nesting <nesting>
    Word Level Attributes <attributes>
