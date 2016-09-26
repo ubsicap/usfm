@@ -29,7 +29,7 @@ Self closing markup is indicated by immediately terminating the marker, and any 
 
 .. code-block:: text
 
-    \qts\*
+    \qt-s\*
 
 .. _milestones_startend:
 .. index:: milestones; start and end
@@ -37,16 +37,16 @@ Self closing markup is indicated by immediately terminating the marker, and any 
 Indicating Start and End Milestones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A milestone marker must always end with either ``s`` or ``e``
+A milestone marker must always end with either ``-s`` or ``-e``
 
-* ``s`` indicates that the milestone is for marking the **start** of a span of text.
-* ``e`` indicates that the marker is an **end** milestone.
+* ``-s`` indicates that the milestone is for marking the **start** of a span of text.
+* ``-e`` indicates that the marker is an **end** milestone.
 
 **Example:** (milestone for the end of a quotation / speaker)
 
 .. code-block:: text
 
-    \qte\*
+    \qt-e\*
 
 .. _milestones_attributes:
 .. index:: milestones; attributes
@@ -63,9 +63,9 @@ Following the syntax for :doc:`word level attributes </attributes/index>`, the f
 
 .. code-block:: text
 
-    \qts |id="123" who="Pilate"\*“Are you the king of the Jews?”\qte |id="123"\*
+    \qt-s |id="123" who="Pilate"\*“Are you the king of the Jews?”\qt-e |id="123"\*
 
-Additional attributes may be available for or required by a specific USFM milestone marker (e.g the use of the ``who`` attribute in the above :ref:`quotation milestone <usfmm_qt#s>` example).
+Additional attributes may be available for or required by a specific USFM milestone marker (e.g the use of the ``who`` attribute in the above :ref:`quotation milestone <usfmm_qt#-s>` example).
 
 Levels
 ^^^^^^
@@ -76,25 +76,25 @@ The unnumbered version may be used when only one level of marker exists within t
 
 -----
 
-.. _usfmm_qt#s:
-.. index:: marker; \qt#s\*, marker; \qt#e\*, milestone; \qt#s\*, milestone; \qt#e\* 
+.. _usfmm_qt#-s:
+.. index:: marker; \qt#-s\*, marker; \qt#-e\*, milestone; \qt#-s\*, milestone; \qt#-e\* 
 
-\\qt#s\\* ... \\qt#e\\*
-^^^^^^^^^^^^^^^^^^^^^^^
+\\qt#-s\\* ... \\qt#-e\\*
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |badge_3.0|
 
-:Syntax: ``\qt#s\*`` ... ``\qt#e\*``
+:Syntax: ``\qt#-s\*`` ... ``\qt#-e\*``
 :Type: milestone
 :Added: 3.0
 :Use: Quotation start / end milestones. |br|
 	Typically used for indicating the speaker of the text. |br|
 	The variable # represents the level of nesting of the quotation being marked (i.e. a quote within a quote). |br|
-	**\\qts\\* = \\qt1s\\*** |br|
-	**\\qte\\* = \\qt1e\\*** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
+	**\\qt-s\\* = \\qt1-s\\*** |br|
+	**\\qt-e\\* = \\qt1-e\\*** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
 
-.. _usfmm_qt#s-attr:
-.. index:: attributes; \qt#s\*, quotation milestones; attributes
+.. _usfmm_qt#-s-attr:
+.. index:: attributes; \qt#-s\*, quotation milestones; attributes
 
 .. rubric:: Attributes |ico_Tag|
 
@@ -104,7 +104,7 @@ Following the syntax for :doc:`word level attributes </attributes/index>`.
 
 .. code-block:: text
 
-    \qts |id="qt123" who="Pilate"\*“Are you the king of the Jews?”\qte |id="qt123"\*
+    \qt-s |id="qt123" who="Pilate"\*“Are you the king of the Jews?”\qt-e |id="qt123"\*
 
 **Text Samples**
 
@@ -114,13 +114,13 @@ Matthew 27:11-14 (GNT) - Start and end quotation milestones using ``who`` attrib
     :name: usfm-milestone_qt#s_example
     :emphasize-lines: 2-4,6-7
 
-    \v 11 Jesus stood before the Roman governor, who questioned him. \qts |who="Pilate"\*“Are 
-    you the king of the Jews?”\qte\* he asked.
-    \p \qts |who="Jesus"\*“So you say,”\qte\* answered Jesus.
+    \v 11 Jesus stood before the Roman governor, who questioned him. \qt-s |who="Pilate"\*“Are 
+    you the king of the Jews?”\qt-e\* he asked.
+    \p \qt-s |who="Jesus"\*“So you say,”\qt-e\* answered Jesus.
     \v 12 But he said nothing in response to the accusations of the chief priests and elders.
     \p
-    \v 13 So Pilate said to him, \qts |who="Pilate"\*“Don't you hear all these things they 
-    accuse you of?”\qte\*
+    \v 13 So Pilate said to him, \qt-s |who="Pilate"\*“Don't you hear all these things they 
+    accuse you of?”\qt-e\*
     \p
     \v 14 But Jesus refused to answer a single word, with the result that the Governor was greatly 
     surprised.
@@ -132,7 +132,7 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     :emphasize-lines: 2-3,17,20,29
     
     \p
-    \v 22 Paul stood up in front of the city council and said, \qt1s |id="qt_ACT17:22" 
+    \v 22 Paul stood up in front of the city council and said, \qt1-s |id="qt_ACT17:22" 
     who="Paul"\*“I see that in every way you Athenians are very religious.
     \v 23 For as I walked through your city and looked at the places where you worship,
     I found an altar on which is written, ‘To an Unknown God.’ That which you worship, then,
@@ -147,10 +147,10 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     \v 27 He did this so that they would look for him, and perhaps find him as they felt 
     around for him. Yet God is actually not far from any one of us;
     \v 28 as someone has said,
-    \q1 \qt2s |who="someone"\*‘In him we live and move and exist.’\qt2e\*
+    \q1 \qt2-s |who="someone"\*‘In him we live and move and exist.’\qt2-e\*
     \b
     \m It is as some of your poets have said,
-    \q1 \qt2s |who="some poets"\*‘We too are his children.’\qt2e\*
+    \q1 \qt2-s |who="some poets"\*‘We too are his children.’\qt2-e\*
     \b
     \m
     \v 29 Since we are God's children, we should not suppose that his nature is anything like 
@@ -159,6 +159,6 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     them everywhere to turn away from their evil ways.
     \v 31 For he has fixed a day in which he will judge the whole world with justice by means of 
     a man he has chosen. He has given proof of this to everyone by raising that man from death!”
-    \qt1e |id="qt_ACT17:22"\*
+    \qt1-e |id="qt_ACT17:22"\*
 
 The ``id`` in the above example has been formed using a combination of the milestone type and start milestone reference.

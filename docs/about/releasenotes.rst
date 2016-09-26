@@ -16,7 +16,7 @@ Release Notes
 3.0
 ^^^
 
-*September 2016*
+*October 2016*
 
 USFM 3.0 additions or revisions are highlighted throughout this documentation using the badge |badge_3.0|
 
@@ -37,6 +37,7 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 * Link text: :ref:`\\jmp ...\\jmp\* <usfmc_jmp>`
 * Common peripheral :ref:`identifiers <periph_div>`.
 * Ruby annotations (CJK texts): :ref:`\\rb ...\\rb\* <usfmc_rb>` and :ref:`\\rt ...\\rt\* <usfmc_rt>`
+* Quotation start / end milestones: :ref:`\\qt#-s\\* and \\qt#-e\\* <usfmm_qt#-s>`.
 
 **Marker Revisions**
 
@@ -56,6 +57,10 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
     - Descriptive attributes for :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
 
 * Syntax for assigning word-level :doc:`linking attributes </linking/index>`.
+* Syntax for :doc:`milestones </milestones/index>`.
+
+    - Quotation start / end milestones: :ref:`\\qt#-s\\* and \\qt#-e\\* <usfmm_qt#-s>`.
+
 * Syntax for peripheral (:doc:`\\periph </peripherals/index>`) :ref:`identifiers <periph_id>`.
 
 **Standard Reference**
