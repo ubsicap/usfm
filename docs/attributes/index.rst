@@ -28,7 +28,8 @@ Within a character marker span, an attributes list is separated from the text co
 .. _attributes_default:
 .. index:: attributes; default
 
-.. rubric:: Attributes |ico_Tag|
+Default Attribute
+^^^^^^^^^^^^^^^^^
 
 When content is supplied in the position of a marker attribute, but without an explicit attribute name, the USFM specification defines a single default. Defaults are only provided for :ref:`markers <attributes_markersProviding>` which formally provide attributes in the current version of USFM.
 

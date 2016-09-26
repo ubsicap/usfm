@@ -8,7 +8,7 @@ Linking Attributes
 
 |badge_3.0|
 
-Following the :ref:`general syntax <attributes_syntax>` for :doc:`word level attributes </characters/attributes>`, USFM 3.0 provides a set of attributes for assigning linking properties to character level elements.
+Following the :ref:`general syntax <attributes_syntax>` for :doc:`word level attributes </attributes/index>`, USFM 3.0 provides a set of attributes for assigning linking properties to character level elements.
 
 General Syntax
 ^^^^^^^^^^^^^^

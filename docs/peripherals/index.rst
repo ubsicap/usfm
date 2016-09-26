@@ -79,7 +79,7 @@ Peripheral Identifiers
 
 |badge_3.0|
 
-For peripheral books containing :ref:`divisions <periph_div>`, the division title is free-form, and may be expressed in the vernacular language. Whenever possible, a peripheral identifier should be associated with a ``\periph`` division marker. A set of standardized identifiers allow software processes to easily select content for recognized peripheral divisions. The syntax for peripheral identifiers follows the syntax for :doc:`word level attributes </characters/attributes>`: attribute = "value". The attribute name is ``id``. The value is wrapped in quotes.
+For peripheral books containing :ref:`divisions <periph_div>`, the division title is free-form, and may be expressed in the vernacular language. Whenever possible, a peripheral identifier should be associated with a ``\periph`` division marker. A set of standardized identifiers allow software processes to easily select content for recognized peripheral divisions. The syntax for peripheral identifiers follows the syntax for :doc:`word level attributes </attributes/index>`: attribute = "value". The attribute name is ``id``. The value is wrapped in quotes.
 
 **Text sample with division identifier attributes:**
 
