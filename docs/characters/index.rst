@@ -9,8 +9,6 @@ Words and Characters
    :maxdepth: 1
 
    Character Marker Nesting <nesting>
-   Word Level Attributes <attributes>
-   Linking Attributes <linking>
 
 -----
 
@@ -595,7 +593,7 @@ Special Features
 
 .. caution:: |badge_3.0| **Significant syntax change from USFM 1.x / 2.x**
 
-	The syntax for defining illustrations in USFM 3.0 follows the general syntax for providing :doc:`word level attributes </characters/attributes>`. In USFM 1.x and 2.x, markup for illustrations required a the content for a collection of parameters to be provided in a specific order, with items separated by a vertical bar (e.g ``\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*``). The use of marker attributes, and the use of a vertical bar as an attribute separator was unique to illustration markup in USFM 1.x and 2.x. In USFM 3.0 this syntax is deprecated in order to align the markup with the general syntax for :doc:`word level attributes </characters/attributes>`.
+	The syntax for defining illustrations in USFM 3.0 follows the general syntax for providing :doc:`word level attributes </attributes/index>`. In USFM 1.x and 2.x, markup for illustrations required a the content for a collection of parameters to be provided in a specific order, with items separated by a vertical bar (e.g ``\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*``). The use of marker attributes, and the use of a vertical bar as an attribute separator was unique to illustration markup in USFM 1.x and 2.x. In USFM 3.0 this syntax is deprecated in order to align the markup with the general syntax for :doc:`word level attributes </attributes/index>`.
 
 .. _usfmc_fig-attr:
 .. index:: attributes; \fig ...\fig*, figure; attributes, illustration; attributes
@@ -604,7 +602,7 @@ Special Features
 
 |badge_3.0|
 
-Following the syntax for :doc:`word level attributes </characters/attributes>`. Required attributes are indicated in the list below with a red asterisk :red:`*`.
+Following the syntax for :doc:`word level attributes </attributes/index>`. Required attributes are indicated in the list below with a red asterisk :red:`*`.
 
 * Multiple attributes are required. There is no single, un-named :ref:`default <attributes_default>`.
 * **Compatibility with USFM 1.x and 2.x:** If a USFM parser encounters a list of un-named attributes using a vertical bar separator within ``\fig ...\fig*`` these should be interpreted according to the strict USFM 2.x order.
@@ -754,7 +752,7 @@ Following the syntax for :doc:`word level attributes </characters/attributes>`. 
 
 |badge_3.0|
 
-Following the syntax for :doc:`word level attributes </characters/attributes>`.
+Following the syntax for :doc:`word level attributes </attributes/index>`.
 
 :lemma: Citation form for the term in the glossary *(default)*
 

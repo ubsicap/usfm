@@ -30,8 +30,11 @@ USFM Documentation
    Footnotes <notes_basic/fnotes>
    Cross References <notes_basic/xrefs>
    Words and Characters <characters/index>
-   Peripherals <peripherals/index>
+   Word Level Attributes <attributes/index>
+   Linking Attributes <linking/index>
+   Milestones <milestones/index>
    Extended Study Content <notes_study/index>
+   Peripherals <peripherals/index>
 
 .. Character Marker Attributes <characters/attributes>
    Linking <characters/linking>

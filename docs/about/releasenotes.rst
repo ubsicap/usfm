@@ -42,7 +42,7 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 
 * Support citation form for wordlist / glossary text (update :ref:`\\w ...\\w\* <usfmc_w>`).
 * Support for explicit :ref:`table cell <usfmc_tc#>` column :ref:`spanning <usfmc_table_colspan>`.
-* Revised syntax for figures / illustrations applying descriptive :doc:`attributes </characters/attributes>`: :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
+* Revised syntax for figures / illustrations applying descriptive :doc:`attributes </attributes/index>`: :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
 * *Deprecate* cross reference and footnote DC content markers: :ref:`\\xdc ...\\xdc\* <usfmc_xdc>` and :ref:`\\fdc ...\\fdc\* <usfmc_fdc>`
 * *Deprecate* combined marker for proper name within translator's addition: :ref:`\\addpn ...\\addpn\* <usfmc_addpn>`
 * *Deprecate* numbered running header: :ref:`\\h# <usfmp_h>`
@@ -50,12 +50,12 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 
 **Syntax and Features**
 
-* Syntax for assigning word-level descriptive :doc:`attributes </characters/attributes>`.
+* Syntax for assigning word-level :doc:`descriptive attributes </attributes/index>`.
 
     - Descriptive attributes for :ref:`\\w ...\\w\* <usfmc_w-attr>`
     - Descriptive attributes for :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
 
-* Syntax for assigning word-level linking :doc:`attributes </characters/linking>`.
+* Syntax for assigning word-level :doc:`linking attributes </linking/index>`.
 * Syntax for peripheral (:doc:`\\periph </peripherals/index>`) :ref:`identifiers <periph_id>`.
 
 **Standard Reference**
