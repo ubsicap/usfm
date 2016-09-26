@@ -97,8 +97,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Words and Characters</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="nesting.html">Character Marker Nesting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="attributes.html">Word Level Attributes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="linking.html">Linking Attributes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#special-text">Special Text</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#add-add">\add ...\add*</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bk-bk">\bk ...\bk*</a></li>
@@ -146,8 +144,11 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../attributes/index.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linking/index.html">Linking Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../milestones/index.html">Milestones</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 </ul>
 
             
@@ -197,8 +198,6 @@
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="nesting.html">Character Marker Nesting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="attributes.html">Word Level Attributes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linking.html">Linking Attributes</a></li>
 </ul>
 </div>
 <hr class="docutils" />
@@ -833,13 +832,13 @@ Primarily used in <a class="reference internal" href="../poetry/index.html"><spa
 <div class="admonition caution">
 <p class="first admonition-title">Caution</p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> <strong>Significant syntax change from USFM 1.x / 2.x</strong></p>
-<p class="last">The syntax for defining illustrations in USFM 3.0 follows the general syntax for providing <a class="reference internal" href="attributes.html"><span class="doc">word level attributes</span></a>. In USFM 1.x and 2.x, markup for illustrations required a the content for a collection of parameters to be provided in a specific order, with items separated by a vertical bar (e.g <code class="docutils literal"><span class="pre">\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*</span></code>). The use of marker attributes, and the use of a vertical bar as an attribute separator was unique to illustration markup in USFM 1.x and 2.x. In USFM 3.0 this syntax is deprecated in order to align the markup with the general syntax for <a class="reference internal" href="attributes.html"><span class="doc">word level attributes</span></a>.</p>
+<p class="last">The syntax for defining illustrations in USFM 3.0 follows the general syntax for providing <a class="reference internal" href="../attributes/index.html"><span class="doc">word level attributes</span></a>. In USFM 1.x and 2.x, markup for illustrations required a the content for a collection of parameters to be provided in a specific order, with items separated by a vertical bar (e.g <code class="docutils literal"><span class="pre">\fig_DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*</span></code>). The use of marker attributes, and the use of a vertical bar as an attribute separator was unique to illustration markup in USFM 1.x and 2.x. In USFM 3.0 this syntax is deprecated in order to align the markup with the general syntax for <a class="reference internal" href="../attributes/index.html"><span class="doc">word level attributes</span></a>.</p>
 </div>
 <span class="target" id="usfmc-fig-attr"></span><p class="rubric" id="index-26">Attributes <a class="reference internal" href="../_images/icon-tag_alt.png"><img alt="ico_Tag" src="../_images/icon-tag_alt.png" style="width: 16px; height: 16px;" /></a></p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
-<p>Following the syntax for <a class="reference internal" href="attributes.html"><span class="doc">word level attributes</span></a>. Required attributes are indicated in the list below with a red asterisk <span class="red">*</span>.</p>
+<p>Following the syntax for <a class="reference internal" href="../attributes/index.html"><span class="doc">word level attributes</span></a>. Required attributes are indicated in the list below with a red asterisk <span class="red">*</span>.</p>
 <ul class="simple">
-<li>Multiple attributes are required. There is no single, un-named <a class="reference internal" href="attributes.html#attributes-default"><span class="std std-ref">default</span></a>.</li>
+<li>Multiple attributes are required. There is no single, un-named <a class="reference internal" href="../attributes/index.html#attributes-default"><span class="std std-ref">default</span></a>.</li>
 <li><strong>Compatibility with USFM 1.x and 2.x:</strong> If a USFM parser encounters a list of un-named attributes using a vertical bar separator within <code class="docutils literal"><span class="pre">\fig</span> <span class="pre">...\fig*</span></code> these should be interpreted according to the strict USFM 2.x order.</li>
 </ul>
 <table class="docutils field-list" frame="void" rules="none">
@@ -1001,7 +1000,7 @@ Surround word(s) with this markup to indicate that it appears (or should appear)
 </table>
 <span class="target" id="usfmc-w-attr"></span><p class="rubric" id="index-32">Attributes <a class="reference internal" href="../_images/icon-tag_alt.png"><img alt="ico_Tag" src="../_images/icon-tag_alt.png" style="width: 16px; height: 16px;" /></a></p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
-<p>Following the syntax for <a class="reference internal" href="attributes.html"><span class="doc">word level attributes</span></a>.</p>
+<p>Following the syntax for <a class="reference internal" href="../attributes/index.html"><span class="doc">word level attributes</span></a>.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />

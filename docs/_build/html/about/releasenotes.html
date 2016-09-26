@@ -120,8 +120,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../attributes/index.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linking/index.html">Linking Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../milestones/index.html">Milestones</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
 </ul>
 
             
@@ -188,7 +191,7 @@
 <hr class="docutils" />
 <div class="section" id="about-release-3-0">
 <span id="id1"></span><h2><a class="toc-backref" href="#id12">3.0</a><a class="headerlink" href="#about-release-3-0" title="Permalink to this headline">¶</a></h2>
-<p><em>September 2016</em></p>
+<p><em>October 2016</em></p>
 <p>USFM 3.0 additions or revisions are highlighted throughout this documentation using the badge <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
 <p><strong>Marker Additions</strong></p>
 <ul class="simple">
@@ -204,15 +207,16 @@
 <li>Structured list items: <a class="reference internal" href="../lists/index.html#usfmc-lik"><span class="std std-ref">\lik ...\lik*</span></a> and <a class="reference internal" href="../lists/index.html#usfmc-liv"><span class="std std-ref">\liv# ...\liv#*</span></a></li>
 <li>List item total: <a class="reference internal" href="../lists/index.html#usfmc-litl"><span class="std std-ref">\litl ...\litl*</span></a></li>
 <li>Semantic division: <a class="reference internal" href="../titles_headings/index.html#usfmp-sd"><span class="std std-ref">\sd#</span></a></li>
-<li>Link text: <a class="reference internal" href="../characters/linking.html#usfmc-jmp"><span class="std std-ref">\jmp ...\jmp*</span></a></li>
+<li>Link text: <a class="reference internal" href="../linking/index.html#usfmc-jmp"><span class="std std-ref">\jmp ...\jmp*</span></a></li>
 <li>Common peripheral <a class="reference internal" href="../peripherals/index.html#periph-div"><span class="std std-ref">identifiers</span></a>.</li>
 <li>Ruby annotations (CJK texts): <a class="reference internal" href="../characters/index.html#usfmc-rb"><span class="std std-ref">\rb ...\rb*</span></a> and <a class="reference internal" href="../characters/index.html#usfmc-rt"><span class="std std-ref">\rt ...\rt*</span></a></li>
+<li>Quotation start / end milestones: <a class="reference internal" href="../milestones/index.html#usfmm-qt-s"><span class="std std-ref">\qt#-s\* and \qt#-e\*</span></a>.</li>
 </ul>
 <p><strong>Marker Revisions</strong></p>
 <ul class="simple">
 <li>Support citation form for wordlist / glossary text (update <a class="reference internal" href="../characters/index.html#usfmc-w"><span class="std std-ref">\w ...\w*</span></a>).</li>
 <li>Support for explicit <a class="reference internal" href="../tables/index.html#usfmc-tc"><span class="std std-ref">table cell</span></a> column <a class="reference internal" href="../tables/index.html#usfmc-table-colspan"><span class="std std-ref">spanning</span></a>.</li>
-<li>Revised syntax for figures / illustrations applying descriptive <a class="reference internal" href="../characters/attributes.html"><span class="doc">attributes</span></a>: <a class="reference internal" href="../characters/index.html#usfmc-fig-attr"><span class="std std-ref">\fig ...\fig*</span></a></li>
+<li>Revised syntax for figures / illustrations applying descriptive <a class="reference internal" href="../attributes/index.html"><span class="doc">attributes</span></a>: <a class="reference internal" href="../characters/index.html#usfmc-fig-attr"><span class="std std-ref">\fig ...\fig*</span></a></li>
 <li><em>Deprecate</em> cross reference and footnote DC content markers: <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xdc"><span class="std std-ref">\xdc ...\xdc*</span></a> and <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-fdc"><span class="std std-ref">\fdc ...\fdc*</span></a></li>
 <li><em>Deprecate</em> combined marker for proper name within translator&#8217;s addition: <a class="reference internal" href="../characters/index.html#usfmc-addpn"><span class="std std-ref">\addpn ...\addpn*</span></a></li>
 <li><em>Deprecate</em> numbered running header: <a class="reference internal" href="../identification/index.html#usfmp-h"><span class="std std-ref">\h#</span></a></li>
@@ -220,7 +224,7 @@
 </ul>
 <p><strong>Syntax and Features</strong></p>
 <ul>
-<li><p class="first">Syntax for assigning word-level descriptive <a class="reference internal" href="../characters/attributes.html"><span class="doc">attributes</span></a>.</p>
+<li><p class="first">Syntax for assigning word-level <a class="reference internal" href="../attributes/index.html"><span class="doc">descriptive attributes</span></a>.</p>
 <blockquote>
 <div><ul class="simple">
 <li>Descriptive attributes for <a class="reference internal" href="../characters/index.html#usfmc-w-attr"><span class="std std-ref">\w ...\w*</span></a></li>
@@ -228,7 +232,14 @@
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Syntax for assigning word-level linking <a class="reference internal" href="../characters/linking.html"><span class="doc">attributes</span></a>.</p>
+<li><p class="first">Syntax for assigning word-level <a class="reference internal" href="../linking/index.html"><span class="doc">linking attributes</span></a>.</p>
+</li>
+<li><p class="first">Syntax for <a class="reference internal" href="../milestones/index.html"><span class="doc">milestones</span></a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Quotation start / end milestones: <a class="reference internal" href="../milestones/index.html#usfmm-qt-s"><span class="std std-ref">\qt#-s\* and \qt#-e\*</span></a>.</li>
+</ul>
+</div></blockquote>
 </li>
 <li><p class="first">Syntax for peripheral (<a class="reference internal" href="../peripherals/index.html"><span class="doc">\periph</span></a>) <a class="reference internal" href="../peripherals/index.html#periph-id"><span class="std std-ref">identifiers</span></a>.</p>
 </li>
