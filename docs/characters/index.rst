@@ -695,7 +695,7 @@ Following the syntax for :doc:`word level attributes </attributes/index>`. Requi
 :Type: character
 :Added: 3.0
 :Use: Ruby annotation text. |br|
-	In the case where the annotation text is associated with only a single preceding ideogram, only the ``\\rt ...\\rt\*`` marker is required (the base text markup :ref:`\\rb ...\\rb\* <usfmc_rb>` is optional in these cases).
+	In the case where the annotation text is associated with only a single preceding ideogram, only the ``\rt ...\rt*`` marker is required (the base text markup :ref:`\\rb ...\\rb\* <usfmc_rb>` is optional in these cases).
 
 **Text and Formatting Sample** (\\rb ...\\rb\* and \\rt ...\\rt\*) - Genesis 1.1-2 |br|
 (Japanes Living Bible - Biblica)
