@@ -102,7 +102,7 @@ Whitespace Normalization
 * Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)
 
 .. _syntax_znamespace:
-.. index:: marker; \z...
+.. index:: marker; \z..., syntax; user namespace
 
 \\z namespace
 -------------

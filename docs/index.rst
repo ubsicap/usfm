@@ -5,7 +5,7 @@
 
 .. include:: /_static/inc_styles.txt
 
-.. index:: USFM
+.. index:: USFM, documentation; table of contents
 
 ******************
 USFM Documentation

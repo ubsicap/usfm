@@ -13,7 +13,7 @@ Following the :ref:`general syntax <attributes_syntax>` for :doc:`word level att
 General Syntax
 ^^^^^^^^^^^^^^
 
-Names given to linking attributes begin with ``link-``, distinguishing them from any other descriptive :ref:`attributes <attributes_markersProviding>`. Linking attributes are separated from the text content by a vertical bar ``|``. Attributes are listed as pairs of name and corresponding value using the syntax: ``link-<attribute> = "value"``.
+Names given to linking attributes begin with ``link-``, distinguishing them from any other descriptive :ref:`attributes <attributes_markersProviding>`. Linking attributes are separated from the text content by a vertical bar ``|``. Attributes are listed as pairs of name and corresponding value using the syntax: ``link-<attribute>="value"``.
 
 Linking attributes are combined with any other descriptive attributes added to the same marker. The order of attributes is not significant, although it would benefit readability to have descriptive and linking attributes grouped together.
 
