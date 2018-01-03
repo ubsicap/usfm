@@ -246,7 +246,7 @@ Structured List Entries
 
 |badge_3.0|
 
-Standard USFM :doc:`table </tables/index>` structures can be challenging to display on small page sizes, or digital device displays. Scripture content is sometimes encoded within a USFM table in order to suggest a meaningful presentation, but the encoded presentation may only be rendered accurately or legibly in a larger format. The following structured list entry elements identify a set of related content, but do not encode a specific presentation.
+Standard USFM :doc:`table </tables/index>` structures can be challenging to display on small page sizes, or digital device displays. Scripture content is sometimes encoded within a USFM table in order to suggest a meaningful presentation, but the encoded presentation may only be rendered accurately or legibly in a larger format. The following character marker pairs can be used to create structured list entries which identify a set of related content, but do not encode a specific presentation.
 
 .. note::
 
