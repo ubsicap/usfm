@@ -7,7 +7,7 @@ Word Level Attributes
 
 |badge_3.0|
 
-USFM 3.0 provides a general syntax for adding named attributes to character markers. Attributes contribute descriptive metadata about the marked content. The addition of marker attributes is a means of extending the meta information contained within in a USFM text.
+USFM 3.0 provides a general syntax for adding named attributes to character markers. Attributes define additional properties of the marked content. The addition of marker attributes is a means of extending the meta information contained within in a USFM text.
 
 USFM will *formally* provide descriptive attributes for a :ref:`subset <attributes_markersProviding>` of character markers. Each marker in this set will have a defined list of attributes, which are relevant to the overall purpose of the marker.
 
