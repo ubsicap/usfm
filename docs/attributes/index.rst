@@ -17,7 +17,7 @@ USFM will *formally* provide descriptive attributes for a :ref:`subset <attribut
 General Syntax
 ^^^^^^^^^^^^^^
 
-Within a character marker span, an attributes list is separated from the text content by a vertical bar ``|``. Attributes are listed as pairs of **name** and corresponding **value** using the syntax: ``attribute = "value"``. The attribute name is a single ASCII string. The value is wrapped in quotes.
+Within a character marker span, an attributes list is separated from the text content by a vertical bar ``|``. Attributes are listed as pairs of **name** and corresponding **value** using the syntax: ``attribute="value"``. The attribute name is a single ASCII string. The value is wrapped in quotes.
 
 **Example:**
 
