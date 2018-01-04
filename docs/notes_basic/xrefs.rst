@@ -245,7 +245,7 @@ The following markup can be included as part of the cross reference content:
 :Added: 1.0
 :Deprecated: 3.0 |badge_3.0|
 :Use: References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books.|br|
-	**Deprecated** (i.e. use is discouraged). |br| |br|
+	**Deprecated** (use is discouraged). |br| |br|
 	|ico_Cg| *Recommended alternate:* General purpose use of :ref:`\\dc ...\\dc\* <usfmc_dc>` or :doc:`nested </characters/nesting>` ``\+dc ...\+dc*`` wherever DC-only content is being marked.
 
 **Text and Formatting Samples** - Psalm 115.3-4 (GNT - cross references)

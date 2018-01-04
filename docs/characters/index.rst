@@ -274,7 +274,7 @@ Psalm 115.3-4 (GNT - cross references)
 :Added: 2.0
 :Deprecated: 3.0  |badge_3.0|
 :Use: Support for overlapping :ref:`\\pn ...\\pn\* <usfmc_pn>` and :ref:`\\add ...\\add\* <usfmc_add>` occurrences in Chinese texts. |br|
-	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
+	**Deprecated** (use is discouraged). |br| |br|
 	|ico_Cg| *Recommended alternate:* :doc:`Nested </characters/nesting>` :ref:`\\pn ...\\pn\* <usfmc_pn>` within :ref:`\\add ...\\add\* <usfmc_add>`.
 
 -----
@@ -729,7 +729,7 @@ Following the syntax for :doc:`word level attributes </attributes/index>`. Requi
 :Deprecated: 3.0  |badge_3.0|
 :Use: Pronunciation annotation. |br|
 	*Used for CJK text.* |br|
-	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
+	**Deprecated** (use is discouraged). |br| |br|
 	|ico_Cg| *Recommended alternate:* :ref:`\\rt ...\\rt\* <usfmc_rt>` (with optional markup for the annotated base text using :ref:`\\rb ...\\rb\* <usfmc_rb>`).
 
 -----
