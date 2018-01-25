@@ -17,20 +17,31 @@ Names given to linking attributes begin with ``link-``, distinguishing them from
 
 Linking attributes are combined with any other descriptive attributes added to the same marker. The order of attributes is not significant, although it would benefit readability to have descriptive and linking attributes grouped together.
 
+.. note:: 
+
+    When a standard USFM scripture reference is required, you must provide a string of pattern: ``[A-Z1-4]{3} ?[a-z0-9\-,:]*``
+    
+    * Book names must be one of the standard :doc:`Book Identifiers </identification/books>`
+    * Chapter verse separator is always a colon ``:``
+    * Verse ranges are indicated using a hyphen
+    
+    Example: ``MAT 3:1-4``
+
 Attributes
 ^^^^^^^^^^
 
-* **link-href** - identifies the resource being linked to as a URI.
+:link-href: Identifies the resource being linked to as a URI. |br|
 
-    - Custom USFM provided URI prefixes are:
+    * Custom USFM provided URI prefixes are:
 
-        + ``prj:`` + standard USFM / USX scripture reference syntax (book, chapter, verse). Example: ``prj:RSV52 MAT 3:1-4``
+        - ``prj:`` + standard scripture reference. |br| Example: ``prj:RSV52 MAT 3:1-4``
+    
+    * A link reference within the same project text does not require a URI prefix.
+    
+    * The resource may be identified by unique id. |br| Example: ``#article-Ruth`` or ``prj:GNTSB #article-Ruth``
 
-    - A link reference within the same project text does not require a URI prefix but must follow the standard USFM / USX scripture reference syntax. Example: ``MAT 3:1-4``
-    - The resource may be identified by unique id. Example: ``#article-Ruth`` or ``prj:GNTSB #article-Ruth``
-
-* **link-title** - plain text describing the remote resource such as might be shown in a tooltip.
-* **link-name** - a unique identifier for this content location (an anchor).
+:link-title: Plain text describing the remote resource such as might be shown in a tooltip.
+:link-name: A unique identifier for this content location (an anchor).
 
 The set of URI prefixes used within a ``link-href`` attribute can be extended beyond the predefined set for USFM 3.0. Any user defined URI prefixes must begin with the prefix ``x-``.
 
