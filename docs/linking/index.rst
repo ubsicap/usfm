@@ -115,6 +115,6 @@ Reference to named target within the same project
 :Type: character
 :Added: 3.0
 :Use: Link text. |br|
-	Optionally used for associating linking attributes to a span of text when no other character level markup is applied to the same span.
+	Available for associating linking attributes to a span of text when no other character level markup is already applied to the text at this location.
 
 *Linking examples provided above*
