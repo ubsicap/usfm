@@ -41,7 +41,7 @@ Attributes
     * The resource may be identified by unique id. |br| Example: ``#article-Ruth`` or ``prj:GNTSB #article-Ruth``
 
 :link-title: Plain text describing the remote resource such as might be shown in a tooltip.
-:link-name: A unique identifier for this content location (an anchor).
+:link-id: A unique identifier for this content location (an anchor).
 
 The set of URI prefixes used within a ``link-href`` attribute can be extended beyond the predefined set for USFM 3.0. Any user defined URI prefixes must begin with the prefix ``x-``.
 
@@ -74,7 +74,7 @@ Assigning an identifier (anchor). *In this example the markup is a milestone, in
 	\q2 ‘Prepare a road for the Lord;
 	\q2 make a straight path for him to travel!’ ”
 	\esb \cat People\cat*
-	\ms \jmp |link-name="article-john_the_baptist"\jmp*John the Baptist
+	\ms \jmp |link-id="article-john_the_baptist"\jmp*John the Baptist
 	\p John is sometimes called the last “Old Testament prophet” because of the warnings he 
 	brought about God's judgment and because he announced the coming of God's “Chosen 
 	One” (Messiah).
