@@ -46,15 +46,15 @@ Peripheral Books and Divisions
 |                               | |br| ``|id="intprophesy"``       |                                      |
 +-------------------------------+----------------------------------+--------------------------------------+
 | ``\periph Preface``           | ``\periph Deuterocanon           | :ref:`Glossary <usfm-book_GLO>`      |
-| |br| ``|id="preface"``        | Introduction``                   | (\id GLO)                            |
+| |br| ``|id="preface"``        | Introduction``                   | (\\id GLO)                           |
 |                               | |br| ``|id="intdc"``             |                                      |
 +-------------------------------+----------------------------------+--------------------------------------+
 | ``\periph Table of Contents`` | ``\periph New Testament          | :ref:`Topical Index <usfm-book_GLO>` |
-| |br| ``|id="contents"``       | Introduction``                   | (\id TDX)                            |
+| |br| ``|id="contents"``       | Introduction``                   | (\\id TDX)                           |
 |                               | |br| ``|id="intnt"``             |                                      |
 +-------------------------------+----------------------------------+--------------------------------------+
 | ``\periph Alphabetical        | ``\periph Gospels Introduction`` | :ref:`Names Index <usfm-book_TDX>`   |
-| Contents``                    | |br| ``|id="intgospels"``        | (\id NDX)                            |
+| Contents``                    | |br| ``|id="intgospels"``        | (\\id NDX)                           |
 | |br| ``|id="alphacontents"``  |                                  |                                      |
 +-------------------------------+----------------------------------+--------------------------------------+
 | ``\periph Table of            | ``\periph Epistles               | :doc:`Other <other>`                 |
