@@ -18,58 +18,58 @@ Some back matter content is large enough that it is most practical to store it w
 Peripheral Books and Divisions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-+-------------------------------+----------------------------------+------------------------------+
-| :doc:`Front Matter <front>`   | :doc:`Introductions <intros>`    | :doc:`Back Matter <back>`    |
-| (\\id FRT)                    | (\\id INT)                       | (\\id BAK)                   |
-+===============================+==================================+==============================+
-| **Divisions**                 | **Divisions**                    | **Divisions**                |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Title Page``        | ``\periph Bible Intorduction``   | ``\periph Chronology Test``  |
-| |br| ``|id="title"``          | |br| ``|id="intbible"``          | |br| ``|id="chron"``         |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Half Title Page``   | ``\periph Old Testament          | ``\periph Weights and        |
-| |br| ``|id="halftitle"``      | Introduction``                   | Measures``                   |
-|                               | |br| ``|id="intot"``             | |br| ``|id="measures"``      |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Promotional Page``  | ``\periph Pentateuch             | ``\periph Map Index``        |
-| |br| ``|id="promo"``          | Introduction``                   | |br| ``|id="maps"``          |
-|                               | |br| ``|id="intpent"``           |                              |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Imprimatur``        | ``\periph History Introduction`` | ``\periph LXX Quotes in NT`` |
-| |br| ``|id="imprimatur"``     | |br| ``|id="inthistory"``        | |br| ``|id="lxxquotes"``     |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Publication Data``  | ``\periph Poetry Introduction``  | **Additional Back Matter**   |
-| |br| ``|id="pubdata"``        | |br| ``|id="intpoetry"``         |                              |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Foreword``          | ``\periph Prophecy               | Concordance (\\id CNC)       |
-| |br| ``|id="foreword"``       | Introduction``                   |                              |
-|                               | |br| ``|id="intprophesy"``       |                              |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Preface``           | ``\periph Deuterocanon           | Glossary (\id GLO)           |
-| |br| ``|id="preface"``        | Introduction``                   |                              |
-|                               | |br| ``|id="intdc"``             |                              |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Table of Contents`` | ``\periph New Testament          | Topical Index (\id TDX)      |
-| |br| ``|id="contents"``       | Introduction``                   |                              |
-|                               | |br| ``|id="intnt"``             |                              |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Alphabetical        | ``\periph Gospels Introduction`` | Names Index (\id NDX)        |
-| Contents``                    | |br| ``|id="intgospels"``        |                              |
-| |br| ``|id="alphacontents"``  |                                  |                              |
-+-------------------------------+----------------------------------+------------------------------+
-| ``\periph Table of            | ``\periph Epistles               | :doc:`Other <other>`         |
-| Abbreviations``               | Introduction``                   | **(\\id OTH)**               |
-| |br| ``|id="abbreviations"``  | |br| ``|id="intepistles"``       |                              |
-+-------------------------------+----------------------------------+------------------------------+
-|                               | ``\periph Letters Introduction`` | **Divisions**                |
-|                               | |br| ``|id="intletters"``        |                              |
-+-------------------------------+----------------------------------+------------------------------+
-|                               |                                  | ``\periph Cover``            |
-|                               |                                  | |br| ``|id="cover"``         |
-+-------------------------------+----------------------------------+------------------------------+
-|                               |                                  | ``\periph Spine``            |
-|                               |                                  | |br| ``|id="spine"``         |
-+-------------------------------+----------------------------------+------------------------------+
++-------------------------------+----------------------------------+--------------------------------------+
+| :doc:`Front Matter <front>`   | :doc:`Introductions <intros>`    | :doc:`Back Matter <back>`            |
+| (\\id FRT)                    | (\\id INT)                       | (\\id BAK)                           |
++===============================+==================================+======================================+
+| **Divisions**                 | **Divisions**                    | **Divisions**                        |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Title Page``        | ``\periph Bible Intorduction``   | ``\periph Chronology Test``          |
+| |br| ``|id="title"``          | |br| ``|id="intbible"``          | |br| ``|id="chron"``                 |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Half Title Page``   | ``\periph Old Testament          | ``\periph Weights and                |
+| |br| ``|id="halftitle"``      | Introduction``                   | Measures``                           |
+|                               | |br| ``|id="intot"``             | |br| ``|id="measures"``              |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Promotional Page``  | ``\periph Pentateuch             | ``\periph Map Index``                |
+| |br| ``|id="promo"``          | Introduction``                   | |br| ``|id="maps"``                  |
+|                               | |br| ``|id="intpent"``           |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Imprimatur``        | ``\periph History Introduction`` | ``\periph LXX Quotes in NT``         |
+| |br| ``|id="imprimatur"``     | |br| ``|id="inthistory"``        | |br| ``|id="lxxquotes"``             |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Publication Data``  | ``\periph Poetry Introduction``  | **Additional Back Matter**           |
+| |br| ``|id="pubdata"``        | |br| ``|id="intpoetry"``         |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Foreword``          | ``\periph Prophecy               | :ref:`Concordance <usfm-book_CNC>`   |
+| |br| ``|id="foreword"``       | Introduction``                   | (\\id CNC)                           |
+|                               | |br| ``|id="intprophesy"``       |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Preface``           | ``\periph Deuterocanon           | :ref:`Glossary <usfm-book_GLO>`      |
+| |br| ``|id="preface"``        | Introduction``                   | (\id GLO)                            |
+|                               | |br| ``|id="intdc"``             |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Table of Contents`` | ``\periph New Testament          | :ref:`Topical Index <usfm-book_GLO>` |
+| |br| ``|id="contents"``       | Introduction``                   | (\id TDX)                            |
+|                               | |br| ``|id="intnt"``             |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Alphabetical        | ``\periph Gospels Introduction`` | :ref:`Names Index <usfm-book_TDX>`   |
+| Contents``                    | |br| ``|id="intgospels"``        | (\id NDX)                            |
+| |br| ``|id="alphacontents"``  |                                  |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+| ``\periph Table of            | ``\periph Epistles               | :doc:`Other <other>`                 |
+| Abbreviations``               | Introduction``                   | (\\id OTH)                           |
+| |br| ``|id="abbreviations"``  | |br| ``|id="intepistles"``       |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+|                               | ``\periph Letters Introduction`` | **Divisions**                        |
+|                               | |br| ``|id="intletters"``        |                                      |
++-------------------------------+----------------------------------+--------------------------------------+
+|                               |                                  | ``\periph Cover``                    |
+|                               |                                  | |br| ``|id="cover"``                 |
++-------------------------------+----------------------------------+--------------------------------------+
+|                               |                                  | ``\periph Spine``                    |
+|                               |                                  | |br| ``|id="spine"``                 |
++-------------------------------+----------------------------------+--------------------------------------+
 
 .. index:: peripherals; identifiers
 .. _periph_id:
