@@ -71,8 +71,8 @@ Peripheral Books and Divisions
 |                               |                                  | |br| ``|id="spine"``                 |
 +-------------------------------+----------------------------------+--------------------------------------+
 
-.. index:: peripherals; identifiers
 .. _periph_id:
+.. index:: peripherals; identifiers
 
 Peripheral Identifiers
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -109,17 +109,19 @@ For peripheral books containing :ref:`divisions <periph_div>`, the division titl
 
 Defined peripheral ``id`` values are shown in the peripheral :ref:`divisions <periph_div>` table above.
 
-.. index:: peripherals; user defined divisions
 .. _periph_div-user:
+.. index:: peripherals; user defined divisions
 
 User Defined Peripheral Divisions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A project may add peripheral content for a division not defined in the current USFM set. The new division should begin with ``\periph``, plus a division title, and a user defined identifier using the prefix ``x-`` to a user defined ``id`` value. However, USFM compliant publishing applications should consider the defined :ref:`divisions <periph_div>` and identifiers as a reference for content to support.
+A project may add peripheral content for a division not defined in the current USFM set. The new division should begin with ``\periph``, plus a division title, and with a user defined identifier ``id`` value beginning with the prefix ``x-``.
+
+USFM compliant publishing applications should consider the pre-defined :ref:`divisions <periph_div>` and identifiers as a reference for content to support.
 
 Markup for Peripheral Divisions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In the following topics there is a recommendation and a brief description of the USFM markers which will be most appropriate for use in each peripheral content division. The recommended markup is sufficient for most projects and should be used as a first option. However, in general, any of the existing USFM standard markers may be used in addition to the recommended markers, if the required content cannot be adequately encoded.
+In the following topics there is a recommendation and a brief description of the USFM markers which will be most appropriate for use in each peripheral content division. The recommended markup is sufficient for most projects and should be used as a first option. However, in general, any of the existing USFM standard markers may be used if the required content cannot be adequately encoded using the recommended set.
 
 .. toctree::
    :maxdepth: 1
