@@ -4,10 +4,10 @@
 
 .. _usfm-book_INT:
 
-Introductions (\\id INT)
-========================
+Introductions
+=============
 
-The INT book and its divisions can be used for storing introductory material related to the various book groupings within a scripture publication. This material has also been referred to as "mid-matter". The following USFM markers are recommended for use in Introduction content.
+The INT :doc:`book </identification/books>` and its :ref:`divisions <periph_div>` can be used for storing introductory material related to the various book groupings within a scripture publication. This material has also been referred to as "mid-matter". The following USFM markers are recommended for use in Introduction content.
 
 * :ref:`\\mt# <usfmp_mt#>` - Main title.
 * :ref:`\\s# <usfmp_s#>` - Section heading.

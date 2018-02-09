@@ -4,16 +4,10 @@
 
 .. _usfm-book_FRT:
 
-Front Matter (\\id FRT)
-=======================
+Front Matter
+============
 
-.. contents::
-	:local:
-	:depth: 2
-
------
-
-The FRT book and its divisions can be used for storing various material which is typically presented at the start of a scripture publication, before the first book of scripture.
+The FRT :doc:`book </identification/books>` and its :ref:`divisions <periph_div>` can be used for storing various material which is typically presented at the start of a scripture publication, before the first book of scripture.
 
 .. index:: periph; Title Page, title page
 

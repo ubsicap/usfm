@@ -4,16 +4,10 @@
 
 .. _usfm-book_BAK:
 
-Back Matter (\\id BAK)
-======================
+Back Matter
+===========
 
-.. contents::
-	:local:
-	:depth: 2
-
------
-
-The BAK book and its divisions can be used for storing material which is typically presented at the end of a scripture publication. In practice some back matter content is large enough to require storing it in its own book file (:ref:`Concordance <usfm-book_CNC>`, :ref:`Glossary <usfm-book_GLO>`, :ref:`Topical Index <usfm-book_CNC>`, :ref:`Names Index <usfm-book_NDX>`).
+The BAK :doc:`book </identification/books>` and its :ref:`divisions <periph_div>` can be used for storing material which is typically presented at the end of a scripture publication. In practice some back matter content is large enough to require storing it in its own book file (:ref:`Concordance <usfm-book_CNC>`, :ref:`Glossary <usfm-book_GLO>`, :ref:`Topical Index <usfm-book_CNC>`, :ref:`Names Index <usfm-book_NDX>`).
 
 **General**
 
