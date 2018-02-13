@@ -7,12 +7,6 @@
 Other
 =====
 
-.. contents::
-	:local:
-	:depth: 2
-
------
-
 .. index:: periph; Cover, cover
 
 \\periph Cover
