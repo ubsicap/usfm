@@ -235,7 +235,7 @@ Topical Index
 	\mt Subject Index
 	\ip Introductory paragraph(s)
 	...
-	\ms A
+	\s A
 	\p \k Aaron\k*
 	\xt Act 7.40
 	\xt Heb 5.4; 7.11; 9.4
