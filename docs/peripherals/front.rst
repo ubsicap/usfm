@@ -146,7 +146,7 @@ In the following example, the variable # represents the location of a page numbe
 	\mt Contents
 	\s Old Testament
 	\tr  \th1 Name  \thr2 Page \th3 Name \thr4 Page 
-	\tr \tc1 Genesis \tcr2 # \tc3 Ecclesiates \tcr4 #
+	\tr \tc1 Genesis \tcr2 # \tc3 Ecclesiastes \tcr4 #
 	\tr \tc1 Exodus \tcr2 # \tc3 Song of Songs \tcr4 #
 	\tr \tc1 Leviticus \tcr2 # \tc3 Isaiah \tcr4 #
 	...
