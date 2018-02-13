@@ -112,6 +112,8 @@ In the following example, the variable # represents the location of a page numbe
 * :ref:`\\p <usfmp_p>` - Paragraph.
 * :ref:`\\k ...\\k\* <usfmc_k>` - Keyword.
 
+**Text Sample**
+
 .. code-block:: text
 	:name: periph-ntQuotesLxx_example
 	:emphasize-lines: 3
@@ -154,6 +156,8 @@ Concordance
 * \\xtSee ...\\xtSee\* - Alternate entry target reference. (= custom Concordance and Names Index markup).
 * \\xtSeeAlso ...\\xtSeeAlso\* - Additional entry target reference. (= custom Concordance and Names Index markup).
 
+**Text Sample**
+
 .. code-block:: text
 	:name: periph-concordance_example
 	:emphasize-lines: 1
@@ -193,6 +197,8 @@ Glossary
 * :ref:`\\li# <usfmp_li#>` - List item.
 * :ref:`\\tl ...\\tl\* <usfmc_tl>` - National idiom word(s).
 
+**Text Sample**
+
 .. code-block:: text
 	:name: periph-glossary_example
 	:emphasize-lines: 1
@@ -226,6 +232,8 @@ Topical Index
 * :ref:`\\pi <usfmp_pi#>` - Sub-entries, or secondary paragraph(s) (if indentation is preferred).
 * :ref:`\\li# <usfmp_li#>` - List item. Use for simple lists, where more complex tabular layout is not required.
 * :ref:`\\tr <usfmp_tr>`, :ref:`\\th# <usfmc_th#>`, :ref:`\\thr# <usfmc_thr#>`, :ref:`\\tc# <usfmc_tc#>`, :ref:`\\tcr# <usfmc_tcr#>`  - For any tabular data.
+
+**Text Sample**
 
 .. code-block:: text
 	:name: periph-topicalIndex_example
@@ -266,6 +274,8 @@ Names Index
 * :ref:`\\xt ...\\xt\* <usfmc_xt>` - Entry target reference(s) *(required)*. More than one \\xt ...\\xt\* entry can be provided to create logical groupings of references (per chapter; per book etc.).
 * \\xtSee ...\\xtSee\* - Alternate entry target reference. (= custom Concordance and Names Index markup).
 * \\xtSeeAlso ...\\xtSeeAlso\* - Additional entry target reference. (= custom Concordance and Names Index markup).
+
+**Text Sample**
 
 .. code-block:: text
 	:name: periph-namesIndex_example
