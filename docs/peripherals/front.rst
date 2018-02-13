@@ -33,8 +33,7 @@ The FRT :doc:`book </identification/books>` and its :ref:`divisions <periph_div>
 	\pc Good News Translation
 	\pc \fig |gntLogo.jpg|span||||\fig* 
 	\pc \fig |absLogo.jpg|span||||\fig*
-	\pc American Bible Society 
-	\pc New York
+	\pc American Bible Society
 
 .. index:: periph; Half Title Page, half title page
 
