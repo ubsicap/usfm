@@ -19,7 +19,7 @@ Another example of an overlapping structure exists when there is a need to indic
 General Syntax
 ^^^^^^^^^^^^^^
 
-Milestones follow a syntax similar to the current :doc:`character level markup </characters/index>`. The significant distinguishing feature is that milestones introduce a new **self-closing** syntax. This self-closing syntax is the feature which identifies the marker as a milestone. The milestone will mark the *position* of the start or end of a span of text, but it does not strictly *contain* the text, as with a regular character level markup.
+Milestones follow a syntax similar to the current :doc:`character level markup </characters/index>`. The significant distinguishing feature is that milestones introduce a new **self-closing** syntax. This self-closing syntax is the feature which identifies the marker as a milestone. A milestone will mark a single *position* within the text, or the *position* of the start or end of a span of text. It does not strictly *contain* the text, as with a regular character level markup.
 
 A benefit of the self-closing marker syntax is that it also results in a shorter marker string.
 
@@ -48,6 +48,19 @@ A milestone marker must always end with either ``-s`` or ``-e``
 
     \qt-e\*
 
+Standalone Milestones
+^^^^^^^^^^^^^^^^^^^^^
+
+Milestones do not need to occur in pairs or require the use of start ``-s`` and end ``-e`` marker suffixes. The syntax can also be used for a standalone milestone.
+
+**Example:** (note use of the :ref:`\\z <syntax_znamespace>` namespace in this example)
+
+.. code-block:: text
+
+    \zms\*
+
+Currently, USFM does not formally provide any standalone milestones. This may change with future updates to USFM 3.x, as use of milestones highlights specific needs. 
+
 .. _milestones_attributes:
 .. index:: milestones; attributes
 
@@ -75,6 +88,8 @@ As with other USFM :ref:`numbered markers <syntax_numberedMarkers>`, a numeric v
 The unnumbered version may be used when only one level of marker exists within the project text. Numbers should always be included when more than one level of the marker exists within the project text.
 
 -----
+
+The following milestone markers are formally provided by USFM. The :ref:`\\z <syntax_znamespace>` namespace should be used for any user generated milestone markup. 
 
 .. _usfmm_qt#-s:
 .. index:: marker; \qt#-s\*, marker; \qt#-e\*, milestone; \qt#-s\*, milestone; \qt#-e\* 
