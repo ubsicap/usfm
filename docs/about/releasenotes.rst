@@ -36,7 +36,7 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 * Semantic division: :ref:`\\sd# <usfmp_sd#>`
 * Link text: :ref:`\\jmp ...\\jmp\* <usfmc_jmp>`
 * Common peripheral :ref:`identifiers <periph_div>`.
-* Ruby annotations (CJK texts): :ref:`\\rb ...\\rb\* <usfmc_rb>` and :ref:`\\rt ...\\rt\* <usfmc_rt>`
+* Ruby glosses (CJK texts): :ref:`\\rb ...\\rb\* <usfmc_rb>`
 * Quotation start / end milestones: :ref:`\\qt#-s\\* and \\qt#-e\\* <usfmm_qt#-s>`.
 
 **Marker Revisions**

@@ -666,53 +666,100 @@ Following the syntax for :doc:`word level attributes </attributes/index>`. Requi
 -----
 
 .. _usfmc_rb:
-.. index:: marker; \rb ...\rb*, ruby, ruby; base text
+.. index:: marker; \rb ...\rb*, ruby, ruby; glossing
 
 \\rb ...\\rb\*
 ^^^^^^^^^^^^^^
 
 |badge_3.0|
 
-:Syntax: ``\rb_annotated base text...\rb*``
+:Syntax: ``\rb_base text|gloss1:gloss2\rb*``
 :Type: character
 :Added: 3.0
-:Use: Annotated base text. |br|
+:Use: Ruby glossing. |br|
 	Used to mark the base text being annotated with ruby characters.
 
 .. note::
 
-	**About Ruby:** *Ruby* is the term used for a run of special text that is associated with another run of text referred to as the *base text*. Ruby text is used to provide a short annotation for the associated base text. It is most often used to provide a reading / pronunciation guide, especially for characters that are likely to be unfamiliar to the reader. Ruby text is usually presented alongside or above the base text, using a smaller typeface.
+	**About Ruby**
+	|ico_See| *See:* https://www.w3.org/TR/ruby/
 
------
+	**Han characters:** Chinese, Japanese, and Korean texts have some characters that they share in common. In Japanese these are called Kanji (literally “Han characters”). There are several thousand of these characters to learn. For new readers or readers new to the Biblical texts it may be very difficult for them to recognize what Chinese or Japanese word corresponds to the Han character(s) they are seeing.
 
-.. _usfmc_rt:
-.. index:: marker; \rt ...\rt*, ruby; annotation text
+	**Ruby glosses:** In order to help these readers, some Bibles are printed with glosses using small phonetic characters (e.g. Japanese uses the hiragana alphabet) placed above the more symbolic Han characters to tell the reader how to pronounce the character. These phonetic characters are generically called "ruby glosses" or "rubies". In Japanese this technique is called Furigana.
 
-\\rt ...\\rt\*
-^^^^^^^^^^^^^^
+.. _usfmc_rb-attr:
+.. index:: attributes; \rb ...\rb*, ruby glossing; attributes
+
+.. rubric:: Attributes |ico_Tag|
 
 |badge_3.0|
 
-:Syntax: ``\rt_annotation text...\rt*``
-:Type: character
-:Added: 3.0
-:Use: Ruby annotation text. |br|
-	In the case where the annotation text is associated with only a single preceding ideogram, only the ``\\rt ...\\rt\*`` marker is required (the base text markup :ref:`\\rb ...\\rb\* <usfmc_rb>` is optional in these cases).
+Following the syntax for :doc:`word level attributes </attributes/index>`.
 
-**Text and Formatting Sample** (\\rb ...\\rb\* and \\rt ...\\rt\*) - Genesis 1.1-2 |br|
-(Japanes Living Bible - Biblica)
+.. index:: marker; \rb ...|gloss\rb*
+
+:gloss: Ruby glosses *(default)* |br| |br|
+	Use a colon ``:`` to separate multiple elements for glossing each of the characters within a base text phrase.	
+
+For example: If the base text being glossed is a phrase of two Han characters (B), then the ruby gloss text (gg) may contain two elements, one for glossing each of the base text characters making up the phrase.
+
+.. code-block:: text
+
+	\rb BB|gg:gg\rb*
+
+This syntax allows the decision to present glosses by phrase or by group to be made at the publication stage, rather than pre-determined during translation.
+
+Parts of a phrase gloss may be left empty. In the example phrase below the second and fourth base characters are unglossed:
+
+.. code-block:: text
+
+	\rb BBBB|g1::g3:\rb*
+
+**Text and Formatting Samples**
+
+1. One Han character with a single ruby gloss.
+
+.. code-block:: text
+
+	\rb哀|あい\rb*
+
+2. Two Han characters with a single ruby phrase gloss
+
+.. code-block:: text
+
+	\rb 話賄|はなはなし\rb*
+
+3. Phrase gloss broken down into individual pieces by adding colons between ruby characters
+
+.. code-block:: text
+
+	\rb 話賄|はな:はなし\rb*
+
+4. A character sequence which includes non-Han characters (hiragana), which are NOT glossed.
+
+.. code-block:: text
+
+	\rb 定ま|さだ:\rb*
+
+5. An un-glossed character occurring between glossed characters in the "phrase".
+
+.. code-block:: text
+
+	\rb 神の子|かみ::こ\rb*
+
+Genesis 1.1-2 (Japanes Living Bible - Biblica)
 
 .. code-block:: text
 	:name: usfm-character_rb_rt_example
 
-	\p \v 1 まだ\rb 何\rb*\rt なに\rt*もなかった\rb 時\rb*\rt とき\rt*、\rb 神\rb*\rt かみ\rt*は
-	\rb 天\rb*\rt てん\rt*と\rb 地\rb*\rt ち\rt*を\rb 造\rb*\rt つく\rt*りました。
-	\v 2 \rb 地\rb*\rt ち\rt*は\rb 形\rb*\rt かたち\rt*も\rb 定\rb*\rt さだ\rt*まらず、
-	\rb 闇\rb*\rt やみ\rt*に\rb 包\rb*\rt つつ\rt*まれた\rb 水\rb*\rt みず\rt*の
-	\rb 上\rb*\rt うえ\rt*を、さらに\rb 神\rb*\rt かみ\rt*の\rb 霊\rb*\rt れい\rt*が
-	\rb 覆\rb*\rt おお\rt*っていました。
+	\p \v 1 まだ\rb 何|なに\rb*もなかった\rb 時|とき\rb*、\rb 神|かみ\rb*は
+	\rb 天|てん\rb*と\rb 地|ち\rb*を\rb 造|つく\rb*りました。
+	\v 2 \rb 地|ち\rb*は\rb 形|かたち\rb*も\rb 定|さだ\rb*まらず、\rb 闇|やみ\rb*に
+	\rb 包|つつ\rb*まれた\rb 水|みず\rb*の\rb 上|うえ\rb*を、さらに\rb 神|かみ\rb*の
+	\rb 霊|れい\rb*が\rb 覆|おお\rb*っていました。
 
-.. image:: images/usfm-character_rb_rt.jpg
+.. image:: images/usfm-character_rb.jpg
 	:width: 300px
 
 -----
@@ -730,7 +777,7 @@ Following the syntax for :doc:`word level attributes </attributes/index>`. Requi
 :Use: Pronunciation annotation. |br|
 	*Used for CJK text.* |br|
 	**Deprecated** (use is discouraged). |br| |br|
-	|ico_Cg| *Recommended alternate:* :ref:`\\rt ...\\rt\* <usfmc_rt>` (with optional markup for the annotated base text using :ref:`\\rb ...\\rb\* <usfmc_rb>`).
+	|ico_Cg| *Recommended alternate:* :ref:`\\rb ...\\rb\* <usfmc_rb>`.
 
 -----
 
