@@ -37,7 +37,7 @@ Self closing markup is indicated by immediately terminating the marker, and any 
 Indicating Start and End Milestones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A milestone marker must always end with either ``-s`` or ``-e``
+A milestone marker may end with either ``-s`` or ``-e``
 
 * ``-s`` indicates that the milestone is for marking the **start** of a span of text.
 * ``-e`` indicates that the marker is an **end** milestone.
