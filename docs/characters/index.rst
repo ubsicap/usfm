@@ -706,7 +706,8 @@ For example: If the base text being glossed is a phrase of two Han characters (B
 
 .. code-block:: text
 
-	\rb BB|gg:gg\rb*
+	\rb BB|gloss="gg:gg"\rb*
+	\rb BB|"gg:gg"\rb*
 
 This syntax allows the decision to present glosses by phrase or by group to be made at the publication stage, rather than pre-determined during translation.
 
