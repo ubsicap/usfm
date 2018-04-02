@@ -357,7 +357,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_sp:
-.. index:: marker; \sp, headings; speaker
+.. index:: marker; \sp, labels; speaker
 
 \\sp
 ^^^^
@@ -388,7 +388,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_sd#:
-.. index:: marker; \sd#, headings; semantic division
+.. index:: marker; \sd#, labels; semantic division
 
 \\sd#
 ^^^^^
@@ -425,3 +425,41 @@ Proverbs 22.22,24 (GNT)
 
 .. image:: images/usfm-paragraph_sd.jpg
 	:width: 350px
+
+-----
+
+.. _usfmp_ts:
+.. index:: marker; \ts, labels; semantic division
+
+\\ts
+^^^^
+
+|badge_3.0|
+
+:Syntax: ``\ts``
+:Type: paragraph
+:Added: 3.0
+:Use: Translator's chunk marker. |br|
+	To identify chunks of text suitable for translating at one time.
+
+.. warning:: ``\ts`` is strictly a *non-publishable* aid to translators. It does not indicate or imply a paragraph break nor a section or section heading in the published form of a text.
+
+**Text and Formatting Sample** - Jude 5-8 (ULB)
+
+.. code-block:: text
+	:name: usfm-paragraph_ts_example
+	:emphasize-lines: 1,8
+
+	\ts
+	\p
+	\v 5 Now I wish to remind you, although you know everything, that the Lord once saved a 
+	people out of the land of Egypt, but that afterward he destroyed those who did not believe.
+	\v 6 And angels who did not keep to their own principality, but left their proper dwelling 
+	place—God has kept them in everlasting chains in darkness for the judgment of the 
+	great day.
+	\ts
+	\v 7 It is just like Sodom and Gomorrah and the cities around them, which in a similar way 
+	gave themselves over to fornication and pursued unnatural desires. They were given as 
+	examples of those who suffer the punishment of eternal fire.
+	\v 8 Yet in the same way these also pollute their bodies in their dreams, and they reject 
+	authority, and they say evil things about the glorious ones.
