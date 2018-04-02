@@ -57,6 +57,16 @@ In cases where more than one value should be provided for an attribute key, the 
 
 |ico_see| See the attributes for :ref:`\\w ...\\w\* <usfmc_w-attr>` for additional examples.
 
+.. _attributes_multiParts:
+.. index:: attributes; multiple parts
+
+Multiple Attribute Parts
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+In cases where an attribute value is composed of multiple parts (e.g. a compound word or phrase), the author can (optionally) separate the parts using a colon ``:`` within the value string.
+
+|ico_see| See the ``gloss`` attribute for :ref:`\\rb ...\\rb\* <usfmc_rb-attr>` an example of the use of this syntax.
+
 .. _attributes_backward:
 .. index:: attributes; backward compatibility
 
