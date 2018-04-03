@@ -429,7 +429,7 @@ Proverbs 22.22,24 (GNT)
 -----
 
 .. _usfmp_ts:
-.. index:: marker; \ts, labels; semantic division
+.. index:: marker; \ts, labels; translator's chunk
 
 \\ts
 ^^^^
