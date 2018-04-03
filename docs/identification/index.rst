@@ -173,6 +173,28 @@ The text following this marker is not normally used in any formatted presentatio
 
 -----
 
+.. _usfmp_toca#:
+.. index:: marker; \toca#, identification; alternative language contents texts
+
+\\toca#
+^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\toca1_text...``
+:Type: paragraph
+:Added: 3.0
+:Use: Alternative language long table of contents text. |br|
+	Used to specify an alternate set of table of contents texts (for example, in a language of wider communication). |br| |br|
+
+:Syntax: ``\toca2_text...``
+:Use: Alternative language short table of contents text. |br| |br|
+
+:Syntax: ``\toca3_text...``
+:Use: Alternative language book abbreviation.
+
+-----
+
 .. _usfmp_iex:
 .. index:: marker; \iex, identification; bridge text, introduction; bridge text
 
