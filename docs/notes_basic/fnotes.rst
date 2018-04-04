@@ -177,6 +177,26 @@ The following markup can be included as part of the footnote content:
 
 -----
 
+.. _usfmc_fw:
+.. index:: marker; \fw, footnote; witness list
+
+\\fw
+^^^^
+
+|badge_3.0|
+
+:Syntax: ``\fw_text...``
+:Type: character (note)
+:Added: 3.0
+:Use: Footnote witness list. |br|
+	For distinguishing a list of sigla representing witnesses in critical editions.
+
+.. note::
+
+	Apparatus entries of printed critical editions are densely packed with information. One key part is the list of witnesses supporting a specific reading. The witnesses are usually represented by sigla consisting of one character, an abbreviation, or a number. It can be very helpful to distinguish witness lists from other footnote text, which can make it simpler to introduce checking tools for these lists, and to create linking and reader helps in digital representations.
+
+-----
+
 .. _usfmc_fp:
 .. index:: marker; \fp, footnote; paragraph
 
