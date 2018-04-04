@@ -448,7 +448,7 @@ Proverbs 22.22,24 (GNT)
 
 .. code-block:: text
 	:name: usfm-paragraph_ts_example
-	:emphasize-lines: 1,8
+	:emphasize-lines: 1,13
 
 	\ts
 	\p
