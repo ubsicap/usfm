@@ -442,7 +442,7 @@ Proverbs 22.22,24 (GNT)
 :Use: Translator's chunk marker. |br|
 	To identify chunks of text suitable for translating at one time.
 
-.. warning:: ``\ts`` is strictly a *non-publishable* aid to translators. It does not indicate or imply a paragraph break nor a section or section heading in the published form of a text.
+.. warning:: ``\ts`` is strictly a *non-publishable* aid to translators. It does not indicate or imply a true paragraph boundary or division / section heading in the published form of a text. If translator's chunk elements are used, it is strongly recommended to add them to the text at paragraph boundaries.
 
 **Text and Formatting Sample** - Jude 5-8 (ULB)
 
