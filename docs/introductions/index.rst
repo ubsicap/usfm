@@ -488,6 +488,19 @@ Introductions
 
 -----
 
+.. _usfmp_iex:
+.. index:: marker; \iex, identification; bridge text, introduction; bridge text
+
+\\iex
+^^^^^
+
+:Syntax: ``\iex_text...``
+:Type: paragraph
+:Added: 1.0
+:Use: Introduction explanatory or bridge text (e.g. explanation of missing book in a short Old Testament).
+
+-----
+
 .. _usfmp_imte#:
 .. index:: marker; \imte#, introductions; major title ending
 
