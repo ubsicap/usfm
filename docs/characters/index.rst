@@ -521,6 +521,21 @@ Character Styling
 
 -----
 
+.. _usfmc_sup:
+.. index:: marker; \sup ...\sup*, character style; superscript
+
+\\sup ...\\sup\*
+^^^^^^^^^^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\sup_text...\sup*``
+:Type: character
+:Added: 3.0
+:Use: Superscript text. Typically for use in critical edition footnotes.
+
+-----
+
 Spacing and Breaks
 ------------------
 
