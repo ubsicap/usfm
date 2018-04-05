@@ -195,6 +195,26 @@ The following markup can be included as part of the footnote content:
 
 	Apparatus entries of printed critical editions are densely packed with information. One key part is the list of witnesses supporting a specific reading. The witnesses are usually represented by sigla consisting of one character, an abbreviation, or a number. It can be very helpful to distinguish witness lists from other footnote text, which can make it simpler to introduce checking tools for these lists, and to create linking and reader helps in digital representations.
 
+**Text and Formatting Samples** - Matthew 28.14 (Nestle-Aland 29)
+
+.. code-block:: text
+	:name: usfm-character_fw_example
+
+	\f ⸀ \fr 28,14 \ft υπο \fw B D 0148. 892\f*
+
+.. image:: images/usfm-character_fw.jpg
+	:width: 450px
+
+Matthew 4.1 (Nestle-Aland 29)
+
+.. code-block:: text
+	:name: usfm-character_fw_example-alt
+
+	\f ° \fr 4,1 \fw B Δ 700\f*
+
+.. image:: images/usfm-character_fw-alt.jpg
+	:width: 450px
+
 -----
 
 .. _usfmc_fp:
