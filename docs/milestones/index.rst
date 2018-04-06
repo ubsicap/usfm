@@ -149,7 +149,7 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     :emphasize-lines: 2-3,17,20,29
     
     \p
-    \v 22 Paul stood up in front of the city council and said, \qt1-s |sid="qt_ACT17:22" 
+    \v 22 Paul stood up in front of the city council and said, \qt1-s |sid="qt1_ACT_17:22" 
     who="Paul"\*“I see that in every way you Athenians are very religious.
     \v 23 For as I walked through your city and looked at the places where you worship,
     I found an altar on which is written, ‘To an Unknown God.’ That which you worship, then,
@@ -176,6 +176,6 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     them everywhere to turn away from their evil ways.
     \v 31 For he has fixed a day in which he will judge the whole world with justice by means of 
     a man he has chosen. He has given proof of this to everyone by raising that man from death!”
-    \qt1-e |eid="qt_ACT17:22"\*
+    \qt1-e |eid="qt1_ACT_17:22"\*
 
-The ``id`` in the above example has been formed using a combination of the milestone type and start milestone reference.
+The ``sid`` and ``eid`` attributes in the above example have been formed using a combination of the milestone type and start milestone reference.
