@@ -69,14 +69,16 @@ Attributes
 
 Following the syntax for :doc:`word level attributes </attributes/index>`, the following optional attributes can be added to *any* USFM milestone marker.
 
-:id: A unique identifier which can be used to unambiguously associate the start and ending milestone marker. |br|
-	The id can be composed of any mixture of numbers, letters, and underscores, and should be unique throughout the scripture text for the selected milestone type.
+:sid: A unique identifier which can be used to unambiguously identify the starting milestone, and to clearly associate the starting milestone with the ending milestone (eid). |br|
+    The `sid` can be composed of any mixture of numbers, letters, and underscores, and should be a unique `sid` throughout the scripture text.
+:eid: A unique identifier which can be used to unambiguously identify the ending milestone, and to clearly associate the ending milestone with the starting milestone (sid). |br|
+    If a `sid` attribute is used for the starting milestone in a milestone pair, the ending milestone must include `eid`.
 
 **Example:**
 
 .. code-block:: text
 
-    \qt-s |id="123" who="Pilate"\*“Are you the king of the Jews?”\qt-e |id="123"\*
+    \qt-s |sid="qt_123" who="Pilate"\*“Are you the king of the Jews?”\qt-e |eid="qt_123"\*
 
 Additional attributes may be available for or required by a specific USFM milestone marker (e.g the use of the ``who`` attribute in the above :ref:`quotation milestone <usfmm_qt#-s>` example).
 
@@ -119,7 +121,7 @@ Following the syntax for :doc:`word level attributes </attributes/index>`.
 
 .. code-block:: text
 
-    \qt-s |id="qt123" who="Pilate"\*“Are you the king of the Jews?”\qt-e |id="qt123"\*
+    \qt-s |sid="qt_123" who="Pilate"\*“Are you the king of the Jews?”\qt-e |eid="qt_123"\*
 
 **Text Samples**
 
@@ -147,7 +149,7 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     :emphasize-lines: 2-3,17,20,29
     
     \p
-    \v 22 Paul stood up in front of the city council and said, \qt1-s |id="qt_ACT17:22" 
+    \v 22 Paul stood up in front of the city council and said, \qt1-s |sid="qt_ACT17:22" 
     who="Paul"\*“I see that in every way you Athenians are very religious.
     \v 23 For as I walked through your city and looked at the places where you worship,
     I found an altar on which is written, ‘To an Unknown God.’ That which you worship, then,
@@ -174,6 +176,6 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     them everywhere to turn away from their evil ways.
     \v 31 For he has fixed a day in which he will judge the whole world with justice by means of 
     a man he has chosen. He has given proof of this to everyone by raising that man from death!”
-    \qt1-e |id="qt_ACT17:22"\*
+    \qt1-e |eid="qt_ACT17:22"\*
 
 The ``id`` in the above example has been formed using a combination of the milestone type and start milestone reference.
