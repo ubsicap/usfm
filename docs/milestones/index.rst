@@ -196,9 +196,7 @@ The ``sid`` and ``eid`` attributes in the above example have been formed using a
 :Use: Translator's section start / end milestones. |br|
 	For identifying a section (chunk) of text suitable for translating at one time.
 
-**Text Samples**
-
-Jude 5-8, ULB - using standalone milestones
+**Text Samples** - Jude 5-8, ULB - using standalone milestones
 
 .. code-block:: text
     :name: usfm-paragraph_ts_example
