@@ -194,7 +194,7 @@ The ``sid`` and ``eid`` attributes in the above example have been formed using a
 :Type: milestone
 :Added: 3.0
 :Use: Translator's section start / end milestones. |br|
-	For identifying a section (chunk) of text suitable for translating at one time. |br|
+	For identifying a section (chunk) of text suitable for translating at one time.
 
 **Text Samples**
 
