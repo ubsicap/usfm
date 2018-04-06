@@ -123,6 +123,42 @@ Paragraphs
 
 -----
 
+.. _usfmp_pr:
+.. index:: marker; \pr, paragraphs; right-aligned, paragraphs; text refrain
+
+\\pr
+^^^^
+
+:Syntax: ``\pr(_text...)``
+:Type: paragraph
+:Added: 1.0
+:Deprecated: 2.0
+:Restored: 3.0 |badge_3.0|
+:Use: Right-aligned paragraph. |br|
+	|ico_Cg| *Recommended use:* Text refrain.
+
+**Text and Formatting Sample** - Deuteronomy 27.15,16,17 (GNT - *markup adapted*)
+
+.. code-block:: text
+	:name: usfm-paragraph_pr_example
+	:emphasize-lines: 4,7,10
+
+	\p
+	\v 15 “ ‘God's curse on anyone who makes an idol of stone, wood, or metal and secretly 
+	worships it; the \nd Lord\nd* hates idolatry.’
+	\pr “And all the people will answer, ‘Amen!’
+	\p
+	\v 16 “ ‘God's curse on anyone who dishonors his father or mother.’
+	\pr “And all the people will answer, ‘Amen!’
+	\p
+	\v 17 “ ‘God's curse on anyone who moves a neighbor's property line.’
+	\pr “And all the people will answer, ‘Amen!’
+
+.. image:: images/usfm-paragraph_pr.jpg
+	:width: 250px
+
+-----
+
 .. _usfmp_cls:
 .. index:: marker; \cls, paragraphs; letter closing
 
@@ -256,27 +292,7 @@ Paragraphs
 :Syntax: ``\pmr_text...``
 :Type: paragraph
 :Added: 2.0
-:Use: 	Embedded text refrain. |br|
-
-**Text and Formatting Sample** - Deuteronomy 27.15,16,17 (GNT - *markup adapted*)
-
-.. code-block:: text
-	:name: usfm-paragraph_pmr_example
-	:emphasize-lines: 4,7,10
-
-	\p
-	\v 15 “ ‘God's curse on anyone who makes an idol of stone, wood, or metal and secretly 
-	worships it; the \nd Lord\nd* hates idolatry.’
-	\pmr “And all the people will answer, ‘Amen!’
-	\p
-	\v 16 “ ‘God's curse on anyone who dishonors his father or mother.’
-	\pmr “And all the people will answer, ‘Amen!’
-	\p
-	\v 17 “ ‘God's curse on anyone who moves a neighbor's property line.’
-	\pmr “And all the people will answer, ‘Amen!’
-
-.. image:: images/usfm-paragraph_pmr.jpg
-	:width: 250px
+:Use: 	Embedded text refrain.
 
 -----
 
@@ -426,21 +442,6 @@ Paragraphs
 
 .. image:: images/usfm-paragraph_pc.jpg
 	:width: 250px
-
------
-
-.. _usfmp_pr:
-.. index:: marker; \pr, paragraphs; right-aligned
-
-\\pr
-^^^^
-
-:Syntax: ``\pr(_text...)``
-:Type: paragraph
-:Added: 1.0
-:Use: Right-aligned paragraph. |br|
-	**Deprecated** (i.e. use is strongly discouraged). |br| |br|
-	|ico_Cg| *Recommended alternate:* :ref:`\\pmr <usfmp_pmr>`
 
 -----
 
