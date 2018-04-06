@@ -1442,16 +1442,6 @@
 \SpaceBefore 8
 \SpaceAfter 8
 
-\Marker ts
-\Name ts - Label - Translator’s chunk
-\Description To identify chunks of text suitable for translating at one time
-\OccursUnder c
-\Rank 4
-\TextType Section
-\TextProperties paragraph nonpublishable nonvernacular
-\StyleType Paragraph
-\FontSize 10
-
 # Tables
 
 \Marker tr
@@ -2742,6 +2732,14 @@
 #!\OccursUnder id
 #!\StyleType Milestone
 #!\Attributes ?who ?sid ?eid
+
+#!\Marker ts-s
+#!\Endmarker ts-e
+#!\Name Translator's section start/end milestone
+#!\Description Translators's section start/end milestone
+#!\OccursUnder id
+#!\StyleType Milestone
+#!\Attributes ?sid ?eid
 
 # Other special text elements specified in USFM
 #   ~ = fixed (no-break) space

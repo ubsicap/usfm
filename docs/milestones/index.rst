@@ -179,3 +179,64 @@ Acts 17:22-31 - Start and end quotation milestones using ``who``, ``level``, and
     \qt1-e |eid="qt1_ACT_17:22"\*
 
 The ``sid`` and ``eid`` attributes in the above example have been formed using a combination of the milestone type and start milestone reference.
+
+-----
+
+.. _usfmm_ts-s:
+.. index:: marker; \ts-s\*, marker; \ts-e\*, milestone; \ts-s\*, milestone; \ts-e\* 
+
+\\ts-s\\* ... \\ts-e\\*
+^^^^^^^^^^^^^^^^^^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\ts-s\*`` ... ``\ts-e\*``
+:Type: milestone
+:Added: 3.0
+:Use: Translator's section start / end milestones. |br|
+	For identifying a section (chunk) of text suitable for translating at one time. |br|
+
+**Text Samples**
+
+Jude 5-8, ULB - using standalone milestones
+
+.. code-block:: text
+    :name: usfm-paragraph_ts_example
+    :emphasize-lines: 1,8,14
+
+    \ts\*
+    \p
+    \v 5 Now I wish to remind you, although you know everything, that the Lord once saved a 
+    people out of the land of Egypt, but that afterward he destroyed those who did not believe.
+    \v 6 And angels who did not keep to their own principality, but left their proper dwelling 
+    place—God has kept them in everlasting chains in darkness for the judgment of the 
+    great day.
+    \ts\*
+    \v 7 It is just like Sodom and Gomorrah and the cities around them, which in a similar way 
+    gave themselves over to fornication and pursued unnatural desires. They were given as 
+    examples of those who suffer the punishment of eternal fire.
+    \v 8 Yet in the same way these also pollute their bodies in their dreams, and they reject 
+    authority, and they say evil things about the glorious ones.
+    \ts\*
+
+Jude 5-8, ULB - using milestone pairs
+
+.. code-block:: text
+    :name: usfm-paragraph_ts_example-alt
+    :emphasize-lines: 1,8,9,15
+    
+    \ts-s|sid="ts_JUD_5-6"\*
+    \p
+    \v 5 Now I wish to remind you, although you know everything, that the Lord once saved a 
+    people out of the land of Egypt, but that afterward he destroyed those who did not believe.
+    \v 6 And angels who did not keep to their own principality, but left their proper dwelling 
+    place—God has kept them in everlasting chains in darkness for the judgment of the 
+    great day.
+    \ts-e|eid="ts_JUD_5-6"\*
+    \ts-s|sid="ts_JUD_7-8"\*
+    \v 7 It is just like Sodom and Gomorrah and the cities around them, which in a similar way 
+    gave themselves over to fornication and pursued unnatural desires. They were given as 
+    examples of those who suffer the punishment of eternal fire.
+    \v 8 Yet in the same way these also pollute their bodies in their dreams, and they reject 
+    authority, and they say evil things about the glorious ones.
+    \ts-e|eid="ts_JUD_7-8"\*
