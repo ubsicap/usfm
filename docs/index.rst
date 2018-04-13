@@ -33,7 +33,4 @@ USFM Documentation
    Extended Study Content <notes_study/index>
    Peripherals <peripherals/index>
 
-.. Character Marker Attributes <characters/attributes>
-   Linking <characters/linking>
-
 |ico_See| *See also* the documentation :ref:`Index <genindex>` page and :doc:`Release Notes <about/releasenotes>`.
