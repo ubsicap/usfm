@@ -10,6 +10,9 @@ Linking Attributes
 
 Following the :ref:`general syntax <attributes_syntax>` for :doc:`word level attributes </attributes/index>`, USFM 3.0 provides a set of attributes for assigning linking properties to character level elements.
 
+.. _linking_syntax:
+.. index:: linking; syntax
+
 General Syntax
 ^^^^^^^^^^^^^^
 
@@ -27,20 +30,29 @@ Linking attributes are combined with any other descriptive attributes added to t
     
     Example: ``MAT 3:1-4``
 
-Attributes
-^^^^^^^^^^
+Attributes |ico_Tag|
+^^^^^^^^^^^^^^^^^^^^
 
-:link-href: Identifies the resource being linked to as a URI. |br|
+.. _usfmc-attr_link-href:
+.. index:: attribute; link-href
 
-    * Custom USFM provided URI prefixes are:
+:link-href: Identifies the resource being linked to as a URI. |br| |br|
+	Custom USFM provided URI prefixes are: |br|
+	``prj:`` + standard scripture reference. |br|
+	Example: ``prj:RSV52 MAT 3:1-4``
 
-        - ``prj:`` + standard scripture reference. |br| Example: ``prj:RSV52 MAT 3:1-4``
-    
-    * A link reference within the same project text does not require a URI prefix.
-    
-    * The resource may be identified by unique id. |br| Example: ``#article-Ruth`` or ``prj:GNTSB #article-Ruth``
+	A link reference within the same project text does not require a URI prefix. |br| |br|
+	The resource may be identified by unique id. |br|
+	Example: ``#article-Ruth`` or ``prj:GNTSB #article-Ruth``
+
+.. _usfmc-attr_link-title:
+.. index:: attribute; link-title
 
 :link-title: Plain text describing the remote resource such as might be shown in a tooltip.
+
+.. _usfmc-attr_link-id:
+.. index:: attribute; link-id
+
 :link-id: A unique identifier for this content location (an anchor).
 
 The set of URI prefixes used within a ``link-href`` attribute can be extended beyond the predefined set for USFM 3.0. Any user defined URI prefixes must begin with the prefix ``x-``.

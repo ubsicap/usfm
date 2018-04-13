@@ -103,6 +103,7 @@ The following markup can be included as part of the cross reference content:
 :Syntax: ``\\xt_refs...``
 :Type: character (note)
 :Added: 1.0
+:Updated: 3.0 (attributes)
 :Use: Target reference(s). |br|
 	A list of scripture references, commonly provided as book name abbreviations plus chapter and verse, or range of verses. The punctuation used between chapter and verse, reference ranges, and between target references can differ significantly across texts.
 
@@ -138,6 +139,49 @@ The following markup can be included as part of the cross reference content:
 
 .. image:: images/usfm-character_xo-multi.jpg
 	:width: 550px
+
+.. _usfmc_xt-attr:
+.. index:: attributes; \xt ...\xt*, cross reference; target reference(s) attributes
+
+.. rubric:: Attributes |ico_Tag|
+
+|badge_3.0|
+
+Following the syntax for :doc:`word level attributes </attributes/index>` and the definitions for :doc:`linking attributes </linking/index>`, ``\xt ...\xt`` provides the linking attribute :ref:`link-href <usfmc-attr_link-href>` as a :ref:`default attribute <attributes_default>`.
+
+.. index:: marker; \xt ...|link-href\xt*
+
+:link-href: Unambiguously identifies the scripture target reference using a standard scripture reference format. *(default)* |br|
+	Book names must be one a standard :doc:`book identifier </identification/books>`. Chapter verse separator is always a colon ``:``. A string of pattern ``[A-Z1-4]{3} ?[a-z0-9\-,:]*`` |br| |br|
+	In some scenarios a target reference is written in a format which cannot be accurately parsed and identified. Providing the ``link-href`` attribute allows greater flexibility in the use of ``\xt ...\xt*``. |br| |br| 
+	In this context, ``link-href`` should only target scripture references for the current text (i.e. references to other project texts or non-scripture URIs are not allowed) |br| |br|
+	When adding ``link-href``, the explicit attribute name is not required since it is defined in USFM as the :ref:`default <attributes_default>` for ``\xt ...\xt*``.
+
+**Text Sample** - Genesis 2 (Russian Synodal, Protestant Version, extending the sample for :ref:`\\cd <usfmp_cd>` - chapter description)
+
+.. code-block:: text
+	:name: usfm-paragraph_cd-xt_example
+	:emphasize-lines: 2-3
+
+	\c 2
+	\cd \xt 1|GEN 2:1\xt* Бог благословляет седьмой день; \xt 8|GEN 2:8\x* человек в раю Едемском; 
+	четыре реки; дерево познания добра и зла. \xt 18|GEN 2:18\x* Человек дает названия животным. 
+	\xt 21|GEN 2:21\xt* Создание женщины.
+	\p
+	\v 1 Так совершены небо и земля и все воинство их.
+	\p
+	\v 2 И совершил Бог к седьмому дню дела Свои, которые Он делал, и почил в день седьмой 
+	от всех дел Своих, которые делал.
+
+A number (7) alone marked with ``\xt ...\xt*`` is ambiguous, since it could refer to chapter 7 or verse 7 (in `Paratext <https://paratext.org>`_, a number alone is interpreted as a chapter reference). Extending ``\xt ...\xt*`` with the ``link-ref`` attribute makes it possible to express the target reference unambiguously.
+
+.. code-block:: text
+	:name: usfm-paragraph_cd_example-alt
+
+	\xt 7|MAT 6:7\xt*
+	\xt verse 7|MAT 6:7\xt*
+	\xt v7|MAT 6:7\xt*
+
 
 -----
 

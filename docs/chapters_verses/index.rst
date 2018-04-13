@@ -164,7 +164,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 :Use: Chapter description. |br|
 	A brief description of chapter content (similar to \d - descriptive heading, or \iex - ).
 
-**Text and Formatting Sample** - Genesis 1 (Russian Synodal, Protestant Version)
+**Text and Formatting Sample** - Genesis 2 (Russian Synodal, Protestant Version)
 
 .. code-block:: text
 	:name: usfm-paragraph_cd_example

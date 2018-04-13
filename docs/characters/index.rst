@@ -819,7 +819,8 @@ Genesis 1.1-2 (Japanes Living Bible - Biblica)
 
 Following the syntax for :doc:`word level attributes </attributes/index>`.
 
-.. index:: marker; \w ...|lemma\w*
+.. _usfmc_w-attr_lemma:
+.. index:: marker; \w ...|lemma\w*, attribute; lemma
 
 :lemma: Citation form for the term in the glossary *(default)*
 
@@ -830,7 +831,8 @@ Following the syntax for :doc:`word level attributes </attributes/index>`.
 
 The unidentified attribute in the second example (above) is acceptable because ``lemma`` is defined as the *default* attribute for ``\w ...\w*``.
 
-.. index:: marker; \w ...|strong\w*
+.. _usfmc_w-attr_strong:
+.. index:: marker; \w ...|strong\w*, attribute; strong
 
 :strong: Strong’s ID in the form H##### (Hebrew) or G##### (Greek) |br| |br|
 	A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``
@@ -845,7 +847,8 @@ The unidentified attribute in the second example (above) is acceptable because `
 
 Not ``\w gracious|G05485\w*`` (since strong is not *default*)
 
-.. index:: marker; \w ...|srcloc\w*
+.. _usfmc_w-attr_srcloc:
+.. index:: marker; \w ...|srcloc\w*, attribute; srcloc
 
 :srcloc: Location of the word in the source text; Example: GNT version 5 text, book 51, chapter 1, verse 2, word 1.
 
