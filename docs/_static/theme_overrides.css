@@ -52,6 +52,10 @@ div.admonition.tip > p.first.admonition-title {
   border-top: solid 3px #b1c441;
 }
 
+table.indextable > tbody > tr > td > ul > li > ul {
+  margin-left: 1em;
+}
+
 /* Use .. rubric:: to add division headings without adding to TOC.
 http://docutils.sourceforge.net/docs/ref/rst/directives.html#rubric */
 
