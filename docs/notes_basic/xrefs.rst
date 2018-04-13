@@ -182,7 +182,6 @@ A number (7) alone marked with ``\xt ...\xt*`` is ambiguous, since it could refe
 	\xt verse 7|MAT 6:7\xt*
 	\xt v7|MAT 6:7\xt*
 
-
 -----
 
 .. _usfmc_xta:
