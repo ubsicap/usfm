@@ -99,5 +99,6 @@ Character Markers Providing Attributes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * :ref:`\\w ...\\w\* <usfmc_w-attr>` (``lemma``, ``strong``, ``scrloc``)
+* :ref:`\\rb ...\\rb\* <usfmc_rb-attr>` (``gloss``)
 * :ref:`\\xt ...\\xt\* <usfmc_xt-attr>` (``link-href`` - a :doc:`linking attribute </linking/index>`)
 * :ref:`\\fig ...\\fig\* <usfmc_fig-attr>` (``alt``, ``src``, ``size``, ``loc``, ``copy``, ``ref``) - harmonizing the USFM 2.x syntax for this marker with this attribute specification

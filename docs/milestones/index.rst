@@ -48,6 +48,9 @@ A milestone marker may end with either ``-s`` or ``-e``
 
     \qt-e\*
 
+.. _milestones_standalone:
+.. index:: milestones; standalone
+
 Standalone Milestones
 ^^^^^^^^^^^^^^^^^^^^^
 

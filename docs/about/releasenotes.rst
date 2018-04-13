@@ -16,9 +16,43 @@ Release Notes
 3.0
 ^^^
 
-*October 2016*
-
 USFM 3.0 additions or revisions are highlighted throughout this documentation using the badge |badge_3.0|
+
+*April 2018*
+
+**Marker Additions**
+
+* Alternate language table of contents texts: :ref:`\toca# <usfmp_toc#>`
+* List of witnesses in footnotes (for crtical editions): :ref:`\\fw ...\\fw* <usfmc_fw>`
+* Target references "added" text: :ref:`\\xta ...\\xta* <usfmc_xta>`
+* Superscript: :ref:`\\sup ...\\sup* <usfmc_sup>`
+* Translator's section (chunk) milestones: :ref:`\\ts-s\\* and \\ts-e\\* <usfmm_ts-s>`
+
+**Marker Revisions**
+
+* Revised syntax for ruby glosses (CJK texts): :ref:`\\rb ...\\rb\* <usfmc_rb>`
+
+    * Add :doc:`descriptive attribute </attributes/index>` ``gloss`` for :ref:`\\rb ...\\rb\* <usfmc_rb-attr>`
+
+* Added default ``link-href`` :doc:`linking attribute </linking/index>` for :ref:`\\xt ...\\xt\* <usfmc_xt-attr>`
+* Changed common :ref:`attributes for milestones <milestones_attributes>`:
+
+    * Replace single ``id`` with separate start ``sid`` and end ``eid`` milestone attributes. |br| This update aligns USFM with the corresponding single `<ms> <https://ubsicap.github.io/usx/elements.html#ms>`_ milestone element in USX, where the ``id`` attrubute content would not be unique for `<ms> <https://ubsicap.github.io/usx/elements.html#ms>`_.
+
+* Changed name of :doc:`linking attribute </linking/index>` ``link-name`` to ``link-id``.
+* *Restored* :ref:`\\pr <usfmp_pr>` for use as "text refrain".
+
+**Syntax and Features**
+
+* Clarify and support syntax for :ref:`standalone milestones <milestones_standalone>`.
+* Document best practice for attributes containing :ref:`multiple values <attributes_multiValues>`, or :ref:`multiple parts <attributes_multiParts>` (see the ``gloss`` attribute for :ref:`\\rb ...\\rb\* <usfmc_rb-attr>`)
+
+.. _about_release_3.0rc1:
+
+3.0rc1
+^^^^^^
+
+*October 2016*
 
 **Marker Additions**
 
@@ -26,28 +60,27 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 * List header and footer elements: :ref:`\\lh <usfmp_lh>` and :ref:`\\lf <usfmp_lf>`
 * Embedded list: :ref:`\\lim# <usfmp_lim#>`
 * Hebrew note: :ref:`\\qd <usfmp_qd>`
-* `Open discussion <https://github.com/ubsicap/usfm/issues/7>`_ - Translator's chunk marker
+* Semantic division: :ref:`\\sd# <usfmp_sd#>`
 * Aramaic wordlist entry: :ref:`\\wa ...\\wa\* <usfmc_wa>`
 * Geographic proper name (Chinese texts): :ref:`\\png ...\\png\* <usfmc_png>`
 * Target references "added" text: :ref:`\\xta ...\\xta\* <usfmc_xta>`
 * Published cross reference origin text: :ref:`\\xop ...\\xop\* <usfmc_xop>`
 * Structured list items: :ref:`\\lik ...\\lik\* <usfmc_lik>` and :ref:`\\liv# ...\\liv#\* <usfmc_liv#>`
 * List item total: :ref:`\\litl ...\\litl\* <usfmc_litl>`
-* Semantic division: :ref:`\\sd# <usfmp_sd#>`
 * Link text: :ref:`\\jmp ...\\jmp\* <usfmc_jmp>`
-* Common peripheral :ref:`identifiers <periph_div>`.
+* Common peripheral :ref:`identifiers <periph_div>`
 * Ruby glosses (CJK texts): :ref:`\\rb ...\\rb\* <usfmc_rb>`
-* Quotation start / end milestones: :ref:`\\qt#-s\\* and \\qt#-e\\* <usfmm_qt#-s>`.
+* Quotation start / end milestones: :ref:`\\qt#-s\\* and \\qt#-e\\* <usfmm_qt#-s>`
 
 **Marker Revisions**
 
 * Support citation form for wordlist / glossary text (update :ref:`\\w ...\\w\* <usfmc_w>`).
 * Support for explicit :ref:`table cell <usfmc_tc#>` column :ref:`spanning <usfmc_table_colspan>`.
 * Revised syntax for figures / illustrations applying descriptive :doc:`attributes </attributes/index>`: :ref:`\\fig ...\\fig\* <usfmc_fig-attr>`
-* *Deprecate* cross reference and footnote DC content markers: :ref:`\\xdc ...\\xdc\* <usfmc_xdc>` and :ref:`\\fdc ...\\fdc\* <usfmc_fdc>`
-* *Deprecate* combined marker for proper name within translator's addition: :ref:`\\addpn ...\\addpn\* <usfmc_addpn>`
-* *Deprecate* numbered running header: :ref:`\\h# <usfmp_h>`
-* *Deprecate* pronunciation info marker: :ref:`\\pro ...\\pro\* <usfmc_pro>` in favour of :ref:`ruby annotations <usfmc_rb>` proposal.
+* *Deprecated* cross reference and footnote DC content markers: :ref:`\\xdc ...\\xdc\* <usfmc_xdc>` and :ref:`\\fdc ...\\fdc\* <usfmc_fdc>`
+* *Deprecated* combined marker for proper name within translator's addition: :ref:`\\addpn ...\\addpn\* <usfmc_addpn>`
+* *Deprecated* numbered running header: :ref:`\\h# <usfmp_h>`
+* *Deprecated* pronunciation info marker: :ref:`\\pro ...\\pro\* <usfmc_pro>` in favour of :ref:`ruby annotations <usfmc_rb>` proposal.
 
 **Syntax and Features**
 
