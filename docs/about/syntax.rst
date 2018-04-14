@@ -49,16 +49,19 @@ The boundaries of :doc:`footnote </notes_basic/fnotes>` or :doc:`cross reference
  
 	``\f_+_(\fr_REF_)footnote content\f*``
  
-The individual elements which make up the footnote or cross reference content are defined as character level markers, which means that they each define a beginning and a corresponding end marker. The Paratext translation editor will interpret the presence of a new marker as an implicit closure of any preceding character level marker. For this reason a majority of translation projects have adopted the approach of authoring footnote or cross reference content without supplying the explicit end marker. Some examples of the two acceptable markup approaches for notes is provided below (A = implicit closure; B = explicit end marker):
+The individual elements which make up the footnote or cross reference content are defined as character level markers, which means that they each define a beginning and a corresponding end marker. The Paratext translation editor will interpret the presence of a new marker as an implicit closure of any preceding character level marker. For this reason a majority of translation projects over the years have adopted the approach of authoring footnote or cross reference content without supplying the explicit end marker, since it reduces the volume of markup found within the notes. Some examples of the two acceptable markup approaches for notes is provided below (A = implicit closure; B = explicit end marker):
  
 A. ``\f + \fk Issac:\ft In Hebrew means "laughter"\f*``
-B. ``\f + \fk Issac:\fk* In Hebrew means "laughter"\f*``
+B. ``\f + \fk Issac:\fk* \ft In Hebrew means "laughter"\ft*\f*``
 
-A. ``\f + \fr 1.14 \fq religious festivals;\ft or \fq seasons.\f*``
-B. ``\f + \fr 1.14\fr* \fq religious festivals;\fq* or \fq seasons.\fq*\f*``
+A. ``\f + \fr 1.14 \fq religious festivals;\ft or \fqa seasons.\f*``
+B. ``\f + \fr 1.14\fr* \fq religious festivals;\fq* or \fqa seasons.\fqa*\f*``
 
-A. ``\f + \fr 2.4 \fk The \nd Lord\nd*: \ft See \nd Lord\nd* in Word List.\f*``
-B. ``\f + \fr 2.4\fr* \fk The \nd Lord\nd*:\fk* See \nd Lord\nd* in Word List.\f*``
+A. ``\f + \fr 2.4 \fk The \+nd Lord\+nd*: \ft See \+nd Lord\+nd* in Word List.\f*``
+B. ``\f + \fr 2.4\fr* \fk The \+nd Lord\+nd*:\fk* \ft See \+nd Lord\+nd* in Word List.\ft*\f*``
+
+.. note:: **Nested** character markers within notes *always* require explicit opening and closing markers, and must use the syntax for :doc:`character marker nesting </characters/nesting>`.
+
 
 .. _syntax_whitespace:
 .. index:: syntax; whitespace, whitespace
