@@ -68,10 +68,14 @@ Whitespace
 
 USFM considers space (U+0020), tab (U+0009), and :ref:`newline characters <syntax_newline>` to be whitespace.
 
+.. _syntax_whitespace-significant:
+
 * **Significant whitespace** is a critical part of the USFM document and should always be preserved as is.
 
     - The space after the end of a paragraph marker, or the end of the opening marker within a character or note marker pair.
     - The :ref:`newline <syntax_newline>` preceding a new paragraph marker.
+
+.. _syntax_whitespace-insignificant:
 
 * **Insignificant whitespace** should be :ref:`normalized <syntax_whitespace_normalization>` by a USFM processor.
 
@@ -86,7 +90,23 @@ Newlines
 
 USFM processors should treat the single CR (U+000D) or LF  (U+000A) characters, and the sequence Carriage Return-Line Feed (CRLF), like a single LF character. Applications can save documents using the appropriate line-ending convention.
 
-All paragraph markers should be preceded by a single newline.
+All **paragraph markers** should be preceded by a single newline.
+
+As a *recommended best practice* for USFM editors, **inline markup** (:doc:`character styles </characters/index>`, :doc:`footnotes </notes_basic/fnotes>`, or :doc:`cross references </notes_basic/xrefs>`) should *not* be preceeded by a newline. It would be acceptable for a :ref:`whitespace normalization <syntax_whitespace_normalization>` process to replace a newline and any preceding space (multiple spaces) before this inline markup with a single space (#3), but it should not remove all whitespace.
+
+In the following example, the footnote ``\f ...\f*`` at MAT 6:27:
+
+.. code-block:: text
+
+	\v 27 Can any of you live a bit longer
+	\f + \fr 6.27: \fq live a bit longer; \ft or \fq grow a bit taller.\f* by worrying about it?
+
+would be normalized as:
+
+.. code-block:: text
+
+	\v 27 Can any of you live a bit longer \f + \fr 6.27: \fq live a bit longer; \ft or \fq grow a 
+	bit taller.\f* by worrying about it?
 
 .. _syntax_whitespace_normalization:
 .. index:: pair: whitespace; normalization
@@ -94,12 +114,53 @@ All paragraph markers should be preceded by a single newline.
 Whitespace Normalization
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Multiple spaces between the end of a paragraph marker and the paragraph text are normalized to a single space.
-* Multiple spaces between words are normalized to a single space character.
-* Multiple spaces between text and a character marker are normalized to a single space.
-* Multiple whitespace preceding a paragraph marker is normalized to a single :ref:`newline <syntax_newline>`.
-* Normalized whitespace preceding and following a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)
-* Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)
+1. Multiple whitespace between the end of a paragraph marker and the paragraph text are normalized to a single space (U+0020).
+2. Multiple whitespace between words are normalized to a single space (U+0020).
+3. Multiple whitespace between text and a character or note marker (\f\, \ex, \x, \ex; not \esb or \esbe) are normalized to a single space (U+0020).
+
+	* Due to the *extensive common practice* in USFM documents of adding new verse text after a newline, multiple whitespace between text and a verse marker (:ref:`\\v <usfmc_v>`) should be normalized as a single newline.
+
+4. Multiple whitespace preceding a paragraph marker is normalized to a single :ref:`newline <syntax_newline>`.
+5. Normalized whitespace preceding and following a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)
+6. Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)
+7. :ref:`Significant whitespace <syntax_whitespace-significant>` should not be added to the text.
+
+**Handling special contexts**
+
+The normalization rules outlined in 3,5,7 can result in some whitespace remaining in the text which may be considered insignificant depending on its context.
+
+For example, the space preceding the footnote in:
+
+.. code-block:: text
+
+	\v 27 Can any of you live a bit longer \f + \fr 6.27: \fq live a bit longer;
+
+could be removed:
+
+.. code-block:: text
+
+	\v 27 Can any of you live a bit longer\f + \fr 6.27: \fq live a bit longer;
+
+And a space after a cross reference occurring at the start of a verse
+
+.. code-block:: text
+
+	v 7 \x - \xo 2.7: \xt 1 Co 15.45.\x* Then the \nd Lord\nd* God took some soil 
+	from the ground and formed a man
+
+could be removed:
+
+.. code-block:: text
+
+	v 7 \x - \xo 2.7: \xt 1 Co 15.45.\x*Then the \nd Lord\nd* God took some soil 
+	from the ground and formed a man
+
+Yet, a normalization process cannot *generally* remove ALL whitespace preceeding and following note marker pairs. In many cases a single whitespace is expected between the texts which preceed and follows a note. As suggested and recommended earlier:
+
+* USFM validation tools may flag suspicious whitespace
+* USFM editors can takes steps to discourage ambigous whitespace wherever possible
+* USFM normalization tools can identify and handles special contexts (examples above)
+* USFM publication tools and other post processors can identify and handle special contexts in the manner which is most suitable for the intended output.
 
 .. _syntax_znamespace:
 .. index:: marker; \z..., syntax; user namespace
