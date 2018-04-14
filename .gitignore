@@ -1,3 +1,6 @@
+# VSCode
+.vscode/
+
 # Sphinx documentation
 docs/_build/doctrees/
 docs/_build/html/_sources/
