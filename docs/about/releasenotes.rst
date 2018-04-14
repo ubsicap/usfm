@@ -22,7 +22,8 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 
 **Marker Additions**
 
-* Alternate language table of contents texts: :ref:`\toca# <usfmp_toc#>`
+* USFM version identifier: :ref:`\\usfm <usfmp_usfm>`
+* Alternate language table of contents texts: :ref:`\\toca# <usfmp_toc#>`
 * List of witnesses in footnotes (for crtical editions): :ref:`\\fw ...\\fw* <usfmc_fw>`
 * Target references "added" text: :ref:`\\xta ...\\xta* <usfmc_xta>`
 * Superscript: :ref:`\\sup ...\\sup* <usfmc_sup>`

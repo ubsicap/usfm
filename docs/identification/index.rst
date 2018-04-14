@@ -31,9 +31,34 @@ Identification
 	:name: usfm-paragraph_id_example
 	:emphasize-lines: 1
 
-	\id MAT 41MATGNT92.PTX, Good News Translation, June 2003
+	\id MAT 41MATGNT92.SFM, Good News Translation, June 2003
 
 The text following this marker is not normally used in any formatted presentation.
+
+-----
+
+.. _usfmp_usfm:
+.. index:: marker; \usfm, identification; usfm version id
+
+\\usfm
+^^^^^^
+
+|badge_3.0|
+
+:Syntax: ``\usfm_<USFM version number>``
+:Type: paragraph
+:Added: 3.0
+:Use: USFM version specification for the file. |br|
+	Used to identify the USFM version which a USFM editor / processor will be required to support in order to manage all markup found within the file.
+
+**Text Sample**
+
+.. code-block:: text
+	:name: usfm-paragraph_usfm_example
+	:emphasize-lines: 2
+
+	\id MAT 41MATGNT92.SFM, Good News Translation, June 2003
+	\usfm 3.0
 
 -----
 
