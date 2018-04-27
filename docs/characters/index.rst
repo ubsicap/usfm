@@ -834,18 +834,18 @@ The unidentified attribute in the second example (above) is acceptable because `
 .. _usfmc_w-attr_strong:
 .. index:: marker; \w ...|strong\w*, attribute; strong
 
-:strong: Strong’s ID in the form H##### (Hebrew) or G##### (Greek) |br| |br|
+:strong: Strong’s ID in the form H#### (Hebrew) or G#### (Greek) |br| |br|
 	A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``
 
 .. code-block:: text
 
-	\w gracious|lemma="grace" strong="G05485"\w*
-	\w gracious|strong="G05485"\w*
-	\w gracious|strong="H01234,G05485"\w*
+	\w gracious|lemma="grace" strong="G5485"\w*
+	\w gracious|strong="G5485"\w*
+	\w gracious|strong="H1234,G5485"\w*
 
-	\w gracious|strong="G05485:a"\w*
+	\w gracious|strong="G5485:a"\w*
 
-Not ``\w gracious|G05485\w*`` (since strong is not *default*)
+Not ``\w gracious|G5485\w*`` (since strong is not *default*)
 
 .. _usfmc_w-attr_srcloc:
 .. index:: marker; \w ...|srcloc\w*, attribute; srcloc
