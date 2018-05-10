@@ -53,7 +53,7 @@ In cases where more than one value should be provided for an attribute key, the 
 
 .. code-block:: text
 
-    \w gracious|strong="H01234,G05485"\w*
+    \w gracious|strong="H1234,G5485"\w*
 
 |ico_see| See the attributes for :ref:`\\w ...\\w\* <usfmc_w-attr>` for additional examples.
 
