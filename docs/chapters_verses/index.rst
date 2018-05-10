@@ -162,7 +162,7 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 :Type: paragraph
 :Added: 1.0
 :Use: Chapter description. |br|
-	A brief description of chapter content (similar to \d - descriptive heading, or \iex - ).
+	A brief description of chapter content (similar to :ref:`\\d <usfmp_d>` - descriptive heading, or :ref:`\\iex <usfmp_iex>` - explanatory or bridge text).
 
 **Text and Formatting Sample** - Genesis 2 (Russian Synodal, Protestant Version)
 
