@@ -109,6 +109,9 @@ Reference to named target within the same project
 
 :doc:`Nested </characters/nesting>` markup (within :doc:`extended footnote </notes_study/efnotes>`)
 
+.. code-block:: text
+	:emphasize-lines: 3
+
 	\ef - \fr 1.2-6a: \fq Ruth: \ft A Moabite (Ruth 1.4). Only outstanding 
 	women were normally included in Jewish genealogical lists. See article 
 	on \+jmp Ruth|link-href="#article-Ruth"\+jmp*\ef*
