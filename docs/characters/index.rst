@@ -835,7 +835,7 @@ The unidentified attribute in the second example (above) is acceptable because `
 .. index:: marker; \w ...|strong\w*, attribute; strong
 
 :strong: Strong’s ID in the form H#### (Hebrew) or G#### (Greek) |br| |br|
-	A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``
+	A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``. An augmentation is a method of extending Strong's by aligning it to another lexicon (e.g. Brown-Driver-Briggs). This requires dividing some words into two or more separate words.
 
 .. code-block:: text
 
