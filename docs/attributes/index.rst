@@ -47,7 +47,7 @@ When content is supplied in the position of a marker attribute, but without an e
 Multiple Attribute Values
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In cases where more than one value should be provided for an attribute key, the author should provide a comma separated list within the value string.
+In cases where more than one value should be provided for an attribute key, the author should provide a comma separated list within the value string. Leading and trailing space characters adjacent to the comma separators are ignored.
 
 **Example:**
 
