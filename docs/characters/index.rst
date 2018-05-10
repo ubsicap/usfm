@@ -834,8 +834,7 @@ The unidentified attribute in the second example (above) is acceptable because `
 .. _usfmc_w-attr_strong:
 .. index:: marker; \w ...|strong\w*, attribute; strong
 
-:strong: Strong’s ID in the form H#### (Hebrew) or G#### (Greek) |br| |br|
-	A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``. An augmentation is a method of extending Strong's by aligning it to another lexicon (e.g. Brown-Driver-Briggs). This requires dividing some words into two or more separate words.
+:strong: Strong’s ID in the form H#### (Hebrew) or G#### (Greek)
 
 .. code-block:: text
 
@@ -843,9 +842,19 @@ The unidentified attribute in the second example (above) is acceptable because `
 	\w gracious|strong="G5485"\w*
 	\w gracious|strong="H1234,G5485"\w*
 
+Not ``\w gracious|G5485\w*`` (since strong is not *default*)
+
+A strong's ID **augmentation** identifier, if required, should be separated from the strong value by a colon ``:``. An augmentation is a method of extending Strong's by aligning it to another lexicon (e.g. Brown-Driver-Briggs). This requires dividing some words into two or more separate words.
+
+.. code-block:: text
+
 	\w gracious|strong="G5485:a"\w*
 
-Not ``\w gracious|G5485\w*`` (since strong is not *default*)
+There are instances where more than one word may need to be included within :ref:`\\w ...\\w* <usfmc_w>` because of how Hebrew and Greek use word repetition - e.g. for a superlative. Exodus 29:37 repeats the word 'holy' as the superlative form.
+
+.. code-block:: text
+
+	\w most holy|strong="H6944,H6944"\w*
 
 .. _usfmc_w-attr_srcloc:
 .. index:: marker; \w ...|srcloc\w*, attribute; srcloc
