@@ -50,7 +50,7 @@ Introduction to John (GNT)
 	\mt1 JOHN
 	\is Introduction
 
-.. image:: images/usfm-paragraph_mt.jpg
+.. image:: images/usfm-paragraph_mt-alt.jpg
 	:width: 250px
 
 -----

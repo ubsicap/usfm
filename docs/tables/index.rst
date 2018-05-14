@@ -118,13 +118,13 @@ Numbers 2.10-16 (GNT)
 	:emphasize-lines: 5-8
 
 	\p
-	\v 10-16 On the south, those under the banner of the division of Reuben shall camp in 
+	\v 10-16 On the east side, those under the banner of the division of Judah shall camp in 
 	their groups, under their leaders, as follows:
 	\tr \th1 Tribe \th2 Leader \thr3 Number
-	\tr \tc1 Reuben \tc2 Elizur son of Shedeur \tcr3 46,500
-	\tr \tc1 Simeon \tc2 Shelumiel son of Zurishaddai \tcr3 59,300
-	\tr \tc1 Gad \tc2 Eliasaph son of Deuel \tcr3 45,650
-	\tr \tcr1-2 Total: \tcr3 151,450
+	\tr \tc1 Judah \tc2 Nahshon son of Amminadab \tcr3 74,600
+	\tr \tc1 Issachar \tc2 Nethanel son of Zuar \tcr3 54,400
+	\tr \tc1 Zebulun \tc2 Eliab son of Helon \tcr3 57,400
+	\tr \tcr1-2 Total: \tcr3 186,400
 
 .. image:: images/usfm-character_tc.jpg
 	:width: 250px
