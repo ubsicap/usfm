@@ -8,9 +8,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Identification &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
+  <title>Identification &mdash; Unified Standard Formal Markers 3.0.0 documentation</title>
   
 
+  
+  
   
   
 
@@ -32,7 +34,10 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.0 documentation" href="../index.html"/>
         <link rel="next" title="Book Identifiers" href="books.html"/>
         <link rel="prev" title="Syntax Notes" href="../about/syntax.html"/> 
 
@@ -43,6 +48,7 @@
 
 <body class="wy-body-for-nav" role="document">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -83,17 +89,21 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About USFM</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Identification</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="books.html">Book Abbreviations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#index-1">\id</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#index-2">\ide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usfm">\usfm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#index-3">\ide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sts">\sts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#rem">\rem</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#h">\h</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#toc">\toc#</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#iex">\iex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#toca">\toca#</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
@@ -123,8 +133,10 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unified Standard Formal Markers</a>
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unified Standard Formal Markers</a>
+        
       </nav>
 
 
@@ -133,23 +145,40 @@
         <div class="rst-content">
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Identification</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Identification</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/identification/index.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/identification/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -169,7 +198,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\id_&lt;CODE&gt;_(Name</span> <span class="pre">of</span> <span class="pre">file,</span> <span class="pre">Book</span> <span class="pre">name,</span> <span class="pre">Language,</span> <span class="pre">Last</span> <span class="pre">edited,</span> <span class="pre">Date</span> <span class="pre">etc.)</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\id_&lt;CODE&gt;_(Name</span> <span class="pre">of</span> <span class="pre">file,</span> <span class="pre">Book</span> <span class="pre">name,</span> <span class="pre">Language,</span> <span class="pre">Last</span> <span class="pre">edited,</span> <span class="pre">Date</span> <span class="pre">etc.)</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
@@ -182,19 +211,44 @@ CODE is a standard 3 letter <a class="reference internal" href="books.html"><spa
 </tbody>
 </table>
 <p><strong>Text and Formatting Sample</strong></p>
-<div class="highlight-text" id="usfm-paragraph-id-example"><div class="highlight"><pre><span></span><span class="hll">\id MAT 41MATGNT92.PTX, Good News Translation, June 2003
+<div class="highlight-text notranslate" id="usfm-paragraph-id-example"><div class="highlight"><pre><span></span><span class="hll">\id MAT 41MATGNT92.SFM, Good News Translation, June 2003
 </span></pre></div>
 </div>
 <p>The text following this marker is not normally used in any formatted presentation.</p>
 <hr class="docutils" />
-<span class="target" id="usfmp-ide"></span></div>
-<div class="section" id="index-2">
-<span id="ide"></span><h2>\ide<a class="headerlink" href="#index-2" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="usfmp-usfm"></span></div>
+<div class="section" id="usfm">
+<span id="index-2"></span><h2>\usfm<a class="headerlink" href="#usfm" title="Permalink to this headline">¶</a></h2>
+<p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg></p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\ide_&lt;ENCODING&gt;</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\usfm_&lt;USFM</span> <span class="pre">version</span> <span class="pre">number&gt;</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">3.0</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">USFM version specification for the file. <br />
+Used to identify the USFM version which a USFM editor / processor will be required to support in order to manage all markup found within the file.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Text Sample</strong></p>
+<div class="highlight-text notranslate" id="usfm-paragraph-usfm-example"><div class="highlight"><pre><span></span>\id MAT 41MATGNT92.SFM, Good News Translation, June 2003
+<span class="hll">\usfm 3.0
+</span></pre></div>
+</div>
+<hr class="docutils" />
+<span class="target" id="usfmp-ide"></span></div>
+<div class="section" id="index-3">
+<span id="ide"></span><h2>\ide<a class="headerlink" href="#index-3" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\ide_&lt;ENCODING&gt;</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
@@ -206,7 +260,7 @@ This marker should be used to specify the character encoding of the text within 
 </tbody>
 </table>
 <p><strong>Text and Formatting Sample</strong></p>
-<div class="highlight-text" id="usfm-paragraph-ide-example"><div class="highlight"><pre><span></span><span class="hll">\ide UTF-8
+<div class="highlight-text notranslate" id="usfm-paragraph-ide-example"><div class="highlight"><pre><span></span><span class="hll">\ide UTF-8
 </span><span class="hll">\ide CP-1252
 </span><span class="hll">\ide Custom (TGUARANI.TTF)
 </span></pre></div>
@@ -215,12 +269,12 @@ This marker should be used to specify the character encoding of the text within 
 <hr class="docutils" />
 <span class="target" id="usfmp-sts"></span></div>
 <div class="section" id="sts">
-<span id="index-3"></span><h2>\sts<a class="headerlink" href="#sts" title="Permalink to this headline">¶</a></h2>
+<span id="index-4"></span><h2>\sts<a class="headerlink" href="#sts" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\sts_&lt;STATUS</span> <span class="pre">CODE&gt;</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\sts_&lt;STATUS</span> <span class="pre">CODE&gt;</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
@@ -233,19 +287,19 @@ Multiple status entries can be contained in a book to indicate that various port
 </tbody>
 </table>
 <p><strong>Text and Formatting Sample</strong></p>
-<div class="highlight-text" id="usfm-paragraph-sts-example"><div class="highlight"><pre><span></span><span class="hll">\sts 2
+<div class="highlight-text notranslate" id="usfm-paragraph-sts-example"><div class="highlight"><pre><span></span><span class="hll">\sts 2
 </span></pre></div>
 </div>
 <p>The text following this marker is not normally used in any formatted presentation.</p>
 <hr class="docutils" />
 <span class="target" id="usfmp-rem"></span></div>
 <div class="section" id="rem">
-<span id="index-4"></span><h2>\rem<a class="headerlink" href="#rem" title="Permalink to this headline">¶</a></h2>
+<span id="index-5"></span><h2>\rem<a class="headerlink" href="#rem" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\rem_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\rem_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
@@ -257,7 +311,7 @@ For adding brief comments by a translator, consultant, or support person. The te
 </tbody>
 </table>
 <p><strong>Text and Formatting Sample</strong></p>
-<div class="highlight-text" id="usfm-paragraph-rem-example"><div class="highlight"><pre><span></span><span class="hll">\rem Assigned to &lt;translator&#39;s name&gt;.
+<div class="highlight-text notranslate" id="usfm-paragraph-rem-example"><div class="highlight"><pre><span></span><span class="hll">\rem Assigned to &lt;translator&#39;s name&gt;.
 </span><span class="hll">\rem First draft complete, waiting for checks.
 </span></pre></div>
 </div>
@@ -265,12 +319,12 @@ For adding brief comments by a translator, consultant, or support person. The te
 <hr class="docutils" />
 <span class="target" id="usfmp-h"></span></div>
 <div class="section" id="h">
-<span id="index-5"></span><h2>\h<a class="headerlink" href="#h" title="Permalink to this headline">¶</a></h2>
+<span id="index-6"></span><h2>\h<a class="headerlink" href="#h" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\h_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\h_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
@@ -279,25 +333,25 @@ For adding brief comments by a translator, consultant, or support person. The te
 <tr class="field-even field"><th class="field-name">Amended:</th><td class="field-body">3.0</td>
 </tr>
 <tr class="field-odd field"><th class="field-name">Use:</th><td class="field-body">Running header text. <br />
-<strong>Deprecated</strong> use of numbered variable syntax (i.e. use is strongly discouraged). <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg> <br />
-The variable # in <code class="docutils literal"><span class="pre">\h#_text...</span></code> represented distinct components or levels of text required for the running header presentation (e.g. inside, outside, sub-division/section etc.).</td>
+<strong>Deprecated</strong> use of numbered variable syntax (i.e. use is strongly discouraged). <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg> <br />
+The variable # in <code class="docutils literal notranslate"><span class="pre">\h#_text...</span></code> represented distinct components or levels of text required for the running header presentation (e.g. inside, outside, sub-division/section etc.).</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Text and Formatting Sample</strong> - Matthew (GNT)</p>
-<div class="highlight-text" id="usfm-paragraph-h-example"><div class="highlight"><pre><span></span><span class="hll">\h Matthew
+<div class="highlight-text notranslate" id="usfm-paragraph-h-example"><div class="highlight"><pre><span></span><span class="hll">\h Matthew
 </span></pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/usfm-paragraph_h.jpg"><img alt="../_images/usfm-paragraph_h.jpg" src="../_images/usfm-paragraph_h.jpg" style="width: 250px;" /></a>
 <hr class="docutils" />
 <span class="target" id="usfmp-toc"></span></div>
 <div class="section" id="toc">
-<span id="index-6"></span><h2>\toc#<a class="headerlink" href="#toc" title="Permalink to this headline">¶</a></h2>
+<span id="index-7"></span><h2>\toc#<a class="headerlink" href="#toc" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\toc1_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\toc1_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
@@ -305,18 +359,18 @@ The variable # in <code class="docutils literal"><span class="pre">\h#_text...</
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Long table of contents text. <br /> <br /></td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\toc2_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\toc2_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Short table of contents text. <br /> <br /></td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\toc3_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\toc3_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Book abbreviation. <br /></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Text and Formatting Sample</strong> - Matthew (GNT)</p>
-<div class="highlight-text" id="usfm-paragraph-toc-example"><div class="highlight"><pre><span></span>\h Matthew
+<div class="highlight-text notranslate" id="usfm-paragraph-toc-example"><div class="highlight"><pre><span></span>\h Matthew
 <span class="hll">\toc1 The Gospel According to Matthew
 </span><span class="hll">\toc2 Matthew
 </span><span class="hll">\toc3 Mat
@@ -324,20 +378,30 @@ The variable # in <code class="docutils literal"><span class="pre">\h#_text...</
 </div>
 <a class="reference internal image-reference" href="../_images/usfm-paragraph_toc.jpg"><img alt="../_images/usfm-paragraph_toc.jpg" src="../_images/usfm-paragraph_toc.jpg" style="width: 400px;" /></a>
 <hr class="docutils" />
-<span class="target" id="usfmp-iex"></span></div>
-<div class="section" id="iex">
-<span id="index-7"></span><h2>\iex<a class="headerlink" href="#iex" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="usfmp-toca"></span></div>
+<div class="section" id="toca">
+<span id="index-8"></span><h2>\toca#<a class="headerlink" href="#toca" title="Permalink to this headline">¶</a></h2>
+<p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg></p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal"><span class="pre">\iex_text...</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\toca1_text...</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">paragraph</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
+<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">3.0</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Introduction explanatory or bridge text (e.g. explanation of missing book in a short Old Testament).</td>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Alternative language long table of contents text. <br />
+Used to specify an alternate set of table of contents texts (for example, in a language of wider communication). <br /> <br /></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\toca2_text...</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Alternative language short table of contents text. <br /> <br /></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\toca3_text...</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Alternative language book abbreviation.</td>
 </tr>
 </tbody>
 </table>
@@ -346,15 +410,18 @@ The variable # in <code class="docutils literal"><span class="pre">\h#_text...</
 
 
            </div>
+           <div class="articleComments">
+            
+           </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="books.html" class="btn btn-neutral float-right" title="Book Identifiers" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="books.html" class="btn btn-neutral float-right" title="Book Identifiers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../about/syntax.html" class="btn btn-neutral" title="Syntax Notes" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../about/syntax.html" class="btn btn-neutral" title="Syntax Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -363,7 +430,7 @@ The variable # in <code class="docutils literal"><span class="pre">\h#_text...</
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016, United Bible Societies.
+        &copy; Copyright 2018, United Bible Societies.
 
     </p>
   </div> 
@@ -384,10 +451,11 @@ The variable # in <code class="docutils literal"><span class="pre">\h#_text...</
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'3.0.rc1',
+            VERSION:'3.0.0',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>

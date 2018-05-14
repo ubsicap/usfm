@@ -8,9 +8,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Syntax Notes &mdash; Unified Standard Formal Markers 3.0.rc1 documentation</title>
+  <title>Syntax Notes &mdash; Unified Standard Formal Markers 3.0.0 documentation</title>
   
 
+  
+  
   
   
 
@@ -32,7 +34,10 @@
   
 
   
-    <link rel="top" title="Unified Standard Formal Markers 3.0.rc1 documentation" href="../index.html"/>
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.0 documentation" href="../index.html"/>
         <link rel="up" title="Introduction" href="index.html"/>
         <link rel="next" title="Identification" href="../identification/index.html"/>
         <link rel="prev" title="Release Notes" href="releasenotes.html"/> 
@@ -44,6 +49,7 @@
 
 <body class="wy-body-for-nav" role="document">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -84,7 +90,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">About USFM</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Syntax Notes</a><ul>
@@ -136,8 +145,10 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unified Standard Formal Markers</a>
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unified Standard Formal Markers</a>
+        
       </nav>
 
 
@@ -146,25 +157,42 @@
         <div class="rst-content">
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Introduction</a> &raquo;</li>
-      
-    <li>Syntax Notes</li>
+        
+      <li>Syntax Notes</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/about/syntax.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/about/syntax.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -191,50 +219,54 @@
 <span id="index-1"></span><h2><a class="toc-backref" href="#id1">General Syntax</a><a class="headerlink" href="#general-syntax" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>There are three broad categories of USFM markup - <strong>paragraph</strong>, <strong>character</strong>, and <strong>note</strong> types.</li>
-<li>All USFM markers begin with a backslash character <code class="docutils literal"><span class="pre">\</span></code>.</li>
+<li>All USFM markers begin with a backslash character <code class="docutils literal notranslate"><span class="pre">\</span></code>.</li>
 <li><a class="reference internal" href="../paragraphs/index.html"><span class="doc">Paragraph</span></a> markers end with the next space character.</li>
 <li><a class="reference internal" href="../paragraphs/index.html"><span class="doc">Character</span></a> markers occur in pairs, marking a span of text within a paragraph.</li>
 <li>Note markers also occur in pairs, marking the start and end of the <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnote</span></a>, <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross reference</span></a>, or <a class="reference internal" href="../notes_study/index.html"><span class="doc">study note</span></a> content.</li>
-<li>For marker pairs (character and note), the opening marker ends with the next space character (as with paragraph markers). The matching closing marker is identical to the opening marker but ends with an asterisk character <code class="docutils literal"><span class="pre">*</span></code>. Example: <code class="docutils literal"><span class="pre">\w</span> <span class="pre">grace\w*</span></code>.</li>
+<li>For marker pairs (character and note), the opening marker ends with the next space character (as with paragraph markers). The matching closing marker is identical to the opening marker but ends with an asterisk character <code class="docutils literal notranslate"><span class="pre">*</span></code>. Example: <code class="docutils literal notranslate"><span class="pre">\w</span> <span class="pre">grace\w*</span></code>.</li>
 </ul>
 <span class="target" id="syntax-numberedmarkers"></span></div>
 <div class="section" id="numbered-markers">
 <span id="index-2"></span><h2><a class="toc-backref" href="#id2">Numbered Markers</a><a class="headerlink" href="#numbered-markers" title="Permalink to this headline">¶</a></h2>
-<p>Some USFM markers include an optional numeric variable, which is represented in this documentation by a hash character <code class="docutils literal"><span class="pre">#</span></code>. In USFM the number indicates:</p>
+<p>Some USFM markers include an optional numeric variable, which is represented in this documentation by a hash character <code class="docutils literal notranslate"><span class="pre">#</span></code>. In USFM the number indicates:</p>
 <ul class="simple">
-<li>A portion of a complete element, or relative weighting of the &#8220;pieces&#8221; of the elements, such as <code class="docutils literal"><span class="pre">\mt1</span></code>, <code class="docutils literal"><span class="pre">\mt2</span></code>, <code class="docutils literal"><span class="pre">\mt3</span></code> which are all parts of a major title.</li>
+<li>A portion of a complete element, or relative weighting of the “pieces” of the elements, such as <code class="docutils literal notranslate"><span class="pre">\mt1</span></code>, <code class="docutils literal notranslate"><span class="pre">\mt2</span></code>, <code class="docutils literal notranslate"><span class="pre">\mt3</span></code> which are all parts of a major title.</li>
 <li>The level of division (hierarchy).</li>
-<li>The level of indentation relative to other like elements, as in poetry (<code class="docutils literal"><span class="pre">\q#</span></code>) or lists (<code class="docutils literal"><span class="pre">\li#</span></code>) or outlines (<code class="docutils literal"><span class="pre">\io#</span></code>).</li>
+<li>The level of indentation relative to other like elements, as in poetry (<code class="docutils literal notranslate"><span class="pre">\q#</span></code>) or lists (<code class="docutils literal notranslate"><span class="pre">\li#</span></code>) or outlines (<code class="docutils literal notranslate"><span class="pre">\io#</span></code>).</li>
 </ul>
 <p><strong>marker = marker1</strong> — The unnumbered version may be used when only one level of marker exists within the project text. Numbers should always be included when more than one level of the marker exists within the project text.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">The variable # should not be used to indicate a specific occurrence in scripture of the element type (e.g. using \s3 to represent the location of the particular section heading before the &#8220;Story of Creation&#8221; in Genesis 1.)</p>
+<p class="last">The variable # should not be used to indicate a specific occurrence in scripture of the element type (e.g. using \s3 to represent the location of the particular section heading before the “Story of Creation” in Genesis 1.)</p>
 </div>
 <span class="target" id="syntax-endmarkerinnotes"></span></div>
 <div class="section" id="endmarkers-in-footnotes-and-cross-references">
 <span id="index-3"></span><h2><a class="toc-backref" href="#id3">Endmarkers in Footnotes and Cross References</a><a class="headerlink" href="#endmarkers-in-footnotes-and-cross-references" title="Permalink to this headline">¶</a></h2>
 <p>The boundaries of <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnote</span></a> or <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross reference</span></a> text are defined by an opening and closing marker, as in the following footnote structure example:</p>
 <blockquote>
-<div><code class="docutils literal"><span class="pre">\f_+_(\fr_REF_)footnote</span> <span class="pre">content\f*</span></code></div></blockquote>
-<p>The individual elements which make up the footnote or cross reference content are defined as character level markers, which means that they each define a beginning and a corresponding end marker. The Paratext translation editor will interpret the presence of a new marker as an implicit closure of any preceding character level marker. For this reason a majority of translation projects have adopted the approach of authoring footnote or cross reference content without supplying the explicit end marker. Some examples of the two acceptable markup approaches for notes is provided below (A = implicit closure; B = explicit end marker):</p>
+<div><code class="docutils literal notranslate"><span class="pre">\f_+_(\fr_REF_)footnote</span> <span class="pre">content\f*</span></code></div></blockquote>
+<p>The individual elements which make up the footnote or cross reference content are defined as character level markers, which means that they each define a beginning and a corresponding end marker. The Paratext translation editor will interpret the presence of a new marker as an implicit closure of any preceding character level marker. For this reason a majority of translation projects over the years have adopted the approach of authoring footnote or cross reference content without supplying the explicit end marker, since it reduces the volume of markup found within the notes. Some examples of the two acceptable markup approaches for notes is provided below (A = implicit closure; B = explicit end marker):</p>
 <ol class="upperalpha simple">
-<li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fk</span> <span class="pre">Issac:\ft</span> <span class="pre">In</span> <span class="pre">Hebrew</span> <span class="pre">means</span> <span class="pre">&quot;laughter&quot;\f*</span></code></li>
-<li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fk</span> <span class="pre">Issac:\fk*</span> <span class="pre">In</span> <span class="pre">Hebrew</span> <span class="pre">means</span> <span class="pre">&quot;laughter&quot;\f*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fk</span> <span class="pre">Issac:\ft</span> <span class="pre">In</span> <span class="pre">Hebrew</span> <span class="pre">means</span> <span class="pre">&quot;laughter&quot;\f*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fk</span> <span class="pre">Issac:\fk*</span> <span class="pre">\ft</span> <span class="pre">In</span> <span class="pre">Hebrew</span> <span class="pre">means</span> <span class="pre">&quot;laughter&quot;\ft*\f*</span></code></li>
 </ol>
 <ol class="upperalpha simple">
-<li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">1.14</span> <span class="pre">\fq</span> <span class="pre">religious</span> <span class="pre">festivals;\ft</span> <span class="pre">or</span> <span class="pre">\fq</span> <span class="pre">seasons.\f*</span></code></li>
-<li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">1.14\fr*</span> <span class="pre">\fq</span> <span class="pre">religious</span> <span class="pre">festivals;\fq*</span> <span class="pre">or</span> <span class="pre">\fq</span> <span class="pre">seasons.\fq*\f*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">1.14</span> <span class="pre">\fq</span> <span class="pre">religious</span> <span class="pre">festivals;\ft</span> <span class="pre">or</span> <span class="pre">\fqa</span> <span class="pre">seasons.\f*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">1.14\fr*</span> <span class="pre">\fq</span> <span class="pre">religious</span> <span class="pre">festivals;\fq*</span> <span class="pre">or</span> <span class="pre">\fqa</span> <span class="pre">seasons.\fqa*\f*</span></code></li>
 </ol>
 <ol class="upperalpha simple">
-<li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">2.4</span> <span class="pre">\fk</span> <span class="pre">The</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*:</span> <span class="pre">\ft</span> <span class="pre">See</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*</span> <span class="pre">in</span> <span class="pre">Word</span> <span class="pre">List.\f*</span></code></li>
-<li><code class="docutils literal"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">2.4\fr*</span> <span class="pre">\fk</span> <span class="pre">The</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*:\fk*</span> <span class="pre">See</span> <span class="pre">\nd</span> <span class="pre">Lord\nd*</span> <span class="pre">in</span> <span class="pre">Word</span> <span class="pre">List.\f*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">2.4</span> <span class="pre">\fk</span> <span class="pre">The</span> <span class="pre">\+nd</span> <span class="pre">Lord\+nd*:</span> <span class="pre">\ft</span> <span class="pre">See</span> <span class="pre">\+nd</span> <span class="pre">Lord\+nd*</span> <span class="pre">in</span> <span class="pre">Word</span> <span class="pre">List.\f*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">+</span> <span class="pre">\fr</span> <span class="pre">2.4\fr*</span> <span class="pre">\fk</span> <span class="pre">The</span> <span class="pre">\+nd</span> <span class="pre">Lord\+nd*:\fk*</span> <span class="pre">\ft</span> <span class="pre">See</span> <span class="pre">\+nd</span> <span class="pre">Lord\+nd*</span> <span class="pre">in</span> <span class="pre">Word</span> <span class="pre">List.\ft*\f*</span></code></li>
 </ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Nested</strong> character markers within notes <em>always</em> require explicit opening and closing markers, and must use the syntax for <a class="reference internal" href="../characters/nesting.html"><span class="doc">character marker nesting</span></a>.</p>
+</div>
 <span class="target" id="syntax-whitespace"></span></div>
 <div class="section" id="whitespace">
 <span id="index-4"></span><h2><a class="toc-backref" href="#id4">Whitespace</a><a class="headerlink" href="#whitespace" title="Permalink to this headline">¶</a></h2>
 <p>USFM considers space (U+0020), tab (U+0009), and <a class="reference internal" href="#syntax-newline"><span class="std std-ref">newline characters</span></a> to be whitespace.</p>
-<ul>
+<ul id="syntax-whitespace-significant">
 <li><p class="first"><strong>Significant whitespace</strong> is a critical part of the USFM document and should always be preserved as is.</p>
 <blockquote>
 <div><ul class="simple">
@@ -243,6 +275,8 @@
 </ul>
 </div></blockquote>
 </li>
+</ul>
+<ul id="syntax-whitespace-insignificant">
 <li><p class="first"><strong>Insignificant whitespace</strong> should be <a class="reference internal" href="#syntax-whitespace-normalization"><span class="std std-ref">normalized</span></a> by a USFM processor.</p>
 <blockquote>
 <div><ul class="simple">
@@ -255,53 +289,107 @@
 <span class="target" id="syntax-newline"></span><div class="section" id="newlines">
 <span id="index-5"></span><h3><a class="toc-backref" href="#id5">Newlines</a><a class="headerlink" href="#newlines" title="Permalink to this headline">¶</a></h3>
 <p>USFM processors should treat the single CR (U+000D) or LF  (U+000A) characters, and the sequence Carriage Return-Line Feed (CRLF), like a single LF character. Applications can save documents using the appropriate line-ending convention.</p>
-<p>All paragraph markers should be preceded by a single newline.</p>
+<p>All <strong>paragraph markers</strong> should be preceded by a single newline.</p>
+<p>As a <em>recommended best practice</em> for USFM editors, <strong>inline markup</strong> (<a class="reference internal" href="../characters/index.html"><span class="doc">character styles</span></a>, <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnotes</span></a>, or <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross references</span></a>) should <em>not</em> be preceeded by a newline. It would be acceptable for a <a class="reference internal" href="#syntax-whitespace-normalization"><span class="std std-ref">whitespace normalization</span></a> process to replace a newline and any preceding space (multiple spaces) before this inline markup with a single space (#3), but it should not remove all whitespace.</p>
+<p>In the following example, the footnote <code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">...\f*</span></code> at MAT 6:27:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\v 27 Can any of you live a bit longer
+\f + \fr 6.27: \fq live a bit longer; \ft or \fq grow a bit taller.\f* by worrying about it?
+</pre></div>
+</div>
+<p>would be normalized as:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\v 27 Can any of you live a bit longer \f + \fr 6.27: \fq live a bit longer; \ft or \fq grow a
+bit taller.\f* by worrying about it?
+</pre></div>
+</div>
 <span class="target" id="syntax-whitespace-normalization"></span></div>
 <div class="section" id="whitespace-normalization">
 <span id="index-6"></span><h3><a class="toc-backref" href="#id6">Whitespace Normalization</a><a class="headerlink" href="#whitespace-normalization" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Multiple whitespace between the end of a paragraph marker and the paragraph text are normalized to a single space (U+0020).</p>
+</li>
+<li><p class="first">Multiple whitespace between words are normalized to a single space (U+0020).</p>
+</li>
+<li><p class="first">Multiple whitespace between text and a character or note marker (f, ex, x, ex; not esb or esbe) are normalized to a single space (U+0020).</p>
+<blockquote>
+<div><ul class="simple">
+<li>Due to the <em>extensive common practice</em> in USFM documents of adding new verse text after a newline, multiple whitespace between text and a verse marker (<a class="reference internal" href="../chapters_verses/index.html#usfmc-v"><span class="std std-ref">\v</span></a>) should be normalized as a single newline.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Multiple whitespace preceding a paragraph marker is normalized to a single <a class="reference internal" href="#syntax-newline"><span class="std std-ref">newline</span></a>.</p>
+</li>
+<li><p class="first">Normalized whitespace preceding and following a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)</p>
+</li>
+<li><p class="first">Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)</p>
+</li>
+<li><p class="first"><a class="reference internal" href="#syntax-whitespace-significant"><span class="std std-ref">Significant whitespace</span></a> should not be added to the text.</p>
+</li>
+</ol>
+<p><strong>Handling special contexts</strong></p>
+<p>The normalization rules outlined in 3,5,7 can result in some whitespace remaining in the text which may be considered insignificant depending on its context.</p>
+<p>For example, the space preceding the footnote in:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\v 27 Can any of you live a bit longer \f + \fr 6.27: \fq live a bit longer;
+</pre></div>
+</div>
+<p>could be removed:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\v 27 Can any of you live a bit longer\f + \fr 6.27: \fq live a bit longer;
+</pre></div>
+</div>
+<p>And a space after a cross reference occurring at the start of a verse</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>v 7 \x - \xo 2.7: \xt 1 Co 15.45.\x* Then the \nd Lord\nd* God took some soil
+from the ground and formed a man
+</pre></div>
+</div>
+<p>could be removed:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>v 7 \x - \xo 2.7: \xt 1 Co 15.45.\x*Then the \nd Lord\nd* God took some soil
+from the ground and formed a man
+</pre></div>
+</div>
+<p>Yet, a normalization process cannot <em>generally</em> remove ALL whitespace preceeding and following note marker pairs. In many cases a single whitespace is expected between the texts which preceed and follows a note. As suggested and recommended earlier:</p>
 <ul class="simple">
-<li>Multiple spaces between the end of a paragraph marker and the paragraph text are normalized to a single space.</li>
-<li>Multiple spaces between words are normalized to a single space character.</li>
-<li>Multiple spaces between text and a character marker are normalized to a single space.</li>
-<li>Multiple whitespace preceding a paragraph marker is normalized to a single <a class="reference internal" href="#syntax-newline"><span class="std std-ref">newline</span></a>.</li>
-<li>Normalized whitespace preceding and following a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)</li>
-<li>Normalized whitespace preceding the closing marker of a character or note marker pair is preserved. (USFM validation tools may flag suspicious whitespace.)</li>
+<li>USFM validation tools may flag suspicious whitespace</li>
+<li>USFM editors can takes steps to discourage ambigous whitespace wherever possible</li>
+<li>USFM normalization tools can identify and handles special contexts (examples above)</li>
+<li>USFM publication tools and other post processors can identify and handle special contexts in the manner which is most suitable for the intended output.</li>
 </ul>
 <span class="target" id="syntax-znamespace"></span></div>
 </div>
 <div class="section" id="z-namespace">
 <span id="index-7"></span><h2><a class="toc-backref" href="#id7">\z namespace</a><a class="headerlink" href="#z-namespace" title="Permalink to this headline">¶</a></h2>
-<p>As a means of offering a type of solution to the need for occasional local markup additions/extension, USFM recommends that any additional user generated markup should begin with <strong>\z</strong> (e.g. <code class="docutils literal"><span class="pre">\zMyMarker</span></code>). Markers in this namespace will not be considered a part of the USFM standard, or be generally supported in USFM aware applications. This namespace will acts as a type of &#8220;private use area&#8221;. It will be the user or tool builder&#8217;s responsibility to support support \z markup in ways which meet a local need. Other USFM processing tools cannot be expected to handle \z markup or associated text, and are free to ignore them when they are encountered in the text.</p>
+<p>If local markup additions/extensions are required, USFM recommends that any additional user generated markup should begin with <strong>\z</strong> (e.g. <code class="docutils literal notranslate"><span class="pre">\zMyMarker</span></code>). Markers in this namespace will not be considered a part of the USFM standard, or be generally supported in USFM aware applications. This namespace will acts as a “private use area”. It will be the user or tool builder’s responsibility to support <code class="docutils literal notranslate"><span class="pre">\\z</span></code> markup in ways which meet a local need. Other USFM processing tools cannot be expected to handle <code class="docutils literal notranslate"><span class="pre">\\z</span></code> markup or associated text, and are free to ignore them when they are encountered in the text.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
-<p class="last">Scripture translation and publishing software <a class="reference external" href="http://paratext.org/about/pt">ParaTExt</a> and <a class="reference external" href="http://paratext.org/about/pa">Publishing Assistant</a> both provide a mechanism for adding information about user generated or customized markers to a specific project&#8217;s configuration. This makes it possible to support proper functioning of checking and formatting tools for the added markup.</p>
+<p class="last">Scripture translation and publishing software <a class="reference external" href="http://pt8.paratext.org/">Paratext</a> and <a class="reference external" href="http://pubassist.paratext.org/">Publishing Assistant</a> both provide methods for adding definitions for user generated markers to a specific project’s setup. This makes it possible to support proper functioning of checking and formatting tools for the added markup.</p>
 </div>
-<p>However, it is much less likely that emerging digital publishing systems and work-flows will support user-generated/non-standardized project markup. Current procedures for interacting with these partner environments requires that translation data is delivered in rigidly validated formats which conform to specific agreed-upon interchange standards, such as the known USFM marker inventory, or some XML-based equivalents. Since connecting with these environments is much more exclusively software-driven than with many print production tools, encountering unknown markup within the publishing processes is a significant problem. Please consider this carefully before introducing non-standard USFM markup within a scripture translation project text.</p>
+<p>It is much less likely that digital publishing systems and work-flows will support user-generated/non-standardized project markup automatically. Current procedures for interacting with these partner environments requires that translation data is delivered in well-defined and validated formats, which conform to agreed specifications, such as the USFM marker inventory, or some XML-based equivalents. Since these digital workflows are much more exclusively software-driven than area many print production tools, encountering unknown markup within the publishing processes is a major problem. Please consider this carefully before introducing non-standard USFM markup within a scripture translation project text.</p>
 <span class="target" id="syntax-documentation"></span></div>
 <div class="section" id="documentation-syntax-notes">
 <span id="index-8"></span><h2><a class="toc-backref" href="#id8">Documentation Syntax Notes</a><a class="headerlink" href="#documentation-syntax-notes" title="Permalink to this headline">¶</a></h2>
 <p>The syntax for individual markers is presented in this manual in a code formatting style. For example:</p>
 <blockquote>
-<div><code class="docutils literal"><span class="pre">\usfm#(_text...)</span></code></div></blockquote>
+<div><code class="docutils literal notranslate"><span class="pre">\usfm#(_text...)</span></code></div></blockquote>
 <ul class="simple">
-<li>Required spaces are indicated with an underscore <code class="docutils literal"><span class="pre">_</span></code>.</li>
-<li>Parameters or variables are indicated in ALLCAPS or by a special character such as the hash mark <code class="docutils literal"><span class="pre">#</span></code>. A description of the meaning or use of a variable or parameter is provided below the marker.</li>
-<li>Optional or suggested information is shown as a text example in parentheses – like <code class="docutils literal"><span class="pre">(text...)</span></code>. In some cases an underscore in listed within the parentheses, which indicates that the space is needed only when text follows the marker. Most paragraph or poetic markers (like <code class="docutils literal"><span class="pre">\p</span></code>, <code class="docutils literal"><span class="pre">\m</span></code>, <code class="docutils literal"><span class="pre">\q#</span></code> etc.) can be followed immediately by a verse number (<code class="docutils literal"><span class="pre">\v</span></code>) on a new line.</li>
+<li>Required spaces are indicated with an underscore <code class="docutils literal notranslate"><span class="pre">_</span></code>.</li>
+<li>Parameters or variables are indicated in ALLCAPS or by a special character such as the hash mark <code class="docutils literal notranslate"><span class="pre">#</span></code>. A description of the meaning or use of a variable or parameter is provided below the marker.</li>
+<li>Optional or suggested information is shown as a text example in parentheses – like <code class="docutils literal notranslate"><span class="pre">(text...)</span></code>. In some cases an underscore in listed within the parentheses, which indicates that the space is needed only when text follows the marker. Most paragraph or poetic markers (like <code class="docutils literal notranslate"><span class="pre">\p</span></code>, <code class="docutils literal notranslate"><span class="pre">\m</span></code>, <code class="docutils literal notranslate"><span class="pre">\q#</span></code> etc.) can be followed immediately by a verse number (<code class="docutils literal notranslate"><span class="pre">\v</span></code>) on a new line.</li>
 </ul>
 </div>
 </div>
 
 
            </div>
+           <div class="articleComments">
+            
+           </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../identification/index.html" class="btn btn-neutral float-right" title="Identification" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../identification/index.html" class="btn btn-neutral float-right" title="Identification" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="releasenotes.html" class="btn btn-neutral" title="Release Notes" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="releasenotes.html" class="btn btn-neutral" title="Release Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -310,7 +398,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016, United Bible Societies.
+        &copy; Copyright 2018, United Bible Societies.
 
     </p>
   </div> 
@@ -331,10 +419,11 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'3.0.rc1',
+            VERSION:'3.0.0',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
