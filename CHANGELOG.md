@@ -1,5 +1,40 @@
 # Change Log
 
+## [v3.0.0](https://github.com/ubsicap/usfm/tree/v3.0.0) (2018-05-14)
+[Full Changelog](https://github.com/ubsicap/usfm/compare/v3.0.rc1...v3.0.0)
+
+**Fixed bugs:**
+
+- Relocate \iex to Introductions section in documentation [\#57](https://github.com/ubsicap/usfm/issues/57)
+- Sample and rendering don't match for \tcr\# [\#40](https://github.com/ubsicap/usfm/issues/40)
+
+**Closed issues:**
+
+- Clarify use of 'strong' attribute when word repetition occurs in Hebrew or Greek [\#72](https://github.com/ubsicap/usfm/issues/72)
+- Documentation formatting error under Linking attributes [\#70](https://github.com/ubsicap/usfm/issues/70)
+- Clarify status of space before or after commas in attribute lists [\#68](https://github.com/ubsicap/usfm/issues/68)
+- Strong's numbers examples should 4 digits rather than 5 [\#67](https://github.com/ubsicap/usfm/issues/67)
+- Explain Strong’s ID augmentation identifier in documentation [\#66](https://github.com/ubsicap/usfm/issues/66)
+- Text refrain  \(restore \pr\) [\#64](https://github.com/ubsicap/usfm/issues/64)
+- Superscript \(add \sup ...\sup\*\) [\#62](https://github.com/ubsicap/usfm/issues/62)
+- List of witnesses in footnotes \(add \fw ...\fw\*\) [\#61](https://github.com/ubsicap/usfm/issues/61)
+- Allow \toc1, \toc2, and \toc3 under \id [\#51](https://github.com/ubsicap/usfm/issues/51)
+- Word Attributes for Compound Words [\#50](https://github.com/ubsicap/usfm/issues/50)
+- Linking attribute for \xt ...\xt\* \(add link-href as default\) [\#41](https://github.com/ubsicap/usfm/issues/41)
+- Alternative language table of contents text \(\toca\#\) [\#36](https://github.com/ubsicap/usfm/issues/36)
+- Milestones for quotations / speaker \(add \qt\#-s\\* and \qt\#-e\\*\) [\#35](https://github.com/ubsicap/usfm/issues/35)
+- Add additional examples of use of \xt markup in documentation [\#34](https://github.com/ubsicap/usfm/issues/34)
+- Syntax for milestones [\#33](https://github.com/ubsicap/usfm/issues/33)
+- Deprecate pronunciation info marker \(\pro ...\pro\*\) in favour of ruby annotations proposal [\#32](https://github.com/ubsicap/usfm/issues/32)
+- Syntax for applying ruby annotations \(CJK texts\) \(add \rb ...\rb\*\) [\#31](https://github.com/ubsicap/usfm/issues/31)
+- Syntax for assigning word-level linking attributes [\#25](https://github.com/ubsicap/usfm/issues/25)
+- Improve documentation explanation and examples for \iex [\#23](https://github.com/ubsicap/usfm/issues/23)
+- Semantic division \(add \sd\#\) [\#22](https://github.com/ubsicap/usfm/issues/22)
+- Published cross reference origin text \(add \xop ...\xop\*\) [\#11](https://github.com/ubsicap/usfm/issues/11)
+- Target references "added" text \(add \xta ...\xta\*\) [\#10](https://github.com/ubsicap/usfm/issues/10)
+- Milestones for translator's section / chunk \(add \ts-s\\* and \ts-e\\*\) [\#7](https://github.com/ubsicap/usfm/issues/7)
+- Clarify and document specification regarding whitespace and new lines [\#5](https://github.com/ubsicap/usfm/issues/5)
+
 ## [v3.0.rc1](https://github.com/ubsicap/usfm/tree/v3.0.rc1) (2016-09-09)
 [Full Changelog](https://github.com/ubsicap/usfm/compare/v2.5...v3.0.rc1)
 
