@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Unified Standard Formal Markers'
+project = u'Unified Standard Format Markers'
 copyright = u'2018, United Bible Societies'
 author = u'United Bible Societies'
 
