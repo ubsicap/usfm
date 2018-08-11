@@ -103,3 +103,8 @@ Example sphinx construct:
 .red-bd {color:red;  font-weight: bold;}
 .orange-bd {color:orange;  font-weight: bold;}
 .green-bd {color:green;  font-weight: bold;}
+
+/* Overrides for pygments.css */
+.highlight {
+  background: none;
+}
