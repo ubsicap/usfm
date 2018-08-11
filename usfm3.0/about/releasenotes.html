@@ -1,0 +1,573 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Release Notes &mdash; Unified Standard Formal Markers 3.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Unified Standard Formal Markers 3.0.0 documentation" href="../index.html"/>
+        <link rel="up" title="Introduction" href="index.html"/>
+        <link rel="next" title="Syntax Notes" href="syntax.html"/>
+        <link rel="prev" title="Introduction" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Unified Standard Formal Markers
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">About USFM</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Release Notes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-3-0">3.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rc1">3.0rc1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-5">2.5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-4">2.4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-35">2.35</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-3">2.3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-2">2.2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-1">2.1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-05">2.05</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-04">2.04</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-03">2.03</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-release-2-0">2.0</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="syntax.html">Syntax Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-are-standard-format-markers">What are Standard Format Markers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#history-of-usfm">History of USFM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#unification-notes">Unification Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#software-notes">Software Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#change-management">Change Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#paratext-stylesheet">ParaTExt Stylesheet</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../identification/index.html">Identification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introductions/index.html">Introductions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles_headings/index.html">Titles, Headings, and Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chapters_verses/index.html">Chapters and Verses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paragraphs/index.html">Paragraphs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../poetry/index.html">Poetry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists/index.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tables/index.html">Tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes_basic/fnotes.html">Footnotes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes_basic/xrefs.html">Cross References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../characters/index.html">Words and Characters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../attributes/index.html">Word Level Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linking/index.html">Linking Attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../milestones/index.html">Milestones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes_study/index.html">Extended Study Content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../peripherals/index.html">Peripherals</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unified Standard Formal Markers</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Introduction</a> &raquo;</li>
+        
+      <li>Release Notes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/about/releasenotes.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="release-notes">
+<span id="index-0"></span><h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#about-release-3-0" id="id13">3.0</a></li>
+<li><a class="reference internal" href="#rc1" id="id14">3.0rc1</a></li>
+<li><a class="reference internal" href="#about-release-2-5" id="id15">2.5</a></li>
+<li><a class="reference internal" href="#about-release-2-4" id="id16">2.4</a></li>
+<li><a class="reference internal" href="#about-release-2-35" id="id17">2.35</a></li>
+<li><a class="reference internal" href="#about-release-2-3" id="id18">2.3</a></li>
+<li><a class="reference internal" href="#about-release-2-2" id="id19">2.2</a></li>
+<li><a class="reference internal" href="#about-release-2-1" id="id20">2.1</a></li>
+<li><a class="reference internal" href="#about-release-2-05" id="id21">2.05</a></li>
+<li><a class="reference internal" href="#about-release-2-04" id="id22">2.04</a></li>
+<li><a class="reference internal" href="#about-release-2-03" id="id23">2.03</a></li>
+<li><a class="reference internal" href="#about-release-2-0" id="id24">2.0</a></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="about-release-3-0">
+<span id="id1"></span><h2><a class="toc-backref" href="#id13">3.0</a><a class="headerlink" href="#about-release-3-0" title="Permalink to this headline">¶</a></h2>
+<p>USFM 3.0 additions or revisions are highlighted throughout this documentation using the badge <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg></p>
+<p><em>April 2018</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>USFM version identifier: <a class="reference internal" href="../identification/index.html#usfmp-usfm"><span class="std std-ref">\usfm</span></a></li>
+<li>Alternate language table of contents texts: <a class="reference internal" href="../identification/index.html#usfmp-toc"><span class="std std-ref">\toca#</span></a></li>
+<li>List of witnesses in footnotes (for crtical editions): <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-fw"><span class="std std-ref">\fw …\fw*</span></a></li>
+<li>Target references “added” text: <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xta"><span class="std std-ref">\xta …\xta*</span></a></li>
+<li>Superscript: <a class="reference internal" href="../characters/index.html#usfmc-sup"><span class="std std-ref">\sup …\sup*</span></a></li>
+<li>Translator’s section (chunk) milestones: <a class="reference internal" href="../milestones/index.html#usfmm-ts-s"><span class="std std-ref">\ts-s\* and \ts-e\*</span></a></li>
+</ul>
+<p><strong>Marker Revisions</strong></p>
+<ul>
+<li><p class="first">Revised syntax for ruby glosses (CJK texts): <a class="reference internal" href="../characters/index.html#usfmc-rb"><span class="std std-ref">\rb …\rb*</span></a></p>
+<blockquote>
+<div><ul class="simple">
+<li>Add <a class="reference internal" href="../attributes/index.html"><span class="doc">descriptive attribute</span></a> <code class="docutils literal notranslate"><span class="pre">gloss</span></code> for <a class="reference internal" href="../characters/index.html#usfmc-rb-attr"><span class="std std-ref">\rb …\rb*</span></a></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Added default <code class="docutils literal notranslate"><span class="pre">link-href</span></code> <a class="reference internal" href="../linking/index.html"><span class="doc">linking attribute</span></a> for <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xt-attr"><span class="std std-ref">\xt …\xt*</span></a></p>
+</li>
+<li><p class="first">Changed common <a class="reference internal" href="../milestones/index.html#milestones-attributes"><span class="std std-ref">attributes for milestones</span></a>:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Replace single <code class="docutils literal notranslate"><span class="pre">id</span></code> with separate start <code class="docutils literal notranslate"><span class="pre">sid</span></code> and end <code class="docutils literal notranslate"><span class="pre">eid</span></code> milestone attributes. <br /> This update aligns USFM with the corresponding single <a class="reference external" href="https://ubsicap.github.io/usx/elements.html#ms">&lt;ms&gt;</a> milestone element in USX, where the <code class="docutils literal notranslate"><span class="pre">id</span></code> attrubute content would not be unique for <a class="reference external" href="https://ubsicap.github.io/usx/elements.html#ms">&lt;ms&gt;</a>.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Changed name of <a class="reference internal" href="../linking/index.html"><span class="doc">linking attribute</span></a> <code class="docutils literal notranslate"><span class="pre">link-name</span></code> to <code class="docutils literal notranslate"><span class="pre">link-id</span></code>.</p>
+</li>
+<li><p class="first"><em>Restored</em> <a class="reference internal" href="../paragraphs/index.html#usfmp-pr"><span class="std std-ref">\pr</span></a> for use as “text refrain”.</p>
+</li>
+</ul>
+<p><strong>Syntax and Features</strong></p>
+<ul class="simple">
+<li>Clarify and support syntax for <a class="reference internal" href="../milestones/index.html#milestones-standalone"><span class="std std-ref">standalone milestones</span></a>.</li>
+<li>Document best practice for attributes containing <a class="reference internal" href="../attributes/index.html#attributes-multivalues"><span class="std std-ref">multiple values</span></a>, or <a class="reference internal" href="../attributes/index.html#attributes-multiparts"><span class="std std-ref">multiple parts</span></a> (see the <code class="docutils literal notranslate"><span class="pre">gloss</span></code> attribute for <a class="reference internal" href="../characters/index.html#usfmc-rb-attr"><span class="std std-ref">\rb …\rb*</span></a>)</li>
+</ul>
+</div>
+<div class="section" id="rc1">
+<span id="about-release-3-0rc1"></span><h2><a class="toc-backref" href="#id14">3.0rc1</a><a class="headerlink" href="#rc1" title="Permalink to this headline">¶</a></h2>
+<p><em>October 2016</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Letter opening: <a class="reference internal" href="../paragraphs/index.html#usfmp-po"><span class="std std-ref">\po</span></a></li>
+<li>List header and footer elements: <a class="reference internal" href="../lists/index.html#usfmp-lh"><span class="std std-ref">\lh</span></a> and <a class="reference internal" href="../lists/index.html#usfmp-lf"><span class="std std-ref">\lf</span></a></li>
+<li>Embedded list: <a class="reference internal" href="../lists/index.html#usfmp-lim"><span class="std std-ref">\lim#</span></a></li>
+<li>Hebrew note: <a class="reference internal" href="../poetry/index.html#usfmp-qd"><span class="std std-ref">\qd</span></a></li>
+<li>Semantic division: <a class="reference internal" href="../titles_headings/index.html#usfmp-sd"><span class="std std-ref">\sd#</span></a></li>
+<li>Aramaic wordlist entry: <a class="reference internal" href="../characters/index.html#usfmc-wa"><span class="std std-ref">\wa …\wa*</span></a></li>
+<li>Geographic proper name (Chinese texts): <a class="reference internal" href="../characters/index.html#usfmc-png"><span class="std std-ref">\png …\png*</span></a></li>
+<li>Target references “added” text: <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xta"><span class="std std-ref">\xta …\xta*</span></a></li>
+<li>Published cross reference origin text: <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xop"><span class="std std-ref">\xop …\xop*</span></a></li>
+<li>Structured list items: <a class="reference internal" href="../lists/index.html#usfmc-lik"><span class="std std-ref">\lik …\lik*</span></a> and <a class="reference internal" href="../lists/index.html#usfmc-liv"><span class="std std-ref">\liv# …\liv#*</span></a></li>
+<li>List item total: <a class="reference internal" href="../lists/index.html#usfmc-litl"><span class="std std-ref">\litl …\litl*</span></a></li>
+<li>Link text: <a class="reference internal" href="../linking/index.html#usfmc-jmp"><span class="std std-ref">\jmp …\jmp*</span></a></li>
+<li>Common peripheral <a class="reference internal" href="../peripherals/index.html#periph-div"><span class="std std-ref">identifiers</span></a></li>
+<li>Ruby glosses (CJK texts): <a class="reference internal" href="../characters/index.html#usfmc-rb"><span class="std std-ref">\rb …\rb*</span></a></li>
+<li>Quotation start / end milestones: <a class="reference internal" href="../milestones/index.html#usfmm-qt-s"><span class="std std-ref">\qt#-s\* and \qt#-e\*</span></a></li>
+</ul>
+<p><strong>Marker Revisions</strong></p>
+<ul class="simple">
+<li>Support citation form for wordlist / glossary text (update <a class="reference internal" href="../characters/index.html#usfmc-w"><span class="std std-ref">\w …\w*</span></a>).</li>
+<li>Support for explicit <a class="reference internal" href="../tables/index.html#usfmc-tc"><span class="std std-ref">table cell</span></a> column <a class="reference internal" href="../tables/index.html#usfmc-table-colspan"><span class="std std-ref">spanning</span></a>.</li>
+<li>Revised syntax for figures / illustrations applying descriptive <a class="reference internal" href="../attributes/index.html"><span class="doc">attributes</span></a>: <a class="reference internal" href="../characters/index.html#usfmc-fig-attr"><span class="std std-ref">\fig …\fig*</span></a></li>
+<li><em>Deprecated</em> cross reference and footnote DC content markers: <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xdc"><span class="std std-ref">\xdc …\xdc*</span></a> and <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-fdc"><span class="std std-ref">\fdc …\fdc*</span></a></li>
+<li><em>Deprecated</em> combined marker for proper name within translator’s addition: <a class="reference internal" href="../characters/index.html#usfmc-addpn"><span class="std std-ref">\addpn …\addpn*</span></a></li>
+<li><em>Deprecated</em> numbered running header: <a class="reference internal" href="../identification/index.html#usfmp-h"><span class="std std-ref">\h#</span></a></li>
+<li><em>Deprecated</em> pronunciation info marker: <a class="reference internal" href="../characters/index.html#usfmc-pro"><span class="std std-ref">\pro …\pro*</span></a> in favour of <a class="reference internal" href="../characters/index.html#usfmc-rb"><span class="std std-ref">ruby annotations</span></a> proposal.</li>
+</ul>
+<p><strong>Syntax and Features</strong></p>
+<ul>
+<li><p class="first">Syntax for assigning word-level <a class="reference internal" href="../attributes/index.html"><span class="doc">descriptive attributes</span></a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Descriptive attributes for <a class="reference internal" href="../characters/index.html#usfmc-w-attr"><span class="std std-ref">\w …\w*</span></a></li>
+<li>Descriptive attributes for <a class="reference internal" href="../characters/index.html#usfmc-fig-attr"><span class="std std-ref">\fig …\fig*</span></a></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Syntax for assigning word-level <a class="reference internal" href="../linking/index.html"><span class="doc">linking attributes</span></a>.</p>
+</li>
+<li><p class="first">Syntax for <a class="reference internal" href="../milestones/index.html"><span class="doc">milestones</span></a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Quotation start / end milestones: <a class="reference internal" href="../milestones/index.html#usfmm-qt-s"><span class="std std-ref">\qt#-s\* and \qt#-e\*</span></a>.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Syntax for peripheral (<a class="reference internal" href="../peripherals/index.html"><span class="doc">\periph</span></a>) <a class="reference internal" href="../peripherals/index.html#periph-id"><span class="std std-ref">identifiers</span></a>.</p>
+</li>
+</ul>
+<p><strong>Standard Reference</strong></p>
+<ul class="simple">
+<li>Clarify and document specification regarding <a class="reference internal" href="syntax.html#syntax-whitespace"><span class="std std-ref">whitespace</span></a> and <a class="reference internal" href="syntax.html#syntax-newline"><span class="std std-ref">new lines</span></a>.</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-5">
+<span id="id3"></span><h2><a class="toc-backref" href="#id15">2.5</a><a class="headerlink" href="#about-release-2-5" title="Permalink to this headline">¶</a></h2>
+<p><em>October 2013</em></p>
+<p>Validation (stylesheet) configuration update for ParaTExt 7.5 release.</p>
+</div>
+<div class="section" id="about-release-2-4">
+<span id="id4"></span><h2><a class="toc-backref" href="#id16">2.4</a><a class="headerlink" href="#about-release-2-4" title="Permalink to this headline">¶</a></h2>
+<p><em>June 2013</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Support for <a class="reference internal" href="../characters/nesting.html"><span class="doc">nesting character markup</span></a>.</li>
+</ul>
+<p>Full support for the nested character markup syntax has been included in Paratext &gt;=7.4, Publishing Assistant &gt;=4.1, and the XML export format from Paratext known as “USX”.</p>
+</div>
+<div class="section" id="about-release-2-35">
+<span id="id5"></span><h2><a class="toc-backref" href="#id17">2.35</a><a class="headerlink" href="#about-release-2-35" title="Permalink to this headline">¶</a></h2>
+<p><em>February 2012</em></p>
+<p>Primarily a documentation update.</p>
+<p>Paratext 7.3 and beyond provides support for study Bible content authoring, within a single project text, through an enhanced multi-pane editing window. Earlier USFM documentation releases discussed study Bible content markup using one or two additional related project texts. This multi-project authoring configuration is no longer recommended now that there is workable authoring environment supporting a single-project study Bible text. Information relating to study Bible content markup and authoring practice in this documentation supersedes any reference to separate notes or sidebar projects in the earlier release notes (below).</p>
+<ul class="simple">
+<li>Deprecated <code class="docutils literal notranslate"><span class="pre">\fs</span></code> (footnote summary text) - not required when working within a single project study Bible text.</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-3">
+<span id="id6"></span><h2><a class="toc-backref" href="#id18">2.3</a><a class="headerlink" href="#about-release-2-3" title="Permalink to this headline">¶</a></h2>
+<p><em>July 2010</em></p>
+<p>Version numbers for the base USFM stylesheet and the study Bible notes and sidebars stylesheets have been synchronized to 2.3. This reflects the readiness of the ParaTExt 7.1 editor to support study Bible authoring.</p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Added study Bible cross reference marker <a class="reference internal" href="../notes_study/exrefs.html#usfmn-ex"><span class="std std-ref">\ex</span></a> for adding additional cross-references to the notes project.</li>
+</ul>
+<p><strong>Marker Revisions</strong></p>
+<ul class="simple">
+<li><em>DEPRECATED</em> - Study Bible footnote marker <code class="docutils literal notranslate"><span class="pre">\fs</span></code> for marking a footnote summary text.</li>
+<li>Permit cross references to be added to the study Bible notes project.</li>
+<li>Revised markup specification for study Bible sidebars (now use any title, paragraph, poetry, table, or special text marker elements).</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-2">
+<span id="id7"></span><h2><a class="toc-backref" href="#id19">2.2</a><a class="headerlink" href="#about-release-2-2" title="Permalink to this headline">¶</a></h2>
+<p><em>October 2008</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Added character markers <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xot"><span class="std std-ref">\xot …\xot*</span></a> and <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xnt"><span class="std std-ref">\xnt …\xnt*</span></a> for uniquely marking target references to OT and NT passages (use of these markers is optional)</li>
+<li>Added <a class="reference internal" href="../introductions/index.html#usfmc-iqt"><span class="std std-ref">\iqt …\iqt*</span></a> to mark (scripture) quotations appearing in the introduction.</li>
+</ul>
+<p><strong>Marker Revisions</strong></p>
+<ul class="simple">
+<li><a class="reference internal" href="../introductions/index.html#usfmp-imte"><span class="std std-ref">\imte#</span></a> now includes an optional numeric variable (multiple levels).</li>
+<li>No-break space should now be marked using ~ (tilde), not !$</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-1">
+<span id="id8"></span><h2><a class="toc-backref" href="#id20">2.1</a><a class="headerlink" href="#about-release-2-1" title="Permalink to this headline">¶</a></h2>
+<p><em>April 2007</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul>
+<li><p class="first">Added <a class="reference internal" href="../introductions/index.html#usfmp-ili"><span class="std std-ref">\ili</span></a> for marking introduction list items.</p>
+</li>
+<li><p class="first">Reviewed and finalized Peripheral content markup:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Added new <a class="reference internal" href="../peripherals/back.html"><span class="doc">back matter</span></a> books CNC, GLO, TDX, NDX.</li>
+<li>Added INT book for scripture division <a class="reference internal" href="../peripherals/intros.html"><span class="doc">Introductions</span></a>.</li>
+<li>Updated scheme for marking content divisions in FRT, INT, BAK, OTH</li>
+<li>Added various new content division markers.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p><strong>Marker Revisions</strong></p>
+<ul class="simple">
+<li>Finalized <a class="reference internal" href="../notes_study/index.html"><span class="doc">Study Bible Content</span></a> markup.</li>
+<li>Reviewed and finalized Peripheral content markup (see “Marker Additions” above).</li>
+<li>Changed <a class="reference internal" href="../titles_headings/index.html#usfmc-rq"><span class="std std-ref">\rq …\rq*</span></a> from paragraph to character level markup.</li>
+<li>Changed <a class="reference internal" href="../chapters_verses/index.html#usfmc-ca"><span class="std std-ref">\ca …\ca*</span></a> from paragraph to character level markup.</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-05">
+<span id="id9"></span><h2><a class="toc-backref" href="#id21">2.05</a><a class="headerlink" href="#about-release-2-05" title="Permalink to this headline">¶</a></h2>
+<p><em>June 2006</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Added <a class="reference internal" href="../titles_headings/index.html#usfmc-rq"><span class="std std-ref">\rq</span></a> for marking inline quotation references.</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-04">
+<span id="id10"></span><h2><a class="toc-backref" href="#id22">2.04</a><a class="headerlink" href="#about-release-2-04" title="Permalink to this headline">¶</a></h2>
+<p><em>October 2005</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Added <a class="reference internal" href="../identification/index.html#usfmp-toc"><span class="std std-ref">\toc3</span></a> for providing the standard abbreviation for a book.</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-03">
+<span id="id11"></span><h2><a class="toc-backref" href="#id23">2.03</a><a class="headerlink" href="#about-release-2-03" title="Permalink to this headline">¶</a></h2>
+<p><em>August 2005</em></p>
+<p><strong>Marker Additions</strong></p>
+<ul class="simple">
+<li>Added <a class="reference internal" href="../identification/index.html#usfmp-toc"><span class="std std-ref">\toc1</span></a> and <a class="reference internal" href="../identification/index.html#usfmp-toc"><span class="std std-ref">\toc2</span></a> for providing and marking long and short table of contents texts.</li>
+<li>Added <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-fl"><span class="std std-ref">\fl</span></a> for marking footnote “label” text items.</li>
+<li>Added <a class="reference internal" href="../notes_basic/fnotes.html#usfmc-fp"><span class="std std-ref">\fp</span></a> for marking footnote additional paragraphs.</li>
+</ul>
+</div>
+<div class="section" id="about-release-2-0">
+<span id="id12"></span><h2><a class="toc-backref" href="#id24">2.0</a><a class="headerlink" href="#about-release-2-0" title="Permalink to this headline">¶</a></h2>
+<p><em>October 2004</em></p>
+<p>The following sections outline changes in USFM from 1.53 to 2.0.</p>
+<p><strong>Marker Revisions</strong></p>
+<ul class="simple">
+<li>Removed <code class="docutils literal notranslate"><span class="pre">\pdi</span></code> and <code class="docutils literal notranslate"><span class="pre">\pde</span></code>, and substitute with embedded text markup (under additions, below)</li>
+<li>Removed <code class="docutils literal notranslate"><span class="pre">\wr</span> <span class="pre">...\wr*</span></code>. This was really a duplicate of <a class="reference internal" href="../characters/index.html#usfmc-w"><span class="std std-ref">\w …w*</span></a> used for marking words in the scripture text which are included in the wordlist.</li>
+<li>Removed <code class="docutils literal notranslate"><span class="pre">\ps</span></code>. This is used in conjunction with <a class="reference internal" href="../paragraphs/index.html#usfmp-nb"><span class="std std-ref">\nb</span></a> to indicate that the paragraph spans the chapter boundary. It should be sufficient to just start the new chapter with <a class="reference internal" href="../paragraphs/index.html#usfmp-nb"><span class="std std-ref">\nb</span></a> and use the appropriate paragraph marker for the previous chapter (<a class="reference internal" href="../paragraphs/index.html#usfmp-p"><span class="std std-ref">\p</span></a>, <a class="reference internal" href="../paragraphs/index.html#usfmp-m"><span class="std std-ref">\m</span></a> etc.)</li>
+</ul>
+<p><strong>Marker Additions</strong></p>
+<ul>
+<li><p class="first">Add character style <a class="reference internal" href="../characters/index.html#usfmc-em"><span class="std std-ref">\em …\em*</span></a> for “emphasis”.</p>
+</li>
+<li><p class="first">In Peripherals:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Add \intro section to Front Matter (in addition to Preface).</li>
+<li>Add \maps (Maps Index) section to Back Matter.</li>
+<li>Paratext will be adjusted to include predefined “standard” books for FRT, BAK, and OTH rather than using the book names XXA, XXB, and XXC for these materials.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Add <a class="reference internal" href="../titles_headings/index.html#usfmp-sr"><span class="std std-ref">\sr</span></a> for marking the text references range listed under a section heading <a class="reference internal" href="../titles_headings/index.html#usfmp-s"><span class="std std-ref">\s</span></a>.</p>
+</li>
+<li><p class="first">Add the following markers for “embedded text” (see example references – not all versions mark these items the same).</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference internal" href="../paragraphs/index.html#usfmp-pm"><span class="std std-ref">\pm</span></a> - Embedded text paragraph</li>
+<li><a class="reference internal" href="../paragraphs/index.html#usfmp-pmo"><span class="std std-ref">\pmo</span></a> - Embedded text opening</li>
+<li><a class="reference internal" href="../paragraphs/index.html#usfmp-pmc"><span class="std std-ref">\pmc</span></a> - Embedded text closing</li>
+<li><a class="reference internal" href="../paragraphs/index.html#usfmp-pmr"><span class="std std-ref">\pmr</span></a> - Embedded text refrain</li>
+<li><a class="reference internal" href="../poetry/index.html#usfmp-qm"><span class="std std-ref">\qm#</span></a> - Embedded text poetic line</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Add character style <a class="reference internal" href="../characters/index.html#usfmc-pro"><span class="std std-ref">\pro …\pro*</span></a> for indicating pronunciation (in CJK texts).</p>
+</li>
+<li><p class="first">Add character style <a class="reference internal" href="../characters/index.html#usfmc-wj"><span class="std std-ref">\wj …\wj*</span></a> for marking words of Jesus.</p>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="syntax.html" class="btn btn-neutral float-right" title="Syntax Notes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, United Bible Societies.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Other Versions</span>
+        v: usfm3.0
+        <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+        <dl>
+            <dt>Tags</dt>
+            <dd><a href="../../v2.5/about/releasenotes.html">v2.5</a></dd>
+            <dd><a href="../../v3.0.0/about/releasenotes.html">v3.0.0</a></dd>
+            <dd><a href="../../v3.0.rc1/about/releasenotes.html">v3.0.rc1</a></dd>
+        </dl>
+        <dl>
+            <dt>Branches</dt>
+            <dd><a href="../../master/about/releasenotes.html">master</a></dd>
+            <dd><a href="../../usfm2.5/about/releasenotes.html">usfm2.5</a></dd>
+            <dd><a href="releasenotes.html">usfm3.0</a></dd>
+        </dl>
+    </div>
+</div>
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'3.0.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

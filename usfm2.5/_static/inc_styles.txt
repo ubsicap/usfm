@@ -1,0 +1,54 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+    <style> .orange {color:orange} </style>
+    <style> .green {color:green} </style>
+    <style> .red-bd {color:red;  font-weight: bold} </style>
+    <style> .orange-bd {color:orange;  font-weight: bold} </style>
+    <style> .green-bd {color:green;  font-weight: bold} </style>
+
+.. role:: red
+.. role:: orange
+.. role:: green
+.. role:: red-bd
+.. role:: orange-bd
+.. role:: green-bd
+
+.. |br| raw:: html
+   
+   <br />
+
+.. |req| raw:: html
+
+   <span style="color:red; font-weight:bold">*</span>
+
+.. |ico_W| image:: /_static/images/icon-warning.png
+   :height: 16
+   :width: 16
+.. |ico_C| image:: /_static/images/icon-check.png
+   :height: 16
+   :width: 16
+.. |ico_Cg| image:: /_static/images/icon-check-green.png
+   :height: 16
+   :width: 16
+.. |ico_P| image:: /_static/images/icon-plus.png
+   :height: 16
+   :width: 16
+.. |ico_S| image:: /_static/images/icon-star.png
+   :height: 16
+   :width: 16
+.. |ico_F| image:: /_static/images/icon-folder.png
+   :height: 16
+   :width: 16
+.. |ico_X| image:: /_static/images/icon-doc.png
+   :height: 16
+   :width: 16
+.. |ico_D| image:: /_static/images/icon-doc.png
+   :height: 16
+   :width: 16
+.. |ico_R| image:: /_static/images/icon-rnc.png
+   :height: 16
+   :width: 16
+.. |ico_See| image:: /_static/images/icon-arrow_see.png
+   :height: 24
+   :width: 24

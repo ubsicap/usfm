@@ -1,0 +1,55 @@
+.. role:: red
+.. role:: orange
+.. role:: green
+.. role:: red-bd
+.. role:: orange-bd
+.. role:: green-bd
+
+.. |br| raw:: html
+   
+   <br />
+
+.. |req| raw:: html
+
+   <span style="color:red; font-weight:bold">*</span>
+
+.. |ico_W| image:: /_static/images/icon-warning.png
+   :height: 16
+   :width: 16
+.. |ico_C| image:: /_static/images/icon-check.png
+   :height: 16
+   :width: 16
+.. |ico_Cg| image:: /_static/images/icon-check-green.png
+   :height: 16
+   :width: 16
+.. |ico_P| image:: /_static/images/icon-plus.png
+   :height: 16
+   :width: 16
+.. |ico_S| image:: /_static/images/icon-star.png
+   :height: 16
+   :width: 16
+.. |ico_F| image:: /_static/images/icon-folder.png
+   :height: 16
+   :width: 16
+.. |ico_X| image:: /_static/images/icon-doc.png
+   :height: 16
+   :width: 16
+.. |ico_D| image:: /_static/images/icon-doc.png
+   :height: 16
+   :width: 16
+.. |ico_R| image:: /_static/images/icon-rnc.png
+   :height: 16
+   :width: 16
+.. |ico_Tag| image:: /_static/images/icon-tag_alt.png
+   :height: 16
+   :width: 16
+.. |ico_See| image:: /_static/images/icon-arrow_see.png
+   :height: 24
+   :width: 24
+
+.. |badge_3.0| raw:: html
+
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg>
+
+.. badge colour green = #97CA00
+.. badge colour blue = #6ab0de
