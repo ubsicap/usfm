@@ -764,7 +764,7 @@ Parts of a phrase gloss may be left empty. In the example phrase below the secon
 
 	\rb 神の子|かみ::こ\rb*
 
-Genesis 1.1-2 (Japanes Living Bible - Biblica)
+Genesis 1.1-2 (Japanese Contemporary Bible - Biblica)
 
 .. code-block:: text
 	:name: usfm-character_rb_rt_example
