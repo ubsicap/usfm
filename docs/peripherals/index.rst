@@ -135,4 +135,4 @@ Any non-standard markers used in these books will need to be added to the styles
 
 Authoring peripheral materials within ParaTExt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ParaTExt includes the named peripheral :doc:`books </identification/books>` FRT, INT, BAK, CNC, GLO, TDX, NDX, and OTH in addition to a set of books named from XXA to XXG. These non-Biblical books appear at the end of a project's list of books, and may be used to author the non-biblical text for Front Matter, Back Matter, Introductions, or any other kind of text which should be stored as part of the translation project.
+Paratext includes the named peripheral :doc:`books </identification/books>` FRT, INT, BAK, CNC, GLO, TDX, NDX, and OTH in addition to a set of books named from XXA to XXG. These non-Biblical books appear at the end of a project's list of books, and may be used to author the non-biblical text for Front Matter, Back Matter, Introductions, or any other kind of text which should be stored as part of the translation project.

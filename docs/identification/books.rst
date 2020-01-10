@@ -4,7 +4,7 @@
 
 Book Identifiers
 ================
-This table lists all the standard 3-character book identifiers that can be entered after the \\id marker at the top of each USFM file. Some scripture editors like `ParaTExt <http://paratext.org>`_ may also include the number shown for each book in the filename for that book.
+This table lists all the standard 3-character book identifiers that can be entered after the \\id marker at the top of each USFM file. Some scripture editors like `Paratext <http://paratext.org>`_ may also include the number shown for each book in the filename for that book.
 
 .. csv-table::
 	:header: "Number", "Identifier", "English Name", "Alternative name / Notes"
@@ -178,3 +178,10 @@ This table lists all the standard 3-character book identifiers that can be enter
 	"A9", "GLO", "Glossary / Wordlist"
 	"B0", "TDX", "Topical Index"
 	"B1", "NDX", "Names Index"
+	"94", "XXA", "Extra material"
+	"95", "XXB", "Extra material"
+	"96", "XXC", "Extra material"
+	"97", "XXD", "Extra material"
+	"98", "XXE", "Extra material"
+	"99", "XXF", "Extra material"
+	"100", "XXG", "Extra material"
