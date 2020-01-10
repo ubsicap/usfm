@@ -58,7 +58,7 @@ Mark 1 (CEV Learning Bible)
 	:name: usfm-study_sidebars_example
 	:emphasize-lines: 2,16
 
-	\v 14
+	\v 18 At once they left their nets and went with him.
 	\esb \cat History\cat*
 	\ms Fish and Fishing
 	\p In Jesus' time, fishing took place mostly on lake Galilee, because Jewish people 
@@ -74,6 +74,8 @@ Mark 1 (CEV Learning Bible)
 	tell who Jesus is: \fig Christian Fish Image|christfish.jpg||||Ihsous Christos Theou 
 	Uios Swthr|\fig*
 	\esbe
+	\p\v 19 He went a little farther on and saw two other brothers, James and John, 
+	the sons of Zebedee.
 
 .. image:: images/usfm-study_sidebars.jpg
 	:width: 350px
