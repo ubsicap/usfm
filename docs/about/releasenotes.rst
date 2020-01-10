@@ -24,7 +24,7 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 
 * USFM version identifier: :ref:`\\usfm <usfmp_usfm>`
 * Alternate language table of contents texts: :ref:`\\toca# <usfmp_toc#>`
-* List of witnesses in footnotes (for crtical editions): :ref:`\\fw ...\\fw* <usfmc_fw>`
+* List of witnesses in footnotes (for critical editions): :ref:`\\fw ...\\fw* <usfmc_fw>`
 * Target references "added" text: :ref:`\\xta ...\\xta* <usfmc_xta>`
 * Superscript: :ref:`\\sup ...\\sup* <usfmc_sup>`
 * Translator's section (chunk) milestones: :ref:`\\ts-s\\* and \\ts-e\\* <usfmm_ts-s>`
