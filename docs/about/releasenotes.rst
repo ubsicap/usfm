@@ -18,7 +18,7 @@ Release Notes
 
 *January 2020*
 
-This update is prmarily for providing documentation fixes, as well as minor updates to Paratext stylesheets (enable PT9 ColorNames feature; allow `\xt` in more contexts)
+This update is prmarily for providing documentation fixes, as well as minor updates to Paratext stylesheets (enable PT9 ColorNames feature; allow ``\xt`` in more contexts)
 
 .. _about_release_3.0:
 
