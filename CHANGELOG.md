@@ -1,5 +1,24 @@
 # Change Log
 
+## [v3.0.1](https://github.com/ubsicap/usfm/tree/v3.0.1) (2020-01-10)
+
+[Full Changelog](https://github.com/ubsicap/usfm/compare/v3.0.0...v3.0.1)
+
+**Fixed bugs:**
+
+- Wrong link landing for characters in syntax notes/general syntax [\#94](https://github.com/ubsicap/usfm/issues/94)
+- Fix trivial typo in release notes \(3.0\)  [\#92](https://github.com/ubsicap/usfm/issues/92)
+- Fix USFM docs for \esb - should not occur after \v [\#91](https://github.com/ubsicap/usfm/issues/91)
+- XXA-XXG in Identification section. [\#90](https://github.com/ubsicap/usfm/issues/90)
+- Small typo \(scrloc\) [\#88](https://github.com/ubsicap/usfm/issues/88)
+- Correct docs for \fe [\#74](https://github.com/ubsicap/usfm/issues/74)
+
+**Closed issues:**
+
+- Allow broader use of \xt \(update xt OccursUnder list\) [\#96](https://github.com/ubsicap/usfm/issues/96)
+- Using \rem in context anywhere in a USFM file? [\#83](https://github.com/ubsicap/usfm/issues/83)
+- Update color values in stylesheets to match PT UI updates [\#39](https://github.com/ubsicap/usfm/issues/39)
+
 ## [v3.0.0](https://github.com/ubsicap/usfm/tree/v3.0.0) (2018-05-14)
 [Full Changelog](https://github.com/ubsicap/usfm/compare/v3.0.rc1...v3.0.0)
 
