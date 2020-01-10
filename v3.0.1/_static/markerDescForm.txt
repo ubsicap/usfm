@@ -1,0 +1,24 @@
+-----
+
+.. _usfm-paragraph_?:
+.. index:: marker (?)
+
+\\
+^^^
+:Markup: ``???``
+:Type: paragraph
+:Added: 1.0
+:Use: Basic. |br|
+	Extra description. |br|
+	**\\? = \\?1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
+
+**Text and Formatting Sample** - ref (GNT)
+
+.. code-block:: text
+	:name: usfm-paragraph_??_example
+	:emphasize-lines: #,#
+
+	markup example
+
+.. image:: images/usfm-paragraph_??.jpg
+	:width: 250px

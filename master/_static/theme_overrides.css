@@ -20,12 +20,14 @@
 }
 
 .rst-content a {
-  color: #b1c441;
+  /* color: #b1c441; */
+  color: #98AB28;
   text-decoration: none;
 }
 
 .rst-content a:focus, .rst-content a:hover{
   color: #7f8d2c;
+  text-decoration: underline;
 }
 
 .rst-content a:focus {

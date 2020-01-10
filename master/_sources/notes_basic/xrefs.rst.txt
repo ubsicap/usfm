@@ -210,6 +210,9 @@ A number (7) alone marked with ``\xt ...\xt*`` is ambiguous, since it could refe
 	\p
 	\v 1 At that time John the Baptist came to the desert of Judea and started preaching.
 
+.. image:: images/usfm-character_xop_xta.jpg
+	:width: 550px
+
 -----
 
 .. _usfmc_xop:

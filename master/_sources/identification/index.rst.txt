@@ -123,7 +123,7 @@ The text following this marker is not normally used in any formatted presentatio
 :Type: paragraph
 :Added: 1.0
 :Use: Remark. |br|
-	For adding brief comments by a translator, consultant, or support person. The text is not a type of footnote and is not intended for publication.
+	For adding brief comments by a translator, consultant, or support person. The text is not a type of footnote and is not intended for publication. When `\rem` is used, it is often found at the top of a USFM file together with other identification material. However, the use of `\rem` is not limited to this section of a USFM file. It can be used for adding a paragraph containing non-publishable remarks / comments anywhere within a text.
 
 **Text and Formatting Sample**
 
