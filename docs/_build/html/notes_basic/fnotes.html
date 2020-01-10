@@ -24,29 +24,20 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unified Standard Format Markers 3.0.0 documentation" href="../index.html"/>
-        <link rel="next" title="Cross References" href="xrefs.html"/>
-        <link rel="prev" title="Tables" href="../tables/index.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Cross References" href="xrefs.html" />
+    <link rel="prev" title="Tables" href="../tables/index.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -139,7 +130,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">Unified Standard Format Markers</a>
@@ -147,9 +138,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -241,20 +233,22 @@
 <p class="first admonition-title">Note</p>
 <p class="last"><strong>Important:</strong> See <a class="reference internal" href="../about/syntax.html"><span class="doc">Syntax Notes</span></a> for addition information on the use of <a class="reference internal" href="../about/syntax.html#syntax-endmarkerinnotes"><span class="std std-ref">endmarkers</span></a> for elements within footnote content.</p>
 </div>
+<p class="rubric" id="index-3">Endnote Syntax</p>
+<p>Notes which are intended as “Endnotes” should be marked using the following alternative format:</p>
 </div>
 <div class="section" id="fe-fe">
-<span id="index-3"></span><h2>\fe …\fe*<a class="headerlink" href="#fe-fe" title="Permalink to this headline">¶</a></h2>
+<h2>\fe …\fe*<a class="headerlink" href="#fe-fe" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\f_+_(\fr_REF_)footnote</span> <span class="pre">content\f*</span></code></td>
+<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\fe_+_(\fr_REF_)endnote</span> <span class="pre">content\fe*</span></code></td>
 </tr>
 <tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">note</td>
 </tr>
 <tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Beginning and ending of the footnote element.</td>
+<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Beginning and ending of the endnote element.</td>
 </tr>
 </tbody>
 </table>
@@ -555,9 +549,7 @@ Used where two or more locations in the scripture text should ideally refer the 
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -597,6 +589,7 @@ Used where two or more locations in the scripture text should ideally refer the 
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'3.0.0',
+            LANGUAGE:'en',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -606,22 +599,17 @@ Used where two or more locations in the scripture text should ideally refer the 
       <script type="text/javascript" src="../_static/jquery.js"></script>
       <script type="text/javascript" src="../_static/underscore.js"></script>
       <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
-  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();

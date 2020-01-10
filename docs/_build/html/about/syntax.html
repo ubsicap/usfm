@@ -24,30 +24,20 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unified Standard Format Markers 3.0.0 documentation" href="../index.html"/>
-        <link rel="up" title="Introduction" href="index.html"/>
-        <link rel="next" title="Identification" href="../identification/index.html"/>
-        <link rel="prev" title="Release Notes" href="releasenotes.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Identification" href="../identification/index.html" />
+    <link rel="prev" title="Release Notes" href="releasenotes.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -144,7 +134,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">Unified Standard Format Markers</a>
@@ -152,9 +142,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -221,7 +212,7 @@
 <li>There are three broad categories of USFM markup - <strong>paragraph</strong>, <strong>character</strong>, and <strong>note</strong> types.</li>
 <li>All USFM markers begin with a backslash character <code class="docutils literal notranslate"><span class="pre">\</span></code>.</li>
 <li><a class="reference internal" href="../paragraphs/index.html"><span class="doc">Paragraph</span></a> markers end with the next space character.</li>
-<li><a class="reference internal" href="../paragraphs/index.html"><span class="doc">Character</span></a> markers occur in pairs, marking a span of text within a paragraph.</li>
+<li><a class="reference internal" href="../characters/index.html"><span class="doc">Character</span></a> markers occur in pairs, marking a span of text within a paragraph.</li>
 <li>Note markers also occur in pairs, marking the start and end of the <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnote</span></a>, <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross reference</span></a>, or <a class="reference internal" href="../notes_study/index.html"><span class="doc">study note</span></a> content.</li>
 <li>For marker pairs (character and note), the opening marker ends with the next space character (as with paragraph markers). The matching closing marker is identical to the opening marker but ends with an asterisk character <code class="docutils literal notranslate"><span class="pre">*</span></code>. Example: <code class="docutils literal notranslate"><span class="pre">\w</span> <span class="pre">grace\w*</span></code>.</li>
 </ul>
@@ -378,9 +369,7 @@ from the ground and formed a man
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -420,6 +409,7 @@ from the ground and formed a man
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'3.0.0',
+            LANGUAGE:'en',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -429,22 +419,17 @@ from the ground and formed a man
       <script type="text/javascript" src="../_static/jquery.js"></script>
       <script type="text/javascript" src="../_static/underscore.js"></script>
       <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
-  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();

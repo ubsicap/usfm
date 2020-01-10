@@ -24,29 +24,20 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unified Standard Format Markers 3.0.0 documentation" href="../index.html"/>
-        <link rel="next" title="Book Identifiers" href="books.html"/>
-        <link rel="prev" title="Syntax Notes" href="../about/syntax.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Book Identifiers" href="books.html" />
+    <link rel="prev" title="Syntax Notes" href="../about/syntax.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -132,7 +123,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">Unified Standard Format Markers</a>
@@ -140,9 +131,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -306,7 +298,7 @@ Multiple status entries can be contained in a book to indicate that various port
 <tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Remark. <br />
-For adding brief comments by a translator, consultant, or support person. The text is not a type of footnote and is not intended for publication.</td>
+For adding brief comments by a translator, consultant, or support person. The text is not a type of footnote and is not intended for publication. When <cite>rem</cite> is used, it is often found at the top of a USFM file together with other identification material. However, the use of <cite>rem</cite> is not limited to this section of a USFM file. It can be used for adding a paragraph containing non-publishable remarks / comments anywhere within a text.</td>
 </tr>
 </tbody>
 </table>
@@ -410,9 +402,7 @@ Used to specify an alternate set of table of contents texts (for example, in a l
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -452,6 +442,7 @@ Used to specify an alternate set of table of contents texts (for example, in a l
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'3.0.0',
+            LANGUAGE:'en',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -461,22 +452,17 @@ Used to specify an alternate set of table of contents texts (for example, in a l
       <script type="text/javascript" src="../_static/jquery.js"></script>
       <script type="text/javascript" src="../_static/underscore.js"></script>
       <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
-  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();
