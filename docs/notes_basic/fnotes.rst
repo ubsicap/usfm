@@ -45,12 +45,16 @@ Footnotes are entered inline within the main scripture body text. The boundaries
 
 .. index:: marker; \fe ...\fe*, footnote; endnote container
 
+.. rubric:: Endnote Syntax
+
+Notes which are intended as "Endnotes" should be marked using the following alternative format:
+
 \\fe ...\\fe\*
 --------------
-:Syntax: ``\f_+_(\fr_REF_)footnote content\f*``
+:Syntax: ``\fe_+_(\fr_REF_)endnote content\fe*``
 :Type: note
 :Added: 1.0
-:Use: Beginning and ending of the footnote element.
+:Use: Beginning and ending of the endnote element.
 
 .. _usfmn_f-content:
 .. index:: footnote; content
