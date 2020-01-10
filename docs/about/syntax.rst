@@ -19,7 +19,7 @@ General Syntax
 * There are three broad categories of USFM markup - **paragraph**, **character**, and **note** types.
 * All USFM markers begin with a backslash character ``\``.
 * :doc:`Paragraph </paragraphs/index>` markers end with the next space character.
-* :doc:`Character </paragraphs/index>` markers occur in pairs, marking a span of text within a paragraph.
+* :doc:`Character </characters/index>` markers occur in pairs, marking a span of text within a paragraph.
 * Note markers also occur in pairs, marking the start and end of the :doc:`footnote </notes_basic/fnotes>`, :doc:`cross reference </notes_basic/xrefs>`, or :doc:`study note </notes_study/index>` content.
 * For marker pairs (character and note), the opening marker ends with the next space character (as with paragraph markers). The matching closing marker is identical to the opening marker but ends with an asterisk character ``*``. Example: ``\w grace\w*``.
 
