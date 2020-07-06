@@ -94,6 +94,7 @@ Entries in a USFM stylesheet can contain the following properties. All of these 
 **Property:** `\Superscript`  
 **Example:** `\Superscript`  
 **Description:** Font for this tag is raised.
+
 **Property:** `\TextProperties`  
 **Example:** `\TextProperties paragraph publishable vernacular`  
 **Description:** Should contain one of the following values:
