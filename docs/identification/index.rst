@@ -180,7 +180,7 @@ The text following this marker is not normally used in any formatted presentatio
 :Use: Short table of contents text. |br| |br|
 
 :Syntax: ``\toc3_text...``
-:Use: Book abbreviation. |br|
+:Use: Book abbreviation. Commonly used for books names in a list of cross-reference :ref:`target references <usfmc_xt>`. |br|
 
 **Text and Formatting Sample** - Matthew (GNT)
 
@@ -195,6 +195,16 @@ The text following this marker is not normally used in any formatted presentatio
 
 .. image:: images/usfm-paragraph_toc.jpg
 	:width: 400px
+
+Matthew (Spanish DHH)
+
+.. code-block:: text
+	:name: usfm-paragraph_toc#_example
+	:emphasize-lines: 2-4
+	
+	\toc1 Evangelio según San Mateo
+	\toc2 San Mateo
+	\toc3 Mt 
 
 -----
 
