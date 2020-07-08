@@ -71,8 +71,8 @@ Mark 1 (CEV Learning Bible)
 	...
 	\p Among early Christians, the fish was a favorite image for Jesus, because the Greek 
 	word for fish (\tl ichthus\tl*) consists of the first letters of the Greek words that 
-	tell who Jesus is: \fig Christian Fish Image|christfish.jpg||||Ihsous Christos Theou 
-	Uios Swthr|\fig*
+	tell who Jesus is: \fig Ihsous Christos Theou Uios Swthr|alt="Christian Fish Image" 
+	src="christfish.jpg" size="col" ref="1.18"\fig*
 	\esbe
 	\p\v 19 He went a little farther on and saw two other brothers, James and John, 
 	the sons of Zebedee.
