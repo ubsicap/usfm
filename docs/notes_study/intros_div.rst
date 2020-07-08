@@ -30,7 +30,7 @@ In some cases the base translation text does NOT already contain a division or s
 	\mr 1.14--9.50
 	\ip Jesus returns to Galilee and does not go back to Judea until the close of his public 
 	ministry. There is no indication of how long his Galilean ministry lasted: only when he is 
-	back in Judea is a \w festival \ft (\w passover\ft ) mentioned (14.1). He spends much of his 
+	back in Judea is a \w festival\w* (\w passover\w*) mentioned (14.1). He spends much of his 
 	time in Capernaum (1.21; 2.1; 3.1, 20; 9.33) and other places around Lake Galilee (1.9; 2.13; 
 	3.7; 4.1). Twice Jesus ventures out of Galilee: into the region of the Ten Towns (5.1-20) and 
 	Phoenicia (7.24-31). His actions and teachings soon arouse opposition from the religious 
