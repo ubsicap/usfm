@@ -61,12 +61,24 @@ Entries in a USFM stylesheet can contain the following properties. All of these 
 **Description:** Include if this marker must not be repeated under its parent marker (see: How does the stylesheet specify where a marker is allowed to occur?).
 
 **Property:** `\OccursUnder`  
-**Example:** `\OccursUnder id c ms mr`  
-**Description:** A list of markers, separated by spaces, which the current marker may occur under.
+**Example:** `\OccursUnder c`  
+**Description:** A list of markers, separated by spaces, which the current marker may occur under. `\OccursUnder` and `\Rank` work together to specify where a marker is allowed to occur.
+
+If a marker does not have an `\OccursUnder` property, it can occur anywhere in any order. If a marker has an `\OccursUnder` property, then it must have at least one "parent" marker in the OccursUnder list. A "parent" must occur before any occurrence of the marker concerned.
+
+*Example:* Marker `\p` indicates `\OccursUnder c`; this means there must be a preceding chapter marker somewhere before the first `\p`, and it identifies any `\p` paragraphs which occur in the book introduction before the first `\c` as invalid. There may be many `\p` markers occurring after a `\c` marker.
+
+If multiple markers are listed in the `\OccursUnder` property:
+* If the marker being described is a paragraph type, at least one of the markers listed must occur before the marker being described.
+* If the marker being described is a character type, the list of markers identifies all of the paragraph types within which the marker concerned can occur.
 
 **Property:** `\Rank`  
 **Example:** `\Rank 4`  
 **Description:** Used with `\OccursUnder` to specify the order of markers when multiple markers occur under the same marker.
+
+If two markers can have the same "parent", specified with `\OccursUnder`, and both have `\Rank` specified, then the rank of the first marker must be less than or equal to the rank of the second marker. For example `\h` has `\Rank 1` and `\OccursUnder id`; marker `\mt1` has `\Rank 3` and `\OccursUnder id`; therefore they both have the same parent and the \h must always come before \mt1.
+
+If `\Rank` is not specified or is specified as 0 then no order is imposed except for the requirements imposed by `\OccursUnder`.
 
 **Property:** `\RightMargin`  
 **Example:** `\RightMargin .25`  
@@ -84,7 +96,7 @@ Entries in a USFM stylesheet can contain the following properties. All of these 
 **Example:** `\StyleType Character`  
 **Description:** Must contain one of the following values:
 * `Paragraph`: Marker starts beginning of a new paragraph. May contain embedded note or character styles.
-* `Character`: Marker applies to a string of characters.
+* `Character`: Marker applies to a span of characters within a paragraph or note.
 * `Note`: Marker starts an embedded note
 
 **Property:** `\Smallcaps`  
@@ -94,6 +106,7 @@ Entries in a USFM stylesheet can contain the following properties. All of these 
 **Property:** `\Superscript`  
 **Example:** `\Superscript`  
 **Description:** Font for this tag is raised.
+
 **Property:** `\TextProperties`  
 **Example:** `\TextProperties paragraph publishable vernacular`  
 **Description:** Should contain one of the following values:
@@ -125,17 +138,3 @@ If a character style marker does not have a “publishable” value (Publishable
 **Property:** `\Underline`  
 **Example:** `\Underline`  
 **Description:** Font for this tag is underlined.
-
-## How does the stylesheet specify where a marker is allowed to occur?
-
-In a stylesheet, `\OccursUnder` and `\Rank` work together to specify where a marker is valid.
-
-If a marker does not have an `\OccursUnder` property, it can occur anywhere in any order.
-
-If a marker has an `\OccursUnder` property, then it must have at least one "parent" marker in the OccursUnder list. A "parent" must occur before any occurrence of the marker concerned.
-
-**Example:** Marker `\p` indicates `\OccursUnder c`; this means there must be a preceding chapter marker somewhere before the first `\p`, and it identifies any `\p` paragraphs which occur in the book introduction before the first `\c` as invalid. There may be many `\p` markers occurring after a `\c` marker.
-
-If two markers have the same "parent" and both have `\Rank` specified, then the rank of the first marker must be less than or equal to the rank of the second marker. For example `\h` has `\Rank 1` and `\OccursUnder id`; marker `\mt1` has `\Rank 3` and `\OccursUnder id`; therefore they both have the same parent and the \h must always come before \mt1.
-
-If rank is not specified or is specified as 0 then no order is imposed except for the requirements imposed by `\OccursUnder`.
