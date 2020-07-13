@@ -199,9 +199,10 @@ The text following this marker is not normally used in any formatted presentatio
 Matthew (Spanish DHH)
 
 .. code-block:: text
-	:name: usfm-paragraph_toc#_example
+	:name: usfm-paragraph_toc#_example-alt
 	:emphasize-lines: 2-4
 	
+	\h San Mateo
 	\toc1 Evangelio según San Mateo
 	\toc2 San Mateo
 	\toc3 Mt 
