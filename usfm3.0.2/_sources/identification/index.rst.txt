@@ -129,12 +129,15 @@ The text following this marker is not normally used in any formatted presentatio
 
 .. code-block:: text
 	:name: usfm-paragraph_rem_example
-	:emphasize-lines: 1-2
+	:emphasize-lines: 1
 
-	\rem Assigned to <translator's name>.
 	\rem First draft complete, waiting for checks.
 
 The text following this marker is not normally used in any formatted presentation.
+
+.. warning::
+
+	Adding names of individuals, initials, or other personal information directly within scripture text files is *strongly discouraged*.
 
 -----
 

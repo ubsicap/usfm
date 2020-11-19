@@ -120,7 +120,7 @@ The following milestone markers are formally provided by USFM. The :ref:`\\z <sy
 
 Following the syntax for :doc:`word level attributes </attributes/index>`.
 
-:who: The speaker of the quotation.
+:who: The speaker of the quotation *(default)*
 
 .. code-block:: text
 
@@ -226,18 +226,18 @@ Jude 5-8, ULB - using milestone pairs
     :name: usfm-paragraph_ts_example-alt
     :emphasize-lines: 1,8,9,15
     
-    \ts-s|sid="ts_JUD_5-6"\*
+    \ts-s |sid="ts_JUD_5-6"\*
     \p
     \v 5 Now I wish to remind you, although you know everything, that the Lord once saved a 
     people out of the land of Egypt, but that afterward he destroyed those who did not believe.
     \v 6 And angels who did not keep to their own principality, but left their proper dwelling 
     place—God has kept them in everlasting chains in darkness for the judgment of the 
     great day.
-    \ts-e|eid="ts_JUD_5-6"\*
-    \ts-s|sid="ts_JUD_7-8"\*
+    \ts-e |eid="ts_JUD_5-6"\*
+    \ts-s |sid="ts_JUD_7-8"\*
     \v 7 It is just like Sodom and Gomorrah and the cities around them, which in a similar way 
     gave themselves over to fornication and pursued unnatural desires. They were given as 
     examples of those who suffer the punishment of eternal fire.
     \v 8 Yet in the same way these also pollute their bodies in their dreams, and they reject 
     authority, and they say evil things about the glorious ones.
-    \ts-e|eid="ts_JUD_7-8"\*
+    \ts-e |eid="ts_JUD_7-8"\*
