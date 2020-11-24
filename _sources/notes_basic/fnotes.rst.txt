@@ -245,7 +245,7 @@ Matthew 4.1 (Nestle-Aland 29)
 :Type: character (note)
 :Added: 1.0
 :Use: Footnote verse number. |br|
-	Use this marker to if you need to indicate the start of a new paragraph within a footnote (uncommon).
+	A verse number in the the text quotation or alternative translation.
 
 .. note::
 
