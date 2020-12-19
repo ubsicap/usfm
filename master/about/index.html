@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,44 +11,48 @@
   
 
   
-  
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Release Notes" href="releasenotes.html" />
     <link rel="prev" title="USFM Documentation" href="../index.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
-            <a href="../index.html" class="icon icon-home"> Unified Standard Format Markers
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Unified Standard Format Markers
           
 
           
@@ -76,6 +79,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -116,6 +120,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -154,7 +159,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Introduction</li>
     
@@ -198,41 +203,40 @@
 <div class="section" id="unification-notes">
 <span id="index-3"></span><h2>Unification Notes<a class="headerlink" href="#unification-notes" title="Permalink to this headline">¶</a></h2>
 <ul>
-<li><p class="first">Markers which would be used in specific text “environments” are named using a reserved initial letter:</p>
+<li><p>Markers which would be used in specific text “environments” are named using a reserved initial letter:</p>
 <blockquote>
 <div><ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">\i</span></code> - Introductions</li>
-<li><code class="docutils literal notranslate"><span class="pre">\f</span></code> - Footnotes</li>
-<li><code class="docutils literal notranslate"><span class="pre">\x</span></code> - Cross references</li>
-<li><code class="docutils literal notranslate"><span class="pre">\e</span></code> - Explanatory (study) material - for extended notes, sidebars and bridge materials.</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">\i</span></code> - Introductions</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">\f</span></code> - Footnotes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">\x</span></code> - Cross references</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">\e</span></code> - Explanatory (study) material - for extended notes, sidebars and bridge materials.</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Related marker types were usually consolidated using “numbered” marker definitions.</p>
+<li><p>Related marker types were usually consolidated using “numbered” marker definitions.</p>
 <blockquote>
 <div><ul class="simple">
-<li>Example: <code class="docutils literal notranslate"><span class="pre">\mt#</span></code>, <code class="docutils literal notranslate"><span class="pre">\ms#</span></code>, <code class="docutils literal notranslate"><span class="pre">\s#</span></code>, <code class="docutils literal notranslate"><span class="pre">\li#</span></code> etc., where the variable # represents a number which can indicate a level or relative weighting.</li>
+<li><p>Example: <code class="docutils literal notranslate"><span class="pre">\mt#</span></code>, <code class="docutils literal notranslate"><span class="pre">\ms#</span></code>, <code class="docutils literal notranslate"><span class="pre">\s#</span></code>, <code class="docutils literal notranslate"><span class="pre">\li#</span></code> etc., where the variable # represents a number which can indicate a level or relative weighting.</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Marker definition “collisions” were resolved (same marker used to mark different content).</p>
-</li>
+<li><p>Marker definition “collisions” were resolved (same marker used to mark different content).</p></li>
 </ul>
 <span class="target" id="about-usfm-software"></span></div>
 <div class="section" id="software-notes">
 <span id="index-4"></span><h2>Software Notes<a class="headerlink" href="#software-notes" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Translation editors which implement support for USFM encoded text may provide a formatted view of the text using a set of style definitions for each USFM marker. These “stylesheets” typically refer to these formatting definitions as <em>paragraph</em> and <em>character</em> styles.</li>
-<li>In USFM, character level markup exists within a paragraph element, or can be <a class="reference internal" href="../characters/nesting.html"><span class="doc">nested</span></a> (embedded) within another character element. Software applications will not necessarily be capable of rendering all of the display variations which may be implied due to marker nesting.</li>
+<li><p>Translation editors which implement support for USFM encoded text may provide a formatted view of the text using a set of style definitions for each USFM marker. These “stylesheets” typically refer to these formatting definitions as <em>paragraph</em> and <em>character</em> styles.</p></li>
+<li><p>In USFM, character level markup exists within a paragraph element, or can be <a class="reference internal" href="../characters/nesting.html"><span class="doc">nested</span></a> (embedded) within another character element. Software applications will not necessarily be capable of rendering all of the display variations which may be implied due to marker nesting.</p></li>
 </ul>
 <span class="target" id="about-usfm-changes"></span></div>
 <div class="section" id="change-management">
 <span id="index-5"></span><h2>Change Management<a class="headerlink" href="#change-management" title="Permalink to this headline">¶</a></h2>
 <p>The USFM standard will not necessarily include markup for all potential (real or perceived) markup needs which a project may require. There are a number of reasons for this, including:</p>
 <ul class="simple">
-<li>The intent to keep the size of the USFM marker inventory manageable.</li>
-<li>The intention to encourage content oriented markup. <br /> Although USFM contains some markers which are format (presentation) oriented (see History of USFM), the use of these is typically discouraged, wherever an suitable alternative is available.</li>
-<li>The intention to maintain a stable target for tool developers.</li>
+<li><p>The intent to keep the size of the USFM marker inventory manageable.</p></li>
+<li><p>The intention to encourage content oriented markup. <br /> Although USFM contains some markers which are format (presentation) oriented (see History of USFM), the use of these is typically discouraged, wherever an suitable alternative is available.</p></li>
+<li><p>The intention to maintain a stable target for tool developers.</p></li>
 </ul>
 <p>Since USFM 1.0, requests for additions to the standard have been received and considered by a USFM maintenance committee (see <a class="reference internal" href="releasenotes.html"><span class="doc">Release Notes</span></a> for some details).</p>
 <p><a class="reference internal" href="../_images/icon-arrow_see.png"><img alt="ico_See" src="../_images/icon-arrow_see.png" style="width: 24px; height: 24px;" /></a> See also: User extension <a class="reference internal" href="syntax.html#syntax-znamespace"><span class="std std-ref">\z namespace</span></a>.</p>
@@ -254,7 +258,7 @@
         <a href="releasenotes.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../index.html" class="btn btn-neutral" title="USFM Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="USFM Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -263,7 +267,8 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, United Bible Societies.
+        
+        &copy; Copyright 2018, United Bible Societies
 
     </p>
   </div> 
@@ -303,33 +308,16 @@
 </div>
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'3.0.0',
-            LANGUAGE:'en',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="../_static/language_data.js"></script>
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
+  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();

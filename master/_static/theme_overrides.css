@@ -49,10 +49,10 @@ div.admonition.tip > p.first.admonition-title {
   background: #b1c441;
 }
 
-.rst-content dl:not(.docutils) dt {
+/* .rst-content dl:not(.docutils) dt {
   background: #ffffda;
   border-top: solid 3px #b1c441;
-}
+} */
 
 table.indextable > tbody > tr > td > ul > li > ul {
   margin-left: 1em;

@@ -22,7 +22,7 @@ Linking attributes are combined with any other descriptive attributes added to t
 
 .. note:: 
 
-    When a standard USFM scripture reference is required, you must provide a string of pattern: ``[A-Z1-4]{3} ?[a-z0-9\-,:]*``
+    When a standard USFM scripture reference is required, you must provide a string of pattern: ``[A-Z1-4]{3}(-[A-Z1-4]{3})? ?[a-z0-9\-:]*``
     
     * Book names must be one of the standard :doc:`Book Identifiers </identification/books>`
     * Chapter verse separator is always a colon ``:``

@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,44 +11,48 @@
   
 
   
-  
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Extended Cross References" href="exrefs.html" />
     <link rel="prev" title="Division and Section Introductions" href="intros_div.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
-            <a href="../index.html" class="icon icon-home"> Unified Standard Formal Markers
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Unified Standard Formal Markers
           
 
           
@@ -76,6 +79,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -117,6 +121,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -155,7 +160,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
           <li><a href="index.html">Extended Study Content</a> &raquo;</li>
         
@@ -184,23 +189,23 @@
 <p>The <strong>extended footnotes</strong> are inserted in-line within the study project text using the following general syntax. The boundaries of the footnote text are defined by an opening and closing marker. The remainder of the note is written using standard USFM <a class="reference internal" href="../notes_basic/fnotes.html#usfmn-f-content"><span class="std std-ref">footnote content elements</span></a> markers.</p>
 <span class="target" id="usfmn-ef"></span><div class="section" id="ef-ef">
 <span id="index-2"></span><h2>\ef …\ef*<a class="headerlink" href="#ef-ef" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\ef_+_(\fr_REF_)footnote</span> <span class="pre">content\ef*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">extended note</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">2.1</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Beginning and ending of the extended footnote element.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\ef_+_(\fr_REF_)footnote</span> <span class="pre">content\ef*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>extended note</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>2.1</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Beginning and ending of the extended footnote element.</p>
+</dd>
+</dl>
 <p><span class="red">+</span></p>
 <ul>
-<li><p class="first">The extended footnote caller, which may be one of the following three types:</p>
+<li><p>The extended footnote caller, which may be one of the following three types:</p>
 <blockquote>
 <div><p><span class="red">+</span> – indicates that the caller should be generated automatically by the translation editor, or publishing tools. <br />
 <span class="red">-</span> – indicates that no caller should be generated, and is not used. <br />
@@ -211,15 +216,13 @@
 <p><span class="red">footnote content</span></p>
 <blockquote>
 <div><ul>
-<li><p class="first">All of the text elements which make up the extended footnote. Refer to the documentation on using standard USFM <a class="reference internal" href="../notes_basic/fnotes.html#usfmn-f-content"><span class="std std-ref">footnote content element</span></a> markers.</p>
-</li>
-<li><p class="first">The <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xt"><span class="std std-ref">\xt</span></a> (cross reference target) element can be used for the purpose of marking references within note text to other scripture or note passages</p>
-</li>
-<li><p class="first">Other standard USFM character level markup may be included, such as:</p>
+<li><p>All of the text elements which make up the extended footnote. Refer to the documentation on using standard USFM <a class="reference internal" href="../notes_basic/fnotes.html#usfmn-f-content"><span class="std std-ref">footnote content element</span></a> markers.</p></li>
+<li><p>The <a class="reference internal" href="../notes_basic/xrefs.html#usfmc-xt"><span class="std std-ref">\xt</span></a> (cross reference target) element can be used for the purpose of marking references within note text to other scripture or note passages</p></li>
+<li><p>Other standard USFM character level markup may be included, such as:</p>
 <blockquote>
 <div><ul class="simple">
-<li><a class="reference internal" href="../characters/index.html#usfmc-w"><span class="std std-ref">\w</span></a> - Wordlist/Glossary/Dictionary reference</li>
-<li><a class="reference internal" href="../characters/index.html#usfmc-nd"><span class="std std-ref">\nd</span></a>, <a class="reference internal" href="../characters/index.html#usfmc-bk"><span class="std std-ref">\bk</span></a>, <a class="reference internal" href="../characters/index.html#usfmc-tl"><span class="std std-ref">\tl</span></a>, <a class="reference internal" href="../characters/index.html#usfmc-pn"><span class="std std-ref">\pn</span></a> - Name of Deity, Quoted book title, Transliterated word, Proper name</li>
+<li><p><a class="reference internal" href="../characters/index.html#usfmc-w"><span class="std std-ref">\w</span></a> - Wordlist/Glossary/Dictionary reference</p></li>
+<li><p><a class="reference internal" href="../characters/index.html#usfmc-nd"><span class="std std-ref">\nd</span></a>, <a class="reference internal" href="../characters/index.html#usfmc-bk"><span class="std std-ref">\bk</span></a>, <a class="reference internal" href="../characters/index.html#usfmc-tl"><span class="std std-ref">\tl</span></a>, <a class="reference internal" href="../characters/index.html#usfmc-pn"><span class="std std-ref">\pn</span></a> - Name of Deity, Quoted book title, Transliterated word, Proper name</p></li>
 </ul>
 </div></blockquote>
 </li>
@@ -274,7 +277,7 @@ the River Jordan.
         <a href="exrefs.html" class="btn btn-neutral float-right" title="Extended Cross References" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="intros_div.html" class="btn btn-neutral" title="Division and Section Introductions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="intros_div.html" class="btn btn-neutral float-left" title="Division and Section Introductions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -283,7 +286,8 @@ the River Jordan.
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, United Bible Societies.
+        
+        &copy; Copyright 2018, United Bible Societies
 
     </p>
   </div> 
@@ -323,33 +327,16 @@ the River Jordan.
 </div>
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'3.0.0',
-            LANGUAGE:'en',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="../_static/language_data.js"></script>
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
+  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();

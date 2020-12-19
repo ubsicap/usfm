@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,44 +11,48 @@
   
 
   
-  
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Extended Study Content" href="../notes_study/index.html" />
     <link rel="prev" title="Linking Attributes" href="../linking/index.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
-            <a href="../index.html" class="icon icon-home"> Unified Standard Format Markers
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Unified Standard Format Markers
           
 
           
@@ -76,6 +79,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -115,6 +119,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -153,7 +158,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Milestones</li>
     
@@ -194,8 +199,8 @@
 <span id="index-2"></span><h2>Indicating Start and End Milestones<a class="headerlink" href="#indicating-start-and-end-milestones" title="Permalink to this headline">¶</a></h2>
 <p>A milestone marker may end with either <code class="docutils literal notranslate"><span class="pre">-s</span></code> or <code class="docutils literal notranslate"><span class="pre">-e</span></code></p>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">-s</span></code> indicates that the milestone is for marking the <strong>start</strong> of a span of text.</li>
-<li><code class="docutils literal notranslate"><span class="pre">-e</span></code> indicates that the marker is an <strong>end</strong> milestone.</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-s</span></code> indicates that the milestone is for marking the <strong>start</strong> of a span of text.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-e</span></code> indicates that the marker is an <strong>end</strong> milestone.</p></li>
 </ul>
 <p><strong>Example:</strong> (milestone for the end of a quotation / speaker)</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\qt-e\*
@@ -214,18 +219,16 @@
 <div class="section" id="attributes">
 <span id="index-4"></span><h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <p>Following the syntax for <a class="reference internal" href="../attributes/index.html"><span class="doc">word level attributes</span></a>, the following optional attributes can be added to <em>any</em> USFM milestone marker.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">sid:</th><td class="field-body">A unique identifier which can be used to unambiguously identify the starting milestone, and to clearly associate the starting milestone with the ending milestone (eid). <br />
-The <cite>sid</cite> can be composed of any mixture of numbers, letters, and underscores, and should be a unique <cite>sid</cite> throughout the scripture text.</td>
-</tr>
-<tr class="field-even field"><th class="field-name">eid:</th><td class="field-body">A unique identifier which can be used to unambiguously identify the ending milestone, and to clearly associate the ending milestone with the starting milestone (sid). <br />
-If a <cite>sid</cite> attribute is used for the starting milestone in a milestone pair, the ending milestone must include <cite>eid</cite>.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">sid</dt>
+<dd class="field-odd"><p>A unique identifier which can be used to unambiguously identify the starting milestone, and to clearly associate the starting milestone with the ending milestone (eid). <br />
+The <cite>sid</cite> can be composed of any mixture of numbers, letters, and underscores, and should be a unique <cite>sid</cite> throughout the scripture text.</p>
+</dd>
+<dt class="field-even">eid</dt>
+<dd class="field-even"><p>A unique identifier which can be used to unambiguously identify the ending milestone, and to clearly associate the ending milestone with the starting milestone (sid). <br />
+If a <cite>sid</cite> attribute is used for the starting milestone in a milestone pair, the ending milestone must include <cite>eid</cite>.</p>
+</dd>
+</dl>
 <p><strong>Example:</strong></p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\qt-s |sid=&quot;qt_123&quot; who=&quot;Pilate&quot;\*“Are you the king of the Jews?”\qt-e |eid=&quot;qt_123&quot;\*
 </pre></div>
@@ -242,34 +245,31 @@ If a <cite>sid</cite> attribute is used for the starting milestone in a mileston
 <div class="section" id="qt-s-qt-e">
 <span id="index-5"></span><h2>\qt#-s\* … \qt#-e\*<a class="headerlink" href="#qt-s-qt-e" title="Permalink to this headline">¶</a></h2>
 <p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\qt#-s\*</span></code> … <code class="docutils literal notranslate"><span class="pre">\qt#-e\*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">milestone</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">3.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Quotation start / end milestones. <br />
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\qt#-s\*</span></code> … <code class="docutils literal notranslate"><span class="pre">\qt#-e\*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>milestone</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>3.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Quotation start / end milestones. <br />
 Typically used for indicating the speaker of the text. <br />
 The variable # represents the level of nesting of the quotation being marked (i.e. a quote within a quote). <br />
 <strong>\qt-s\* = \qt1-s\*</strong> <br />
-<strong>\qt-e\* = \qt1-e\*</strong> (see <a class="reference internal" href="../about/syntax.html#syntax-numberedmarkers"><span class="std std-ref">syntax notes</span></a> on numbered markers)</td>
-</tr>
-</tbody>
-</table>
+<strong>\qt-e\* = \qt1-e\*</strong> (see <a class="reference internal" href="../about/syntax.html#syntax-numberedmarkers"><span class="std std-ref">syntax notes</span></a> on numbered markers)</p>
+</dd>
+</dl>
 <span class="target" id="usfmm-qt-s-attr"></span><p class="rubric" id="index-6">Attributes <a class="reference internal" href="../_images/icon-tag_alt.png"><img alt="ico_Tag" src="../_images/icon-tag_alt.png" style="width: 16px; height: 16px;" /></a></p>
 <p>Following the syntax for <a class="reference internal" href="../attributes/index.html"><span class="doc">word level attributes</span></a>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">who:</th><td class="field-body">The speaker of the quotation.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">who</dt>
+<dd class="field-odd"><p>The speaker of the quotation.</p>
+</dd>
+</dl>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\qt-s |sid=&quot;qt_123&quot; who=&quot;Pilate&quot;\*“Are you the king of the Jews?”\qt-e |eid=&quot;qt_123&quot;\*
 </pre></div>
 </div>
@@ -325,21 +325,21 @@ a man he has chosen. He has given proof of this to everyone by raising that man 
 <div class="section" id="ts-s-ts-e">
 <span id="index-7"></span><h2>\ts-s\* … \ts-e\*<a class="headerlink" href="#ts-s-ts-e" title="Permalink to this headline">¶</a></h2>
 <p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="195" y="140" transform="scale(.1)" textLength="270">usfm</text><text x="495" y="140" transform="scale(.1)" textLength="170">3.0</text></g> </svg></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\ts-s\*</span></code> … <code class="docutils literal notranslate"><span class="pre">\ts-e\*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">milestone</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">3.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Translator’s section start / end milestones. <br />
-For identifying a section (chunk) of text suitable for translating at one time.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\ts-s\*</span></code> … <code class="docutils literal notranslate"><span class="pre">\ts-e\*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>milestone</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>3.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Translator’s section start / end milestones. <br />
+For identifying a section (chunk) of text suitable for translating at one time.</p>
+</dd>
+</dl>
 <p><strong>Text Samples</strong> - Jude 5-8, ULB - using standalone milestones</p>
 <div class="highlight-text notranslate" id="usfm-paragraph-ts-example"><div class="highlight"><pre><span></span><span class="hll">\ts\*
 </span>\p
@@ -389,7 +389,7 @@ authority, and they say evil things about the glorious ones.
         <a href="../notes_study/index.html" class="btn btn-neutral float-right" title="Extended Study Content" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../linking/index.html" class="btn btn-neutral" title="Linking Attributes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../linking/index.html" class="btn btn-neutral float-left" title="Linking Attributes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -398,7 +398,8 @@ authority, and they say evil things about the glorious ones.
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, United Bible Societies.
+        
+        &copy; Copyright 2018, United Bible Societies
 
     </p>
   </div> 
@@ -438,33 +439,16 @@ authority, and they say evil things about the glorious ones.
 </div>
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'3.0.0',
-            LANGUAGE:'en',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="../_static/language_data.js"></script>
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
+  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();

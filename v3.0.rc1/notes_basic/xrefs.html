@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,44 +11,48 @@
   
 
   
-  
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Words and Characters" href="../characters/index.html" />
     <link rel="prev" title="Footnotes" href="fnotes.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
-            <a href="../index.html" class="icon icon-home"> Unified Standard Formal Markers
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Unified Standard Formal Markers
           
 
           
@@ -76,6 +79,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -121,6 +125,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -159,7 +164,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Cross References</li>
     
@@ -186,23 +191,23 @@
 <p>Cross references are entered inline within the main scripture body text. The boundaries of the cross reference text are defined by an opening and closing marker. The individual elements which make up the cross reference content are described under the heading <a class="reference internal" href="#usfmn-x-content"><span class="std std-ref">Cross Reference Content Elements</span></a> below.</p>
 <span class="target" id="usfmn-x"></span><div class="section" id="x-x">
 <span id="index-2"></span><h2>\x …\x*<a class="headerlink" href="#x-x" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\x_+_(\xo_REF_)cross</span> <span class="pre">reference</span> <span class="pre">content\x*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">note</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Beginning and ending of the cross reference element.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\x_+_(\xo_REF_)cross</span> <span class="pre">reference</span> <span class="pre">content\x*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>note</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Beginning and ending of the cross reference element.</p>
+</dd>
+</dl>
 <p><span class="red">+</span></p>
 <ul>
-<li><p class="first">The cross reference caller, which may be one of the following three types:</p>
+<li><p>The cross reference caller, which may be one of the following three types:</p>
 <blockquote>
 <div><p><span class="red">+</span> – indicates that the caller should be generated automatically by the translation editor, or publishing tools. <br />
 <span class="red">-</span> – indicates that no caller should be generated, and is not used. <br />
@@ -213,22 +218,21 @@
 <p><span class="red">cross reference content</span> (see <a class="reference internal" href="#usfmn-x-content"><span class="std std-ref">below</span></a>)</p>
 <blockquote>
 <div><ul>
-<li><p class="first">All of the text elements which make up the cross reference:</p>
+<li><p>All of the text elements which make up the cross reference:</p>
 <blockquote>
 <div><ul class="simple">
-<li><a class="reference internal" href="#usfmc-xo"><span class="std std-ref">origin</span></a> reference</li>
-<li>special cross reference elements such as keywords or quotations</li>
-<li><a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target</span></a> references</li>
+<li><p><a class="reference internal" href="#usfmc-xo"><span class="std std-ref">origin</span></a> reference</p></li>
+<li><p>special cross reference elements such as keywords or quotations</p></li>
+<li><p><a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target</span></a> references</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Each element should be prefixed by the appropriate marker (listed below).</p>
-</li>
+<li><p>Each element should be prefixed by the appropriate marker (listed below).</p></li>
 </ul>
 </div></blockquote>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last"><strong>Important:</strong> See <a class="reference internal" href="../about/syntax.html"><span class="doc">Syntax Notes</span></a> for addition information on the use of <a class="reference internal" href="../about/syntax.html#syntax-endmarkerinnotes"><span class="std std-ref">endmarkers</span></a> for elements within cross reference content.</p>
+<p class="admonition-title">Note</p>
+<p><strong>Important:</strong> See <a class="reference internal" href="../about/syntax.html"><span class="doc">Syntax Notes</span></a> for addition information on the use of <a class="reference internal" href="../about/syntax.html#syntax-endmarkerinnotes"><span class="std std-ref">endmarkers</span></a> for elements within cross reference content.</p>
 </div>
 <span class="target" id="usfmn-x-content"></span></div>
 <hr class="docutils" id="index-3" />
@@ -237,78 +241,78 @@
 <p>The following markup can be included as part of the cross reference content:</p>
 <span class="target" id="usfmc-xo"></span><div class="section" id="xo">
 <span id="index-4"></span><h3>\xo<a class="headerlink" href="#xo" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\xo_##SEP##</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Cross reference origin reference. <br />
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\xo_##SEP##</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Cross reference origin reference. <br />
 This is the chapter and verse(s) that <a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target reference(s)</span></a> are being provided for. <br />
-<code class="docutils literal notranslate"><span class="pre">SEP</span></code> indicates where the appropriate chapter/verse separator should be used (i.e. colon “:”, full stop “.” etc.)</td>
-</tr>
-</tbody>
-</table>
+<code class="docutils literal notranslate"><span class="pre">SEP</span></code> indicates where the appropriate chapter/verse separator should be used (i.e. colon “:”, full stop “.” etc.)</p>
+</dd>
+</dl>
 <hr class="docutils" />
 <span class="target" id="usfmc-xk"></span></div>
 <div class="section" id="xk">
 <span id="index-5"></span><h3>\xk<a class="headerlink" href="#xk" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\\xk_text...</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">A keyword from the scripture translation text which the <a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target reference(s)</span></a> also refer to.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\\xk_text...</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>A keyword from the scripture translation text which the <a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target reference(s)</span></a> also refer to.</p>
+</dd>
+</dl>
 <hr class="docutils" />
 <span class="target" id="usfmc-xq"></span></div>
 <div class="section" id="xq">
 <span id="index-6"></span><h3>\xq<a class="headerlink" href="#xq" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\xq_text...</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">A quotation from the scripture text. <br />
-Use of a quotation would be intended to help the reader to understand the portion of text (or concept) for which the <a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target reference(s)</span></a> are being supplied. <br /></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\xq_text...</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>A quotation from the scripture text. <br />
+Use of a quotation would be intended to help the reader to understand the portion of text (or concept) for which the <a class="reference internal" href="#usfmc-xt"><span class="std std-ref">target reference(s)</span></a> are being supplied. <br /></p>
+</dd>
+</dl>
 <hr class="docutils" />
 <span class="target" id="usfmc-xt"></span></div>
 <div class="section" id="xt">
 <span id="index-7"></span><h3>\xt<a class="headerlink" href="#xt" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\\xt_refs...</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Target reference(s). <br />
-A list of scripture references, commonly provided as book name abbreviations plus chapter and verse, or range of verses. The punctuation used between chapter and verse, reference ranges, and between target references can differ significantly across texts.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\\xt_refs...</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Target reference(s). <br />
+A list of scripture references, commonly provided as book name abbreviations plus chapter and verse, or range of verses. The punctuation used between chapter and verse, reference ranges, and between target references can differ significantly across texts.</p>
+</dd>
+</dl>
 <p><strong>Text and Formatting Samples - Typical Cross Reference</strong> - Matthew 2.23 (GNT)</p>
 <div class="highlight-text notranslate" id="usfm-character-xo-xt-example"><div class="highlight"><pre><span></span>\p
 \v 22 But when Joseph heard that Archelaus had succeeded his father Herod as king of
@@ -335,21 +339,21 @@ do not accuse anyone falsely; do not cheat; respect your father and your mother.
 <div class="section" id="xta">
 <span id="index-8"></span><h3>\xta<a class="headerlink" href="#xta" title="Permalink to this headline">¶</a></h3>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\\xta_text...</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">3.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Target reference(s) extra / added text. <br />
-Used for marking text which should be ignored when identifying or linking to cross reference target references.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\\xta_text...</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>3.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Target reference(s) extra / added text. <br />
+Used for marking text which should be ignored when identifying or linking to cross reference target references.</p>
+</dd>
+</dl>
 <p><strong>Text and Formatting Sample</strong> - Matthew 3.0 (GNT - <em>text and markup adapted</em>)</p>
 <div class="highlight-text notranslate" id="usfm-character-xta-example"><div class="highlight"><pre><span></span>\c 3
 <span class="hll">\s1 The Preaching of John the Baptist\x - \xo 3.0 \xta Compare with \xt Mk 1.1-8;
@@ -363,21 +367,21 @@ Used for marking text which should be ignored when identifying or linking to cro
 <div class="section" id="xop-xop">
 <span id="index-9"></span><h3>\xop …\xop*<a class="headerlink" href="#xop-xop" title="Permalink to this headline">¶</a></h3>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\xop_text...\xop*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">3.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Published cross reference origin text. <br />
-In some texts, the content intended to be published in the position of the cross reference origin text <code class="docutils literal notranslate"><span class="pre">\xo</span></code> does not follow the typical <code class="docutils literal notranslate"><span class="pre">&lt;chapter&gt;&lt;separator&gt;&lt;verse&gt;</span></code> pattern. An origin reference following this pattern is required for validation of the cross reference location. <code class="docutils literal notranslate"><span class="pre">\xop</span> <span class="pre">...\xop*</span></code> can be used in order to supply the content intended for publishing, similar to the use of <a class="reference internal" href="../chapters_verses/index.html#usfmp-cp"><span class="std std-ref">\cp</span></a> and <a class="reference internal" href="../chapters_verses/index.html#usfmc-vp"><span class="std std-ref">vp …vp*</span></a>.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\xop_text...\xop*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>3.0</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Published cross reference origin text. <br />
+In some texts, the content intended to be published in the position of the cross reference origin text <code class="docutils literal notranslate"><span class="pre">\xo</span></code> does not follow the typical <code class="docutils literal notranslate"><span class="pre">&lt;chapter&gt;&lt;separator&gt;&lt;verse&gt;</span></code> pattern. An origin reference following this pattern is required for validation of the cross reference location. <code class="docutils literal notranslate"><span class="pre">\xop</span> <span class="pre">...\xop*</span></code> can be used in order to supply the content intended for publishing, similar to the use of <a class="reference internal" href="../chapters_verses/index.html#usfmp-cp"><span class="std std-ref">\cp</span></a> and <a class="reference internal" href="../chapters_verses/index.html#usfmc-vp"><span class="std std-ref">vp …vp*</span></a>.</p>
+</dd>
+</dl>
 <p><strong>Text and Formatting Sample</strong> - Jonah 1.1-5 (Bulgarian Orthodox Bible)</p>
 <div class="highlight-text notranslate" id="usfm-character-xop-example"><div class="highlight"><pre><span></span>\p
 <span class="hll">\v 1 \x - \xo 1:1 \xop Гл 1. (1)\xop* \xt 4 Царств. 14:25.\x*И биде слово Господне
@@ -399,60 +403,61 @@ In some texts, the content intended to be published in the position of the cross
 <span class="target" id="usfmc-xot"></span></div>
 <div class="section" id="xot-xot">
 <span id="index-10"></span><h3>\xot …\xot*<a class="headerlink" href="#xot-xot" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\xot_refs...\xot*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">2.2</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">References (or other text) between these markers is material to be included only in published editions that contain the Old Testament books. <em>(optional)</em></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\xot_refs...\xot*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>2.2</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>References (or other text) between these markers is material to be included only in published editions that contain the Old Testament books. <em>(optional)</em></p>
+</dd>
+</dl>
 <hr class="docutils" />
 <span class="target" id="usfmc-xnt"></span></div>
 <div class="section" id="xnt-xnt">
 <span id="index-11"></span><h3>\xnt …\xnt*<a class="headerlink" href="#xnt-xnt" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\xnt_refs...\xnt*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">2.2</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">References (or other text) between these markers is material to be included only in published editions that contain the New Testament books. <em>(optional)</em></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\xnt_refs...\xnt*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>2.2</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>References (or other text) between these markers is material to be included only in published editions that contain the New Testament books. <em>(optional)</em></p>
+</dd>
+</dl>
 <hr class="docutils" />
 <span class="target" id="usfmc-xdc"></span></div>
 <div class="section" id="xdc-xdc">
 <span id="index-12"></span><h3>\xdc …\xdc*<a class="headerlink" href="#xdc-xdc" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\xdc_refs...\xdc*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character (note)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">1.0</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Deprecated:</th><td class="field-body">3.0 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Use:</th><td class="field-body">References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books.|br|
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\xdc_refs...\xdc*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character (note)</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Deprecated</dt>
+<dd class="field-even"><p>3.0 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h37v20H0z"/><path fill="#6ab0de" d="M37 0h27v20H37z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14">usfm</text><text x="49.5" y="14">3.0</text></g></svg></p>
+</dd>
+<dt class="field-odd">Use</dt>
+<dd class="field-odd"><p>References (or other text) between these markers is material to be included only in published editions that contain the Deuterocanonical books.|br|
 <strong>Deprecated</strong> (i.e. use is discouraged). <br /> <br />
-<a class="reference internal" href="../_images/icon-check-green.png"><img alt="ico_Cg" src="../_images/icon-check-green.png" style="width: 16px; height: 16px;" /></a> <em>Recommended alternate:</em> General purpose use of <a class="reference internal" href="../characters/index.html#usfmc-dc"><span class="std std-ref">\dc …\dc*</span></a> or <a class="reference internal" href="../characters/nesting.html"><span class="doc">nested</span></a> <code class="docutils literal notranslate"><span class="pre">\+dc</span> <span class="pre">...\+dc*</span></code> wherever DC-only content is being marked.</td>
-</tr>
-</tbody>
-</table>
+<a class="reference internal" href="../_images/icon-check-green.png"><img alt="ico_Cg" src="../_images/icon-check-green.png" style="width: 16px; height: 16px;" /></a> <em>Recommended alternate:</em> General purpose use of <a class="reference internal" href="../characters/index.html#usfmc-dc"><span class="std std-ref">\dc …\dc*</span></a> or <a class="reference internal" href="../characters/nesting.html"><span class="doc">nested</span></a> <code class="docutils literal notranslate"><span class="pre">\+dc</span> <span class="pre">...\+dc*</span></code> wherever DC-only content is being marked.</p>
+</dd>
+</dl>
 <p><strong>Text and Formatting Samples</strong> - Psalm 115.3-4 (GNT - cross references)</p>
 <div class="highlight-text notranslate" id="usfm-character-xdc-example"><div class="highlight"><pre><span></span>\q1
 \v 3 Our God is in heaven;
@@ -475,21 +480,21 @@ dead will be raised, never to die again, and we shall all be changed.
 <span class="target" id="usfmc-rq-alt"></span></div>
 <div class="section" id="rq-rq">
 <span id="index-13"></span><h3>\rq …\rq*<a class="headerlink" href="#rq-rq" title="Permalink to this headline">¶</a></h3>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Syntax:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">\rq</span> <span class="pre">...\rq*</span></code></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">character</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Added:</th><td class="field-body">2.05</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Use:</th><td class="field-body">Inline quotation reference(s). <br />
-See details and examples in <a class="reference internal" href="../titles_headings/index.html#usfmc-rq"><span class="std std-ref">Titles, Heading, and Labels</span></a></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Syntax</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">\rq</span> <span class="pre">...\rq*</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>character</p>
+</dd>
+<dt class="field-odd">Added</dt>
+<dd class="field-odd"><p>2.05</p>
+</dd>
+<dt class="field-even">Use</dt>
+<dd class="field-even"><p>Inline quotation reference(s). <br />
+See details and examples in <a class="reference internal" href="../titles_headings/index.html#usfmc-rq"><span class="std std-ref">Titles, Heading, and Labels</span></a></p>
+</dd>
+</dl>
 </div>
 </div>
 </div>
@@ -505,7 +510,7 @@ See details and examples in <a class="reference internal" href="../titles_headin
         <a href="../characters/index.html" class="btn btn-neutral float-right" title="Words and Characters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="fnotes.html" class="btn btn-neutral" title="Footnotes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="fnotes.html" class="btn btn-neutral float-left" title="Footnotes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -514,7 +519,8 @@ See details and examples in <a class="reference internal" href="../titles_headin
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016, United Bible Societies.
+        
+        &copy; Copyright 2016, United Bible Societies
 
     </p>
   </div> 
@@ -554,33 +560,16 @@ See details and examples in <a class="reference internal" href="../titles_headin
 </div>
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'3.0.rc1',
-            LANGUAGE:'en',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="../_static/language_data.js"></script>
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
+  
  <script type="text/javascript">
     $(document).ready(function() {
         $(".toggle > *").hide();

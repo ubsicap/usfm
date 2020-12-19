@@ -152,7 +152,7 @@ Following the syntax for :doc:`word level attributes </attributes/index>` and th
 .. index:: marker; \xt ...|link-href\xt*
 
 :link-href: Unambiguously identifies the scripture target reference using a standard scripture reference format. *(default)* |br|
-	Book names must be one a standard :doc:`book identifier </identification/books>`. Chapter verse separator is always a colon ``:``. A string of pattern ``[A-Z1-4]{3} ?[a-z0-9\-,:]*`` |br| |br|
+	Book names must be one a standard :doc:`book identifier </identification/books>`. Chapter verse separator is always a colon ``:``. A string of pattern ``[A-Z1-4]{3}(-[A-Z1-4]{3})? ?[a-z0-9\-:]*`` |br| |br|
 	In some scenarios a target reference is written in a format which cannot be accurately parsed and identified. Providing the ``link-href`` attribute allows greater flexibility in the use of ``\xt ...\xt*``. |br| |br| 
 	In this context, ``link-href`` should only target scripture references for the current text (i.e. references to other project texts or non-scripture URIs are not allowed) |br| |br|
 	When adding ``link-href``, the explicit attribute name is not required since it is defined in USFM as the :ref:`default <attributes_default>` for ``\xt ...\xt*``.
