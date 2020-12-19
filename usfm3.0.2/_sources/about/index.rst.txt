@@ -78,8 +78,8 @@ Since USFM 1.0, requests for additions to the standard have been received and co
 |ico_See| See also: User extension :ref:`\\z namespace <syntax_znamespace>`.
 
 .. _about_usfm_sty:
-.. index:: pair: stylesheet; ParaTExt
+.. index:: pair: stylesheet; Paratext
 
-ParaTExt Stylesheet
+Paratext Stylesheet
 -------------------
-The most recent USFM stylesheet file for use with the ParaTExt translation editor are always available from http://markups.paratext.org/usfm, or directly from the USFM Github repository at https://github.com/ubsicap/usfm/tree/master/sty.
+The most recent USFM stylesheet file for use with the Paratext translation editor are always available from http://markups.paratext.org/usfm, or directly from the USFM Github repository at https://github.com/ubsicap/usfm/tree/master/sty.

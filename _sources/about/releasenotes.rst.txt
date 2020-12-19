@@ -117,7 +117,7 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 
 *October 2013*
 
-Validation (stylesheet) configuration update for ParaTExt 7.5 release.
+Validation (stylesheet) configuration update for Paratext 7.5 release.
 
 .. _about_release_2.4:
 
@@ -150,7 +150,7 @@ Paratext 7.3 and beyond provides support for study Bible content authoring, with
 ^^^
 *July 2010*
 
-Version numbers for the base USFM stylesheet and the study Bible notes and sidebars stylesheets have been synchronized to 2.3. This reflects the readiness of the ParaTExt 7.1 editor to support study Bible authoring.
+Version numbers for the base USFM stylesheet and the study Bible notes and sidebars stylesheets have been synchronized to 2.3. This reflects the readiness of the Paratext 7.1 editor to support study Bible authoring.
 
 **Marker Additions**
 
