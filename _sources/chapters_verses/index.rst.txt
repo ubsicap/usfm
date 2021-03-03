@@ -190,11 +190,11 @@ Psalm 1 (GNT - *markup adapted* - specific chapter label)
 \\v
 ^^^
 
-:Syntax: ``\v_#``
+:Syntax: ``\v_#_``
 :Type: character
 :Added: 1.0
 :Use: Verse number. |br|
-	Marker is followed by the verse number #, and the text of the verse.
+	The marker is followed by the verse number #, then a space (which marks the end of the verse), and then text of the verse.
 
 **Text and Formatting Sample** - Matthew 1.18,19 (GNT)
 
