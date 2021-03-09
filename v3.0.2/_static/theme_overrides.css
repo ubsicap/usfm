@@ -1,0 +1,112 @@
+/* override search box background colour */
+.wy-side-nav-search {
+  background-color: #b1c441;
+}
+
+.wy-side-nav-search > div.version {
+  color: rgba(255,255,255,0.5);
+}
+
+.wy-side-nav-search input[type=text] {
+  border-color: #7f8d2c;
+}
+
+.wy-nav-top {
+  background-color: #b1c441;
+}
+
+.wy-menu-vertical a:active {
+  background-color:#7f8d2c;
+}
+
+.rst-content a {
+  /* color: #b1c441; */
+  color: #98AB28;
+  text-decoration: none;
+}
+
+.rst-content a:focus, .rst-content a:hover{
+  color: #7f8d2c;
+  text-decoration: underline;
+}
+
+.rst-content a:focus {
+  outline:thin dotted;
+  outline:5px auto -webkit-focus-ring-color;
+  outline-offset:-2px
+}
+
+/*.rst-content .admonition-title {
+  background: red;
+  color: #000;
+}*/
+
+div.admonition.tip {
+  background: #ffffda;
+}
+
+div.admonition.tip > p.first.admonition-title {
+  background: #b1c441;
+}
+
+/* .rst-content dl:not(.docutils) dt {
+  background: #ffffda;
+  border-top: solid 3px #b1c441;
+} */
+
+table.indextable > tbody > tr > td > ul > li > ul {
+  margin-left: 1em;
+}
+
+/* Use .. rubric:: to add division headings without adding to TOC.
+http://docutils.sourceforge.net/docs/ref/rst/directives.html#rubric */
+
+.rubric {
+  font-weight: 700;
+  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+  font-size: 115%;
+  color: #808080;
+}
+
+/* toggle-able sections
+See: http://stackoverflow.com/questions/2454577/sphinx-restructuredtext-show-hide-code-snippets
+
+Example sphinx construct:
+.. container:: toggle
+
+    .. container:: header
+
+        **Show/Hide**
+
+    Test text
+*/
+
+.toggle .header {
+  display: block;
+  clear: both;
+}
+
+.toggle {
+  margin-bottom: 2ex;
+}
+
+.toggle .header:after {
+  content: " ▼";
+}
+
+.toggle .header.open:after {
+  content: " ▲";
+}
+
+/* Color text styles */
+.red {color: red;}
+.orange {color:orange;}
+.green {color:green;}
+.red-bd {color:red;  font-weight: bold;}
+.orange-bd {color:orange;  font-weight: bold;}
+.green-bd {color:green;  font-weight: bold;}
+
+/* Overrides for pygments.css */
+.highlight {
+  background: none;
+}
