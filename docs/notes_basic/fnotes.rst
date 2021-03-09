@@ -263,7 +263,7 @@ Matthew 4.1 (Nestle-Aland 29)
 	\v 38 whoever believes in me should drink. As the scripture says, ‘Streams of life-
 	giving water will pour out from his side.’” \f + \fr 7.38: \ft Jesus' words in verses 
 	37-38 may be translated: \fqa “Whoever is thirsty should come to me and drink. 
-	\fv 38\fv* As the scripture says, ‘Streams of life-giving water will pour out from 
+	\+fv 38\+fv* As the scripture says, ‘Streams of life-giving water will pour out from 
 	within anyone who believes in me.’”\f*
 
 .. image:: images/usfm-character_fv.jpg
