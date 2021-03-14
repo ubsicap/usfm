@@ -24,7 +24,7 @@ Peripheral Books and Divisions
 +===============================+==================================+======================================+
 | **Divisions**                 | **Divisions**                    | **Divisions**                        |
 +-------------------------------+----------------------------------+--------------------------------------+
-| ``\periph Title Page``        | ``\periph Bible Intorduction``   | ``\periph Chronology``               |
+| ``\periph Title Page``        | ``\periph Bible Introduction``   | ``\periph Chronology``               |
 | |br| ``|id="title"``          | |br| ``|id="intbible"``          | |br| ``|id="chron"``                 |
 +-------------------------------+----------------------------------+--------------------------------------+
 | ``\periph Half Title Page``   | ``\periph Old Testament          | ``\periph Weights and                |
