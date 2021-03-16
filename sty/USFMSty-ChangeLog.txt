@@ -147,7 +147,7 @@
 ** Updated by Jeff Klassen Aug 23, 2005
 - Added sp to OccursUnder for v
 - Added \fl - Footnote Label Text (see description for Marker fl)
-- Added \toc1 and \toc2 for specfying the long and short text for the table of contents.
+- Added \toc1 and \toc2 for specifying the long and short text for the table of contents.
 ** Updated by Jeff Klassen July 19, 2005
 - Added peripheral material extensions \p1, \p2, \k1, \k2
 ** Updated by Jeff Klassen June 28, 2005
@@ -160,8 +160,8 @@
 - Fixed \bdit to display Bold and Italic (was configured for Bold only)
 ** Updated by Jeff Klassen Dec 8, 2004
 - Changed space before for \d from 8 to 4
-- Changed desciption for \sls to "Special Text - Secondary Language or Text Source"
-   to reflect need for exapanded scope in the use of this marker.
+- Changed description for \sls to "Special Text - Secondary Language or Text Source"
+   to reflect need for expanded scope in the use of this marker.
 ** Updated by Jeff Klassen Nov 4, 2004
 - Added character style marker for words of Jesus \wj...\wj*
 ** Updated by Jeff Klassen Oct 27, 2004
@@ -229,7 +229,7 @@ Added \FirstLineIndent .125 to \ps; added \ms
 ** Updated by Jeff Klassen May 28, 2003
 - added \pn...\pn*
 ** Updated by Jeff Klassen May 26, 2003
-- \v may be preceeded by \d - see RSV, CEV ZEC 9.1; 12.1
+- \v may be preceded by \d - see RSV, CEV ZEC 9.1; 12.1
 ** Updated by Nathan Miles May 23, 2003
 - Extensive changes made to enhance consistency of use of character
 - style markers in VerseText and Section 

@@ -1,4 +1,4 @@
-A USFM stylesheet is a text file named using an `.sty` extension which contains a collection of definitions and properties for USFM markers. These properties are typically used for expressing information about marker identification and description, the location and order in which markers can occur withn a USFM file, and for expressing formatted display preferences. Stylesheets were originally developed for use by the Paratext scripture translation editor, but they could be of use in other contexts as well. They provide a rudimentary grammar to USFM and as such are also maintained in this repository.
+A USFM stylesheet is a text file named using an `.sty` extension which contains a collection of definitions and properties for USFM markers. These properties are typically used for expressing information about marker identification and description, the location and order in which markers can occur within a USFM file, and for expressing formatted display preferences. Stylesheets were originally developed for use by the Paratext scripture translation editor, but they could be of use in other contexts as well. They provide a rudimentary grammar to USFM and as such are also maintained in this repository.
 
 ## Stylesheet Properties
 
@@ -127,7 +127,7 @@ If a character style marker does not have a “publishable” value (Publishable
 
 **Property:** `\TextType`  
 **Example:** `\TextType VerseText`  
-**Description:** May only contain one of the folllowing values:
+**Description:** May only contain one of the following values:
 * `Title`: Title for a book.
 * `Section`: Section heading.
 * `VerseText`: Normal verse body text.
