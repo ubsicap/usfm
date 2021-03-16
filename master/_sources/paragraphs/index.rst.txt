@@ -171,7 +171,7 @@ Paragraphs
 :Use: Closure of an epistle/letter. |br|
 	Similar to "With love," or "Sincerely yours,".
 
-**Text and Formatting Sample** - Colossians 4.18 (GNT - *markup adapated*)
+**Text and Formatting Sample** - Colossians 4.18 (GNT - *markup adapted*)
 
 .. code-block:: text
 	:name: usfm-paragraph_cls_example

@@ -288,7 +288,7 @@
 <span id="index-5"></span><h3><a class="toc-backref" href="#id5">Newlines</a><a class="headerlink" href="#newlines" title="Permalink to this headline">¶</a></h3>
 <p>USFM processors should treat the single CR (U+000D) or LF  (U+000A) characters, and the sequence Carriage Return-Line Feed (CRLF), like a single LF character. Applications can save documents using the appropriate line-ending convention.</p>
 <p>All <strong>paragraph markers</strong> should be preceded by a single newline.</p>
-<p>As a <em>recommended best practice</em> for USFM editors, <strong>inline markup</strong> (<a class="reference internal" href="../characters/index.html"><span class="doc">character styles</span></a>, <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnotes</span></a>, or <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross references</span></a>) should <em>not</em> be preceeded by a newline. It would be acceptable for a <a class="reference internal" href="#syntax-whitespace-normalization"><span class="std std-ref">whitespace normalization</span></a> process to replace a newline and any preceding space (multiple spaces) before this inline markup with a single space (#3), but it should not remove all whitespace.</p>
+<p>As a <em>recommended best practice</em> for USFM editors, <strong>inline markup</strong> (<a class="reference internal" href="../characters/index.html"><span class="doc">character styles</span></a>, <a class="reference internal" href="../notes_basic/fnotes.html"><span class="doc">footnotes</span></a>, or <a class="reference internal" href="../notes_basic/xrefs.html"><span class="doc">cross references</span></a>) should <em>not</em> be preceded by a newline. It would be acceptable for a <a class="reference internal" href="#syntax-whitespace-normalization"><span class="std std-ref">whitespace normalization</span></a> process to replace a newline and any preceding space (multiple spaces) before this inline markup with a single space (#3), but it should not remove all whitespace.</p>
 <p>In the following example, the footnote <code class="docutils literal notranslate"><span class="pre">\f</span> <span class="pre">...\f*</span></code> at MAT 6:27:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>\v 27 Can any of you live a bit longer
 \f + \fr 6.27: \fq live a bit longer; \ft or \fq grow a bit taller.\f* by worrying about it?
@@ -337,10 +337,10 @@ from the ground and formed a man
 from the ground and formed a man
 </pre></div>
 </div>
-<p>Yet, a normalization process cannot <em>generally</em> remove ALL whitespace preceeding and following note marker pairs. In many cases a single whitespace is expected between the texts which preceed and follows a note. As suggested and recommended earlier:</p>
+<p>Yet, a normalization process cannot <em>generally</em> remove ALL whitespace preceding and following note marker pairs. In many cases a single whitespace is expected between the texts which precede and follows a note. As suggested and recommended earlier:</p>
 <ul class="simple">
 <li><p>USFM validation tools may flag suspicious whitespace</p></li>
-<li><p>USFM editors can takes steps to discourage ambigous whitespace wherever possible</p></li>
+<li><p>USFM editors can takes steps to discourage ambiguous whitespace wherever possible</p></li>
 <li><p>USFM normalization tools can identify and handles special contexts (examples above)</p></li>
 <li><p>USFM publication tools and other post processors can identify and handle special contexts in the manner which is most suitable for the intended output.</p></li>
 </ul>

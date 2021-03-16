@@ -33,7 +33,7 @@ The diverging use of SFMs led to various problems – most notably the challenge
  
 In March 2002 a working group was established within the `United Bible Societies <http://unitedbiblesocieties.org>`_ with the mandate of producing a unified specification for SFM use across 4 UBS areas.
  
-Ideally an SFM standard would seek to identify and mark all common scriptural element types, and avoid markup primarily for formatting (presentation) information. USFM has attempted to unify a long history of SFM scripture markup implementations, some of which were more or less strict in their tolerance for format-oriented markers. USFM development focuseed primarily on unification, not new markup creation. Practically speaking, this means is that USFM inherits support for both the positive, and some negative, aspects of pre-existing SFM marker use.
+Ideally an SFM standard would seek to identify and mark all common scriptural element types, and avoid markup primarily for formatting (presentation) information. USFM has attempted to unify a long history of SFM scripture markup implementations, some of which were more or less strict in their tolerance for format-oriented markers. USFM development focused primarily on unification, not new markup creation. Practically speaking, this means is that USFM inherits support for both the positive, and some negative, aspects of pre-existing SFM marker use.
 
 .. _about_usfm_unification:
 .. index:: USFM; unification notes

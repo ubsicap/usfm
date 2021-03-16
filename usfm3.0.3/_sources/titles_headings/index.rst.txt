@@ -67,7 +67,7 @@ Introduction to John (GNT)
 :Use: Major title at ending. |br|
 	May be used in texts which repeat the main title at the end of the introduction, or to mark a major title indicating the end of the introduction. |br|
 	The content is not typically identical to :ref:`\\mt# <usfmp_mt#>`. |br|
-	Th variable # represents a portion of the title, with the lesser emphasis (relative weighting) being on the higher numbers. |br|
+	The variable # represents a portion of the title, with the lesser emphasis (relative weighting) being on the higher numbers. |br|
 	**\\mte = \\mte1** (see :ref:`syntax notes <syntax_numberedMarkers>` on numbered markers)
 
 **Text and Formatting Sample** - John

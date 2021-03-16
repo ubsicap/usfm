@@ -18,7 +18,7 @@ Release Notes
 
 *January 2020*
 
-This update is prmarily for providing documentation fixes, as well as minor updates to Paratext stylesheets (enable PT9 ColorNames feature; allow ``\xt`` in more contexts)
+This update is primarily for providing documentation fixes, as well as minor updates to Paratext stylesheets (enable PT9 ColorNames feature; allow ``\xt`` in more contexts)
 
 .. _about_release_3.0:
 
@@ -47,7 +47,7 @@ USFM 3.0 additions or revisions are highlighted throughout this documentation us
 * Added default ``link-href`` :doc:`linking attribute </linking/index>` for :ref:`\\xt ...\\xt\* <usfmc_xt-attr>`
 * Changed common :ref:`attributes for milestones <milestones_attributes>`:
 
-    * Replace single ``id`` with separate start ``sid`` and end ``eid`` milestone attributes. |br| This update aligns USFM with the corresponding single `<ms> <https://ubsicap.github.io/usx/elements.html#ms>`_ milestone element in USX, where the ``id`` attrubute content would not be unique for `<ms> <https://ubsicap.github.io/usx/elements.html#ms>`_.
+    * Replace single ``id`` with separate start ``sid`` and end ``eid`` milestone attributes. |br| This update aligns USFM with the corresponding single `<ms> <https://ubsicap.github.io/usx/elements.html#ms>`_ milestone element in USX, where the ``id`` attribute content would not be unique for `<ms> <https://ubsicap.github.io/usx/elements.html#ms>`_.
 
 * Changed name of :doc:`linking attribute </linking/index>` ``link-name`` to ``link-id``.
 * *Restored* :ref:`\\pr <usfmp_pr>` for use as "text refrain".

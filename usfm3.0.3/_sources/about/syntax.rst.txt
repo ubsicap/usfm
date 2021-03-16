@@ -95,7 +95,7 @@ USFM processors should treat the single CR (U+000D) or LF  (U+000A) characters, 
 
 All **paragraph markers** should be preceded by a single newline.
 
-As a *recommended best practice* for USFM editors, **inline markup** (:doc:`character styles </characters/index>`, :doc:`footnotes </notes_basic/fnotes>`, or :doc:`cross references </notes_basic/xrefs>`) should *not* be preceeded by a newline. It would be acceptable for a :ref:`whitespace normalization <syntax_whitespace_normalization>` process to replace a newline and any preceding space (multiple spaces) before this inline markup with a single space (#3), but it should not remove all whitespace.
+As a *recommended best practice* for USFM editors, **inline markup** (:doc:`character styles </characters/index>`, :doc:`footnotes </notes_basic/fnotes>`, or :doc:`cross references </notes_basic/xrefs>`) should *not* be preceded by a newline. It would be acceptable for a :ref:`whitespace normalization <syntax_whitespace_normalization>` process to replace a newline and any preceding space (multiple spaces) before this inline markup with a single space (#3), but it should not remove all whitespace.
 
 In the following example, the footnote ``\f ...\f*`` at MAT 6:27:
 
@@ -158,10 +158,10 @@ could be removed:
 	v 7 \x - \xo 2.7: \xt 1 Co 15.45.\x*Then the \nd Lord\nd* God took some soil 
 	from the ground and formed a man
 
-Yet, a normalization process cannot *generally* remove ALL whitespace preceeding and following note marker pairs. In many cases a single whitespace is expected between the texts which preceed and follows a note. As suggested and recommended earlier:
+Yet, a normalization process cannot *generally* remove ALL whitespace preceding and following note marker pairs. In many cases a single whitespace is expected between the texts which precede and follows a note. As suggested and recommended earlier:
 
 * USFM validation tools may flag suspicious whitespace
-* USFM editors can takes steps to discourage ambigous whitespace wherever possible
+* USFM editors can takes steps to discourage ambiguous whitespace wherever possible
 * USFM normalization tools can identify and handles special contexts (examples above)
 * USFM publication tools and other post processors can identify and handle special contexts in the manner which is most suitable for the intended output.
 
