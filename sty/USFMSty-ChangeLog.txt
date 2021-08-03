@@ -1,4 +1,7 @@
 ## ChangeLog for Paratext usfm.sty
+** Update by Hasso Pape Aug 2, 2021
+- Version 2.503
+- Add \thl# and \tcl# markers for left-aligned table cells (useful when a different alignment has been inherited)
 ** Update by Mike Lothers Nov 11, 2015
 - Version 2.502
 - Add f to OccursUnder for \w...\w*

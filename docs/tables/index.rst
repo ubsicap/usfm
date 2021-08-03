@@ -99,6 +99,16 @@ Numbers 2.10-16 (GNT)
 .. _usfmc_thl#:
 .. index:: marker; \thl#, tables; left aligned table column heading
 
+\\thl#
+^^^^^
+
+:Syntax: ``\thl#_text...``
+:Type: character
+:Added: 3.0
+:Use: Left aligned table column heading. |br|
+	The variable # represents the table column number. |br| |br|
+	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
+
 -----
 
 .. _usfmc_tc#:
@@ -160,6 +170,16 @@ Numbers 2.10-16 (GNT)
 
 .. _usfmc_tcl#:
 .. index:: marker; \tcl#, tables; left aligned table cell
+
+\\tcl#
+^^^^^
+
+:Syntax: ``\tcl#_text...``
+:Type: character
+:Added: 3.0
+:Use: Left aligned table cell. |br|
+	The variable # represents the table column number. |br| |br|
+	|badge_3.0| Use a dash ``-`` between a range of column numbers to indicate that the columns should be spanned.
 
 .. _usfmc_table_colspan:
 .. index:: tables; column span
