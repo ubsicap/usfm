@@ -2,8 +2,12 @@
 
 This is the reference documentation for Unified Standard Format Markers (USFM). USFM is widely used for encoding the digital text for scripture translations.
 
-* [Latest published documentation](http://ubsicap.github.io/usfm/) (3.0.5)
+* [Latest published documentation](http://ubsicap.github.io/usfm/) (3.0.6)
   * [Current Release Notes](http://ubsicap.github.io/usfm/about/releasenotes.html)
+
+## 3.0.6 Issues
+* [Full Git Changelog](https://github.com/ubsicap/usfm/compare/v3.0.5...v3.0.6) (3.0.5 > 3.0.6)
+* [Issues closed for 3.0.6](https://github.com/ubsicap/usfm/issues?q=is%3Aclosed+milestone%3A3.0.6)
 
 ## 3.0.5 Issues
 * [Full Git Changelog](https://github.com/ubsicap/usfm/compare/v3.0.4...v3.0.5) (3.0.4 > 3.0.5)
